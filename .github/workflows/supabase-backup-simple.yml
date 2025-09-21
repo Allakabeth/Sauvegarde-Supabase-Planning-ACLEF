@@ -1,0 +1,110 @@
+name: supabase-backup-simple
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Minuit UTC
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create backup using curl (API method)
+        run: |
+          mkdir -p supabase-backups
+
+          # Sauvegarde via l'API Supabase (comme notre ancien script)
+          export SUPABASE_URL="https://mkbchdhbgdynxwfhpxbw.supabase.co"
+          export SUPABASE_SERVICE_ROLE_KEY="${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}"
+
+          # Script de backup simplifié
+          cat > backup_script.js << 'EOF'
+          const fs = require('fs');
+
+          const SUPABASE_URL = process.env.SUPABASE_URL;
+          const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+          async function backup() {
+            const tables = [
+              'users', 'lieux', 'planning_hebdomadaire', 'planning_formateurs_hebdo',
+              'planning_apprenants', 'presence_formateurs', 'absences_formateurs',
+              'absences_apprenants', 'messages', 'quiz', 'quiz_categories',
+              'quiz_sessions', 'admin_sessions', 'suspensions_parcours',
+              'imagiers', 'imagier_elements', 'mots_extraits', 'mots_classifies',
+              'corrections_demandees', 'corrections_mono_multi', 'corrections_syllabification',
+              'signalements_syllabification', 'syllabes', 'syllabes_mots',
+              'paniers_syllabes', 'groupes_sens', 'textes_references', 'planning_type_formateurs'
+            ];
+
+            let allData = {};
+
+            for (const table of tables) {
+              try {
+                const response = await fetch(`${SUPABASE_URL}/rest/v1/${table}?select=*`, {
+                  headers: {
+                    'apikey': SUPABASE_KEY,
+                    'Authorization': `Bearer ${SUPABASE_KEY}`,
+                    'Accept': 'application/json'
+                  }
+                });
+
+                if (response.ok) {
+                  const data = await response.json();
+                  allData[table] = data;
+                  console.log(`✅ ${table}: ${data.length} enregistrements`);
+                } else {
+                  console.log(`❌ ${table}: Erreur ${response.status}`);
+                }
+              } catch (error) {
+                console.log(`❌ ${table}: ${error.message}`);
+              }
+            }
+
+            // Sauvegarder en JSON
+            fs.writeFileSync('supabase-backups/complete_backup.json', JSON.stringify(allData, null, 2));
+
+            // Générer des fichiers SQL
+            let insertSQL = '';
+            for (const [table, data] of Object.entries(allData)) {
+              if (data && data.length > 0) {
+                insertSQL += `-- Table: ${table}\n`;
+                insertSQL += `TRUNCATE TABLE "${table}" RESTART IDENTITY CASCADE;\n`;
+                for (const row of data) {
+                  const columns = Object.keys(row).map(col => `"${col}"`).join(', ');
+                  const values = Object.values(row).map(val =>
+                    val === null ? 'NULL' :
+                    typeof val === 'string' ? `'${val.replace(/'/g, "''")}'` :
+                    typeof val === 'object' ? `'${JSON.stringify(val).replace(/'/g, "''")}'` :
+                    val
+                  ).join(', ');
+                  insertSQL += `INSERT INTO "${table}" (${columns}) VALUES (${values});\n`;
+                }
+                insertSQL += `\n`;
+              }
+            }
+
+            fs.writeFileSync('supabase-backups/data.sql', insertSQL);
+
+            console.log('🎉 Backup terminé !');
+          }
+
+          backup().catch(console.error);
+          EOF
+
+          # Exécuter le script
+          node backup_script.js
+
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+      - name: Commit backup files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Backup Supabase - $(date)'
+          file_pattern: 'supabase-backups/*'
