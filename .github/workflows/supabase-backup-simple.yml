@@ -19,6 +19,11 @@ jobs:
         run: |
           mkdir -p supabase-backups
 
+          # D'abord récupérer le schéma complet avec pg_dump
+          echo "🔧 Récupération du schéma..."
+          pg_dump "${{ secrets.SUPABASE_DB_URL }}" --schema-only --no-owner --no-privileges > supabase-backups/schema.sql
+          echo "✅ Schéma sauvegardé"
+
           # Sauvegarde via l'API Supabase (comme notre ancien script)
           export SUPABASE_URL="https://mkbchdhbgdynxwfhpxbw.supabase.co"
           export SUPABASE_SERVICE_ROLE_KEY="${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}"
