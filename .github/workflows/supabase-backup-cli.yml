@@ -23,10 +23,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Supabase CLI
-        uses: supabase/setup-cli@v1
-        with:
-          version: latest
+      - name: Setup PostgreSQL
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y postgresql-client
 
       - name: Create backup directory
         run: mkdir -p supabase-backups
@@ -40,15 +40,21 @@ jobs:
 
       - name: Backup database roles
         run: |
-          supabase db dump --db-url="$SUPABASE_DB_URL" --role-only > supabase-backups/roles.sql
+          pg_dumpall --roles-only --host=db.mkbchdhbgdynxwfhpxbw.supabase.co --port=5432 --username=postgres > supabase-backups/roles.sql
+        env:
+          PGPASSWORD: Tours1975&&&&
 
       - name: Backup database schema
         run: |
-          supabase db dump --db-url="$SUPABASE_DB_URL" --schema-only > supabase-backups/schema.sql
+          pg_dump --schema-only --host=db.mkbchdhbgdynxwfhpxbw.supabase.co --port=5432 --username=postgres --dbname=postgres > supabase-backups/schema.sql
+        env:
+          PGPASSWORD: Tours1975&&&&
 
       - name: Backup database data
         run: |
-          supabase db dump --db-url="$SUPABASE_DB_URL" --data-only > supabase-backups/data.sql
+          pg_dump --data-only --host=db.mkbchdhbgdynxwfhpxbw.supabase.co --port=5432 --username=postgres --dbname=postgres > supabase-backups/data.sql
+        env:
+          PGPASSWORD: Tours1975&&&&
 
       - name: Create backup timestamp
         run: |
