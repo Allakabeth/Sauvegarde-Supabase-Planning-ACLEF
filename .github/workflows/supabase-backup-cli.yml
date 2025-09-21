@@ -23,10 +23,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup PostgreSQL
+      - name: Setup PostgreSQL and disable IPv6
         run: |
           sudo apt-get update
           sudo apt-get install -y postgresql-client
+          # Disable IPv6 pour forcer IPv4
+          echo 'net.ipv6.conf.all.disable_ipv6 = 1' | sudo tee -a /etc/sysctl.conf
+          echo 'net.ipv6.conf.default.disable_ipv6 = 1' | sudo tee -a /etc/sysctl.conf
+          sudo sysctl -p
 
       - name: Create backup directory
         run: mkdir -p supabase-backups
