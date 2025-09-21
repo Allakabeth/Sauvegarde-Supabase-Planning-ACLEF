@@ -1,0 +1,39 @@
+{
+  "table": "textes_references",
+  "timestamp": "2025-09-21T09:07:30.008Z",
+  "count": 3,
+  "schema_version": "1.0",
+  "backup_method": "full",
+  "data": [
+    {
+      "id": 1,
+      "titre": "Texte 1 - A la mer",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-08T20:09:55.209839",
+      "updated_at": "2025-09-12T10:47:48.039",
+      "nombre_groupes": 10,
+      "nombre_mots_total": 21,
+      "nombre_mots_multi_syllabes": 21
+    },
+    {
+      "id": 2,
+      "titre": "Texte 2 - Regretter",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-09T20:24:16.220274",
+      "updated_at": "2025-09-12T10:48:37.042",
+      "nombre_groupes": 29,
+      "nombre_mots_total": 66,
+      "nombre_mots_multi_syllabes": 66
+    },
+    {
+      "id": 10,
+      "titre": "Texte 3 - Les cerises",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-12T11:19:32.357888",
+      "updated_at": "2025-09-12T19:44:48.433",
+      "nombre_groupes": 8,
+      "nombre_mots_total": 26,
+      "nombre_mots_multi_syllabes": 12
+    }
+  ]
+}

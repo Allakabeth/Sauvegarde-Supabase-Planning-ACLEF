@@ -1,0 +1,35 @@
+{
+  "table": "corrections_mono_multi",
+  "timestamp": "2025-09-21T09:07:23.498Z",
+  "count": 2,
+  "schema_version": "1.0",
+  "backup_method": "full",
+  "data": [
+    {
+      "id": 1,
+      "mot": "avec",
+      "classification_correcte": "monosyllabe",
+      "ancienne_classification": null,
+      "source": "admin",
+      "admin_correcteur": null,
+      "date_creation": "2025-09-13T14:02:17.611347",
+      "date_modification": "2025-09-13T14:02:17.611347",
+      "nombre_applications": 0,
+      "commentaire": "Mot courant à ne pas segmenter",
+      "updated_at": "2025-09-13T14:23:03.42822"
+    },
+    {
+      "id": 2,
+      "mot": "très",
+      "classification_correcte": "monosyllabe",
+      "ancienne_classification": null,
+      "source": "admin",
+      "admin_correcteur": null,
+      "date_creation": "2025-09-13T14:02:17.611347",
+      "date_modification": "2025-09-13T14:02:17.611347",
+      "nombre_applications": 0,
+      "commentaire": "Monosyllabe standard",
+      "updated_at": "2025-09-13T14:23:03.42822"
+    }
+  ]
+}

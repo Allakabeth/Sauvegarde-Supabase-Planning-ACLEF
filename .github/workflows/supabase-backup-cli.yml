@@ -1,0 +1,61 @@
+name: supabase-backup-cli
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+  schedule:
+    # Tous les jours à minuit UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Create backup directory
+        run: mkdir -p supabase-backups
+
+      - name: Check if backup is enabled
+        run: |
+          if [ "${{ vars.BACKUP_ENABLED }}" != "true" ]; then
+            echo "Backup is disabled. Set BACKUP_ENABLED variable to 'true' to enable."
+            exit 0
+          fi
+
+      - name: Backup database roles
+        run: |
+          supabase db dump --db-url="$SUPABASE_DB_URL" --role-only > supabase-backups/roles.sql
+
+      - name: Backup database schema
+        run: |
+          supabase db dump --db-url="$SUPABASE_DB_URL" --schema-only > supabase-backups/schema.sql
+
+      - name: Backup database data
+        run: |
+          supabase db dump --db-url="$SUPABASE_DB_URL" --data-only > supabase-backups/data.sql
+
+      - name: Create backup timestamp
+        run: |
+          echo "Backup created on: $(date)" > supabase-backups/backup-info.txt
+          echo "Database URL: ${{ vars.SUPABASE_PROJECT_URL || 'Not specified' }}" >> supabase-backups/backup-info.txt
+
+      - name: Commit backup files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'supabase backup CLI - $(date)'
+          file_pattern: 'supabase-backups/*'

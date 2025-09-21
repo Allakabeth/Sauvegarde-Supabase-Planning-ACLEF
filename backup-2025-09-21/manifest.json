@@ -1,0 +1,626 @@
+{
+  "backup_info": {
+    "backup_date": "2025-09-21T09:07:35.994Z",
+    "backup_version": "2.0",
+    "total_tables_discovered": 53,
+    "total_tables_attempted": 53,
+    "successful_backups": 28,
+    "failed_backups": 25,
+    "total_records": 2251,
+    "total_size_bytes": 728281,
+    "total_size_mb": 0.69
+  },
+  "tables": [
+    {
+      "table_name": "absences_apprenants",
+      "status": "success",
+      "record_count": 1,
+      "size_bytes": 468,
+      "filename": "absences_apprenants_2025-09-21_09-07-22.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:22.188Z"
+    },
+    {
+      "table_name": "absences_formateurs",
+      "status": "success",
+      "record_count": 63,
+      "size_bytes": 15261,
+      "filename": "absences_formateurs_2025-09-21_09-07-22.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:22.702Z"
+    },
+    {
+      "table_name": "admin_sessions",
+      "status": "success",
+      "record_count": 311,
+      "size_bytes": 106769,
+      "filename": "admin_sessions_2025-09-21_09-07-23.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:23.099Z"
+    },
+    {
+      "table_name": "corrections_demandees",
+      "status": "success",
+      "record_count": 14,
+      "size_bytes": 6991,
+      "filename": "corrections_demandees_2025-09-21_09-07-23.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:23.299Z"
+    },
+    {
+      "table_name": "corrections_mono_multi",
+      "status": "success",
+      "record_count": 2,
+      "size_bytes": 810,
+      "filename": "corrections_mono_multi_2025-09-21_09-07-23.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:23.499Z"
+    },
+    {
+      "table_name": "corrections_syllabification",
+      "status": "success",
+      "record_count": 41,
+      "size_bytes": 17374,
+      "filename": "corrections_syllabification_2025-09-21_09-07-24.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:24.018Z"
+    },
+    {
+      "table_name": "groupes_sens",
+      "status": "success",
+      "record_count": 47,
+      "size_bytes": 7129,
+      "filename": "groupes_sens_2025-09-21_09-07-24.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:24.205Z"
+    },
+    {
+      "table_name": "imagier_elements",
+      "status": "success",
+      "record_count": 140,
+      "size_bytes": 39602,
+      "filename": "imagier_elements_2025-09-21_09-07-24.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:24.706Z"
+    },
+    {
+      "table_name": "imagiers",
+      "status": "success",
+      "record_count": 7,
+      "size_bytes": 2277,
+      "filename": "imagiers_2025-09-21_09-07-25.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:25.226Z"
+    },
+    {
+      "table_name": "lieux",
+      "status": "success",
+      "record_count": 4,
+      "size_bytes": 778,
+      "filename": "lieux_2025-09-21_09-07-25.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:25.400Z"
+    },
+    {
+      "table_name": "messages",
+      "status": "success",
+      "record_count": 181,
+      "size_bytes": 123238,
+      "filename": "messages_2025-09-21_09-07-25.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:25.744Z"
+    },
+    {
+      "table_name": "mots_classifies",
+      "status": "success",
+      "record_count": 138,
+      "size_bytes": 39392,
+      "filename": "mots_classifies_2025-09-21_09-07-25.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:25.935Z"
+    },
+    {
+      "table_name": "mots_extraits",
+      "status": "success",
+      "record_count": 99,
+      "size_bytes": 18147,
+      "filename": "mots_extraits_2025-09-21_09-07-26.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:26.456Z"
+    },
+    {
+      "table_name": "paniers_syllabes",
+      "status": "success",
+      "record_count": 48,
+      "size_bytes": 15520,
+      "filename": "paniers_syllabes_2025-09-21_09-07-26.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:26.652Z"
+    },
+    {
+      "table_name": "planning_apprenants",
+      "status": "success",
+      "record_count": 90,
+      "size_bytes": 21967,
+      "filename": "planning_apprenants_2025-09-21_09-07-27.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:27.167Z"
+    },
+    {
+      "table_name": "planning_formateurs_hebdo",
+      "status": "success",
+      "record_count": 162,
+      "size_bytes": 41428,
+      "filename": "planning_formateurs_hebdo_2025-09-21_09-07-27.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:27.365Z"
+    },
+    {
+      "table_name": "planning_hebdomadaire",
+      "status": "success",
+      "record_count": 154,
+      "size_bytes": 70608,
+      "filename": "planning_hebdomadaire_2025-09-21_09-07-27.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:27.693Z"
+    },
+    {
+      "table_name": "planning_type_formateurs",
+      "status": "success",
+      "record_count": 270,
+      "size_bytes": 86345,
+      "filename": "planning_type_formateurs_2025-09-21_09-07-27.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:27.909Z"
+    },
+    {
+      "table_name": "presence_formateurs",
+      "status": "success",
+      "record_count": 2,
+      "size_bytes": 587,
+      "filename": "presence_formateurs_2025-09-21_09-07-28.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:28.446Z"
+    },
+    {
+      "table_name": "quiz",
+      "status": "success",
+      "record_count": 0,
+      "size_bytes": 121,
+      "filename": "quiz_2025-09-21_09-07-28.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:28.633Z"
+    },
+    {
+      "table_name": "quiz_categories",
+      "status": "success",
+      "record_count": 9,
+      "size_bytes": 2613,
+      "filename": "quiz_categories_2025-09-21_09-07-28.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:28.844Z"
+    },
+    {
+      "table_name": "quiz_sessions",
+      "status": "success",
+      "record_count": 0,
+      "size_bytes": 130,
+      "filename": "quiz_sessions_2025-09-21_09-07-29.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:29.033Z"
+    },
+    {
+      "table_name": "signalements_syllabification",
+      "status": "success",
+      "record_count": 49,
+      "size_bytes": 19278,
+      "filename": "signalements_syllabification_2025-09-21_09-07-29.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:29.251Z"
+    },
+    {
+      "table_name": "suspensions_parcours",
+      "status": "success",
+      "record_count": 0,
+      "size_bytes": 137,
+      "filename": "suspensions_parcours_2025-09-21_09-07-29.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:29.440Z"
+    },
+    {
+      "table_name": "syllabes",
+      "status": "success",
+      "record_count": 249,
+      "size_bytes": 27611,
+      "filename": "syllabes_2025-09-21_09-07-29.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:29.630Z"
+    },
+    {
+      "table_name": "syllabes_mots",
+      "status": "success",
+      "record_count": 87,
+      "size_bytes": 10526,
+      "filename": "syllabes_mots_2025-09-21_09-07-29.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:29.814Z"
+    },
+    {
+      "table_name": "textes_references",
+      "status": "success",
+      "record_count": 3,
+      "size_bytes": 881,
+      "filename": "textes_references_2025-09-21_09-07-30.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:30.008Z"
+    },
+    {
+      "table_name": "users",
+      "status": "success",
+      "record_count": 80,
+      "size_bytes": 52293,
+      "filename": "users_2025-09-21_09-07-30.json",
+      "error": null,
+      "timestamp": "2025-09-21T09:07:30.218Z"
+    },
+    {
+      "table_name": "cours",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.cours' in the schema cache",
+      "timestamp": "2025-09-21T09:07:30.418Z"
+    },
+    {
+      "table_name": "formations",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.formations' in the schema cache",
+      "timestamp": "2025-09-21T09:07:30.913Z"
+    },
+    {
+      "table_name": "evaluations",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.evaluations' in the schema cache",
+      "timestamp": "2025-09-21T09:07:31.136Z"
+    },
+    {
+      "table_name": "competences",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.competences' in the schema cache",
+      "timestamp": "2025-09-21T09:07:31.323Z"
+    },
+    {
+      "table_name": "modules",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.modules' in the schema cache",
+      "timestamp": "2025-09-21T09:07:31.519Z"
+    },
+    {
+      "table_name": "parcours",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.parcours' in the schema cache",
+      "timestamp": "2025-09-21T09:07:32.020Z"
+    },
+    {
+      "table_name": "sessions_formation",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.sessions_formation' in the schema cache",
+      "timestamp": "2025-09-21T09:07:32.217Z"
+    },
+    {
+      "table_name": "resultats",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.resultats' in the schema cache",
+      "timestamp": "2025-09-21T09:07:32.398Z"
+    },
+    {
+      "table_name": "notes",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.notes' in the schema cache",
+      "timestamp": "2025-09-21T09:07:32.581Z"
+    },
+    {
+      "table_name": "badges",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.badges' in the schema cache",
+      "timestamp": "2025-09-21T09:07:32.792Z"
+    },
+    {
+      "table_name": "certifications",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.certifications' in the schema cache",
+      "timestamp": "2025-09-21T09:07:32.976Z"
+    },
+    {
+      "table_name": "ressources",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.ressources' in the schema cache",
+      "timestamp": "2025-09-21T09:07:33.177Z"
+    },
+    {
+      "table_name": "documents",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.documents' in the schema cache",
+      "timestamp": "2025-09-21T09:07:33.378Z"
+    },
+    {
+      "table_name": "fichiers",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.fichiers' in the schema cache",
+      "timestamp": "2025-09-21T09:07:33.563Z"
+    },
+    {
+      "table_name": "medias",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.medias' in the schema cache",
+      "timestamp": "2025-09-21T09:07:33.759Z"
+    },
+    {
+      "table_name": "notifications",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.notifications' in the schema cache",
+      "timestamp": "2025-09-21T09:07:33.942Z"
+    },
+    {
+      "table_name": "parametres",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.parametres' in the schema cache",
+      "timestamp": "2025-09-21T09:07:34.147Z"
+    },
+    {
+      "table_name": "config",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.config' in the schema cache",
+      "timestamp": "2025-09-21T09:07:34.331Z"
+    },
+    {
+      "table_name": "logs",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.logs' in the schema cache",
+      "timestamp": "2025-09-21T09:07:34.509Z"
+    },
+    {
+      "table_name": "historique",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.historique' in the schema cache",
+      "timestamp": "2025-09-21T09:07:34.699Z"
+    },
+    {
+      "table_name": "roles",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.roles' in the schema cache",
+      "timestamp": "2025-09-21T09:07:35.241Z"
+    },
+    {
+      "table_name": "permissions",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.permissions' in the schema cache",
+      "timestamp": "2025-09-21T09:07:35.426Z"
+    },
+    {
+      "table_name": "groupes",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.groupes' in the schema cache",
+      "timestamp": "2025-09-21T09:07:35.624Z"
+    },
+    {
+      "table_name": "categories",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.categories' in the schema cache",
+      "timestamp": "2025-09-21T09:07:35.807Z"
+    },
+    {
+      "table_name": "tags",
+      "status": "failed",
+      "record_count": 0,
+      "size_bytes": 0,
+      "filename": null,
+      "error": "Could not find the table 'public.tags' in the schema cache",
+      "timestamp": "2025-09-21T09:07:35.993Z"
+    }
+  ],
+  "summary": {
+    "successful_tables": [
+      "absences_apprenants",
+      "absences_formateurs",
+      "admin_sessions",
+      "corrections_demandees",
+      "corrections_mono_multi",
+      "corrections_syllabification",
+      "groupes_sens",
+      "imagier_elements",
+      "imagiers",
+      "lieux",
+      "messages",
+      "mots_classifies",
+      "mots_extraits",
+      "paniers_syllabes",
+      "planning_apprenants",
+      "planning_formateurs_hebdo",
+      "planning_hebdomadaire",
+      "planning_type_formateurs",
+      "presence_formateurs",
+      "quiz",
+      "quiz_categories",
+      "quiz_sessions",
+      "signalements_syllabification",
+      "suspensions_parcours",
+      "syllabes",
+      "syllabes_mots",
+      "textes_references",
+      "users"
+    ],
+    "failed_tables": [
+      {
+        "table": "cours",
+        "error": "Could not find the table 'public.cours' in the schema cache"
+      },
+      {
+        "table": "formations",
+        "error": "Could not find the table 'public.formations' in the schema cache"
+      },
+      {
+        "table": "evaluations",
+        "error": "Could not find the table 'public.evaluations' in the schema cache"
+      },
+      {
+        "table": "competences",
+        "error": "Could not find the table 'public.competences' in the schema cache"
+      },
+      {
+        "table": "modules",
+        "error": "Could not find the table 'public.modules' in the schema cache"
+      },
+      {
+        "table": "parcours",
+        "error": "Could not find the table 'public.parcours' in the schema cache"
+      },
+      {
+        "table": "sessions_formation",
+        "error": "Could not find the table 'public.sessions_formation' in the schema cache"
+      },
+      {
+        "table": "resultats",
+        "error": "Could not find the table 'public.resultats' in the schema cache"
+      },
+      {
+        "table": "notes",
+        "error": "Could not find the table 'public.notes' in the schema cache"
+      },
+      {
+        "table": "badges",
+        "error": "Could not find the table 'public.badges' in the schema cache"
+      },
+      {
+        "table": "certifications",
+        "error": "Could not find the table 'public.certifications' in the schema cache"
+      },
+      {
+        "table": "ressources",
+        "error": "Could not find the table 'public.ressources' in the schema cache"
+      },
+      {
+        "table": "documents",
+        "error": "Could not find the table 'public.documents' in the schema cache"
+      },
+      {
+        "table": "fichiers",
+        "error": "Could not find the table 'public.fichiers' in the schema cache"
+      },
+      {
+        "table": "medias",
+        "error": "Could not find the table 'public.medias' in the schema cache"
+      },
+      {
+        "table": "notifications",
+        "error": "Could not find the table 'public.notifications' in the schema cache"
+      },
+      {
+        "table": "parametres",
+        "error": "Could not find the table 'public.parametres' in the schema cache"
+      },
+      {
+        "table": "config",
+        "error": "Could not find the table 'public.config' in the schema cache"
+      },
+      {
+        "table": "logs",
+        "error": "Could not find the table 'public.logs' in the schema cache"
+      },
+      {
+        "table": "historique",
+        "error": "Could not find the table 'public.historique' in the schema cache"
+      },
+      {
+        "table": "roles",
+        "error": "Could not find the table 'public.roles' in the schema cache"
+      },
+      {
+        "table": "permissions",
+        "error": "Could not find the table 'public.permissions' in the schema cache"
+      },
+      {
+        "table": "groupes",
+        "error": "Could not find the table 'public.groupes' in the schema cache"
+      },
+      {
+        "table": "categories",
+        "error": "Could not find the table 'public.categories' in the schema cache"
+      },
+      {
+        "table": "tags",
+        "error": "Could not find the table 'public.tags' in the schema cache"
+      }
+    ]
+  }
+}

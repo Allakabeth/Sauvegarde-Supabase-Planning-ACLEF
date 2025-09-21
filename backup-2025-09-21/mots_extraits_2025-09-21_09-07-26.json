@@ -1,0 +1,999 @@
+{
+  "table": "mots_extraits",
+  "timestamp": "2025-09-21T09:07:26.455Z",
+  "count": 99,
+  "schema_version": "1.0",
+  "backup_method": "full",
+  "data": [
+    {
+      "id": 248,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "suis",
+      "mot_normalise": "suis",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.373279"
+    },
+    {
+      "id": 250,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "royan",
+      "mot_normalise": "royan",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.558952"
+    },
+    {
+      "id": 252,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "mes",
+      "mot_normalise": "mes",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.733595"
+    },
+    {
+      "id": 254,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "enfants",
+      "mot_normalise": "enfants",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.929163"
+    },
+    {
+      "id": 256,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "fille",
+      "mot_normalise": "fille",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.098334"
+    },
+    {
+      "id": 258,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "adorait",
+      "mot_normalise": "adorait",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.265927"
+    },
+    {
+      "id": 260,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "mer",
+      "mot_normalise": "mer",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.4242"
+    },
+    {
+      "id": 262,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "des",
+      "mot_normalise": "des",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.603612"
+    },
+    {
+      "id": 264,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "sable",
+      "mot_normalise": "sable",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.739093"
+    },
+    {
+      "id": 266,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "bronzette",
+      "mot_normalise": "bronzette",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.89643"
+    },
+    {
+      "id": 268,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "cerf-volant",
+      "mot_normalise": "cerfvolant",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:50.044175"
+    },
+    {
+      "id": 270,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "pas",
+      "mot_normalise": "pas",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:37.513616"
+    },
+    {
+      "id": 272,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "même",
+      "mot_normalise": "meme",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:37.688744"
+    },
+    {
+      "id": 274,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "passé",
+      "mot_normalise": "passe",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:37.904963"
+    },
+    {
+      "id": 276,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "tristesse",
+      "mot_normalise": "tristesse",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.130897"
+    },
+    {
+      "id": 278,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "contraire",
+      "mot_normalise": "contraire",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.311262"
+    },
+    {
+      "id": 280,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "prendre",
+      "mot_normalise": "prendre",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.527713"
+    },
+    {
+      "id": 282,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "constater",
+      "mot_normalise": "constater",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.707431"
+    },
+    {
+      "id": 284,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "choses",
+      "mot_normalise": "choses",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.895186"
+    },
+    {
+      "id": 286,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "ensuite",
+      "mot_normalise": "ensuite",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.074805"
+    },
+    {
+      "id": 288,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "situation",
+      "mot_normalise": "situation",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.235761"
+    },
+    {
+      "id": 446,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "nous",
+      "mot_normalise": "nous",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:49.718597"
+    },
+    {
+      "id": 449,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "cueillir",
+      "mot_normalise": "cueillir",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.110256"
+    },
+    {
+      "id": 452,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "panier",
+      "mot_normalise": "panier",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.404945"
+    },
+    {
+      "id": 455,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "rouges",
+      "mot_normalise": "rouges",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.734033"
+    },
+    {
+      "id": 290,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "suis",
+      "mot_normalise": "suis",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.40844"
+    },
+    {
+      "id": 292,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "plutôt",
+      "mot_normalise": "plutot",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.575384"
+    },
+    {
+      "id": 294,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "sais",
+      "mot_normalise": "sais",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.750176"
+    },
+    {
+      "id": 296,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "rêver",
+      "mot_normalise": "rever",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.956531"
+    },
+    {
+      "id": 298,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "par",
+      "mot_normalise": "par",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.149239"
+    },
+    {
+      "id": 300,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "rêve",
+      "mot_normalise": "reve",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.325054"
+    },
+    {
+      "id": 302,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "guitare",
+      "mot_normalise": "guitare",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.499294"
+    },
+    {
+      "id": 304,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "voilier",
+      "mot_normalise": "voilier",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.674199"
+    },
+    {
+      "id": 306,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "café",
+      "mot_normalise": "cafe",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.848483"
+    },
+    {
+      "id": 308,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "petite",
+      "mot_normalise": "petite",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.026347"
+    },
+    {
+      "id": 310,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "bord",
+      "mot_normalise": "bord",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.230474"
+    },
+    {
+      "id": 312,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "tableau",
+      "mot_normalise": "tableau",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.425615"
+    },
+    {
+      "id": 314,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "ceinture",
+      "mot_normalise": "ceinture",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.608145"
+    },
+    {
+      "id": 316,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "karaté",
+      "mot_normalise": "karate",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.781175"
+    },
+    {
+      "id": 318,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "roman",
+      "mot_normalise": "roman",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.959023"
+    },
+    {
+      "id": 320,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "propre",
+      "mot_normalise": "propre",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.188176"
+    },
+    {
+      "id": 322,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "faire",
+      "mot_normalise": "faire",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.434751"
+    },
+    {
+      "id": 324,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "monde",
+      "mot_normalise": "monde",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.707423"
+    },
+    {
+      "id": 326,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "longue",
+      "mot_normalise": "longue",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.955642"
+    },
+    {
+      "id": 328,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "penser",
+      "mot_normalise": "penser",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.198857"
+    },
+    {
+      "id": 330,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "espérer",
+      "mot_normalise": "esperer",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.44435"
+    },
+    {
+      "id": 332,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "commencer",
+      "mot_normalise": "commencer",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.756056"
+    },
+    {
+      "id": 334,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "non",
+      "mot_normalise": "non",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:44.011773"
+    },
+    {
+      "id": 444,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "deux",
+      "mot_normalise": "deux",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:49.488812"
+    },
+    {
+      "id": 447,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "bois",
+      "mot_normalise": "bois",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:49.876607"
+    },
+    {
+      "id": 249,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "partie",
+      "mot_normalise": "partie",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.468589"
+    },
+    {
+      "id": 251,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "avec",
+      "mot_normalise": "avec",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.642213"
+    },
+    {
+      "id": 253,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "trois",
+      "mot_normalise": "trois",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:48.822481"
+    },
+    {
+      "id": 255,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "petite",
+      "mot_normalise": "petite",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.019764"
+    },
+    {
+      "id": 257,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "renesmé",
+      "mot_normalise": "renesme",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.186737"
+    },
+    {
+      "id": 259,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "jouer",
+      "mot_normalise": "jouer",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.341573"
+    },
+    {
+      "id": 261,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "faisait",
+      "mot_normalise": "faisait",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.525462"
+    },
+    {
+      "id": 263,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "châteaux",
+      "mot_normalise": "chateaux",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.670308"
+    },
+    {
+      "id": 265,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "profitait",
+      "mot_normalise": "profitait",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.823068"
+    },
+    {
+      "id": 267,
+      "texte_reference_id": 1,
+      "groupe_sens_id": 127,
+      "mot": "paige",
+      "mot_normalise": "paige",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:47:49.97136"
+    },
+    {
+      "id": 450,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "huit",
+      "mot_normalise": "huit",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.214342"
+    },
+    {
+      "id": 453,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "douze",
+      "mot_normalise": "douze",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.516183"
+    },
+    {
+      "id": 445,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "trois",
+      "mot_normalise": "trois",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:49.609759"
+    },
+    {
+      "id": 269,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "regretter",
+      "mot_normalise": "regretter",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:37.41707"
+    },
+    {
+      "id": 271,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "philosophie",
+      "mot_normalise": "philosophie",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:37.608342"
+    },
+    {
+      "id": 273,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "regarder",
+      "mot_normalise": "regarder",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:37.774602"
+    },
+    {
+      "id": 275,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "avec",
+      "mot_normalise": "avec",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.039277"
+    },
+    {
+      "id": 277,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "déplaît",
+      "mot_normalise": "deplait",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.223298"
+    },
+    {
+      "id": 279,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "aime",
+      "mot_normalise": "aime",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.422097"
+    },
+    {
+      "id": 281,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "temps",
+      "mot_normalise": "temps",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.61662"
+    },
+    {
+      "id": 283,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "les",
+      "mot_normalise": "les",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.796317"
+    },
+    {
+      "id": 285,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "pour",
+      "mot_normalise": "pour",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:38.987961"
+    },
+    {
+      "id": 287,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "changer",
+      "mot_normalise": "changer",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.156768"
+    },
+    {
+      "id": 289,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "améliorer",
+      "mot_normalise": "ameliorer",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.32098"
+    },
+    {
+      "id": 291,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "quelqu",
+      "mot_normalise": "quelqu",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.489488"
+    },
+    {
+      "id": 293,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "rêveur",
+      "mot_normalise": "reveur",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.664668"
+    },
+    {
+      "id": 295,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "bien",
+      "mot_normalise": "bien",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:39.856196"
+    },
+    {
+      "id": 297,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "agir",
+      "mot_normalise": "agir",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.044667"
+    },
+    {
+      "id": 299,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "exemple",
+      "mot_normalise": "exemple",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.240001"
+    },
+    {
+      "id": 301,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "apprendre",
+      "mot_normalise": "apprendre",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.411426"
+    },
+    {
+      "id": 303,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "voyager",
+      "mot_normalise": "voyager",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.585569"
+    },
+    {
+      "id": 305,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "ouvrir",
+      "mot_normalise": "ouvrir",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.757434"
+    },
+    {
+      "id": 307,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "dans",
+      "mot_normalise": "dans",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:40.93215"
+    },
+    {
+      "id": 309,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "ville",
+      "mot_normalise": "ville",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.129645"
+    },
+    {
+      "id": 311,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "peindre",
+      "mot_normalise": "peindre",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.332371"
+    },
+    {
+      "id": 313,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "devenir",
+      "mot_normalise": "devenir",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.522209"
+    },
+    {
+      "id": 315,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "noire",
+      "mot_normalise": "noire",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.694014"
+    },
+    {
+      "id": 317,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "écrire",
+      "mot_normalise": "ecrire",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:41.868687"
+    },
+    {
+      "id": 319,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "créer",
+      "mot_normalise": "creer",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.069499"
+    },
+    {
+      "id": 321,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "entreprise",
+      "mot_normalise": "entreprise",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.31133"
+    },
+    {
+      "id": 323,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "tour",
+      "mot_normalise": "tour",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.565466"
+    },
+    {
+      "id": 325,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "liste",
+      "mot_normalise": "liste",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:42.815295"
+    },
+    {
+      "id": 327,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "mais",
+      "mot_normalise": "mais",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.078118"
+    },
+    {
+      "id": 329,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "nécessaire",
+      "mot_normalise": "necessaire",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.324084"
+    },
+    {
+      "id": 331,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "jour",
+      "mot_normalise": "jour",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.559624"
+    },
+    {
+      "id": 333,
+      "texte_reference_id": 2,
+      "groupe_sens_id": 137,
+      "mot": "réaliser",
+      "mot_normalise": "realiser",
+      "nombre_syllabes": 4,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T10:48:43.869963"
+    },
+    {
+      "id": 448,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "quatre",
+      "mot_normalise": "quatre",
+      "nombre_syllabes": 3,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:49.98105"
+    },
+    {
+      "id": 451,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "neuf",
+      "mot_normalise": "neuf",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.307639"
+    },
+    {
+      "id": 454,
+      "texte_reference_id": 10,
+      "groupe_sens_id": 197,
+      "mot": "toutes",
+      "mot_normalise": "toutes",
+      "nombre_syllabes": 2,
+      "position_dans_groupe": 1,
+      "created_at": "2025-09-12T19:44:50.614929"
+    }
+  ]
+}
