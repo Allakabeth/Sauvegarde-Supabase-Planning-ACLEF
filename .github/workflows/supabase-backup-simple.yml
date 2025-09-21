@@ -19,12 +19,7 @@ jobs:
         run: |
           mkdir -p supabase-backups
 
-          # D'abord récupérer le schéma complet avec pg_dump
-          echo "🔧 Récupération du schéma..."
-          pg_dump "${{ secrets.SUPABASE_DB_URL }}" --schema-only --no-owner --no-privileges > supabase-backups/schema.sql
-          echo "✅ Schéma sauvegardé"
-
-          # Sauvegarde via l'API Supabase (comme notre ancien script)
+          # Sauvegarde via l'API Supabase (schéma + données)
           export SUPABASE_URL="https://mkbchdhbgdynxwfhpxbw.supabase.co"
           export SUPABASE_SERVICE_ROLE_KEY="${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}"
 
@@ -36,6 +31,29 @@ jobs:
           const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
           async function backup() {
+            // Récupérer d'abord la liste des tables via PostgREST
+            console.log('🔧 Récupération du schéma...');
+
+            let schemaInfo = {};
+            try {
+              const schemaResponse = await fetch(`${SUPABASE_URL}/rest/v1/`, {
+                headers: {
+                  'apikey': SUPABASE_KEY,
+                  'Authorization': `Bearer ${SUPABASE_KEY}`,
+                  'Accept': 'application/openapi+json'
+                }
+              });
+
+              if (schemaResponse.ok) {
+                const openapi = await schemaResponse.json();
+                schemaInfo = openapi;
+                fs.writeFileSync('supabase-backups/schema_info.json', JSON.stringify(openapi, null, 2));
+                console.log('✅ Schéma récupéré via OpenAPI');
+              }
+            } catch (error) {
+              console.log(`⚠️ Erreur schéma: ${error.message}`);
+            }
+
             const tables = [
               'users', 'lieux', 'planning_hebdomadaire', 'planning_formateurs_hebdo',
               'planning_apprenants', 'presence_formateurs', 'absences_formateurs',
