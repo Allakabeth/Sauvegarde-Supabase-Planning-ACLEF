@@ -1,0 +1,38 @@
+name: Backup Planning ACLEF
+
+on:
+  schedule:
+    # Tous les jours à 2h du matin
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Permet de lancer manuellement
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install @supabase/supabase-js
+
+      - name: Run backup
+        run: node backup-simple.js
+        env:
+          SUPABASE_URL: https://mkbchdhbgdynxwfhpxbw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+      - name: Commit backup files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Backup Planning ACLEF - ${{ github.run_id }}'
+          file_pattern: 'backup-*/*'
