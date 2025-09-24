@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-09-24T19:28:11.807Z",
+  "duration": 95,
+  "totalRecords": 2286,
+  "totalRestored": 2286,
+  "successRate": 100,
+  "tables": {
+    "lieux": {
+      "extracted": 4,
+      "inserted": 4,
+      "success": true
+    },
+    "quiz_categories": {
+      "extracted": 9,
+      "inserted": 9,
+      "success": true
+    },
+    "users": {
+      "extracted": 81,
+      "inserted": 81,
+      "success": true
+    },
+    "textes_references": {
+      "extracted": 3,
+      "inserted": 3,
+      "success": true
+    },
+    "absences_formateurs": {
+      "extracted": 72,
+      "inserted": 72,
+      "success": true
+    },
+    "admin_sessions": {
+      "extracted": 328,
+      "inserted": 328,
+      "success": true
+    },
+    "messages": {
+      "extracted": 183,
+      "inserted": 183,
+      "success": true
+    },
+    "planning_hebdomadaire": {
+      "extracted": 155,
+      "inserted": 155,
+      "success": true
+    },
+    "planning_formateurs_hebdo": {
+      "extracted": 166,
+      "inserted": 166,
+      "success": true
+    },
+    "planning_type_formateurs": {
+      "extracted": 270,
+      "inserted": 270,
+      "success": true
+    },
+    "planning_apprenants": {
+      "extracted": 90,
+      "inserted": 90,
+      "success": true
+    },
+    "absences_apprenants": {
+      "extracted": 1,
+      "inserted": 1,
+      "success": true
+    },
+    "presence_formateurs": {
+      "extracted": 2,
+      "inserted": 2,
+      "success": true
+    },
+    "suspensions_parcours": {
+      "extracted": 1,
+      "inserted": 1,
+      "success": true
+    },
+    "quiz": {
+      "extracted": 0,
+      "inserted": 0,
+      "success": true
+    },
+    "quiz_sessions": {
+      "extracted": 0,
+      "inserted": 0,
+      "success": true
+    },
+    "imagiers": {
+      "extracted": 7,
+      "inserted": 7,
+      "success": true
+    },
+    "imagier_elements": {
+      "extracted": 140,
+      "inserted": 140,
+      "success": true
+    },
+    "groupes_sens": {
+      "extracted": 47,
+      "inserted": 47,
+      "success": true
+    },
+    "mots_extraits": {
+      "extracted": 99,
+      "inserted": 99,
+      "success": true
+    },
+    "syllabes": {
+      "extracted": 249,
+      "inserted": 249,
+      "success": true
+    },
+    "syllabes_mots": {
+      "extracted": 87,
+      "inserted": 87,
+      "success": true
+    },
+    "mots_classifies": {
+      "extracted": 138,
+      "inserted": 138,
+      "success": true
+    },
+    "corrections_demandees": {
+      "extracted": 14,
+      "inserted": 14,
+      "success": true
+    },
+    "paniers_syllabes": {
+      "extracted": 48,
+      "inserted": 48,
+      "success": true
+    },
+    "signalements_syllabification": {
+      "extracted": 49,
+      "inserted": 49,
+      "success": true
+    },
+    "corrections_syllabification": {
+      "extracted": 41,
+      "inserted": 41,
+      "success": true
+    },
+    "corrections_mono_multi": {
+      "extracted": 2,
+      "inserted": 2,
+      "success": true
+    }
+  }
+}
