@@ -31,8 +31,9 @@ jobs:
           SUPABASE_URL: https://mkbchdhbgdynxwfhpxbw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
-      - name: Commit backup files
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Upload backup artifacts
+        uses: actions/upload-artifact@v4
         with:
-          commit_message: 'Backup Planning ACLEF - ${{ github.run_id }}'
-          file_pattern: 'backup-*/*'
+          name: backup-planning-aclef-${{ github.run_id }}
+          path: backup-*/*
+          retention-days: 30
