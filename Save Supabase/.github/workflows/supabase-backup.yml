@@ -1,0 +1,40 @@
+name: Supabase Database Backup
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Supabase CLI
+        uses: supabase/setup-cli@v1
+
+      - name: Create backup directory
+        run: |
+          BACKUP_DIR="backups/$(date +%Y%m%d_%H%M%S)"
+          mkdir -p $BACKUP_DIR
+          echo "BACKUP_DIR=$BACKUP_DIR" >> $GITHUB_ENV
+
+      - name: Backup database
+        run: |
+          supabase db dump --db-url "${{ secrets.SUPABASE_DB_URL }}" --roles-only > $BACKUP_DIR/roles.sql
+          supabase db dump --db-url "${{ secrets.SUPABASE_DB_URL }}" --schema-only > $BACKUP_DIR/schema.sql
+          supabase db dump --db-url "${{ secrets.SUPABASE_DB_URL }}" --data-only > $BACKUP_DIR/data.sql
+
+      - name: Show backup info
+        run: |
+          echo "Backup created in: $BACKUP_DIR"
+          ls -la $BACKUP_DIR/
+          wc -l $BACKUP_DIR/*.sql
+
+      - name: Commit backup
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add backups/
+          git commit -m "Backup $(date +%Y%m%d_%H%M%S)" || exit 0
+          git push
