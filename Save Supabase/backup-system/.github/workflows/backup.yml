@@ -1,0 +1,311 @@
+name: 'ACLEF Planning Database Backup'
+
+on:
+  # Manual trigger - allows running the workflow manually from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      backup_reason:
+        description: 'Reason for manual backup'
+        required: false
+        default: 'Manual backup requested'
+        type: string
+
+  # Scheduled trigger - runs every day at 2:00 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  backup:
+    name: 'Complete Database Backup'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to commit and push changes
+
+    steps:
+      # ===================================================================
+      # SETUP ENVIRONMENT
+      # ===================================================================
+
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 'Setup Python ${{ env.PYTHON_VERSION }}'
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: 'Install Python Dependencies'
+        run: |
+          echo "Installing Python dependencies..."
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          echo "Dependencies installed successfully"
+
+      # ===================================================================
+      # CONFIGURE GIT FOR AUTOMATED COMMITS
+      # ===================================================================
+
+      - name: 'Configure Git'
+        run: |
+          echo "Configuring Git for automated commits..."
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action - ACLEF Backup"
+          echo "Git configuration completed"
+
+      # ===================================================================
+      # SCHEMA DISCOVERY
+      # ===================================================================
+
+      - name: 'Discover Database Schema'
+        env:
+          SUPABASE_PLANNING_URL: ${{ secrets.SUPABASE_PLANNING_URL }}
+          SUPABASE_PLANNING_SERVICE_KEY: ${{ secrets.SUPABASE_PLANNING_SERVICE_KEY }}
+        run: |
+          echo "==========================================="
+          echo "STARTING SCHEMA DISCOVERY"
+          echo "==========================================="
+
+          cd scripts
+          python discover_schema_mcp.py
+
+          echo ""
+          echo "Schema discovery completed successfully!"
+
+          # Check if schema file was created
+          if [ -f "../backups/schema_discovery.json" ]; then
+            echo "[SUCCESS] Schema discovery file generated"
+            ls -la ../backups/schema_discovery.json
+          else
+            echo "[ERROR] Schema discovery file not found"
+            exit 1
+          fi
+
+      # ===================================================================
+      # COMPLETE BACKUP
+      # ===================================================================
+
+      - name: 'Perform Complete Backup'
+        env:
+          SUPABASE_PLANNING_URL: ${{ secrets.SUPABASE_PLANNING_URL }}
+          SUPABASE_PLANNING_SERVICE_KEY: ${{ secrets.SUPABASE_PLANNING_SERVICE_KEY }}
+        run: |
+          echo "==========================================="
+          echo "STARTING COMPLETE BACKUP"
+          echo "==========================================="
+
+          cd scripts
+          python backup_complete.py
+
+          echo ""
+          echo "Complete backup finished successfully!"
+
+      # ===================================================================
+      # BACKUP ANALYSIS AND SUMMARY
+      # ===================================================================
+
+      - name: 'Analyze Backup Results'
+        id: backup_analysis
+        run: |
+          echo "==========================================="
+          echo "BACKUP ANALYSIS"
+          echo "==========================================="
+
+          # Find the most recent backup file
+          BACKUP_FILE=$(ls -t backups/complete_backup_*.json 2>/dev/null | head -n1)
+
+          if [ -z "$BACKUP_FILE" ]; then
+            echo "[ERROR] No backup file found"
+            exit 1
+          fi
+
+          echo "Analyzing backup file: $BACKUP_FILE"
+
+          # Extract backup statistics using Python
+          BACKUP_STATS=$(python3 -c "
+          import json
+          import sys
+          import os
+
+          try:
+              with open('$BACKUP_FILE', 'r') as f:
+                  data = json.load(f)
+
+              metadata = data.get('backup_metadata', {})
+              stats = metadata.get('statistics', {})
+
+              tables = stats.get('total_tables', 0)
+              rows = stats.get('total_rows', 0)
+              size_mb = stats.get('estimated_size_mb', 0)
+              backup_time = metadata.get('backup_time', 'Unknown')
+
+              print(f'BACKUP_TABLES={tables}')
+              print(f'BACKUP_ROWS={rows}')
+              print(f'BACKUP_SIZE_MB={size_mb}')
+              print(f'BACKUP_TIME={backup_time}')
+              print(f'BACKUP_FILE={os.path.basename(\"$BACKUP_FILE\")}')
+
+          except Exception as e:
+              print(f'Error analyzing backup: {e}', file=sys.stderr)
+              sys.exit(1)
+          ")
+
+          # Set output variables for other steps
+          echo "$BACKUP_STATS" >> $GITHUB_OUTPUT
+
+          # Display summary
+          eval "$BACKUP_STATS"
+          echo ""
+          echo "BACKUP SUMMARY:"
+          echo "- Backup file: $BACKUP_FILE"
+          echo "- Tables backed up: $BACKUP_TABLES"
+          echo "- Total rows: $BACKUP_ROWS"
+          echo "- File size: ${BACKUP_SIZE_MB} MB"
+          echo "- Backup time: $BACKUP_TIME"
+
+      # ===================================================================
+      # COMMIT AND PUSH BACKUP FILES
+      # ===================================================================
+
+      - name: 'Commit Backup Files'
+        run: |
+          echo "==========================================="
+          echo "COMMITTING BACKUP FILES"
+          echo "==========================================="
+
+          # Add all backup files
+          git add backups/
+          git add scripts/ 2>/dev/null || true
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Create commit message
+            BACKUP_REASON="${{ github.event.inputs.backup_reason }}"
+            if [ -z "$BACKUP_REASON" ]; then
+              BACKUP_REASON="Scheduled automatic backup"
+            fi
+
+            BACKUP_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+            COMMIT_MESSAGE="🔄 ACLEF Planning Database Backup - $BACKUP_DATE
+
+            Backup Details:
+            - Reason: $BACKUP_REASON
+            - Tables: ${{ steps.backup_analysis.outputs.BACKUP_TABLES }}
+            - Total rows: ${{ steps.backup_analysis.outputs.BACKUP_ROWS }}
+            - File size: ${{ steps.backup_analysis.outputs.BACKUP_SIZE_MB }} MB
+            - Backup file: ${{ steps.backup_analysis.outputs.BACKUP_FILE }}
+
+            🤖 Generated with Claude Code
+
+            Co-Authored-By: Claude <noreply@anthropic.com>"
+
+            # Commit changes
+            git commit -m "$COMMIT_MESSAGE"
+
+            # Push changes
+            echo "Pushing changes to repository..."
+            git push
+
+            echo "[SUCCESS] Backup files committed and pushed successfully"
+          fi
+
+      # ===================================================================
+      # CLEANUP OLD BACKUPS (Keep last 7 days)
+      # ===================================================================
+
+      - name: 'Cleanup Old Backup Files'
+        run: |
+          echo "==========================================="
+          echo "CLEANING UP OLD BACKUPS"
+          echo "==========================================="
+
+          # Keep only the last 7 backup files to avoid repo bloat
+          cd backups
+
+          echo "Current backup files:"
+          ls -la complete_backup_*.json 2>/dev/null || echo "No backup files found"
+
+          # Count backup files
+          BACKUP_COUNT=$(ls complete_backup_*.json 2>/dev/null | wc -l)
+          echo "Total backup files: $BACKUP_COUNT"
+
+          if [ "$BACKUP_COUNT" -gt 7 ]; then
+            echo "Removing old backup files (keeping latest 7)..."
+            ls -t complete_backup_*.json | tail -n +8 | xargs rm -f
+
+            # Commit cleanup if files were removed
+            cd ..
+            git add backups/
+            if ! git diff --staged --quiet; then
+              git commit -m "🧹 Cleanup: Remove old backup files (keep latest 7)
+
+              Automated cleanup to prevent repository bloat
+
+              🤖 Generated with Claude Code"
+              git push
+              echo "[SUCCESS] Old backup files cleaned up and changes pushed"
+            fi
+          else
+            echo "No cleanup needed (backup count: $BACKUP_COUNT <= 7)"
+          fi
+
+      # ===================================================================
+      # FINAL SUCCESS SUMMARY
+      # ===================================================================
+
+      - name: 'Backup Success Summary'
+        if: success()
+        run: |
+          echo ""
+          echo "🎉 ============================================="
+          echo "🎉 BACKUP COMPLETED SUCCESSFULLY!"
+          echo "🎉 ============================================="
+          echo ""
+          echo "✅ Schema discovery: SUCCESS"
+          echo "✅ Complete backup: SUCCESS"
+          echo "✅ Files committed: SUCCESS"
+          echo ""
+          echo "📊 Backup Statistics:"
+          echo "   - Tables: ${{ steps.backup_analysis.outputs.BACKUP_TABLES }}"
+          echo "   - Rows: ${{ steps.backup_analysis.outputs.BACKUP_ROWS }}"
+          echo "   - Size: ${{ steps.backup_analysis.outputs.BACKUP_SIZE_MB }} MB"
+          echo "   - File: ${{ steps.backup_analysis.outputs.BACKUP_FILE }}"
+          echo ""
+          echo "🕐 Next scheduled backup: Tomorrow at 2:00 AM UTC"
+          echo ""
+          echo "============================================="
+
+      # ===================================================================
+      # ERROR HANDLING AND NOTIFICATIONS
+      # ===================================================================
+
+      - name: 'Backup Failure Notification'
+        if: failure()
+        run: |
+          echo ""
+          echo "❌ ============================================="
+          echo "❌ BACKUP FAILED!"
+          echo "❌ ============================================="
+          echo ""
+          echo "💥 The backup process encountered an error."
+          echo ""
+          echo "🔍 Please check the workflow logs for details:"
+          echo "   https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo ""
+          echo "📧 Consider setting up GitHub notifications"
+          echo "   for workflow failures to get immediate alerts."
+          echo ""
+          echo "============================================="
+
+          # Exit with error code to mark the workflow as failed
+          exit 1

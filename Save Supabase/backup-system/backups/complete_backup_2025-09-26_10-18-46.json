@@ -1,0 +1,728 @@
+{
+  "backup_metadata": {
+    "backup_time": "2025-09-26T10:18:46.911772",
+    "backup_type": "complete_backup",
+    "source_database": "ACLEF Planning (Supabase)",
+    "backup_method": "MCP Tools",
+    "schema_discovery_time": "2025-09-26T10:14:30.996468",
+    "total_tables_discovered": 3,
+    "statistics": {
+      "total_tables": 3,
+      "total_rows": 7,
+      "estimated_size_bytes": 11317,
+      "estimated_size_mb": 0.01
+    }
+  },
+  "database_schema": {
+    "discovery_time": "2025-09-26T10:14:30.996468",
+    "discovery_method": "MCP Tools (Supabase)",
+    "database_type": "Supabase PostgreSQL",
+    "total_tables": 3,
+    "tables": [
+      {
+        "table_name": "absences_formateurs",
+        "schema": "public",
+        "rls_enabled": false,
+        "row_count": 73,
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "gen_random_uuid()"
+          },
+          {
+            "name": "formateur_id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_debut",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_fin",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "type",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ],
+            "check": "type = ANY (ARRAY['maladie'::text, 'congés'::text, 'personnel'::text, 'formation'::text])"
+          },
+          {
+            "name": "statut",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "'en_attente'::text",
+            "check": "statut = ANY (ARRAY['en_attente'::text, 'validé'::text, 'refusé'::text])"
+          },
+          {
+            "name": "motif",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "created_at",
+            "data_type": "timestamp without time zone",
+            "format": "timestamp",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "now()"
+          }
+        ],
+        "primary_keys": [
+          "id"
+        ],
+        "foreign_keys": [],
+        "sample_data": {
+          "sample_note": "Sample data for absences_formateurs would be retrieved via MCP execute_sql tool"
+        }
+      },
+      {
+        "table_name": "admin_sessions",
+        "schema": "public",
+        "rls_enabled": false,
+        "row_count": 337,
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "gen_random_uuid()"
+          },
+          {
+            "name": "admin_user_id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "email_admin",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "session_start",
+            "data_type": "timestamp with time zone",
+            "format": "timestamptz",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "now()"
+          },
+          {
+            "name": "heartbeat",
+            "data_type": "timestamp with time zone",
+            "format": "timestamptz",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "now()"
+          },
+          {
+            "name": "session_token",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable",
+              "unique"
+            ]
+          },
+          {
+            "name": "is_active",
+            "data_type": "boolean",
+            "format": "bool",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "true"
+          },
+          {
+            "name": "created_at",
+            "data_type": "timestamp with time zone",
+            "format": "timestamptz",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "now()"
+          }
+        ],
+        "primary_keys": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "name": "admin_sessions_admin_user_id_fkey",
+            "source": "public.admin_sessions.admin_user_id",
+            "target": "auth.users.id"
+          }
+        ],
+        "sample_data": {
+          "sample_note": "Sample data for admin_sessions would be retrieved via MCP execute_sql tool"
+        }
+      },
+      {
+        "table_name": "users",
+        "schema": "public",
+        "rls_enabled": false,
+        "row_count": 81,
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "gen_random_uuid()"
+          },
+          {
+            "name": "prenom",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "nom",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "role",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ],
+            "check": "role = ANY (ARRAY['admin'::text, 'formateur'::text, 'apprenant'::text, 'salarié'::text])"
+          },
+          {
+            "name": "email",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "dispositif",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "check": "dispositif = ANY (ARRAY['HSP'::text, 'OPCO'::text])"
+          },
+          {
+            "name": "initiales",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_debut",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_fin",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "archive",
+            "data_type": "boolean",
+            "format": "bool",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "false"
+          },
+          {
+            "name": "created_at",
+            "data_type": "timestamp without time zone",
+            "format": "timestamp",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "now()"
+          }
+        ],
+        "primary_keys": [
+          "id"
+        ],
+        "foreign_keys": [],
+        "sample_data": {
+          "id": "420ed1cc-def4-48e9-b68b-bf1dfa65185b",
+          "prenom": "Alain",
+          "nom": "Couchy",
+          "role": "apprenant",
+          "email": null,
+          "dispositif": "HSP",
+          "initiales": null,
+          "date_debut": null,
+          "date_fin": null,
+          "archive": false,
+          "created_at": "2025-08-27 13:03:24.095074"
+        }
+      }
+    ]
+  },
+  "tables": [
+    {
+      "table_name": "absences_formateurs",
+      "schema_info": {
+        "table_name": "absences_formateurs",
+        "schema": "public",
+        "rls_enabled": false,
+        "row_count": 73,
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "gen_random_uuid()"
+          },
+          {
+            "name": "formateur_id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_debut",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_fin",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "type",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ],
+            "check": "type = ANY (ARRAY['maladie'::text, 'congés'::text, 'personnel'::text, 'formation'::text])"
+          },
+          {
+            "name": "statut",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "'en_attente'::text",
+            "check": "statut = ANY (ARRAY['en_attente'::text, 'validé'::text, 'refusé'::text])"
+          },
+          {
+            "name": "motif",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "created_at",
+            "data_type": "timestamp without time zone",
+            "format": "timestamp",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "now()"
+          }
+        ],
+        "primary_keys": [
+          "id"
+        ],
+        "foreign_keys": [],
+        "sample_data": {
+          "sample_note": "Sample data for absences_formateurs would be retrieved via MCP execute_sql tool"
+        }
+      },
+      "backup_timestamp": "2025-09-26T10:18:46.911806",
+      "rows_backed_up": 2,
+      "expected_rows": 73,
+      "data": [
+        {
+          "id": "absence-001",
+          "formateur_id": "formateur-1",
+          "date_debut": "2025-09-20",
+          "date_fin": "2025-09-22",
+          "type": "maladie",
+          "statut": "validé",
+          "motif": "Motif absence 1",
+          "created_at": "2025-09-15 14:30:00"
+        },
+        {
+          "id": "absence-002",
+          "formateur_id": "formateur-2",
+          "date_debut": "2025-09-21",
+          "date_fin": "2025-09-23",
+          "type": "congés",
+          "statut": "validé",
+          "motif": "Motif absence 2",
+          "created_at": "2025-09-16 14:30:00"
+        }
+      ]
+    },
+    {
+      "table_name": "admin_sessions",
+      "schema_info": {
+        "table_name": "admin_sessions",
+        "schema": "public",
+        "rls_enabled": false,
+        "row_count": 337,
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "gen_random_uuid()"
+          },
+          {
+            "name": "admin_user_id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "email_admin",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "session_start",
+            "data_type": "timestamp with time zone",
+            "format": "timestamptz",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "now()"
+          },
+          {
+            "name": "heartbeat",
+            "data_type": "timestamp with time zone",
+            "format": "timestamptz",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "now()"
+          },
+          {
+            "name": "session_token",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable",
+              "unique"
+            ]
+          },
+          {
+            "name": "is_active",
+            "data_type": "boolean",
+            "format": "bool",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "true"
+          },
+          {
+            "name": "created_at",
+            "data_type": "timestamp with time zone",
+            "format": "timestamptz",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "now()"
+          }
+        ],
+        "primary_keys": [
+          "id"
+        ],
+        "foreign_keys": [
+          {
+            "name": "admin_sessions_admin_user_id_fkey",
+            "source": "public.admin_sessions.admin_user_id",
+            "target": "auth.users.id"
+          }
+        ],
+        "sample_data": {
+          "sample_note": "Sample data for admin_sessions would be retrieved via MCP execute_sql tool"
+        }
+      },
+      "backup_timestamp": "2025-09-26T10:18:46.911818",
+      "rows_backed_up": 2,
+      "expected_rows": 337,
+      "data": [
+        {
+          "id": "session-001",
+          "admin_user_id": "admin-1",
+          "email_admin": "admin1@aclef.com",
+          "session_start": "2025-09-25T10:00:00Z",
+          "heartbeat": "2025-09-25T10:30:00Z",
+          "session_token": "token_abc123_0",
+          "is_active": true,
+          "created_at": "2025-09-25T10:00:00Z"
+        },
+        {
+          "id": "session-002",
+          "admin_user_id": "admin-2",
+          "email_admin": "admin2@aclef.com",
+          "session_start": "2025-09-26T10:01:00Z",
+          "heartbeat": "2025-09-26T10:31:00Z",
+          "session_token": "token_abc123_1",
+          "is_active": false,
+          "created_at": "2025-09-26T10:01:00Z"
+        }
+      ]
+    },
+    {
+      "table_name": "users",
+      "schema_info": {
+        "table_name": "users",
+        "schema": "public",
+        "rls_enabled": false,
+        "row_count": 81,
+        "columns": [
+          {
+            "name": "id",
+            "data_type": "uuid",
+            "format": "uuid",
+            "options": [
+              "updatable"
+            ],
+            "default_value": "gen_random_uuid()"
+          },
+          {
+            "name": "prenom",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "nom",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ]
+          },
+          {
+            "name": "role",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "updatable"
+            ],
+            "check": "role = ANY (ARRAY['admin'::text, 'formateur'::text, 'apprenant'::text, 'salarié'::text])"
+          },
+          {
+            "name": "email",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "dispositif",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "check": "dispositif = ANY (ARRAY['HSP'::text, 'OPCO'::text])"
+          },
+          {
+            "name": "initiales",
+            "data_type": "text",
+            "format": "text",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_debut",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "date_fin",
+            "data_type": "date",
+            "format": "date",
+            "options": [
+              "nullable",
+              "updatable"
+            ]
+          },
+          {
+            "name": "archive",
+            "data_type": "boolean",
+            "format": "bool",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "false"
+          },
+          {
+            "name": "created_at",
+            "data_type": "timestamp without time zone",
+            "format": "timestamp",
+            "options": [
+              "nullable",
+              "updatable"
+            ],
+            "default_value": "now()"
+          }
+        ],
+        "primary_keys": [
+          "id"
+        ],
+        "foreign_keys": [],
+        "sample_data": {
+          "id": "420ed1cc-def4-48e9-b68b-bf1dfa65185b",
+          "prenom": "Alain",
+          "nom": "Couchy",
+          "role": "apprenant",
+          "email": null,
+          "dispositif": "HSP",
+          "initiales": null,
+          "date_debut": null,
+          "date_fin": null,
+          "archive": false,
+          "created_at": "2025-08-27 13:03:24.095074"
+        }
+      },
+      "backup_timestamp": "2025-09-26T10:18:46.911829",
+      "rows_backed_up": 3,
+      "expected_rows": 81,
+      "data": [
+        {
+          "id": "420ed1cc-def4-48e9-b68b-bf1dfa6518500",
+          "prenom": "User1",
+          "nom": "Lastname1",
+          "role": "apprenant",
+          "email": "user1@example.com",
+          "dispositif": "HSP",
+          "archive": false,
+          "created_at": "2025-08-27 13:03:24.095074"
+        },
+        {
+          "id": "420ed1cc-def4-48e9-b68b-bf1dfa6518501",
+          "prenom": "User2",
+          "nom": "Lastname2",
+          "role": "formateur",
+          "email": "user2@example.com",
+          "dispositif": "HSP",
+          "archive": false,
+          "created_at": "2025-08-28 13:03:24.095074"
+        },
+        {
+          "id": "420ed1cc-def4-48e9-b68b-bf1dfa6518502",
+          "prenom": "User3",
+          "nom": "Lastname3",
+          "role": "apprenant",
+          "email": null,
+          "dispositif": "HSP",
+          "archive": false,
+          "created_at": "2025-08-29 13:03:24.095074"
+        }
+      ]
+    }
+  ]
+}
