@@ -1,0 +1,257 @@
+{
+  "table": "corrections_demandees",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot_classifie_id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "demandeur_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "classification_actuelle",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "correction_proposee",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "raison",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "statut",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "traite_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "traite_by",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "commentaire_admin",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 12,
+      "mot_classifie_id": 106,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"liste\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:34.343378",
+      "traite_at": "2025-09-13T09:21:45.805",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"liste\" reclassé de mono à multi"
+    },
+    {
+      "id": 11,
+      "mot_classifie_id": 98,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"monde\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:31.100132",
+      "traite_at": "2025-09-13T09:21:49.765",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"monde\" reclassé de mono à multi"
+    },
+    {
+      "id": 10,
+      "mot_classifie_id": 97,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"faire\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:28.579711",
+      "traite_at": "2025-09-13T09:21:53.733",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"faire\" reclassé de mono à multi"
+    },
+    {
+      "id": 9,
+      "mot_classifie_id": 90,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"propre\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:25.509171",
+      "traite_at": "2025-09-13T09:21:56.672",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"propre\" reclassé de mono à multi"
+    },
+    {
+      "id": 8,
+      "mot_classifie_id": 80,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"ville\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:22.055658",
+      "traite_at": "2025-09-13T09:21:59.588",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"ville\" reclassé de mono à multi"
+    },
+    {
+      "id": 7,
+      "mot_classifie_id": 79,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"noire\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:18.696275",
+      "traite_at": "2025-09-13T09:22:02.091",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"noire\" reclassé de mono à multi"
+    },
+    {
+      "id": 6,
+      "mot_classifie_id": 71,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"même\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:15.181629",
+      "traite_at": "2025-09-13T09:22:04.889",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"même\" reclassé de mono à multi"
+    },
+    {
+      "id": 5,
+      "mot_classifie_id": 54,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"rêve\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:10.119263",
+      "traite_at": "2025-09-13T09:22:07.644",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"rêve\" reclassé de mono à multi"
+    },
+    {
+      "id": 4,
+      "mot_classifie_id": 37,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"aime\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:15:05.925565",
+      "traite_at": "2025-09-13T09:22:10.351",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"aime\" reclassé de mono à multi"
+    },
+    {
+      "id": 3,
+      "mot_classifie_id": 24,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"onze\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:08:41.955028",
+      "traite_at": "2025-09-13T09:22:12.724",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"onze\" reclassé de mono à multi"
+    },
+    {
+      "id": 2,
+      "mot_classifie_id": 21,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"douze\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:08:24.563485",
+      "traite_at": "2025-09-13T09:22:15.609",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"douze\" reclassé de mono à multi"
+    },
+    {
+      "id": 1,
+      "mot_classifie_id": 16,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"quatre\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T09:08:21.782121",
+      "traite_at": "2025-09-13T09:22:17.571",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"quatre\" reclassé de mono à multi"
+    },
+    {
+      "id": 16,
+      "mot_classifie_id": 195,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"paige\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T15:41:22.191592",
+      "traite_at": "2025-09-13T15:41:42.29",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"paige\" reclassé de mono à multi"
+    },
+    {
+      "id": 15,
+      "mot_classifie_id": 190,
+      "demandeur_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "classification_actuelle": "mono",
+      "correction_proposee": "multi",
+      "raison": "L'utilisateur pense que \"sable\" devrait être classé comme multisyllabe plutôt que monosyllabe",
+      "statut": "accepte",
+      "created_at": "2025-09-13T15:41:16.702348",
+      "traite_at": "2025-09-13T15:41:50.547",
+      "traite_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "commentaire_admin": "Correction acceptée: \"sable\" reclassé de mono à multi"
+    }
+  ],
+  "count": 14,
+  "timestamp": "2025-09-28T01:18:30.489Z"
+}

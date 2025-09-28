@@ -1,0 +1,3457 @@
+{
+  "table": "admin_sessions",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "admin_user_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "email_admin",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "session_start",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "heartbeat",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "session_token",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "is_active",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "4da5e6cb-f97a-4cd2-bedd-10a2799aaff3",
+      "admin_user_id": "a15de4d7-6904-4adc-9920-42a0d7b540c1",
+      "email_admin": "test@aclef.fr",
+      "session_start": "2025-08-19T05:44:37.131+00:00",
+      "heartbeat": "2025-08-19T05:44:38.231+00:00",
+      "session_token": "session_1755582276338_q0tirxjhk5",
+      "is_active": false,
+      "created_at": "2025-08-19T05:44:36.265365+00:00"
+    },
+    {
+      "id": "703d7b89-20d9-443f-a24a-3775d4cc8015",
+      "admin_user_id": "a15de4d7-6904-4adc-9920-42a0d7b540c1",
+      "email_admin": "test@aclef.fr",
+      "session_start": "2025-08-17T15:20:59.00328+00:00",
+      "heartbeat": "2025-08-18T00:06:57.625+00:00",
+      "session_token": "session_1755475616527_7inkeq629bi",
+      "is_active": false,
+      "created_at": "2025-08-17T15:20:59.00328+00:00"
+    },
+    {
+      "id": "59cb1afc-b883-4ca6-b1d2-7503d8d07835",
+      "admin_user_id": "a15de4d7-6904-4adc-9920-42a0d7b540c1",
+      "email_admin": "test@aclef.fr",
+      "session_start": "2025-08-18T00:07:49.591+00:00",
+      "heartbeat": "2025-08-18T00:07:50.257+00:00",
+      "session_token": "session_1755475669418_bgz8hxbshg",
+      "is_active": false,
+      "created_at": "2025-08-18T00:07:49.584071+00:00"
+    },
+    {
+      "id": "62123b98-22e7-4d28-b442-d0707a692bc7",
+      "admin_user_id": "a15de4d7-6904-4adc-9920-42a0d7b540c1",
+      "email_admin": "test@aclef.fr",
+      "session_start": "2025-08-18T05:12:30.039+00:00",
+      "heartbeat": "2025-08-18T05:32:20.555+00:00",
+      "session_token": "session_1755493949048_ju68mfwi7gj",
+      "is_active": false,
+      "created_at": "2025-08-18T05:12:29.92217+00:00"
+    },
+    {
+      "id": "d19c1b75-593e-4bbb-ad6a-2e8ebafb5eaa",
+      "admin_user_id": "a15de4d7-6904-4adc-9920-42a0d7b540c1",
+      "email_admin": "test@aclef.fr",
+      "session_start": "2025-08-18T05:33:28.439+00:00",
+      "heartbeat": "2025-08-18T05:33:29.045+00:00",
+      "session_token": "session_1755495208323_c9bv7adkhrt",
+      "is_active": false,
+      "created_at": "2025-08-18T05:33:28.159675+00:00"
+    },
+    {
+      "id": "74b6affd-d077-4d44-81f5-cf6560d73185",
+      "admin_user_id": "66add469-790d-43fe-9c3e-b07b28990ba8",
+      "email_admin": "sarah@aclef.fr",
+      "session_start": "2025-08-22T22:14:03.614+00:00",
+      "heartbeat": "2025-08-22T22:14:05.678+00:00",
+      "session_token": "session_1755900843091_ptqhafotfmj",
+      "is_active": false,
+      "created_at": "2025-08-22T22:14:02.907006+00:00"
+    },
+    {
+      "id": "a69f950b-1413-4b58-9abc-f8af89e3a5fa",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T13:56:35.082+00:00",
+      "heartbeat": "2025-08-18T14:03:22.584+00:00",
+      "session_token": "session_1755525770880_7f170m6749",
+      "is_active": false,
+      "created_at": "2025-08-18T13:56:34.599419+00:00"
+    },
+    {
+      "id": "4973b9d4-12c8-44a0-9b85-4a09d9251ee2",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T07:07:00.516+00:00",
+      "heartbeat": "2025-08-18T13:33:45.253+00:00",
+      "session_token": "session_1755523642537_3skg8i20fdt",
+      "is_active": false,
+      "created_at": "2025-08-18T07:07:00.216688+00:00"
+    },
+    {
+      "id": "49dd53df-21c0-47b2-a1cd-857fcd37df8f",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T05:48:06.13+00:00",
+      "heartbeat": "2025-08-18T07:05:16.515+00:00",
+      "session_token": "session_1755500715000_olnlgy3iupo",
+      "is_active": false,
+      "created_at": "2025-08-18T05:48:05.865253+00:00"
+    },
+    {
+      "id": "ec18c3bf-d723-4cf6-9a35-07aafef52565",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T13:36:18.128+00:00",
+      "heartbeat": "2025-08-18T13:38:19.399+00:00",
+      "session_token": "session_1755524177620_o9z4xw18byf",
+      "is_active": false,
+      "created_at": "2025-08-18T13:36:17.771904+00:00"
+    },
+    {
+      "id": "46b605b9-d532-4899-b86e-b17a2d0dc2c5",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T14:13:16.792+00:00",
+      "heartbeat": "2025-08-18T14:13:35.115+00:00",
+      "session_token": "session_1755526396310_iwk179m7pc",
+      "is_active": false,
+      "created_at": "2025-08-18T14:13:16.26465+00:00"
+    },
+    {
+      "id": "60e7424f-7e99-48b6-b484-f79fed8c8cca",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:40:45.97+00:00",
+      "heartbeat": "2025-08-22T12:40:47.009+00:00",
+      "session_token": "session_1755866445719_na1f3bji64o",
+      "is_active": false,
+      "created_at": "2025-08-22T12:40:45.489707+00:00"
+    },
+    {
+      "id": "a9c12c2f-cb95-4bd9-9c58-dfed2792b0e0",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:53:48.14+00:00",
+      "heartbeat": "2025-08-22T12:54:50.234+00:00",
+      "session_token": "session_1755867227855_rmla7moos",
+      "is_active": false,
+      "created_at": "2025-08-22T12:53:47.681959+00:00"
+    },
+    {
+      "id": "a24d977d-ed8c-48bc-ac74-d1522d4adca5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T11:38:15.96+00:00",
+      "heartbeat": "2025-09-25T11:43:27.465+00:00",
+      "session_token": "session_1758800295459_l24wdzcmfj",
+      "is_active": false,
+      "created_at": "2025-09-25T11:38:16.609601+00:00"
+    },
+    {
+      "id": "8f56020d-4f9f-41d4-9f6c-b148205e4bb2",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T14:13:52.423+00:00",
+      "heartbeat": "2025-08-18T14:18:38.336+00:00",
+      "session_token": "session_1755526678658_oqt2mi6n2d",
+      "is_active": false,
+      "created_at": "2025-08-18T14:13:51.899813+00:00"
+    },
+    {
+      "id": "42dd4b68-84a6-4e9a-9a1f-0770f4dbec48",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T14:21:27.402+00:00",
+      "heartbeat": "2025-08-18T14:26:00.876+00:00",
+      "session_token": "session_1755526886988_zzaupixqonf",
+      "is_active": false,
+      "created_at": "2025-08-18T14:21:26.872034+00:00"
+    },
+    {
+      "id": "5c175c3f-ad82-405a-8bfd-cef088fba578",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-18T15:42:04.681+00:00",
+      "heartbeat": "2025-08-18T15:42:05.594+00:00",
+      "session_token": "session_1755531723978_s9oic8htbob",
+      "is_active": false,
+      "created_at": "2025-08-18T15:42:04.153009+00:00"
+    },
+    {
+      "id": "b4f5a1fa-8b1f-4d4b-8655-883ff3b8723a",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-20T21:02:09.263+00:00",
+      "heartbeat": "2025-08-20T21:02:10.417+00:00",
+      "session_token": "session_1755723728467_j2er9zr47ca",
+      "is_active": false,
+      "created_at": "2025-08-20T21:02:08.651441+00:00"
+    },
+    {
+      "id": "97ba5c55-72d4-4a6a-8b07-3f785ea9a52e",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-04T15:29:25.91+00:00",
+      "heartbeat": "2025-09-04T15:29:27.685+00:00",
+      "session_token": "session_1756999765650_4mzupcmkqmh",
+      "is_active": false,
+      "created_at": "2025-09-04T15:29:25.980819+00:00"
+    },
+    {
+      "id": "9841460a-3cd2-470d-a131-78d7cdb291d8",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-05T12:17:48.84+00:00",
+      "heartbeat": "2025-09-05T12:18:59.072+00:00",
+      "session_token": "session_1757074667970_8u9clwb57v",
+      "is_active": false,
+      "created_at": "2025-09-05T12:17:48.963815+00:00"
+    },
+    {
+      "id": "947c8731-757d-4b02-a1c7-a201234a262e",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-23T14:13:59.909+00:00",
+      "heartbeat": "2025-09-23T14:18:04.166+00:00",
+      "session_token": "session_1758636839589_1xllpwsxpi7",
+      "is_active": false,
+      "created_at": "2025-09-23T14:14:00.529624+00:00"
+    },
+    {
+      "id": "79630493-9a19-4e43-9806-9af4c32045ff",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-26T14:36:21.523+00:00",
+      "heartbeat": "2025-08-26T14:39:03.479+00:00",
+      "session_token": "session_1756218981009_fc06bg4u0ad",
+      "is_active": false,
+      "created_at": "2025-08-26T14:36:22.212684+00:00"
+    },
+    {
+      "id": "17f66a3c-9970-42d9-8db3-335c0cac86b3",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:32:51.031+00:00",
+      "heartbeat": "2025-08-21T21:34:22.841+00:00",
+      "session_token": "session_1755811970422_bkrf95z92vo",
+      "is_active": false,
+      "created_at": "2025-08-21T21:32:51.041167+00:00"
+    },
+    {
+      "id": "b9641183-0239-49d4-a3d3-02132464e47b",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:41:16.349+00:00",
+      "heartbeat": "2025-08-22T12:43:19.407+00:00",
+      "session_token": "session_1755866476039_0a7ne7p203tf",
+      "is_active": false,
+      "created_at": "2025-08-22T12:41:15.892233+00:00"
+    },
+    {
+      "id": "c32c2222-aa48-419a-81c2-12d60c2d5366",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T05:41:30.831+00:00",
+      "heartbeat": "2025-08-22T05:44:47.798+00:00",
+      "session_token": "session_1755841290260_3uk71rrgoei",
+      "is_active": false,
+      "created_at": "2025-08-22T05:41:30.590996+00:00"
+    },
+    {
+      "id": "90aa71f3-d211-4de7-8eb8-88366b5a0d46",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T22:09:43.855+00:00",
+      "heartbeat": "2025-08-21T22:14:58.251+00:00",
+      "session_token": "session_1755814183361_vokid7xuyt",
+      "is_active": false,
+      "created_at": "2025-08-21T22:09:43.83323+00:00"
+    },
+    {
+      "id": "7b4f72ec-f4ea-4c99-9d07-f30047bd12fd",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-09-19T07:28:40.281+00:00",
+      "heartbeat": "2025-09-19T07:34:23.639+00:00",
+      "session_token": "session_1758266919917_b8zlvhoon3s",
+      "is_active": false,
+      "created_at": "2025-09-19T07:28:39.81314+00:00"
+    },
+    {
+      "id": "d53d8e86-f9de-4fbd-900a-4d4e533bf2f8",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T11:31:33.304+00:00",
+      "heartbeat": "2025-09-25T11:32:37.584+00:00",
+      "session_token": "session_1758799893131_vh57g124my",
+      "is_active": false,
+      "created_at": "2025-09-25T11:31:33.866612+00:00"
+    },
+    {
+      "id": "632f5399-b5b0-4506-9bf6-d7024886cdf5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T11:24:40.807+00:00",
+      "heartbeat": "2025-09-25T11:25:45.678+00:00",
+      "session_token": "session_1758799480175_gbdnwikj27q",
+      "is_active": false,
+      "created_at": "2025-09-25T11:24:41.403603+00:00"
+    },
+    {
+      "id": "aa081dcc-4375-4135-9c4d-1726fc1d8367",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T10:20:00.983+00:00",
+      "heartbeat": "2025-09-25T10:21:04.817+00:00",
+      "session_token": "session_1758795600044_b4b2rbbue1e",
+      "is_active": false,
+      "created_at": "2025-09-25T10:20:01.579356+00:00"
+    },
+    {
+      "id": "6457d16a-9a5c-4d29-82aa-7ce0304881a7",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T09:06:48.772+00:00",
+      "heartbeat": "2025-09-25T09:07:55.434+00:00",
+      "session_token": "session_1758791207863_0la7x0jrlfj8",
+      "is_active": false,
+      "created_at": "2025-09-25T09:06:49.36888+00:00"
+    },
+    {
+      "id": "5b2dbb28-31e6-4179-97e7-2e318ae2c00d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T06:36:22.153+00:00",
+      "heartbeat": "2025-09-25T06:38:24.206+00:00",
+      "session_token": "session_1758782181553_desta0x43n9",
+      "is_active": false,
+      "created_at": "2025-09-25T06:36:22.638074+00:00"
+    },
+    {
+      "id": "e8711315-a123-4f04-832d-f224cdeb247f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T06:21:30.369+00:00",
+      "heartbeat": "2025-09-25T06:22:50.887+00:00",
+      "session_token": "session_1758781289512_dypwrjlofaf",
+      "is_active": false,
+      "created_at": "2025-09-25T06:21:30.892115+00:00"
+    },
+    {
+      "id": "beb31f2d-0b19-464c-9404-6cc0a6771a25",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T06:46:00.9+00:00",
+      "heartbeat": "2025-09-25T06:49:19.787+00:00",
+      "session_token": "session_1758782760346_8uj5019dq6l",
+      "is_active": false,
+      "created_at": "2025-09-25T06:46:01.409114+00:00"
+    },
+    {
+      "id": "4860c031-2824-4985-aee4-36566ef0229f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T13:51:15.452+00:00",
+      "heartbeat": "2025-09-24T13:51:49.42+00:00",
+      "session_token": "session_1758721874945_2zenatllg6s",
+      "is_active": false,
+      "created_at": "2025-09-24T13:51:16.470705+00:00"
+    },
+    {
+      "id": "31f0fe84-52e6-4cef-965c-9620d97ac636",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T14:02:15.48+00:00",
+      "heartbeat": "2025-09-24T14:04:50.958+00:00",
+      "session_token": "session_1758722534786_u8179ly1oah",
+      "is_active": false,
+      "created_at": "2025-09-24T14:02:16.58252+00:00"
+    },
+    {
+      "id": "d1cf3bcc-c5bc-44a8-9944-52f113962de3",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T13:30:39.494+00:00",
+      "heartbeat": "2025-09-24T13:31:45.582+00:00",
+      "session_token": "session_1758720639328_2m95g1b6ofg",
+      "is_active": false,
+      "created_at": "2025-09-24T13:30:40.45439+00:00"
+    },
+    {
+      "id": "816e0093-334a-432c-a250-0faa25201a41",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T13:21:08.329+00:00",
+      "heartbeat": "2025-09-24T13:22:17.755+00:00",
+      "session_token": "session_1758720067542_aigi0corq3o",
+      "is_active": false,
+      "created_at": "2025-09-24T13:21:09.362108+00:00"
+    },
+    {
+      "id": "1f6ea957-fd8c-45a6-adcc-937788e1359a",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-26T11:49:36.473+00:00",
+      "heartbeat": "2025-09-26T12:02:41.693+00:00",
+      "session_token": "session_1758887375839_25u5v2d009yj",
+      "is_active": false,
+      "created_at": "2025-09-26T11:49:36.931573+00:00"
+    },
+    {
+      "id": "d50f4747-4567-49f1-ba1d-0838858896c0",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:26:01.115+00:00",
+      "heartbeat": "2025-08-21T21:26:37.161+00:00",
+      "session_token": "session_1755811560654_83odiju01qx",
+      "is_active": false,
+      "created_at": "2025-08-21T21:26:01.108413+00:00"
+    },
+    {
+      "id": "34bf9c12-9d51-41ce-9d79-62b285873671",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T20:45:09.623+00:00",
+      "heartbeat": "2025-08-21T20:45:14.203+00:00",
+      "session_token": "session_1755809109065_apukhq1wr3",
+      "is_active": false,
+      "created_at": "2025-08-21T20:45:09.6762+00:00"
+    },
+    {
+      "id": "cfb5c37a-3e19-4c1d-b578-b1a79d5c5057",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T11:56:14.453+00:00",
+      "heartbeat": "2025-09-24T11:58:49.879+00:00",
+      "session_token": "session_1758714973954_223450ymimdj",
+      "is_active": false,
+      "created_at": "2025-09-24T11:56:15.444239+00:00"
+    },
+    {
+      "id": "ade20f8f-d91f-4e54-839f-eb6cf443720c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-23T15:20:12.428+00:00",
+      "heartbeat": "2025-09-23T15:21:50.917+00:00",
+      "session_token": "session_1758640811813_jyi50yo1c4n",
+      "is_active": false,
+      "created_at": "2025-09-23T15:20:12.684345+00:00"
+    },
+    {
+      "id": "3a7871e8-d946-4ab5-9d51-008b453a8ad4",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-25T10:26:10.089+00:00",
+      "heartbeat": "2025-09-25T10:29:57.788+00:00",
+      "session_token": "session_1758795969747_x8cvo9oi33",
+      "is_active": false,
+      "created_at": "2025-09-25T10:26:10.731806+00:00"
+    },
+    {
+      "id": "ce1601d1-0a50-40ea-a6d8-ffa524828612",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:01:13.109+00:00",
+      "heartbeat": "2025-08-22T13:01:16.594+00:00",
+      "session_token": "session_1755867672882_ueyufo3wz1",
+      "is_active": false,
+      "created_at": "2025-08-22T13:01:12.632927+00:00"
+    },
+    {
+      "id": "1bd06262-433e-4f9b-ba61-facb918baa02",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T20:22:19.264+00:00",
+      "heartbeat": "2025-08-21T20:34:12.279+00:00",
+      "session_token": "session_1755807738762_rkzs7az0fqf",
+      "is_active": false,
+      "created_at": "2025-08-21T20:22:19.274508+00:00"
+    },
+    {
+      "id": "bf883f40-6c20-412d-91d9-bf8e89f32239",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T20:00:01.252+00:00",
+      "heartbeat": "2025-08-21T20:03:09.608+00:00",
+      "session_token": "session_1755806400449_lta8y4pwki",
+      "is_active": false,
+      "created_at": "2025-08-21T20:00:01.383222+00:00"
+    },
+    {
+      "id": "a4698bf6-e0e2-403a-9f83-83210ee45143",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T22:04:17.926+00:00",
+      "heartbeat": "2025-08-22T22:05:52.961+00:00",
+      "session_token": "session_1755900256971_j5bsd6l9m09",
+      "is_active": false,
+      "created_at": "2025-08-22T22:04:17.273234+00:00"
+    },
+    {
+      "id": "79eb9d3e-80f3-4237-a98f-6b4bcccce525",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-23T13:56:54.122+00:00",
+      "heartbeat": "2025-09-23T13:58:10.701+00:00",
+      "session_token": "session_1758635813863_qsmvpc6t0f",
+      "is_active": false,
+      "created_at": "2025-09-23T13:56:54.327462+00:00"
+    },
+    {
+      "id": "0d02e40c-b0ec-485e-90fb-58c20201c2a5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-22T15:49:28.049+00:00",
+      "heartbeat": "2025-09-22T15:56:23.882+00:00",
+      "session_token": "session_1758556167442_g41polp6anh",
+      "is_active": false,
+      "created_at": "2025-09-22T15:49:29.234108+00:00"
+    },
+    {
+      "id": "eb2a3037-ec96-411b-a73c-df6560dbd044",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:55:46.912+00:00",
+      "heartbeat": "2025-08-22T12:55:48.194+00:00",
+      "session_token": "session_1755867346648_zgdgcwgzlvd",
+      "is_active": false,
+      "created_at": "2025-08-22T12:55:46.444572+00:00"
+    },
+    {
+      "id": "d0a9af0b-c8b8-488a-8b54-adbacf09e467",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T08:54:48.204+00:00",
+      "heartbeat": "2025-09-19T08:55:54.611+00:00",
+      "session_token": "session_1758272087654_90x1k4vjsns",
+      "is_active": false,
+      "created_at": "2025-09-19T08:54:47.758949+00:00"
+    },
+    {
+      "id": "54c1932a-f37a-457a-a8ed-7ad5a8c3d4f3",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T05:52:14.158+00:00",
+      "heartbeat": "2025-08-19T05:53:46.328+00:00",
+      "session_token": "session_1755582733892_iin654e7w0l",
+      "is_active": false,
+      "created_at": "2025-08-19T05:52:13.199778+00:00"
+    },
+    {
+      "id": "4b128c29-8ddf-42bc-aaab-5758d4a3a319",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T19:46:16.841+00:00",
+      "heartbeat": "2025-08-18T19:48:26.11+00:00",
+      "session_token": "session_1755546376416_l24hqhenand",
+      "is_active": false,
+      "created_at": "2025-08-18T19:46:16.192906+00:00"
+    },
+    {
+      "id": "573d7b1a-a4d1-439f-8d71-28bfa737f799",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T07:45:46.651+00:00",
+      "heartbeat": "2025-09-19T07:51:23.014+00:00",
+      "session_token": "session_1758267946408_iu5bjvjzumc",
+      "is_active": false,
+      "created_at": "2025-09-19T07:45:46.160854+00:00"
+    },
+    {
+      "id": "3f7fc98f-3a72-4149-972e-a581b89d2b1e",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:20:04.144+00:00",
+      "heartbeat": "2025-08-19T06:24:48.152+00:00",
+      "session_token": "session_1755584403983_4fxl5fg8ram",
+      "is_active": false,
+      "created_at": "2025-08-19T06:20:03.153943+00:00"
+    },
+    {
+      "id": "444d59eb-c3db-46e8-a176-e3be6ed33424",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T06:51:26.406+00:00",
+      "heartbeat": "2025-09-19T07:01:03.312+00:00",
+      "session_token": "session_1758264686050_m36xnelln0t",
+      "is_active": false,
+      "created_at": "2025-09-19T06:51:26.026578+00:00"
+    },
+    {
+      "id": "09db83ec-9a27-4a92-92d7-8a01bbbf5b65",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-17T12:24:24.435+00:00",
+      "heartbeat": "2025-09-17T12:27:29.136+00:00",
+      "session_token": "session_1758111863460_jwqwz3n9eg",
+      "is_active": false,
+      "created_at": "2025-09-17T12:24:22.944963+00:00"
+    },
+    {
+      "id": "04e8e7ab-20bc-4053-b27b-07b8b76cf6ba",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T11:03:03.96+00:00",
+      "heartbeat": "2025-09-24T11:46:31.414+00:00",
+      "session_token": "session_1758711783030_30rpld59smf",
+      "is_active": false,
+      "created_at": "2025-09-24T11:03:04.940169+00:00"
+    },
+    {
+      "id": "738733f4-69ed-4342-9858-99d7beb33fd9",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T22:58:15.789+00:00",
+      "heartbeat": "2025-08-19T23:02:50.044+00:00",
+      "session_token": "session_1755644295649_akrqmrkf9mm",
+      "is_active": false,
+      "created_at": "2025-08-19T22:58:15.686261+00:00"
+    },
+    {
+      "id": "db845d08-e89e-440c-a510-c3d7fd789426",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-23T13:10:07.28+00:00",
+      "heartbeat": "2025-09-23T13:21:04.322+00:00",
+      "session_token": "session_1758633007026_9y98nvhdvia",
+      "is_active": false,
+      "created_at": "2025-09-23T13:10:07.479763+00:00"
+    },
+    {
+      "id": "3bf6378b-3fb6-4ef3-b46b-f617c5a90a6f",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-19T05:45:29.09+00:00",
+      "heartbeat": "2025-08-19T05:46:31.217+00:00",
+      "session_token": "session_1755582328841_qnev9vd0j9n",
+      "is_active": false,
+      "created_at": "2025-08-19T05:45:28.145654+00:00"
+    },
+    {
+      "id": "8dd49712-f19e-4875-8e85-377e439d6a68",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-19T12:59:07.598+00:00",
+      "heartbeat": "2025-09-19T13:01:51.01+00:00",
+      "session_token": "session_1758286746861_0sirny9vq6fj",
+      "is_active": false,
+      "created_at": "2025-09-19T12:59:07.770321+00:00"
+    },
+    {
+      "id": "141d7c23-43e2-4bb5-b736-7b5fceb56850",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:05:57.522+00:00",
+      "heartbeat": "2025-08-22T13:06:07.069+00:00",
+      "session_token": "session_1755867956970_bvevr71lkg9",
+      "is_active": false,
+      "created_at": "2025-08-22T13:05:57.127794+00:00"
+    },
+    {
+      "id": "0fc6fb57-7037-4173-bf0b-0cb6897a9d55",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:47:36.398+00:00",
+      "heartbeat": "2025-08-19T06:49:58.037+00:00",
+      "session_token": "session_1755586056094_7p1dyvt2v0p",
+      "is_active": false,
+      "created_at": "2025-08-19T06:47:35.481091+00:00"
+    },
+    {
+      "id": "33999bbe-e2a0-43a7-aac8-378cf25c34e6",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:16:49.811+00:00",
+      "heartbeat": "2025-08-21T21:18:53.018+00:00",
+      "session_token": "session_1755811009567_avz2ox96bdr",
+      "is_active": false,
+      "created_at": "2025-08-21T21:16:49.830525+00:00"
+    },
+    {
+      "id": "e7894fca-0d3e-40bc-a900-8213fffcf29c",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:51:50.788+00:00",
+      "heartbeat": "2025-08-21T22:03:42.374+00:00",
+      "session_token": "session_1755813110396_b9mgh1x28te",
+      "is_active": false,
+      "created_at": "2025-08-21T21:51:50.768498+00:00"
+    },
+    {
+      "id": "9b3b35ce-8b94-4f74-ba09-f6ad608bd1a6",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:14:15+00:00",
+      "heartbeat": "2025-08-21T21:14:19.425+00:00",
+      "session_token": "session_1755810854657_q0irgslga9",
+      "is_active": false,
+      "created_at": "2025-08-21T21:14:14.97522+00:00"
+    },
+    {
+      "id": "0a4c9c15-06cd-4e40-972c-417b3c57279c",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:12:06.977+00:00",
+      "heartbeat": "2025-08-19T06:13:12.781+00:00",
+      "session_token": "session_1755583926802_8sbpxr79d",
+      "is_active": false,
+      "created_at": "2025-08-19T06:12:05.989108+00:00"
+    },
+    {
+      "id": "24621019-5e82-43ca-8204-a7a19a96db79",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:15:48.529+00:00",
+      "heartbeat": "2025-08-21T21:16:12.673+00:00",
+      "session_token": "session_1755810948237_x2d55s6vf3",
+      "is_active": false,
+      "created_at": "2025-08-21T21:15:48.513194+00:00"
+    },
+    {
+      "id": "a549ab43-9732-458d-84b7-bb5fea762af7",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T06:08:58.648+00:00",
+      "heartbeat": "2025-08-22T06:24:54.917+00:00",
+      "session_token": "session_1755842938282_gnc74o46pyl",
+      "is_active": false,
+      "created_at": "2025-08-22T06:08:58.33696+00:00"
+    },
+    {
+      "id": "87eb88c7-4377-4b99-8fd7-7ab6f141de93",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-26T11:51:13.184+00:00",
+      "heartbeat": "2025-08-26T11:53:47.515+00:00",
+      "session_token": "session_1756209072817_rrvne0b4z6q",
+      "is_active": false,
+      "created_at": "2025-08-26T11:51:13.765181+00:00"
+    },
+    {
+      "id": "24a43663-3117-465b-ba23-2ff058c703a8",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T21:11:47.53+00:00",
+      "heartbeat": "2025-08-21T21:13:22.9+00:00",
+      "session_token": "session_1755810707149_o2wm0d55y3l",
+      "is_active": false,
+      "created_at": "2025-08-21T21:11:47.612695+00:00"
+    },
+    {
+      "id": "2095b006-9860-4d78-a0b0-256c4b22c024",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:11:53.433+00:00",
+      "heartbeat": "2025-08-19T06:11:54.364+00:00",
+      "session_token": "session_1755583912826_man3ivli13s",
+      "is_active": false,
+      "created_at": "2025-08-19T06:11:52.487583+00:00"
+    },
+    {
+      "id": "b11d69af-15a7-4ac0-9a05-da98b2758b3d",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-19T09:27:28.264+00:00",
+      "heartbeat": "2025-09-19T09:32:12.021+00:00",
+      "session_token": "session_1758274048048_1j21045qssr",
+      "is_active": false,
+      "created_at": "2025-09-19T09:27:28.286434+00:00"
+    },
+    {
+      "id": "de3453a1-a9f8-4625-b201-6e210b31a3f8",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-26T12:05:19.71+00:00",
+      "heartbeat": "2025-09-26T12:05:23.405+00:00",
+      "session_token": "session_1758888319503_9h63km8mxiw",
+      "is_active": false,
+      "created_at": "2025-09-26T12:05:20.183477+00:00"
+    },
+    {
+      "id": "2c09e884-c35f-4f2a-a564-f0d9c4401e56",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-26T13:44:30.36+00:00",
+      "heartbeat": "2025-08-26T14:20:33.422+00:00",
+      "session_token": "session_1756215869747_yh0ylb868m7",
+      "is_active": false,
+      "created_at": "2025-08-26T13:44:31.025921+00:00"
+    },
+    {
+      "id": "fef66977-f820-4846-98a5-1fe0d230257f",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-22T05:52:16.119+00:00",
+      "heartbeat": "2025-08-22T06:01:21.026+00:00",
+      "session_token": "session_1755841935307_ubgbcc8son",
+      "is_active": false,
+      "created_at": "2025-08-22T05:52:15.858116+00:00"
+    },
+    {
+      "id": "231afdcd-5a1b-46c7-acf0-75df18b5cd1f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-15T11:55:25.894+00:00",
+      "heartbeat": "2025-09-15T11:56:33.553+00:00",
+      "session_token": "session_1757937325694_et7dj79fti5",
+      "is_active": false,
+      "created_at": "2025-09-15T11:55:24.311887+00:00"
+    },
+    {
+      "id": "c920a4ba-c6f4-47f2-9de6-a7f23b28c904",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-08-22T22:14:39.781+00:00",
+      "heartbeat": "2025-08-22T22:15:41.522+00:00",
+      "session_token": "session_1755900879318_at5nwwk0qbp",
+      "is_active": false,
+      "created_at": "2025-08-22T22:14:39.0463+00:00"
+    },
+    {
+      "id": "2b0ecde7-5d67-4ba9-a7ad-41745fd9a67a",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-05T12:19:26.159+00:00",
+      "heartbeat": "2025-09-05T12:37:22.379+00:00",
+      "session_token": "session_1757074766070_gmk30qy0mmp",
+      "is_active": false,
+      "created_at": "2025-09-05T12:19:26.214766+00:00"
+    },
+    {
+      "id": "d9337d08-8d11-49bc-9d78-d6de8acbf4ed",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T19:03:53.467+00:00",
+      "heartbeat": "2025-08-18T19:03:53.467+00:00",
+      "session_token": "session_1755543833274_xv6ulnsgcbb",
+      "is_active": false,
+      "created_at": "2025-08-18T19:03:52.825596+00:00"
+    },
+    {
+      "id": "5b947b86-f0bc-4520-85bb-5f0a1e9769a3",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T18:53:15.943+00:00",
+      "heartbeat": "2025-08-22T18:54:02.145+00:00",
+      "session_token": "session_1755888794836_6embdbt5qr7",
+      "is_active": false,
+      "created_at": "2025-08-22T18:53:15.478943+00:00"
+    },
+    {
+      "id": "59ec388f-ed88-4755-89d9-26fe4cfeff85",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T05:44:47.615+00:00",
+      "heartbeat": "2025-08-19T05:45:21.61+00:00",
+      "session_token": "session_1755582320211_qorymimc34",
+      "is_active": false,
+      "created_at": "2025-08-19T05:44:46.646347+00:00"
+    },
+    {
+      "id": "240ed712-f9ad-4171-a46f-cbb60c6ebafa",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T20:45:29.797+00:00",
+      "heartbeat": "2025-08-21T20:46:47.029+00:00",
+      "session_token": "session_1755809129586_xunz69v2vsk",
+      "is_active": false,
+      "created_at": "2025-08-21T20:45:29.785418+00:00"
+    },
+    {
+      "id": "bcd8eaf3-8c7f-45aa-b473-370f9963f551",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T14:43:42.11+00:00",
+      "heartbeat": "2025-08-18T14:44:38.539+00:00",
+      "session_token": "session_1755528221856_gwydys9kyh5",
+      "is_active": false,
+      "created_at": "2025-08-18T14:43:41.568086+00:00"
+    },
+    {
+      "id": "24d2e0d7-68e5-4c78-b306-eed381a79520",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:25:10.628+00:00",
+      "heartbeat": "2025-08-19T06:26:15.524+00:00",
+      "session_token": "session_1755584710351_cfmowi9aiu",
+      "is_active": false,
+      "created_at": "2025-08-19T06:25:09.632358+00:00"
+    },
+    {
+      "id": "6c0ad07c-3aea-421e-af1a-e50b5600fb43",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T14:04:08.119+00:00",
+      "heartbeat": "2025-08-18T14:10:45.548+00:00",
+      "session_token": "session_1755526243411_5f1jwzo362t",
+      "is_active": false,
+      "created_at": "2025-08-18T14:04:07.944568+00:00"
+    },
+    {
+      "id": "a0b2b0c5-2a74-43ab-8ba2-8732f2b5197c",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:33:19.684+00:00",
+      "heartbeat": "2025-08-22T12:35:08.346+00:00",
+      "session_token": "session_1755865999032_sqhp9xl165",
+      "is_active": false,
+      "created_at": "2025-08-22T12:33:19.343093+00:00"
+    },
+    {
+      "id": "865da7f3-5e9c-424c-a65d-23372384cbd1",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T16:19:22.308+00:00",
+      "heartbeat": "2025-08-21T16:29:03.613+00:00",
+      "session_token": "session_1755793161795_xmxh0oum4d",
+      "is_active": false,
+      "created_at": "2025-08-21T16:19:22.48013+00:00"
+    },
+    {
+      "id": "79df57fb-926e-4f8b-b4a3-a0747d130cf4",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T18:46:22.762+00:00",
+      "heartbeat": "2025-08-21T19:07:09.015+00:00",
+      "session_token": "session_1755801982458_eppsvj3w8mq",
+      "is_active": false,
+      "created_at": "2025-08-21T18:46:22.820039+00:00"
+    },
+    {
+      "id": "3d4ccf8c-0af3-4bb4-b85c-e5136a0b8ef4",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T05:42:14.766+00:00",
+      "heartbeat": "2025-08-21T05:43:17.175+00:00",
+      "session_token": "session_1755754934333_kmgc4bw6xz",
+      "is_active": false,
+      "created_at": "2025-08-21T05:42:13.799915+00:00"
+    },
+    {
+      "id": "126ff03a-7715-407e-9ee2-beeb4e4d10dc",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T13:41:41.324+00:00",
+      "heartbeat": "2025-08-18T13:42:42.242+00:00",
+      "session_token": "session_1755524501002_hh94co4xtyr",
+      "is_active": false,
+      "created_at": "2025-08-18T13:41:40.791058+00:00"
+    },
+    {
+      "id": "95b7e5f3-8363-488c-bcd5-fe61980a4ac6",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T10:31:12.689+00:00",
+      "heartbeat": "2025-08-21T10:31:44.38+00:00",
+      "session_token": "session_1755772272296_slso1o77eo",
+      "is_active": false,
+      "created_at": "2025-08-21T10:31:11.614958+00:00"
+    },
+    {
+      "id": "2d8fa2df-3a28-4a7b-bb94-ee6d7c415576",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-11T12:46:41.2+00:00",
+      "heartbeat": "2025-09-11T12:49:16.896+00:00",
+      "session_token": "session_1757594800028_yp60b3vhkk",
+      "is_active": false,
+      "created_at": "2025-09-11T12:46:40.388583+00:00"
+    },
+    {
+      "id": "4f65fac2-1c9d-41f1-9517-3ed620819966",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T14:16:59.654+00:00",
+      "heartbeat": "2025-09-05T14:23:21.199+00:00",
+      "session_token": "session_1757081819325_cuydgsqsfpb",
+      "is_active": false,
+      "created_at": "2025-09-05T14:16:59.997361+00:00"
+    },
+    {
+      "id": "bca3a18c-354b-4ab7-b96c-36ae8655bcfa",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T08:28:57.902+00:00",
+      "heartbeat": "2025-09-19T08:39:30.684+00:00",
+      "session_token": "session_1758270537555_6uo9jtwl93p",
+      "is_active": false,
+      "created_at": "2025-09-19T08:28:57.452394+00:00"
+    },
+    {
+      "id": "cd7e3fac-d837-4b1d-9ac9-5152badd196b",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-05T13:05:28.699+00:00",
+      "heartbeat": "2025-09-05T13:23:34.137+00:00",
+      "session_token": "session_1757077528300_pqrm6qg5xs9",
+      "is_active": false,
+      "created_at": "2025-09-05T13:05:28.98557+00:00"
+    },
+    {
+      "id": "2ca04332-ce04-4e01-990c-7f09a90fb77c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-16T06:25:51.635+00:00",
+      "heartbeat": "2025-09-16T06:27:55.169+00:00",
+      "session_token": "session_1758003950266_vjsl6jny6j",
+      "is_active": false,
+      "created_at": "2025-09-16T06:25:51.245672+00:00"
+    },
+    {
+      "id": "6ef765a2-0e54-482f-b46c-47f1485bfa14",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T07:09:59.352+00:00",
+      "heartbeat": "2025-09-24T07:15:18.236+00:00",
+      "session_token": "session_1758697799029_hd09tyd99pg",
+      "is_active": false,
+      "created_at": "2025-09-24T07:10:00.266651+00:00"
+    },
+    {
+      "id": "973855b1-ef10-4e8d-a349-ba19349c7a53",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T07:25:38.361+00:00",
+      "heartbeat": "2025-09-24T07:32:03.887+00:00",
+      "session_token": "session_1758698738094_rzdclxrv21",
+      "is_active": false,
+      "created_at": "2025-09-24T07:25:39.257083+00:00"
+    },
+    {
+      "id": "3b5be2e5-6449-4233-bbfb-7628277cf011",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-24T07:32:22.794+00:00",
+      "heartbeat": "2025-09-24T07:34:29.088+00:00",
+      "session_token": "session_1758699142685_isxl7qrpyzj",
+      "is_active": false,
+      "created_at": "2025-09-24T07:32:23.66693+00:00"
+    },
+    {
+      "id": "b4d689fe-01bf-464a-952b-bc5f349533bf",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-22T11:31:30.885+00:00",
+      "heartbeat": "2025-09-22T11:33:14.93+00:00",
+      "session_token": "session_1758540690590_wbvrc3yhw0o",
+      "is_active": false,
+      "created_at": "2025-09-22T11:31:31.953936+00:00"
+    },
+    {
+      "id": "32df53c3-f446-4ded-a7b3-4d992d51f5c1",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-22T14:40:43.371+00:00",
+      "heartbeat": "2025-09-22T14:49:01.954+00:00",
+      "session_token": "session_1758552043018_hvlw03f31w",
+      "is_active": false,
+      "created_at": "2025-09-22T14:40:44.501062+00:00"
+    },
+    {
+      "id": "eda6b6a8-c4ff-45f6-92da-e24ee7c19b87",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T13:51:54.491+00:00",
+      "heartbeat": "2025-09-05T13:53:01.039+00:00",
+      "session_token": "session_1757080314052_rxe6jeulhoa",
+      "is_active": false,
+      "created_at": "2025-09-05T13:51:54.722825+00:00"
+    },
+    {
+      "id": "ce438639-f711-4e6c-bb38-c0bcc59431f9",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-04T15:28:55.65+00:00",
+      "heartbeat": "2025-09-04T15:28:57.822+00:00",
+      "session_token": "session_1756999734370_itkj1nbdj0a",
+      "is_active": false,
+      "created_at": "2025-09-04T15:28:55.816831+00:00"
+    },
+    {
+      "id": "8775dd9b-800d-4902-8963-171e7449225b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:37:34.504+00:00",
+      "heartbeat": "2025-08-27T05:39:11.099+00:00",
+      "session_token": "session_1756273054229_skm2byel9e",
+      "is_active": false,
+      "created_at": "2025-08-27T05:37:35.324291+00:00"
+    },
+    {
+      "id": "c0ab317b-a2ee-414b-9e00-650c88926e3a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T20:41:54.16+00:00",
+      "heartbeat": "2025-08-30T20:43:01.081+00:00",
+      "session_token": "session_1756586513881_g7rcuqn5oik",
+      "is_active": false,
+      "created_at": "2025-08-30T20:41:54.49346+00:00"
+    },
+    {
+      "id": "565d2db3-668c-49f4-9396-c28445a24fac",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-03T12:11:51.248+00:00",
+      "heartbeat": "2025-09-03T12:13:25.953+00:00",
+      "session_token": "session_1756901510194_upzggifbhcm",
+      "is_active": false,
+      "created_at": "2025-09-03T12:11:52.366075+00:00"
+    },
+    {
+      "id": "14999516-2167-4b84-83e9-847a1af84e34",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T15:18:16.835+00:00",
+      "heartbeat": "2025-09-01T15:36:30.17+00:00",
+      "session_token": "session_1756739896003_pz1fet4r73",
+      "is_active": false,
+      "created_at": "2025-09-01T15:18:16.954264+00:00"
+    },
+    {
+      "id": "5330d709-fb0f-48ca-8bda-7f566228c889",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T14:23:41.434+00:00",
+      "heartbeat": "2025-09-05T14:36:11.053+00:00",
+      "session_token": "session_1757082221182_c5gxyp3higl",
+      "is_active": false,
+      "created_at": "2025-09-05T14:23:41.644504+00:00"
+    },
+    {
+      "id": "70625ff3-f5d4-48ee-9520-972057dad83d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T16:56:17.172+00:00",
+      "heartbeat": "2025-08-31T17:01:58.96+00:00",
+      "session_token": "session_1756659376926_ozm21swd9kp",
+      "is_active": false,
+      "created_at": "2025-08-31T16:56:18.298814+00:00"
+    },
+    {
+      "id": "73e51276-4d80-4f43-95a4-faf957e5529c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:39:31.139+00:00",
+      "heartbeat": "2025-08-27T05:40:22.533+00:00",
+      "session_token": "session_1756273170937_cpqtdsfrauj",
+      "is_active": false,
+      "created_at": "2025-08-27T05:39:31.966836+00:00"
+    },
+    {
+      "id": "806e763c-832c-4157-bbfe-fefa4bcd4447",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:37:31.035+00:00",
+      "heartbeat": "2025-08-19T06:37:32.305+00:00",
+      "session_token": "session_1755585450432_65ihigcqauo",
+      "is_active": false,
+      "created_at": "2025-08-19T06:37:30.115006+00:00"
+    },
+    {
+      "id": "e3a48934-ec00-4bf7-8f92-773cebfceb9f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-26T17:31:12.69+00:00",
+      "heartbeat": "2025-09-26T17:32:25.483+00:00",
+      "session_token": "session_1758907871451_k83dmr78j2",
+      "is_active": true,
+      "created_at": "2025-09-26T17:31:13.547371+00:00"
+    },
+    {
+      "id": "35f1537a-6e3c-455e-ab71-1d61ffba6139",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T10:07:46.055+00:00",
+      "heartbeat": "2025-09-19T10:08:44.162+00:00",
+      "session_token": "session_1758276465376_4vyk2yz0b99",
+      "is_active": false,
+      "created_at": "2025-09-19T10:07:45.57698+00:00"
+    },
+    {
+      "id": "2770eed5-0f29-462e-9c9e-fbd34779b55b",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-24T19:05:57.976+00:00",
+      "heartbeat": "2025-08-24T19:11:20.733+00:00",
+      "session_token": "session_1756062559487_ud2soznlnip",
+      "is_active": false,
+      "created_at": "2025-08-24T19:05:58.355183+00:00"
+    },
+    {
+      "id": "1fd66f8f-7eab-400f-83a9-8bd3e537490c",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-24T21:46:54.955+00:00",
+      "heartbeat": "2025-08-24T21:48:26.647+00:00",
+      "session_token": "session_1756072014478_0vtsxrf2euy",
+      "is_active": false,
+      "created_at": "2025-08-24T21:46:55.207786+00:00"
+    },
+    {
+      "id": "985175d5-29fb-4139-b26e-eae2e252a58d",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T17:51:29.58+00:00",
+      "heartbeat": "2025-08-21T18:14:14.36+00:00",
+      "session_token": "session_1755798794327_4fwv6dop5ys",
+      "is_active": false,
+      "created_at": "2025-08-21T17:51:29.677614+00:00"
+    },
+    {
+      "id": "88b59cf3-3d60-4a15-bf12-e3b58d8f0973",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T10:49:38.778+00:00",
+      "heartbeat": "2025-08-21T10:50:40.129+00:00",
+      "session_token": "session_1755773378510_oswx0aaukng",
+      "is_active": false,
+      "created_at": "2025-08-21T10:49:37.58547+00:00"
+    },
+    {
+      "id": "f166d3ef-229e-44f4-8ef1-150d3ee1a907",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T10:43:56.861+00:00",
+      "heartbeat": "2025-08-21T10:44:58.622+00:00",
+      "session_token": "session_1755773036551_gks4t9u0l4i",
+      "is_active": false,
+      "created_at": "2025-08-21T10:43:55.704599+00:00"
+    },
+    {
+      "id": "d7c326e4-11a5-4bde-822a-4c9de5e21e59",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T14:26:30.202+00:00",
+      "heartbeat": "2025-08-18T14:37:27.352+00:00",
+      "session_token": "session_1755527791536_w85airzmsy",
+      "is_active": false,
+      "created_at": "2025-08-18T14:26:29.672406+00:00"
+    },
+    {
+      "id": "a3c1463e-6106-41a6-9d3b-3331abb9a48d",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T14:37:35.308+00:00",
+      "heartbeat": "2025-08-18T14:37:36.581+00:00",
+      "session_token": "session_1755527854859_2qtfjc0irb1",
+      "is_active": false,
+      "created_at": "2025-08-18T14:37:34.923277+00:00"
+    },
+    {
+      "id": "c7398d3f-6fce-400b-adf2-80af9d60ce50",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T22:06:05.524+00:00",
+      "heartbeat": "2025-08-22T22:06:07.737+00:00",
+      "session_token": "session_1755900365321_jxuwgimlwjt",
+      "is_active": false,
+      "created_at": "2025-08-22T22:06:04.803128+00:00"
+    },
+    {
+      "id": "0d4cfa27-e779-42a9-ab48-b1115eb58f15",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T22:26:57.902+00:00",
+      "heartbeat": "2025-08-18T22:28:55.647+00:00",
+      "session_token": "session_1755556017031_vdnxm39p1ns",
+      "is_active": false,
+      "created_at": "2025-08-18T22:26:57.281738+00:00"
+    },
+    {
+      "id": "9828543f-7e0a-4526-8b1f-391d7a732781",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-20T19:51:21.761+00:00",
+      "heartbeat": "2025-08-20T19:52:25.282+00:00",
+      "session_token": "session_1755719481347_ewobrhunkx8",
+      "is_active": false,
+      "created_at": "2025-08-20T19:51:21.089167+00:00"
+    },
+    {
+      "id": "ad9b51e9-b3a0-464f-9131-59df334ec72e",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T20:07:50.664+00:00",
+      "heartbeat": "2025-08-21T20:08:54.856+00:00",
+      "session_token": "session_1755806870057_im22auidynh",
+      "is_active": false,
+      "created_at": "2025-08-21T20:07:50.697334+00:00"
+    },
+    {
+      "id": "b880658a-f92c-4c27-8e4f-0db3450b1914",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T05:45:08.773+00:00",
+      "heartbeat": "2025-08-18T05:45:09.581+00:00",
+      "session_token": "session_1755495908250_iuok7mz0zr8",
+      "is_active": false,
+      "created_at": "2025-08-18T05:45:08.563434+00:00"
+    },
+    {
+      "id": "fd26d8b1-165b-4c50-89c4-499d6ed2c45d",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T16:36:48.788+00:00",
+      "heartbeat": "2025-08-18T16:36:48.788+00:00",
+      "session_token": "session_1755535008156_zk2gwn13yvg",
+      "is_active": false,
+      "created_at": "2025-08-18T16:36:48.329644+00:00"
+    },
+    {
+      "id": "a17b0b5f-0ade-4d86-bc64-6c2bdb107659",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:06:18.821+00:00",
+      "heartbeat": "2025-08-22T13:06:20.85+00:00",
+      "session_token": "session_1755867978600_udq9unp3rr",
+      "is_active": false,
+      "created_at": "2025-08-22T13:06:18.344773+00:00"
+    },
+    {
+      "id": "9499a99d-3b18-4502-b642-5335e3f7cfe9",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T17:35:15.548+00:00",
+      "heartbeat": "2025-08-29T18:08:59.135+00:00",
+      "session_token": "session_1756488914874_1enft6a1hyu",
+      "is_active": false,
+      "created_at": "2025-08-29T17:35:15.903279+00:00"
+    },
+    {
+      "id": "86e5723b-5f5c-4dd0-93c9-3bf77ea47b03",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T09:51:43.509+00:00",
+      "heartbeat": "2025-08-31T10:09:41.356+00:00",
+      "session_token": "session_1756633903275_6y3lxempqau",
+      "is_active": false,
+      "created_at": "2025-08-31T09:51:44.545785+00:00"
+    },
+    {
+      "id": "e36f3c89-73bf-4951-8aad-17ad9b114ebf",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T08:16:54.783+00:00",
+      "heartbeat": "2025-08-31T08:38:15.737+00:00",
+      "session_token": "session_1756628214541_bp1opbo5mhf",
+      "is_active": false,
+      "created_at": "2025-08-31T08:16:55.685659+00:00"
+    },
+    {
+      "id": "f0ad725c-8113-4732-b091-03542f26c033",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-18T13:20:03.54+00:00",
+      "heartbeat": "2025-09-18T13:26:28.895+00:00",
+      "session_token": "session_1758201602688_5nzhghn6jab",
+      "is_active": false,
+      "created_at": "2025-09-18T13:20:02.624922+00:00"
+    },
+    {
+      "id": "3e8a0c48-097a-4d8f-935c-dad7eb7b6093",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T09:37:55.135+00:00",
+      "heartbeat": "2025-08-31T09:51:10.18+00:00",
+      "session_token": "session_1756633194834_9yxka11pu1s",
+      "is_active": false,
+      "created_at": "2025-08-31T09:37:56.053023+00:00"
+    },
+    {
+      "id": "1b25eef0-dba6-48c8-82fe-31d5a8df7c22",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T17:09:30.832+00:00",
+      "heartbeat": "2025-08-29T17:30:22.982+00:00",
+      "session_token": "session_1756487370429_824qasaiyio",
+      "is_active": false,
+      "created_at": "2025-08-29T17:09:30.986899+00:00"
+    },
+    {
+      "id": "47df1a39-7a90-4859-b99c-8c844a58a0ec",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-02T12:10:55.883+00:00",
+      "heartbeat": "2025-09-02T12:24:41.475+00:00",
+      "session_token": "session_1756815697728_w2q2nw7h3ss",
+      "is_active": false,
+      "created_at": "2025-09-02T12:10:56.586481+00:00"
+    },
+    {
+      "id": "5bfff7c0-c7bf-4b75-9365-f105b4ababac",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T14:00:20.559+00:00",
+      "heartbeat": "2025-08-31T14:04:56.298+00:00",
+      "session_token": "session_1756648820357_c13yq2znvzs",
+      "is_active": false,
+      "created_at": "2025-08-31T14:00:21.545602+00:00"
+    },
+    {
+      "id": "350cd1c7-5464-4d3a-adad-0206b472b7a8",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T13:17:00.348+00:00",
+      "heartbeat": "2025-08-31T13:28:47.591+00:00",
+      "session_token": "session_1756646542664_1oc0iif2be9h",
+      "is_active": false,
+      "created_at": "2025-08-31T13:17:01.428408+00:00"
+    },
+    {
+      "id": "05afa249-b2c1-4018-b6a6-056ed6d1a5cf",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-05T13:28:24.496+00:00",
+      "heartbeat": "2025-09-05T13:30:00.302+00:00",
+      "session_token": "session_1757078904193_saglugzr76i",
+      "is_active": false,
+      "created_at": "2025-09-05T13:28:24.693696+00:00"
+    },
+    {
+      "id": "57b3a97c-2715-4910-b2a3-417b38c45c98",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-19T10:09:20.139+00:00",
+      "heartbeat": "2025-09-19T10:15:56.05+00:00",
+      "session_token": "session_1758276559971_9gq36dujkj",
+      "is_active": false,
+      "created_at": "2025-09-19T10:09:20.155945+00:00"
+    },
+    {
+      "id": "2d5efb4b-1ab2-4673-b981-c8b7e1db33f8",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-04T15:29:52.618+00:00",
+      "heartbeat": "2025-09-04T15:36:43.12+00:00",
+      "session_token": "session_1756999792475_wmzi7vsxd8",
+      "is_active": false,
+      "created_at": "2025-09-04T15:29:52.697235+00:00"
+    },
+    {
+      "id": "382a4c01-7234-492a-9a45-9d622b2d950b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T06:37:29.696+00:00",
+      "heartbeat": "2025-08-30T06:39:09.572+00:00",
+      "session_token": "session_1756535880132_chhgiqew27",
+      "is_active": false,
+      "created_at": "2025-08-30T06:37:29.939917+00:00"
+    },
+    {
+      "id": "50b6cf58-24e7-4fa1-b540-82a418039301",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T23:24:09.25+00:00",
+      "heartbeat": "2025-08-30T23:38:35.662+00:00",
+      "session_token": "session_1756596826265_wkwepb4ja4",
+      "is_active": false,
+      "created_at": "2025-08-30T23:24:09.654958+00:00"
+    },
+    {
+      "id": "9ad575e3-d1f7-46f5-a5c6-86c71ef91313",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-20T20:33:35.979+00:00",
+      "heartbeat": "2025-09-20T20:36:56.927+00:00",
+      "session_token": "session_1758400415340_zilix9wk6wg",
+      "is_active": false,
+      "created_at": "2025-09-20T20:33:35.340969+00:00"
+    },
+    {
+      "id": "dca9e674-a6f7-4779-8a51-a0d061bf121f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-11T06:17:32.851+00:00",
+      "heartbeat": "2025-09-11T06:26:14.647+00:00",
+      "session_token": "session_1757571452585_kiggoobkzj",
+      "is_active": false,
+      "created_at": "2025-09-11T06:17:32.252546+00:00"
+    },
+    {
+      "id": "c49c0e33-87f0-48f3-a749-b91db2482147",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T11:07:04.095+00:00",
+      "heartbeat": "2025-08-26T11:08:38.656+00:00",
+      "session_token": "session_1756206423974_kcaccl0k8w8",
+      "is_active": false,
+      "created_at": "2025-08-26T11:07:04.69614+00:00"
+    },
+    {
+      "id": "36d6ca81-6711-46a6-a11e-c78fd5dbc98d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T11:26:44.858+00:00",
+      "heartbeat": "2025-08-26T11:30:55.071+00:00",
+      "session_token": "session_1756207604460_d68npyplrrv",
+      "is_active": false,
+      "created_at": "2025-08-26T11:26:45.483813+00:00"
+    },
+    {
+      "id": "8b44a3ad-7669-4211-976b-320ff61d606a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T23:16:25.729+00:00",
+      "heartbeat": "2025-08-26T23:23:09.717+00:00",
+      "session_token": "session_1756250185352_seyps6pabei",
+      "is_active": false,
+      "created_at": "2025-08-26T23:16:26.526974+00:00"
+    },
+    {
+      "id": "aa4b1549-0c1e-4ec9-9f7b-5b8000eb87d6",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T21:51:05.662+00:00",
+      "heartbeat": "2025-08-26T22:02:01.757+00:00",
+      "session_token": "session_1756245361652_wxcstjpfqa",
+      "is_active": false,
+      "created_at": "2025-08-26T21:51:06.517256+00:00"
+    },
+    {
+      "id": "79b1def0-2415-47f2-96d5-72efc0a39e60",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-22T12:47:33.382+00:00",
+      "heartbeat": "2025-08-22T12:49:09.335+00:00",
+      "session_token": "session_1755866852969_tybwe35x7jg",
+      "is_active": false,
+      "created_at": "2025-08-22T12:47:32.909235+00:00"
+    },
+    {
+      "id": "c37b4d2c-1dde-4361-9fcb-3581f6cb4b81",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T19:13:56.182+00:00",
+      "heartbeat": "2025-08-18T19:13:56.182+00:00",
+      "session_token": "session_1755544435635_z5yllcbvuo",
+      "is_active": false,
+      "created_at": "2025-08-18T19:13:55.522507+00:00"
+    },
+    {
+      "id": "5a1ff631-29ea-401d-97ad-0ad4613a2e8b",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T19:11:50.499+00:00",
+      "heartbeat": "2025-08-18T19:11:50.499+00:00",
+      "session_token": "session_1755544309944_0rdwt0dcwv9",
+      "is_active": false,
+      "created_at": "2025-08-18T19:11:50.051621+00:00"
+    },
+    {
+      "id": "2ce1c848-3cfb-4d4f-aafd-43ea6ab39f90",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T19:18:25.147+00:00",
+      "heartbeat": "2025-08-24T19:18:27.112+00:00",
+      "session_token": "session_1756063104793_iptr1lzjat",
+      "is_active": false,
+      "created_at": "2025-08-24T19:18:25.438894+00:00"
+    },
+    {
+      "id": "e83cd281-7d65-422b-8bef-146ee4325cbc",
+      "admin_user_id": "c349a789-ad4e-42f6-9430-6339354d7a64",
+      "email_admin": "fanny@aclef.fr",
+      "session_start": "2025-09-19T11:23:32.324+00:00",
+      "heartbeat": "2025-09-19T11:37:43.998+00:00",
+      "session_token": "session_1758281012121_kq6zd5ewg7h",
+      "is_active": false,
+      "created_at": "2025-09-19T11:23:32.381867+00:00"
+    },
+    {
+      "id": "3578322e-2e79-4dc3-a242-e6367b0119d6",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-18T06:22:00.381+00:00",
+      "heartbeat": "2025-09-18T06:25:49.5+00:00",
+      "session_token": "session_1758176519370_3bkae1pan0w",
+      "is_active": false,
+      "created_at": "2025-09-18T06:21:59.745811+00:00"
+    },
+    {
+      "id": "2d85bc57-3664-446e-9f94-a72308a69f8a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-23T14:54:50.972+00:00",
+      "heartbeat": "2025-09-23T15:03:27.223+00:00",
+      "session_token": "session_1758639290543_savfbewv0qd",
+      "is_active": false,
+      "created_at": "2025-09-23T14:54:51.232037+00:00"
+    },
+    {
+      "id": "05485767-a107-4ef8-a8a7-cd3a1319f185",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T08:07:14.425+00:00",
+      "heartbeat": "2025-09-19T08:19:51.034+00:00",
+      "session_token": "session_1758269233944_qk6q481z4y",
+      "is_active": false,
+      "created_at": "2025-09-19T08:07:14.015567+00:00"
+    },
+    {
+      "id": "054bddf3-f100-4661-8c9f-cec7c4d4dbf2",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T07:51:29.897+00:00",
+      "heartbeat": "2025-09-19T07:56:07.081+00:00",
+      "session_token": "session_1758268289614_w7cmp4liuc",
+      "is_active": false,
+      "created_at": "2025-09-19T07:51:29.414785+00:00"
+    },
+    {
+      "id": "56baa807-6ac9-4f2e-9b85-5dfdbd34c8b7",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T12:01:25.206+00:00",
+      "heartbeat": "2025-08-30T20:40:40.518+00:00",
+      "session_token": "session_1756586261301_1wtnn4irz8n",
+      "is_active": false,
+      "created_at": "2025-08-30T12:01:25.523556+00:00"
+    },
+    {
+      "id": "99ce8143-2846-40a9-9984-383e85104dd7",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T13:38:59.042+00:00",
+      "heartbeat": "2025-08-31T13:53:25.126+00:00",
+      "session_token": "session_1756648158973_a55855pxx9a",
+      "is_active": false,
+      "created_at": "2025-08-31T13:39:00.070181+00:00"
+    },
+    {
+      "id": "dd1a1071-e7df-4cb3-90df-a014a76b85f1",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-02T06:06:44.872+00:00",
+      "heartbeat": "2025-09-02T06:17:58.651+00:00",
+      "session_token": "session_1756793203791_h01sm3oyor5",
+      "is_active": false,
+      "created_at": "2025-09-02T06:06:45.499777+00:00"
+    },
+    {
+      "id": "d17c09bb-de01-44fe-81e6-6564b743b6e7",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T06:37:28.182+00:00",
+      "heartbeat": "2025-08-29T06:46:06.507+00:00",
+      "session_token": "session_1756449447831_2s1bin3u4uy",
+      "is_active": false,
+      "created_at": "2025-08-29T06:37:29.26688+00:00"
+    },
+    {
+      "id": "dc36f780-b310-472e-a3ca-13d05ee68756",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T19:44:04.017+00:00",
+      "heartbeat": "2025-08-28T19:49:30.485+00:00",
+      "session_token": "session_1756410254344_6o0044wt3sc",
+      "is_active": false,
+      "created_at": "2025-08-28T19:44:05.204293+00:00"
+    },
+    {
+      "id": "12acbbc5-dab7-4ac0-8ced-1aac5b1841ec",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T19:11:12.824+00:00",
+      "heartbeat": "2025-08-28T19:16:19.71+00:00",
+      "session_token": "session_1756408290071_eunrnipi2u",
+      "is_active": false,
+      "created_at": "2025-08-28T19:11:13.850367+00:00"
+    },
+    {
+      "id": "ea320ed1-a9b9-41a4-abf1-890bcce7ed18",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T18:41:46.794+00:00",
+      "heartbeat": "2025-08-28T18:49:14.948+00:00",
+      "session_token": "session_1756406516277_9sgerobypkl",
+      "is_active": false,
+      "created_at": "2025-08-28T18:41:47.806493+00:00"
+    },
+    {
+      "id": "ed81d2fb-a5e4-46cf-bf14-f25daf35e5e7",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T05:47:54.808+00:00",
+      "heartbeat": "2025-08-21T05:48:55.697+00:00",
+      "session_token": "session_1755755274617_aw90rmpuwcn",
+      "is_active": false,
+      "created_at": "2025-08-21T05:47:53.748418+00:00"
+    },
+    {
+      "id": "286780b6-9a89-4995-a90f-c348bf4a2a22",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T07:05:24.367+00:00",
+      "heartbeat": "2025-08-18T07:05:25.05+00:00",
+      "session_token": "session_1755500724041_syftjri667p",
+      "is_active": false,
+      "created_at": "2025-08-18T07:05:24.149708+00:00"
+    },
+    {
+      "id": "56452b03-fae5-4ec3-bce9-07be1c60c132",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T13:55:35.284+00:00",
+      "heartbeat": "2025-08-18T13:55:46.727+00:00",
+      "session_token": "session_1755525334602_al4xvr6xm5g",
+      "is_active": false,
+      "created_at": "2025-08-18T13:55:34.783098+00:00"
+    },
+    {
+      "id": "57632172-a24f-4bd1-b455-711465d87b85",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T15:08:38.643+00:00",
+      "heartbeat": "2025-08-18T15:08:39.497+00:00",
+      "session_token": "session_1755529717752_8jfboeq4xph",
+      "is_active": false,
+      "created_at": "2025-08-18T15:08:38.275328+00:00"
+    },
+    {
+      "id": "0a2f812c-d0fc-4081-88dc-d810ffa10a06",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T15:16:15.085+00:00",
+      "heartbeat": "2025-08-18T15:16:16.114+00:00",
+      "session_token": "session_1755530174547_fpuyoepi2j",
+      "is_active": false,
+      "created_at": "2025-08-18T15:16:14.569928+00:00"
+    },
+    {
+      "id": "54c0fd19-545e-43f3-8d49-7a8232acd0bb",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:39:20.511+00:00",
+      "heartbeat": "2025-08-22T12:40:22.924+00:00",
+      "session_token": "session_1755866360261_035n5ik5ub1g",
+      "is_active": false,
+      "created_at": "2025-08-22T12:39:20.057971+00:00"
+    },
+    {
+      "id": "51da3ab8-d9f4-469b-a718-5c2b8d1ffdfa",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T15:34:35.166+00:00",
+      "heartbeat": "2025-08-18T15:34:36.162+00:00",
+      "session_token": "session_1755531274676_hwb2ghhpol",
+      "is_active": false,
+      "created_at": "2025-08-18T15:34:34.654488+00:00"
+    },
+    {
+      "id": "c3046e57-d827-4b28-8dd6-fd822d433b82",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T16:02:03.758+00:00",
+      "heartbeat": "2025-08-18T16:13:47.631+00:00",
+      "session_token": "session_1755532922663_doif9mh67mw",
+      "is_active": false,
+      "created_at": "2025-08-18T16:02:03.292603+00:00"
+    },
+    {
+      "id": "308c6b24-fae5-4f83-ae23-95f51b8dab6d",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T19:02:43.143+00:00",
+      "heartbeat": "2025-08-18T19:02:43.143+00:00",
+      "session_token": "session_1755543762602_39jnv2l7xp6",
+      "is_active": false,
+      "created_at": "2025-08-18T19:02:42.619492+00:00"
+    },
+    {
+      "id": "6464663f-f633-4f47-a496-d00bfe20a8f3",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T20:01:42.445+00:00",
+      "heartbeat": "2025-08-18T20:02:08.689+00:00",
+      "session_token": "session_1755547302154_4ezrdng366g",
+      "is_active": false,
+      "created_at": "2025-08-18T20:01:41.797814+00:00"
+    },
+    {
+      "id": "1b162657-1d8c-45a2-a46d-2923801b48d0",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:07:03.572+00:00",
+      "heartbeat": "2025-08-22T13:07:06.4+00:00",
+      "session_token": "session_1755868023361_yiw8dbw1jjo",
+      "is_active": false,
+      "created_at": "2025-08-22T13:07:03.107779+00:00"
+    },
+    {
+      "id": "53acba38-1167-4ab1-88ad-13761c19a09e",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T21:06:34.512+00:00",
+      "heartbeat": "2025-08-18T22:19:32.569+00:00",
+      "session_token": "session_1755555564900_c8a3cn5o9is",
+      "is_active": false,
+      "created_at": "2025-08-18T21:06:33.814367+00:00"
+    },
+    {
+      "id": "411025f9-c826-4ed1-b1a2-ca3a45a104ea",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T22:31:33.661+00:00",
+      "heartbeat": "2025-08-18T22:32:45.358+00:00",
+      "session_token": "session_1755556293360_p49fk47txle",
+      "is_active": false,
+      "created_at": "2025-08-18T22:31:32.931351+00:00"
+    },
+    {
+      "id": "dd3ed735-e348-496f-b724-2fd1e14a8361",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T06:14:11.389+00:00",
+      "heartbeat": "2025-08-19T06:19:34.974+00:00",
+      "session_token": "session_1755584051150_zr07h2vylh",
+      "is_active": false,
+      "created_at": "2025-08-19T06:14:10.422863+00:00"
+    },
+    {
+      "id": "ea404ddc-6aca-4d24-8664-5ad5749bd913",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T13:19:33.075+00:00",
+      "heartbeat": "2025-08-19T22:57:26.713+00:00",
+      "session_token": "session_1755643954896_f1ahma7n6ak",
+      "is_active": false,
+      "created_at": "2025-08-19T13:19:31.977915+00:00"
+    },
+    {
+      "id": "6b10dc5d-1350-48fe-9f06-1c928cb6c5d7",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T22:17:17.019+00:00",
+      "heartbeat": "2025-08-23T06:17:21.408+00:00",
+      "session_token": "session_1755929679672_2yorq8pif08",
+      "is_active": false,
+      "created_at": "2025-08-22T22:17:16.309578+00:00"
+    },
+    {
+      "id": "07c231b1-efcb-49af-9df2-a2aa2c230c2f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T06:54:04.437+00:00",
+      "heartbeat": "2025-08-31T06:58:03.455+00:00",
+      "session_token": "session_1756623244026_0tyg86mjqjc",
+      "is_active": false,
+      "created_at": "2025-08-31T06:54:05.356516+00:00"
+    },
+    {
+      "id": "d5e21764-0696-4020-96d9-53b9e2cb99ef",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T21:23:36.045+00:00",
+      "heartbeat": "2025-08-30T21:27:24.486+00:00",
+      "session_token": "session_1756589051817_k84fwbwnm4f",
+      "is_active": false,
+      "created_at": "2025-08-30T21:23:36.449297+00:00"
+    },
+    {
+      "id": "d7eef883-693f-4d23-86d0-eda39817a3ee",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-02T14:58:17.443+00:00",
+      "heartbeat": "2025-09-02T14:59:47.349+00:00",
+      "session_token": "session_1756825096503_ap0dn9qf8b",
+      "is_active": false,
+      "created_at": "2025-09-02T14:58:18.190741+00:00"
+    },
+    {
+      "id": "20f9bd67-403d-4bd1-86be-b3cd651d7667",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-02T06:33:46.696+00:00",
+      "heartbeat": "2025-09-02T06:34:17.77+00:00",
+      "session_token": "session_1756794826184_kk4086yec2",
+      "is_active": false,
+      "created_at": "2025-09-02T06:33:47.330411+00:00"
+    },
+    {
+      "id": "29704c6a-8b63-4c9e-9100-44dc11990583",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-15T12:15:50.187+00:00",
+      "heartbeat": "2025-09-15T12:17:26.342+00:00",
+      "session_token": "session_1757938549686_7tq9pa9owyt",
+      "is_active": false,
+      "created_at": "2025-09-15T12:15:48.61042+00:00"
+    },
+    {
+      "id": "8aea4666-d142-4d0c-a8a2-7cc5a085232d",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T12:58:25.847+00:00",
+      "heartbeat": "2025-08-22T12:58:27.945+00:00",
+      "session_token": "session_1755867505603_huyqs0nb5oc",
+      "is_active": false,
+      "created_at": "2025-08-22T12:58:25.417954+00:00"
+    },
+    {
+      "id": "c75c9540-1f71-4e70-b9f6-07a4c590240d",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T20:51:15.695+00:00",
+      "heartbeat": "2025-08-21T21:09:50.45+00:00",
+      "session_token": "session_1755809475114_rye2oq9d5za",
+      "is_active": false,
+      "created_at": "2025-08-21T20:51:15.714625+00:00"
+    },
+    {
+      "id": "19efffdc-7543-497c-98d0-a794e63391f1",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:18:23.757+00:00",
+      "heartbeat": "2025-08-22T13:23:36.165+00:00",
+      "session_token": "session_1755868703486_vy84i0b4k4",
+      "is_active": false,
+      "created_at": "2025-08-22T13:18:23.283064+00:00"
+    },
+    {
+      "id": "6226b9fe-1ee7-400e-8957-e80f49476599",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T18:18:35.223+00:00",
+      "heartbeat": "2025-08-21T18:24:17.852+00:00",
+      "session_token": "session_1755800314919_owd5037uuj",
+      "is_active": false,
+      "created_at": "2025-08-21T18:18:35.276376+00:00"
+    },
+    {
+      "id": "b497cb80-f84e-4b9b-a72b-578546998941",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:28:00.082+00:00",
+      "heartbeat": "2025-08-22T13:33:16.42+00:00",
+      "session_token": "session_1755869279843_k22szybtt2a",
+      "is_active": false,
+      "created_at": "2025-08-22T13:27:59.638943+00:00"
+    },
+    {
+      "id": "75ee7775-f770-4f1c-a2b0-f7f30a2eee12",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T08:04:13.97+00:00",
+      "heartbeat": "2025-08-31T08:12:26.096+00:00",
+      "session_token": "session_1756627453607_i5bnf7exs0i",
+      "is_active": false,
+      "created_at": "2025-08-31T08:04:14.887283+00:00"
+    },
+    {
+      "id": "80817211-4b5b-4c0a-a75a-40c5265d8c2f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-16T14:52:04.1+00:00",
+      "heartbeat": "2025-09-16T15:15:01.912+00:00",
+      "session_token": "session_1758034323075_qrinkkb63d",
+      "is_active": false,
+      "created_at": "2025-09-16T14:52:03.318353+00:00"
+    },
+    {
+      "id": "05ed68d3-a2cb-4da6-815d-57f517128838",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T15:00:55.954+00:00",
+      "heartbeat": "2025-09-05T15:01:06.676+00:00",
+      "session_token": "session_1757084455758_8c565nz7ojf",
+      "is_active": false,
+      "created_at": "2025-09-05T15:00:56.232822+00:00"
+    },
+    {
+      "id": "e851201d-1762-42ac-8627-0c52e62a58ca",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T09:32:24.281+00:00",
+      "heartbeat": "2025-08-31T09:33:27.201+00:00",
+      "session_token": "session_1756632743882_utasifo87bk",
+      "is_active": false,
+      "created_at": "2025-08-31T09:32:25.276849+00:00"
+    },
+    {
+      "id": "c7738841-136d-41c4-b547-9d6453ac2c24",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T14:54:59.55+00:00",
+      "heartbeat": "2025-08-27T15:05:01.868+00:00",
+      "session_token": "session_1756306499267_wrn6mwlxr6g",
+      "is_active": false,
+      "created_at": "2025-08-27T14:55:00.577713+00:00"
+    },
+    {
+      "id": "e5cf0b44-f362-457d-bfef-058b78c9e20a",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-19T05:56:44.11+00:00",
+      "heartbeat": "2025-08-19T05:57:48.239+00:00",
+      "session_token": "session_1755583003698_jd4dilpg7u8",
+      "is_active": false,
+      "created_at": "2025-08-19T05:56:43.165946+00:00"
+    },
+    {
+      "id": "b583865d-d9c6-4a97-b328-3c9413aad2ec",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T19:25:53.034+00:00",
+      "heartbeat": "2025-08-18T19:34:18.036+00:00",
+      "session_token": "session_1755545657579_up9degcfvii",
+      "is_active": false,
+      "created_at": "2025-08-18T19:25:52.374747+00:00"
+    },
+    {
+      "id": "6c3d8ea0-579b-4ef0-bd54-4315d5fae080",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T20:26:19.095+00:00",
+      "heartbeat": "2025-08-18T20:36:03.344+00:00",
+      "session_token": "session_1755548778728_k5iczzvy34c",
+      "is_active": false,
+      "created_at": "2025-08-18T20:26:18.532592+00:00"
+    },
+    {
+      "id": "436762d3-e35c-44b8-9f37-67a63118d250",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T05:48:32.614+00:00",
+      "heartbeat": "2025-08-18T05:48:33.367+00:00",
+      "session_token": "session_1755496112491_g9tf8h6t4t6",
+      "is_active": false,
+      "created_at": "2025-08-18T05:48:32.353035+00:00"
+    },
+    {
+      "id": "c5097494-b036-45f6-8f57-df80bd0a3c7e",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T05:49:21.263+00:00",
+      "heartbeat": "2025-08-18T05:49:21.991+00:00",
+      "session_token": "session_1755496161168_x49hkc96i1a",
+      "is_active": false,
+      "created_at": "2025-08-18T05:49:20.976043+00:00"
+    },
+    {
+      "id": "f2a02d94-beb1-4f60-949b-1300379b4c39",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T14:22:44.065+00:00",
+      "heartbeat": "2025-08-27T14:54:29.626+00:00",
+      "session_token": "session_1756304563273_k1fmy49i2vk",
+      "is_active": false,
+      "created_at": "2025-08-27T14:22:45.102063+00:00"
+    },
+    {
+      "id": "23728e77-c992-4c58-8ec7-c8792178a975",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-15T11:32:00.408+00:00",
+      "heartbeat": "2025-09-15T11:42:21.073+00:00",
+      "session_token": "session_1757935920304_sxz2fc03w8",
+      "is_active": false,
+      "created_at": "2025-09-15T11:31:58.780043+00:00"
+    },
+    {
+      "id": "c65af6e2-e802-4333-9f27-df3afd6eea55",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T11:55:11.421+00:00",
+      "heartbeat": "2025-08-21T11:56:16.863+00:00",
+      "session_token": "session_1755777310875_xstc0800b7o",
+      "is_active": false,
+      "created_at": "2025-08-21T11:55:10.298282+00:00"
+    },
+    {
+      "id": "9330ab8f-bbcb-407b-9bb5-f5610481d1fe",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-21T06:50:47.11+00:00",
+      "heartbeat": "2025-08-21T06:51:55.384+00:00",
+      "session_token": "session_1755759046273_baftvojcs5u",
+      "is_active": false,
+      "created_at": "2025-08-21T06:50:46.14744+00:00"
+    },
+    {
+      "id": "48ab94ab-2011-40db-aa7b-95b8fe174cf5",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:11:07.97+00:00",
+      "heartbeat": "2025-08-22T13:14:03.018+00:00",
+      "session_token": "session_1755868267727_3zpopoa9nia",
+      "is_active": false,
+      "created_at": "2025-08-22T13:11:07.531039+00:00"
+    },
+    {
+      "id": "414b71d8-f182-4580-adbf-3fdf0d8fddf4",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-23T06:17:36.043+00:00",
+      "heartbeat": "2025-08-23T06:18:12.921+00:00",
+      "session_token": "session_1755929855755_ufpltymqqk",
+      "is_active": false,
+      "created_at": "2025-08-23T06:17:35.107047+00:00"
+    },
+    {
+      "id": "cc286426-ba7b-4283-bd63-8623b2f1851b",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-22T13:00:33.804+00:00",
+      "heartbeat": "2025-08-22T13:00:38.999+00:00",
+      "session_token": "session_1755867633572_xizjjk53xnb",
+      "is_active": false,
+      "created_at": "2025-08-22T13:00:33.358272+00:00"
+    },
+    {
+      "id": "c9d81fa2-49f2-4ec8-bdbf-da1e64d6434a",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-20T20:02:09.572+00:00",
+      "heartbeat": "2025-08-20T20:02:10.5+00:00",
+      "session_token": "session_1755720129405_8m9hoqrnyml",
+      "is_active": false,
+      "created_at": "2025-08-20T20:02:08.809241+00:00"
+    },
+    {
+      "id": "aed1020d-2382-4337-b468-1dc511466018",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-20T20:00:24.352+00:00",
+      "heartbeat": "2025-08-20T20:01:59.555+00:00",
+      "session_token": "session_1755720024062_0ln78fckggi",
+      "is_active": false,
+      "created_at": "2025-08-20T20:00:23.592287+00:00"
+    },
+    {
+      "id": "8dada8fb-c680-4299-b5bb-a03bfaa7eadf",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T11:17:24.185+00:00",
+      "heartbeat": "2025-08-27T11:23:56.052+00:00",
+      "session_token": "session_1756293708285_4thlgz3wpw",
+      "is_active": false,
+      "created_at": "2025-08-27T11:17:25.13568+00:00"
+    },
+    {
+      "id": "689546a2-f022-4245-95fc-0b6e1ed894e9",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-02T12:25:49.34+00:00",
+      "heartbeat": "2025-09-02T12:27:20.737+00:00",
+      "session_token": "session_1756815949052_6ul8zds4p88",
+      "is_active": false,
+      "created_at": "2025-09-02T12:25:50.044883+00:00"
+    },
+    {
+      "id": "ed0eac62-2484-4e8e-8a4c-1b2e3ca7ccd9",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T21:30:35.038+00:00",
+      "heartbeat": "2025-08-30T23:17:26.931+00:00",
+      "session_token": "session_1756589434564_u2dhoghovkh",
+      "is_active": false,
+      "created_at": "2025-08-30T21:30:35.418799+00:00"
+    },
+    {
+      "id": "78cf7eae-93f6-4476-afbe-88aae73a6ec1",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T07:06:02.395+00:00",
+      "heartbeat": "2025-09-19T07:07:33.512+00:00",
+      "session_token": "session_1758265562072_ww099j5aap",
+      "is_active": false,
+      "created_at": "2025-09-19T07:06:02.023889+00:00"
+    },
+    {
+      "id": "5a37a87c-fe15-4549-a5fb-3d91ac287dab",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T07:15:49.588+00:00",
+      "heartbeat": "2025-09-01T07:16:37.159+00:00",
+      "session_token": "session_1756710949353_h6xourscetc",
+      "is_active": false,
+      "created_at": "2025-09-01T07:15:50.743927+00:00"
+    },
+    {
+      "id": "81ecc601-0800-4eb3-96bd-a15ab0ca5c08",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T06:52:17.914+00:00",
+      "heartbeat": "2025-09-01T06:56:30.416+00:00",
+      "session_token": "session_1756709537165_5xgtp71wsu3",
+      "is_active": false,
+      "created_at": "2025-09-01T06:52:19.198972+00:00"
+    },
+    {
+      "id": "87c014ec-bc12-4ea1-a467-32d210773341",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-15T11:30:23.905+00:00",
+      "heartbeat": "2025-09-15T11:31:31.771+00:00",
+      "session_token": "session_1757935823100_b77aj1whkbc",
+      "is_active": false,
+      "created_at": "2025-09-15T11:30:22.38225+00:00"
+    },
+    {
+      "id": "0b02efad-ab5a-4d95-b6eb-675ca34cc098",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-20T22:17:30.817+00:00",
+      "heartbeat": "2025-08-20T22:42:57.694+00:00",
+      "session_token": "session_1755729714265_l7wodck55v",
+      "is_active": false,
+      "created_at": "2025-08-20T22:17:30.106369+00:00"
+    },
+    {
+      "id": "6d7f1fdc-eb45-4520-a6d2-bd095b818e76",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-20T22:54:00.179+00:00",
+      "heartbeat": "2025-08-20T22:55:02.309+00:00",
+      "session_token": "session_1755730439798_5o6rsyw5czd",
+      "is_active": false,
+      "created_at": "2025-08-20T22:53:59.3868+00:00"
+    },
+    {
+      "id": "8323c090-2edd-43a8-9d02-88d4b7357e39",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T21:01:21.064+00:00",
+      "heartbeat": "2025-08-18T21:02:23.15+00:00",
+      "session_token": "session_1755550880789_nloswefcouo",
+      "is_active": false,
+      "created_at": "2025-08-18T21:01:20.383774+00:00"
+    },
+    {
+      "id": "d610ebf9-5335-4b40-90bb-1fa028ea56c4",
+      "admin_user_id": "b6803165-ba46-4c11-87b2-8b0fcfa8df8a",
+      "email_admin": "albena@aclef.fr",
+      "session_start": "2025-08-18T15:45:01.262+00:00",
+      "heartbeat": "2025-08-18T15:55:50.993+00:00",
+      "session_token": "session_1755531900957_n0oq4r6xpjl",
+      "is_active": false,
+      "created_at": "2025-08-18T15:45:00.704484+00:00"
+    },
+    {
+      "id": "0224904a-218c-479a-8082-5a7c6db4d554",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T07:05:48.887+00:00",
+      "heartbeat": "2025-08-30T07:06:56.249+00:00",
+      "session_token": "session_1756537548531_tsl80vcrndj",
+      "is_active": false,
+      "created_at": "2025-08-30T07:05:49.206255+00:00"
+    },
+    {
+      "id": "9a3f5b38-6dec-457f-ab91-78e490c8e421",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T04:58:11.677+00:00",
+      "heartbeat": "2025-08-27T05:01:45.828+00:00",
+      "session_token": "session_1756270690632_5n9uisaf5r8",
+      "is_active": false,
+      "created_at": "2025-08-27T04:58:12.633413+00:00"
+    },
+    {
+      "id": "d5bdff83-9900-4798-9d10-850674fe0a24",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:19:59.316+00:00",
+      "heartbeat": "2025-08-27T05:30:51.146+00:00",
+      "session_token": "session_1756272088832_6maq8dqukz",
+      "is_active": false,
+      "created_at": "2025-08-27T05:20:00.19753+00:00"
+    },
+    {
+      "id": "40f1fa6f-067a-4fc2-b127-dca42fddd69e",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T19:14:19.976+00:00",
+      "heartbeat": "2025-08-24T19:17:15.697+00:00",
+      "session_token": "session_1756062859565_tambwnye28c",
+      "is_active": false,
+      "created_at": "2025-08-24T19:14:20.256467+00:00"
+    },
+    {
+      "id": "9cf86442-ee1e-401e-9292-e67dad9b8542",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T17:32:48.781+00:00",
+      "heartbeat": "2025-08-31T17:33:54.568+00:00",
+      "session_token": "session_1756661568549_s39m81o511i",
+      "is_active": false,
+      "created_at": "2025-08-31T17:32:49.852405+00:00"
+    },
+    {
+      "id": "c50a9cc5-e231-42f9-9a2c-fb0af092a8e5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-04T06:08:54.894+00:00",
+      "heartbeat": "2025-09-04T06:11:30.552+00:00",
+      "session_token": "session_1756966133912_r41y2hl196",
+      "is_active": false,
+      "created_at": "2025-09-04T06:08:56.164984+00:00"
+    },
+    {
+      "id": "bb92d25d-a2cc-4c6f-8e5f-1ea480b36af3",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T12:58:09.912+00:00",
+      "heartbeat": "2025-09-05T13:01:12.575+00:00",
+      "session_token": "session_1757077089143_zugj9c46i1c",
+      "is_active": false,
+      "created_at": "2025-09-05T12:58:10.204913+00:00"
+    },
+    {
+      "id": "46642400-1bc9-49f8-b0df-072cbd70e7ff",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T13:58:47.561+00:00",
+      "heartbeat": "2025-09-05T14:03:25.067+00:00",
+      "session_token": "session_1757080727151_8dikyi4171u",
+      "is_active": false,
+      "created_at": "2025-09-05T13:58:47.802692+00:00"
+    },
+    {
+      "id": "28f88140-b3ab-48a2-b1ec-4c39b7812bfd",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T14:48:25.493+00:00",
+      "heartbeat": "2025-09-05T15:00:37.251+00:00",
+      "session_token": "session_1757084387719_dayigv3wa0o",
+      "is_active": false,
+      "created_at": "2025-09-05T14:48:25.820663+00:00"
+    },
+    {
+      "id": "d610753d-4c7d-42cd-ba1c-f93b3a3e2f78",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-05T13:04:31.302+00:00",
+      "heartbeat": "2025-09-05T13:04:33.159+00:00",
+      "session_token": "session_1757077470981_s4fmob8uoz",
+      "is_active": false,
+      "created_at": "2025-09-05T13:04:31.499237+00:00"
+    },
+    {
+      "id": "8e442604-c41a-4fc0-b3f6-da61f6498457",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-02T12:37:31.076+00:00",
+      "heartbeat": "2025-09-02T12:38:33.008+00:00",
+      "session_token": "session_1756816650806_wj26vym5f",
+      "is_active": false,
+      "created_at": "2025-09-02T12:37:31.783523+00:00"
+    },
+    {
+      "id": "1f0a75db-9253-4137-9caa-e7353aa88a4a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T11:30:55.18+00:00",
+      "heartbeat": "2025-08-28T11:33:00.553+00:00",
+      "session_token": "session_1756380654766_bs5m78v0tb",
+      "is_active": false,
+      "created_at": "2025-08-28T11:30:56.103529+00:00"
+    },
+    {
+      "id": "4078846b-ab18-4c90-8be6-f2da68bda89b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:34:05.048+00:00",
+      "heartbeat": "2025-08-27T05:36:27.577+00:00",
+      "session_token": "session_1756272844711_kf6s059kpw8",
+      "is_active": false,
+      "created_at": "2025-08-27T05:34:05.908296+00:00"
+    },
+    {
+      "id": "7e0605bc-388f-4a81-8309-dd4942da283c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T03:31:33.123+00:00",
+      "heartbeat": "2025-08-25T03:46:05.656+00:00",
+      "session_token": "session_1756092865517_b199sxodwkn",
+      "is_active": false,
+      "created_at": "2025-08-25T03:31:33.299945+00:00"
+    },
+    {
+      "id": "8c8df783-5505-4a44-a020-594953d8d391",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T11:34:50.035+00:00",
+      "heartbeat": "2025-08-27T11:45:34.543+00:00",
+      "session_token": "session_1756294670429_3vhpmrrl18r",
+      "is_active": false,
+      "created_at": "2025-08-27T11:34:51.080229+00:00"
+    },
+    {
+      "id": "9d092a01-cbd2-4e70-af41-bc9b368a017b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T17:43:49.113+00:00",
+      "heartbeat": "2025-08-31T19:22:41.801+00:00",
+      "session_token": "session_1756662228626_xknyq40ee6a",
+      "is_active": false,
+      "created_at": "2025-08-31T17:43:50.246871+00:00"
+    },
+    {
+      "id": "dfc14be5-1227-4ae1-883b-08e5c3d96b64",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T21:19:59.408+00:00",
+      "heartbeat": "2025-08-24T21:25:54+00:00",
+      "session_token": "session_1756070398241_c7nf76ktw8",
+      "is_active": false,
+      "created_at": "2025-08-24T21:19:59.918475+00:00"
+    },
+    {
+      "id": "90ba0a29-d642-4731-803b-ba40ab18e40f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T11:57:13.993+00:00",
+      "heartbeat": "2025-08-30T12:01:18.315+00:00",
+      "session_token": "session_1756555084036_kh6yqtfeozr",
+      "is_active": false,
+      "created_at": "2025-08-30T11:57:14.367135+00:00"
+    },
+    {
+      "id": "840d4bc8-5836-4a24-81f5-f339d596c6b8",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T11:09:13.378+00:00",
+      "heartbeat": "2025-08-26T11:20:46.038+00:00",
+      "session_token": "session_1756206553211_fek5enwg7e9",
+      "is_active": false,
+      "created_at": "2025-08-26T11:09:13.951718+00:00"
+    },
+    {
+      "id": "25e021fd-59e3-45fb-932f-5dfe089644af",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T05:44:59.189+00:00",
+      "heartbeat": "2025-08-30T05:55:42.543+00:00",
+      "session_token": "session_1756532698623_5h81ujylrvm",
+      "is_active": false,
+      "created_at": "2025-08-30T05:44:59.456743+00:00"
+    },
+    {
+      "id": "36f7693a-25db-4a44-a80e-11c049508fb0",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T08:42:42.457+00:00",
+      "heartbeat": "2025-08-31T09:27:41.169+00:00",
+      "session_token": "session_1756629762079_zdea1f46dj8",
+      "is_active": false,
+      "created_at": "2025-08-31T08:42:43.483062+00:00"
+    },
+    {
+      "id": "a768b41f-a4e9-40d4-933b-311ea8154976",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T20:40:56.268+00:00",
+      "heartbeat": "2025-08-30T20:41:30.234+00:00",
+      "session_token": "session_1756586456078_vofi93w6ne",
+      "is_active": false,
+      "created_at": "2025-08-30T20:40:56.606334+00:00"
+    },
+    {
+      "id": "c9c145da-115e-444e-bb14-53e9b4116a84",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T18:28:06.806+00:00",
+      "heartbeat": "2025-08-29T18:34:13.609+00:00",
+      "session_token": "session_1756492086404_08yjqdkiouxu",
+      "is_active": false,
+      "created_at": "2025-08-29T18:28:06.965159+00:00"
+    },
+    {
+      "id": "292b737b-1929-4caf-aec9-6a620d073de3",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T11:34:08.506+00:00",
+      "heartbeat": "2025-09-01T11:56:27.16+00:00",
+      "session_token": "session_1756726447573_8ozxol5kngx",
+      "is_active": false,
+      "created_at": "2025-09-01T11:34:08.624811+00:00"
+    },
+    {
+      "id": "3be4b055-2284-44e4-a494-bb7c55a1327d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T07:49:38.51+00:00",
+      "heartbeat": "2025-09-01T07:51:18.121+00:00",
+      "session_token": "session_1756712977589_dhawxmtmt6p",
+      "is_active": false,
+      "created_at": "2025-09-01T07:49:39.722195+00:00"
+    },
+    {
+      "id": "0755056c-5971-4584-b18f-38fd5d90b765",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T10:10:02.742+00:00",
+      "heartbeat": "2025-08-31T12:14:01.52+00:00",
+      "session_token": "session_1756635642874_o9ovptlcba",
+      "is_active": false,
+      "created_at": "2025-08-31T10:10:03.719674+00:00"
+    },
+    {
+      "id": "1620b55f-3abe-4cad-8103-ab1a8e857b26",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T13:53:46.818+00:00",
+      "heartbeat": "2025-08-31T14:00:09.168+00:00",
+      "session_token": "session_1756648801516_379gbbp31k7",
+      "is_active": false,
+      "created_at": "2025-08-31T13:53:47.984796+00:00"
+    },
+    {
+      "id": "77dea803-2aeb-4098-99a2-675df0e6a058",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T05:33:14.775+00:00",
+      "heartbeat": "2025-08-30T05:44:42.182+00:00",
+      "session_token": "session_1756532464581_soiopxjxyua",
+      "is_active": false,
+      "created_at": "2025-08-30T05:33:15.051679+00:00"
+    },
+    {
+      "id": "87f2ffdd-eb69-4fff-b3bb-7b5a4de2cf45",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T07:01:37.369+00:00",
+      "heartbeat": "2025-09-01T07:15:26.582+00:00",
+      "session_token": "session_1756710096994_e98wdp4z4uu",
+      "is_active": false,
+      "created_at": "2025-09-01T07:01:38.579894+00:00"
+    },
+    {
+      "id": "c706070d-727a-47cf-8bd8-c85d369ba46d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T14:42:34.806+00:00",
+      "heartbeat": "2025-08-25T14:48:43.675+00:00",
+      "session_token": "session_1756133128910_58z4sghkyh5",
+      "is_active": false,
+      "created_at": "2025-08-25T14:42:34.653029+00:00"
+    },
+    {
+      "id": "d8aee50d-4b1f-4b59-840f-493721c61127",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T21:26:34.468+00:00",
+      "heartbeat": "2025-08-24T21:27:43.041+00:00",
+      "session_token": "session_1756070794241_98zagy75qik",
+      "is_active": false,
+      "created_at": "2025-08-24T21:26:34.71022+00:00"
+    },
+    {
+      "id": "a925dab0-b424-4fc6-abda-a8314f3ad58f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:36:56.742+00:00",
+      "heartbeat": "2025-08-27T05:37:05.336+00:00",
+      "session_token": "session_1756273016458_054f9wflemku",
+      "is_active": false,
+      "created_at": "2025-08-27T05:36:57.569511+00:00"
+    },
+    {
+      "id": "a1d7bcc4-651d-4986-a307-332f583d56e5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T03:17:21.949+00:00",
+      "heartbeat": "2025-08-25T03:18:25.476+00:00",
+      "session_token": "session_1756091841516_lkugyykoonn",
+      "is_active": false,
+      "created_at": "2025-08-25T03:17:22.126066+00:00"
+    },
+    {
+      "id": "b2c425a8-3e66-4d01-b326-334ba912b72a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T03:18:48.99+00:00",
+      "heartbeat": "2025-08-25T03:26:43.958+00:00",
+      "session_token": "session_1756091928841_pr20puq1gbb",
+      "is_active": false,
+      "created_at": "2025-08-25T03:18:49.064868+00:00"
+    },
+    {
+      "id": "39555245-5f03-4c78-a68c-39c4088b5e71",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T17:47:07.046+00:00",
+      "heartbeat": "2025-08-26T18:08:06.653+00:00",
+      "session_token": "session_1756230426562_9c13h0rp6p7",
+      "is_active": false,
+      "created_at": "2025-08-26T17:47:07.89425+00:00"
+    },
+    {
+      "id": "4d0779b6-6b92-4ef8-b4f8-6d8956a28c19",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T20:43:16.585+00:00",
+      "heartbeat": "2025-08-26T20:44:23.256+00:00",
+      "session_token": "session_1756240996076_mshvewm8sor",
+      "is_active": false,
+      "created_at": "2025-08-26T20:43:17.389926+00:00"
+    },
+    {
+      "id": "1c2f1630-fa4e-4f65-b919-50df15788d70",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T07:43:26.304+00:00",
+      "heartbeat": "2025-08-27T07:46:44.457+00:00",
+      "session_token": "session_1756280714700_1l4h6pv0z3k",
+      "is_active": false,
+      "created_at": "2025-08-27T07:43:27.260942+00:00"
+    },
+    {
+      "id": "79244e12-62ec-47d7-9c16-589530ece314",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T04:06:15.924+00:00",
+      "heartbeat": "2025-08-25T04:08:17.707+00:00",
+      "session_token": "session_1756094775645_n24zyu4nba",
+      "is_active": false,
+      "created_at": "2025-08-25T04:06:16.012218+00:00"
+    },
+    {
+      "id": "f297ccb5-7614-4ede-b0fd-02d0b84b0e67",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T11:08:26.168+00:00",
+      "heartbeat": "2025-08-27T11:09:34.002+00:00",
+      "session_token": "session_1756292905843_rwqcq3fyxo",
+      "is_active": false,
+      "created_at": "2025-08-27T11:08:27.146422+00:00"
+    },
+    {
+      "id": "95fae36e-a8b0-4ecb-91bb-b07ed1fe4e8c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T23:03:39.698+00:00",
+      "heartbeat": "2025-08-26T23:09:21.18+00:00",
+      "session_token": "session_1756249418985_98zvpsq50td",
+      "is_active": false,
+      "created_at": "2025-08-26T23:03:40.542896+00:00"
+    },
+    {
+      "id": "810fdb8c-c89a-47fa-9315-560d273366ba",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T17:02:22.467+00:00",
+      "heartbeat": "2025-08-31T17:32:33.997+00:00",
+      "session_token": "session_1756660266721_wpt5srekosq",
+      "is_active": false,
+      "created_at": "2025-08-31T17:02:23.530692+00:00"
+    },
+    {
+      "id": "598adcb2-41a4-4bac-b5d4-48e92899e8bb",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T07:16:45.566+00:00",
+      "heartbeat": "2025-09-01T07:23:31.748+00:00",
+      "session_token": "session_1756711005213_qf3m83qma0a",
+      "is_active": false,
+      "created_at": "2025-09-01T07:16:46.708532+00:00"
+    },
+    {
+      "id": "4797c094-f807-4d56-814b-cdc02bf23477",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T16:00:49.983+00:00",
+      "heartbeat": "2025-08-31T16:05:00.62+00:00",
+      "session_token": "session_1756656049588_8cbd354non4",
+      "is_active": false,
+      "created_at": "2025-08-31T16:00:51.110851+00:00"
+    },
+    {
+      "id": "f90fc953-d3a7-451e-ac4a-f70b39c6a66c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T13:20:01.124+00:00",
+      "heartbeat": "2025-08-28T13:22:08.495+00:00",
+      "session_token": "session_1756387199889_b4xvlzxajgl",
+      "is_active": false,
+      "created_at": "2025-08-28T13:20:02.041205+00:00"
+    },
+    {
+      "id": "d3de7807-76d4-45fc-98d4-a9b05940a080",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T07:20:38.737+00:00",
+      "heartbeat": "2025-08-31T07:57:07.297+00:00",
+      "session_token": "session_1756624838123_r02w2zizf6",
+      "is_active": false,
+      "created_at": "2025-08-31T07:20:39.754131+00:00"
+    },
+    {
+      "id": "99abece0-2ecf-46f3-af42-a4233cf73e65",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T14:52:09.389+00:00",
+      "heartbeat": "2025-08-25T14:52:43.258+00:00",
+      "session_token": "session_1756133529203_qay86opa91",
+      "is_active": false,
+      "created_at": "2025-08-25T14:52:09.179461+00:00"
+    },
+    {
+      "id": "45710d3f-5e92-4179-8e1d-589021b35226",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T10:51:19.476+00:00",
+      "heartbeat": "2025-08-27T11:03:58.368+00:00",
+      "session_token": "session_1756291878260_kt7r9yevsf",
+      "is_active": false,
+      "created_at": "2025-08-27T10:51:20.457219+00:00"
+    },
+    {
+      "id": "69decf54-0869-4d8c-a407-7447b03d1f07",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T13:29:05.571+00:00",
+      "heartbeat": "2025-08-31T13:30:41.929+00:00",
+      "session_token": "session_1756646945349_bjpguv1o665",
+      "is_active": false,
+      "created_at": "2025-08-31T13:29:06.623562+00:00"
+    },
+    {
+      "id": "1c7829fc-724b-499f-96e3-767e3cd86e9c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T18:15:26.569+00:00",
+      "heartbeat": "2025-08-29T18:26:29.444+00:00",
+      "session_token": "session_1756491986943_3baod5leg8s",
+      "is_active": false,
+      "created_at": "2025-08-29T18:15:26.752355+00:00"
+    },
+    {
+      "id": "4193895f-0199-41a1-acf5-17b2f22451eb",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T06:27:30.946+00:00",
+      "heartbeat": "2025-08-26T11:06:50.931+00:00",
+      "session_token": "session_1756206401757_spfxmjz49i",
+      "is_active": false,
+      "created_at": "2025-08-26T06:27:31.547279+00:00"
+    },
+    {
+      "id": "aded9141-6db9-4624-b670-b69400898614",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T19:23:14.653+00:00",
+      "heartbeat": "2025-08-31T19:43:25.349+00:00",
+      "session_token": "session_1756668194391_qzuh5jkjjif",
+      "is_active": false,
+      "created_at": "2025-08-31T19:23:15.800636+00:00"
+    },
+    {
+      "id": "3b3a9e52-4616-410c-9cbd-8f8a42d8ce29",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T06:11:19.963+00:00",
+      "heartbeat": "2025-08-31T06:48:40.223+00:00",
+      "session_token": "session_1756620679478_kru8pqjv8bc",
+      "is_active": false,
+      "created_at": "2025-08-31T06:11:20.92468+00:00"
+    },
+    {
+      "id": "8b11857d-41cb-4e78-b4cd-7d3aecb00f5d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-30T21:14:00.891+00:00",
+      "heartbeat": "2025-08-30T21:21:35.77+00:00",
+      "session_token": "session_1756588621929_iu7cgvxgqc",
+      "is_active": false,
+      "created_at": "2025-08-30T21:14:01.281669+00:00"
+    },
+    {
+      "id": "c552f9ca-5840-4035-8025-8f7cc6a7ffa0",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T16:10:58.269+00:00",
+      "heartbeat": "2025-08-31T16:56:12.116+00:00",
+      "session_token": "session_1756659093450_mhba1y24bh",
+      "is_active": false,
+      "created_at": "2025-08-31T16:10:59.348527+00:00"
+    },
+    {
+      "id": "99095d6d-7101-4a4f-a1c8-d3bfa55aeb68",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T06:58:10.217+00:00",
+      "heartbeat": "2025-08-31T07:04:18.757+00:00",
+      "session_token": "session_1756623489964_ib4s02qfbs",
+      "is_active": false,
+      "created_at": "2025-08-31T06:58:11.101908+00:00"
+    },
+    {
+      "id": "402a8236-fa20-4642-abb8-b02bf5a8b159",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T12:25:58.063+00:00",
+      "heartbeat": "2025-08-31T13:06:24.987+00:00",
+      "session_token": "session_1756643157157_ffelmdlsk2s",
+      "is_active": false,
+      "created_at": "2025-08-31T12:25:59.195349+00:00"
+    },
+    {
+      "id": "12f89dc7-2fc1-4c06-a8ef-fa671e7ae780",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T06:28:46.008+00:00",
+      "heartbeat": "2025-08-27T07:17:50.797+00:00",
+      "session_token": "session_1756276125524_g4uvhz7y3e7",
+      "is_active": false,
+      "created_at": "2025-08-27T06:28:46.883962+00:00"
+    },
+    {
+      "id": "29cd40a2-6730-41b1-9fc1-e7269efec513",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:07:36.638+00:00",
+      "heartbeat": "2025-08-27T05:12:21.778+00:00",
+      "session_token": "session_1756271308422_i34uzhdvhu",
+      "is_active": false,
+      "created_at": "2025-08-27T05:07:37.448036+00:00"
+    },
+    {
+      "id": "ab77b8fb-6853-41a8-b61b-8a612367824e",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T23:42:16.331+00:00",
+      "heartbeat": "2025-08-26T23:48:20.706+00:00",
+      "session_token": "session_1756251735881_fvbq2fextdn",
+      "is_active": false,
+      "created_at": "2025-08-26T23:42:17.124542+00:00"
+    },
+    {
+      "id": "1ca5c6a4-be54-4998-b2cc-fbc466157aea",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-01T15:40:49.016+00:00",
+      "heartbeat": "2025-09-01T15:51:07.457+00:00",
+      "session_token": "session_1756741248685_88gt7a3fogy",
+      "is_active": false,
+      "created_at": "2025-09-01T15:40:49.18584+00:00"
+    },
+    {
+      "id": "38f8dde5-5866-4c43-bd33-8ff7b8f28fbf",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-31T14:05:24.135+00:00",
+      "heartbeat": "2025-08-31T14:26:24.038+00:00",
+      "session_token": "session_1756649123864_j3kv2unftx",
+      "is_active": false,
+      "created_at": "2025-08-31T14:05:25.201375+00:00"
+    },
+    {
+      "id": "1944d19d-e86e-4150-87d6-1966a6444aeb",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-09-19T08:00:23.374+00:00",
+      "heartbeat": "2025-09-19T08:01:26.172+00:00",
+      "session_token": "session_1758268823130_hpr2pyn1kai",
+      "is_active": false,
+      "created_at": "2025-09-19T08:00:22.915224+00:00"
+    },
+    {
+      "id": "fbf9b0c9-3e97-4cdb-93be-62c3c34fc616",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T12:47:18.53+00:00",
+      "heartbeat": "2025-08-29T12:47:24.599+00:00",
+      "session_token": "session_1756471638324_v4e3r3j4tm",
+      "is_active": false,
+      "created_at": "2025-08-29T12:47:19.626089+00:00"
+    },
+    {
+      "id": "13f9d06e-c24a-4dfa-9bfc-6cfe8fd35331",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T09:53:08.587+00:00",
+      "heartbeat": "2025-08-29T09:56:14.267+00:00",
+      "session_token": "session_1756461188149_z3adg6r14um",
+      "is_active": false,
+      "created_at": "2025-08-29T09:53:09.61993+00:00"
+    },
+    {
+      "id": "a81d6b6b-c88f-436b-b982-f264a23d5a6f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T06:50:24.466+00:00",
+      "heartbeat": "2025-08-29T06:53:28.556+00:00",
+      "session_token": "session_1756450223998_zekl06sjywp",
+      "is_active": false,
+      "created_at": "2025-08-29T06:50:25.479189+00:00"
+    },
+    {
+      "id": "8426731a-148f-41ca-aba0-956492c42a49",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T05:32:31.292+00:00",
+      "heartbeat": "2025-08-29T05:35:54.108+00:00",
+      "session_token": "session_1756445550893_nm9f0fv1mbk",
+      "is_active": false,
+      "created_at": "2025-08-29T05:32:32.509389+00:00"
+    },
+    {
+      "id": "9e985aa5-c771-4a41-a115-657a9d03a47b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T05:19:30.446+00:00",
+      "heartbeat": "2025-08-29T05:25:02.33+00:00",
+      "session_token": "session_1756444769290_4c0nyx9x7wj",
+      "is_active": false,
+      "created_at": "2025-08-29T05:19:31.569137+00:00"
+    },
+    {
+      "id": "55df77c3-9b6e-4a18-95f8-6b9b3a500fa0",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T21:13:56.566+00:00",
+      "heartbeat": "2025-08-28T21:28:38.157+00:00",
+      "session_token": "session_1756415636164_odqgyw9elj",
+      "is_active": false,
+      "created_at": "2025-08-28T21:13:57.667522+00:00"
+    },
+    {
+      "id": "6e37bad7-02bc-4584-8007-3fb54d50635c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T20:37:53.139+00:00",
+      "heartbeat": "2025-08-28T20:44:04.288+00:00",
+      "session_token": "session_1756413764994_2bow9feo5au",
+      "is_active": false,
+      "created_at": "2025-08-28T20:37:54.143823+00:00"
+    },
+    {
+      "id": "2062dce7-4831-4155-8020-edc3e1d1c2d8",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T20:21:22.127+00:00",
+      "heartbeat": "2025-08-28T20:28:56.774+00:00",
+      "session_token": "session_1756412629826_c57il7ejars",
+      "is_active": false,
+      "created_at": "2025-08-28T20:21:23.151544+00:00"
+    },
+    {
+      "id": "84618863-42b6-4c38-a41a-ec729813523e",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T23:27:33.947+00:00",
+      "heartbeat": "2025-08-26T23:32:57.624+00:00",
+      "session_token": "session_1756250853663_i8hthicvc4j",
+      "is_active": false,
+      "created_at": "2025-08-26T23:27:34.84429+00:00"
+    },
+    {
+      "id": "7adb19e6-39f2-40df-b04e-8729448e96f2",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:40:51.538+00:00",
+      "heartbeat": "2025-08-27T05:42:00.416+00:00",
+      "session_token": "session_1756273250904_dc5qpshpt9f",
+      "is_active": false,
+      "created_at": "2025-08-27T05:40:52.366046+00:00"
+    },
+    {
+      "id": "c4e915b1-6068-49a1-a0b3-6dd727dd8f3f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T07:30:52.615+00:00",
+      "heartbeat": "2025-08-27T07:37:01.037+00:00",
+      "session_token": "session_1756279852378_uxelodh9hv",
+      "is_active": false,
+      "created_at": "2025-08-27T07:30:53.481141+00:00"
+    },
+    {
+      "id": "ac4ad4a8-a81b-4094-9ca2-76f3a813e0d7",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T13:57:33.841+00:00",
+      "heartbeat": "2025-08-29T14:00:27.032+00:00",
+      "session_token": "session_1756475853570_672d8o0wp1",
+      "is_active": false,
+      "created_at": "2025-08-29T13:57:34.970233+00:00"
+    },
+    {
+      "id": "44c04e27-0c94-4789-bdd7-097e1b7a48d5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T16:19:26.149+00:00",
+      "heartbeat": "2025-08-28T16:26:06.585+00:00",
+      "session_token": "session_1756397965195_zyzzntfmob",
+      "is_active": false,
+      "created_at": "2025-08-28T16:19:27.145082+00:00"
+    },
+    {
+      "id": "0ebb518f-2700-4425-8295-3ec1d90e7375",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T09:29:37.765+00:00",
+      "heartbeat": "2025-08-29T09:32:46.074+00:00",
+      "session_token": "session_1756459777387_ezed0uo834g",
+      "is_active": false,
+      "created_at": "2025-08-29T09:29:38.84702+00:00"
+    },
+    {
+      "id": "bb26b71a-1d45-4820-b742-2a7190677e68",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T12:00:02.818+00:00",
+      "heartbeat": "2025-08-28T12:01:07.36+00:00",
+      "session_token": "session_1756382402604_yor4wsy1h5o",
+      "is_active": false,
+      "created_at": "2025-08-28T12:00:03.669742+00:00"
+    },
+    {
+      "id": "3e692a30-5e0a-4d43-9c06-1a6f0491e667",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T11:41:41.284+00:00",
+      "heartbeat": "2025-08-28T11:54:57.215+00:00",
+      "session_token": "session_1756381300750_d4vdji4qavq",
+      "is_active": false,
+      "created_at": "2025-08-28T11:41:42.145371+00:00"
+    },
+    {
+      "id": "a6105d12-329f-4275-8f83-2981ca2662a3",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T11:18:07.561+00:00",
+      "heartbeat": "2025-08-28T11:24:07.087+00:00",
+      "session_token": "session_1756379887070_nktdysjr0lk",
+      "is_active": false,
+      "created_at": "2025-08-28T11:18:08.455664+00:00"
+    },
+    {
+      "id": "fd844f9b-10e8-45ce-a381-92e087ec6f6a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T20:47:08.921+00:00",
+      "heartbeat": "2025-08-28T21:09:31.842+00:00",
+      "session_token": "session_1756414028686_gxw719jc98c",
+      "is_active": false,
+      "created_at": "2025-08-28T20:47:09.882214+00:00"
+    },
+    {
+      "id": "89f623d1-9dbb-4a43-b7c3-77ee172cf3d6",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T21:39:45.463+00:00",
+      "heartbeat": "2025-08-28T22:23:19.46+00:00",
+      "session_token": "session_1756417184388_26dae70sd0l",
+      "is_active": false,
+      "created_at": "2025-08-28T21:39:46.521915+00:00"
+    },
+    {
+      "id": "34de64d0-ec2b-4146-9200-df6d677dbb58",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T13:00:31.576+00:00",
+      "heartbeat": "2025-08-27T13:39:49.133+00:00",
+      "session_token": "session_1756299631095_dkuztjcpn4u",
+      "is_active": false,
+      "created_at": "2025-08-27T13:00:32.560562+00:00"
+    },
+    {
+      "id": "6ac52555-e4d8-463a-96a7-45e7b23c1d06",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T07:22:39.154+00:00",
+      "heartbeat": "2025-08-27T07:24:45.672+00:00",
+      "session_token": "session_1756279358587_3md7tog73ii",
+      "is_active": false,
+      "created_at": "2025-08-27T07:22:40.177732+00:00"
+    },
+    {
+      "id": "00544dae-1662-4ee6-828d-381ccfef7857",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T11:34:14.206+00:00",
+      "heartbeat": "2025-08-28T11:35:22.12+00:00",
+      "session_token": "session_1756380853868_7oqaq8yv6g6",
+      "is_active": false,
+      "created_at": "2025-08-28T11:34:15.055859+00:00"
+    },
+    {
+      "id": "50ba352d-0b3a-4045-b008-3db6f04c2a5b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T19:53:50.135+00:00",
+      "heartbeat": "2025-08-28T20:05:33.705+00:00",
+      "session_token": "session_1756411165827_9iujvwz61bh",
+      "is_active": false,
+      "created_at": "2025-08-28T19:53:51.201606+00:00"
+    },
+    {
+      "id": "c9c29f44-9f1c-484a-9acd-3037208dedc7",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T21:33:11.858+00:00",
+      "heartbeat": "2025-08-24T21:46:13.168+00:00",
+      "session_token": "session_1756071971002_sbkc91l3kpf",
+      "is_active": false,
+      "created_at": "2025-08-24T21:33:12.407896+00:00"
+    },
+    {
+      "id": "69e93704-4690-4f3e-9a42-210fdb20f6e5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-29T12:47:56.735+00:00",
+      "heartbeat": "2025-08-29T12:49:00.834+00:00",
+      "session_token": "session_1756471676618_p2h5lp8y5ei",
+      "is_active": false,
+      "created_at": "2025-08-29T12:47:57.807604+00:00"
+    },
+    {
+      "id": "784c687e-274c-49e1-abbd-fedbfcc2fe97",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T17:58:14.09+00:00",
+      "heartbeat": "2025-08-28T18:02:51.204+00:00",
+      "session_token": "session_1756403903690_ntqr76a2vom",
+      "is_active": false,
+      "created_at": "2025-08-28T17:58:15.058443+00:00"
+    },
+    {
+      "id": "2319640a-a622-49f1-9312-dd1593ea6e5a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T23:58:28.307+00:00",
+      "heartbeat": "2025-08-27T00:02:19.021+00:00",
+      "session_token": "session_1756252807306_5iooeftby2m",
+      "is_active": false,
+      "created_at": "2025-08-26T23:58:29.144875+00:00"
+    },
+    {
+      "id": "a4c2735f-d6ad-437e-bc64-911bc8c51a0c",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T17:32:19.172+00:00",
+      "heartbeat": "2025-08-26T17:45:01.72+00:00",
+      "session_token": "session_1756229735344_9pbiaxjvnbb",
+      "is_active": false,
+      "created_at": "2025-08-26T17:32:19.923612+00:00"
+    },
+    {
+      "id": "513ca001-a12a-4d4b-9fd0-94c6b9510cee",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T19:27:55.587+00:00",
+      "heartbeat": "2025-08-28T19:29:50.58+00:00",
+      "session_token": "session_1756409288525_ekpalkcwtk",
+      "is_active": false,
+      "created_at": "2025-08-28T19:27:56.628531+00:00"
+    },
+    {
+      "id": "448f14a9-0141-4611-b474-57c8ce16de88",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T16:25:17.91+00:00",
+      "heartbeat": "2025-08-26T16:25:45.588+00:00",
+      "session_token": "session_1756225517442_wberfluea7",
+      "is_active": false,
+      "created_at": "2025-08-26T16:25:18.837056+00:00"
+    },
+    {
+      "id": "97ed37ca-37c0-4674-aa8b-24ad542a67f6",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T17:14:48.275+00:00",
+      "heartbeat": "2025-08-28T17:44:08.927+00:00",
+      "session_token": "session_1756401287573_6qjh1q119a4",
+      "is_active": false,
+      "created_at": "2025-08-28T17:14:49.299183+00:00"
+    },
+    {
+      "id": "95361de6-b564-421c-8100-f2c43ccc5e1a",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T16:25:59.547+00:00",
+      "heartbeat": "2025-08-26T16:27:37.877+00:00",
+      "session_token": "session_1756225559314_aqsjrdz2zap",
+      "is_active": false,
+      "created_at": "2025-08-26T16:26:00.203366+00:00"
+    },
+    {
+      "id": "0e3da8a5-4e47-43f6-9099-e8f4d51960ed",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T21:05:59.713+00:00",
+      "heartbeat": "2025-08-26T21:08:37.913+00:00",
+      "session_token": "session_1756242359199_ahybvx8srgo",
+      "is_active": false,
+      "created_at": "2025-08-26T21:06:00.507812+00:00"
+    },
+    {
+      "id": "4e3ad22c-4142-4c07-ba92-07d130521de4",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T18:19:52.052+00:00",
+      "heartbeat": "2025-08-28T18:24:35.209+00:00",
+      "session_token": "session_1756405201198_vuitzkdjlen",
+      "is_active": false,
+      "created_at": "2025-08-28T18:19:53.116895+00:00"
+    },
+    {
+      "id": "7b290034-af3d-4012-93c4-12f3b1087e46",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T17:44:20.052+00:00",
+      "heartbeat": "2025-08-28T17:51:16.311+00:00",
+      "session_token": "session_1756403230044_7i4w2lnzc0s",
+      "is_active": false,
+      "created_at": "2025-08-28T17:44:20.961911+00:00"
+    },
+    {
+      "id": "83f1aeec-06b2-45d0-b8e1-8baf8a50fb68",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T16:33:06.347+00:00",
+      "heartbeat": "2025-08-28T16:43:54.356+00:00",
+      "session_token": "session_1756398785986_k0xkkldwg1m",
+      "is_active": false,
+      "created_at": "2025-08-28T16:33:07.298359+00:00"
+    },
+    {
+      "id": "d553788c-71cc-47f3-8f4e-e4c4ae83c20b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:53:21.305+00:00",
+      "heartbeat": "2025-08-27T05:54:31.933+00:00",
+      "session_token": "session_1756274000865_7s0iurdd1uj",
+      "is_active": false,
+      "created_at": "2025-08-27T05:53:22.167709+00:00"
+    },
+    {
+      "id": "af7d61f2-e346-4f1f-82d5-7f0ba2e91fe4",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T19:30:56.587+00:00",
+      "heartbeat": "2025-08-26T19:32:05.471+00:00",
+      "session_token": "session_1756236655942_gdn5sov579w",
+      "is_active": false,
+      "created_at": "2025-08-26T19:30:57.427551+00:00"
+    },
+    {
+      "id": "acb54a87-b7b5-42b0-a5bf-17cce45f8e35",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-28T19:16:51.146+00:00",
+      "heartbeat": "2025-08-28T19:22:27.919+00:00",
+      "session_token": "session_1756408633092_wd1olx0hg0m",
+      "is_active": false,
+      "created_at": "2025-08-28T19:16:52.081415+00:00"
+    },
+    {
+      "id": "ee487213-6768-4c4f-8f5a-bd81948ec1a0",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-22T22:09:51.798+00:00",
+      "heartbeat": "2025-08-22T22:11:47.019+00:00",
+      "session_token": "session_1755900591089_by8srsw55lb",
+      "is_active": false,
+      "created_at": "2025-08-22T22:09:51.081783+00:00"
+    },
+    {
+      "id": "44ffa654-fdfa-45d2-aded-3a10ad3fd6ea",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T05:01:59.075+00:00",
+      "heartbeat": "2025-08-27T05:07:27.462+00:00",
+      "session_token": "session_1756270918711_coz67o4y9dr",
+      "is_active": false,
+      "created_at": "2025-08-27T05:01:59.934642+00:00"
+    },
+    {
+      "id": "cbe264fe-8d4e-4934-a9a2-9354ce81857d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T04:22:46.855+00:00",
+      "heartbeat": "2025-08-25T04:23:56.547+00:00",
+      "session_token": "session_1756095766572_fri0oethtkv",
+      "is_active": false,
+      "created_at": "2025-08-25T04:22:46.992756+00:00"
+    },
+    {
+      "id": "d2f31d10-202e-4424-965b-f3f565196bb9",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T21:48:35.611+00:00",
+      "heartbeat": "2025-08-24T21:55:33.484+00:00",
+      "session_token": "session_1756072115276_ea2eup2wea6",
+      "is_active": false,
+      "created_at": "2025-08-24T21:48:35.852034+00:00"
+    },
+    {
+      "id": "cd0c4f4a-7579-45b1-9603-c63152bd96d5",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T14:52:59.63+00:00",
+      "heartbeat": "2025-08-25T14:54:19.61+00:00",
+      "session_token": "session_1756133579493_g2k4x5ay1qc",
+      "is_active": false,
+      "created_at": "2025-08-25T14:52:59.405426+00:00"
+    },
+    {
+      "id": "4b7b5552-90eb-4272-832d-00a1acd5547d",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-27T06:00:54.34+00:00",
+      "heartbeat": "2025-08-27T06:13:04.487+00:00",
+      "session_token": "session_1756274453817_42t3uxu2nyr",
+      "is_active": false,
+      "created_at": "2025-08-27T06:00:55.278555+00:00"
+    },
+    {
+      "id": "f2b4542c-9b15-4a0b-912c-7b9aea45d108",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T11:12:55.093+00:00",
+      "heartbeat": "2025-08-25T11:50:37.198+00:00",
+      "session_token": "session_1756120374737_rw6kzhw75m",
+      "is_active": false,
+      "created_at": "2025-08-25T11:12:54.958656+00:00"
+    },
+    {
+      "id": "10b55e95-a7da-486c-815f-9cacfbcd9110",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T20:48:34.062+00:00",
+      "heartbeat": "2025-08-26T20:49:49.04+00:00",
+      "session_token": "session_1756241313761_8tzgv0ce41",
+      "is_active": false,
+      "created_at": "2025-08-26T20:48:34.827666+00:00"
+    },
+    {
+      "id": "a9fae2e9-c50b-446d-9fb5-9c3583125c6b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T19:40:50.104+00:00",
+      "heartbeat": "2025-08-26T19:41:57.304+00:00",
+      "session_token": "session_1756237249298_m5b0mf9ymi",
+      "is_active": false,
+      "created_at": "2025-08-26T19:40:50.870269+00:00"
+    },
+    {
+      "id": "178c6d08-c23a-42e3-8f24-03e6644ad6a4",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T11:37:41.768+00:00",
+      "heartbeat": "2025-08-26T11:38:13.301+00:00",
+      "session_token": "session_1756208260950_8raxqr4nxrc",
+      "is_active": false,
+      "created_at": "2025-08-26T11:37:42.395173+00:00"
+    },
+    {
+      "id": "e7f8a3e8-715b-4e34-b88b-4ff30b7edfd1",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T19:46:24.394+00:00",
+      "heartbeat": "2025-08-26T19:50:01.541+00:00",
+      "session_token": "session_1756237584175_jazhbxbnhsn",
+      "is_active": false,
+      "created_at": "2025-08-26T19:46:25.123358+00:00"
+    },
+    {
+      "id": "69f0fdaf-3ce6-4f04-a49c-7209802b05ac",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-24T21:55:56.25+00:00",
+      "heartbeat": "2025-08-24T21:58:00.572+00:00",
+      "session_token": "session_1756072556078_j3m4eyle55",
+      "is_active": false,
+      "created_at": "2025-08-24T21:55:56.475768+00:00"
+    },
+    {
+      "id": "0773b634-4865-4592-9bd3-d553b98b57ff",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T20:52:22.565+00:00",
+      "heartbeat": "2025-08-26T20:54:24.917+00:00",
+      "session_token": "session_1756241541640_e4qkayvvxkd",
+      "is_active": false,
+      "created_at": "2025-08-26T20:52:23.303348+00:00"
+    },
+    {
+      "id": "7e6763e2-3f00-41be-92d7-5020e31c934f",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-22T22:12:05.444+00:00",
+      "heartbeat": "2025-08-22T22:12:07.478+00:00",
+      "session_token": "session_1755900724839_u1ocqxatapl",
+      "is_active": false,
+      "created_at": "2025-08-22T22:12:04.708833+00:00"
+    },
+    {
+      "id": "bd96e529-71e5-4d1a-afc6-2e1dfff11b20",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T15:07:02.042+00:00",
+      "heartbeat": "2025-08-25T15:18:51.536+00:00",
+      "session_token": "session_1756134421701_04p21b8dpljx",
+      "is_active": false,
+      "created_at": "2025-08-25T15:07:01.869257+00:00"
+    },
+    {
+      "id": "ecc15762-d642-4c11-b2ca-efdccbdcd760",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-26T18:27:03.752+00:00",
+      "heartbeat": "2025-08-26T18:28:28.591+00:00",
+      "session_token": "session_1756232823389_ivrkp5gwzi",
+      "is_active": false,
+      "created_at": "2025-08-26T18:27:04.501287+00:00"
+    },
+    {
+      "id": "efb286ba-b11a-45ea-82d1-9eb429ac882b",
+      "admin_user_id": "841701d8-5b82-490b-a4f6-15643f4fb490",
+      "email_admin": "mathieu@aclef.fr",
+      "session_start": "2025-08-25T03:54:32.001+00:00",
+      "heartbeat": "2025-08-25T04:01:36.974+00:00",
+      "session_token": "session_1756094071520_nrv4l1q98a",
+      "is_active": false,
+      "created_at": "2025-08-25T03:54:32.202203+00:00"
+    }
+  ],
+  "count": 340,
+  "timestamp": "2025-09-28T01:18:26.245Z"
+}
