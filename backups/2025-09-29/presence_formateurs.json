@@ -1,0 +1,77 @@
+{
+  "table": "presence_formateurs",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "formateur_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "periode",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "lieu",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "present",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-19",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-09-19T07:29:13.700665+00:00",
+      "updated_at": "2025-09-19T07:31:51.090238+00:00"
+    },
+    {
+      "id": 2,
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-18",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-09-19T07:45:20.061845+00:00",
+      "updated_at": "2025-09-19T07:45:20.061845+00:00"
+    }
+  ],
+  "count": 2,
+  "timestamp": "2025-09-29T01:13:28.917Z"
+}
