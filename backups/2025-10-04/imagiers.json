@@ -1,0 +1,114 @@
+{
+  "table": "imagiers",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "titre",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "theme",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "description",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_by",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "titre": "Imagier Les Ustensiles de Cuisine",
+      "theme": "les ustensiles de cuisine",
+      "description": "Apprenons le vocabulaire de la cuisine !",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:02:34.435+00:00",
+      "updated_at": "2025-09-16T22:02:33.874488+00:00"
+    },
+    {
+      "id": 2,
+      "titre": "Imagier Les Outils du Maçon",
+      "theme": "les outils du maçon",
+      "description": "Apprenons le vocabulaire des outils du maçon !",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:06:54.541+00:00",
+      "updated_at": "2025-09-16T22:06:53.784444+00:00"
+    },
+    {
+      "id": 3,
+      "titre": "Imagier Les outils de l'agent d'entretien",
+      "theme": "Les outils de l'agent d'entretien des locaux",
+      "description": "Apprenons le vocabulaire des outils de nettoyage !",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:11:14.846+00:00",
+      "updated_at": "2025-09-16T22:11:14.050252+00:00"
+    },
+    {
+      "id": 4,
+      "titre": "Imagier Les outils du pâtissier",
+      "theme": "Les outils du pâtissier",
+      "description": "Apprenons les outils utilisés pour faire de délicieux gâteaux !",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:13:52.805+00:00",
+      "updated_at": "2025-09-16T22:13:51.926623+00:00"
+    },
+    {
+      "id": 5,
+      "titre": "Imagier Les outils du boulanger",
+      "theme": "Les outils du boulanger",
+      "description": "Apprenons le vocabulaire des outils utilisés par le boulanger !",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:15:56.57+00:00",
+      "updated_at": "2025-09-16T22:15:55.958759+00:00"
+    },
+    {
+      "id": 6,
+      "titre": "Imagier Les Outils du Menuisier",
+      "theme": "Les outils du menuisier",
+      "description": "Apprenons à connaître les outils du menuisier !",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:17:54.17+00:00",
+      "updated_at": "2025-09-16T22:17:53.283662+00:00"
+    },
+    {
+      "id": 7,
+      "titre": "Imagier Les Outils du Paysagiste",
+      "theme": "Les outils du paysagiste",
+      "description": "Découvre les outils utilisés par les paysagistes pour embellir les jardins.",
+      "created_by": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-16T22:26:09.887+00:00",
+      "updated_at": "2025-09-16T22:26:09.342281+00:00"
+    }
+  ],
+  "count": 7,
+  "timestamp": "2025-10-04T01:07:43.461Z"
+}
