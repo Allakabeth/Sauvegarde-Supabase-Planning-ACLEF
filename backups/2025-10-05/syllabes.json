@@ -1,0 +1,1782 @@
+{
+  "table": "syllabes",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot_extrait_id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "syllabe",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "position_syllabe",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 667,
+      "mot_extrait_id": 269,
+      "syllabe": "re",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:37.464407"
+    },
+    {
+      "id": 668,
+      "mot_extrait_id": 269,
+      "syllabe": "gre",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:37.464407"
+    },
+    {
+      "id": 669,
+      "mot_extrait_id": 269,
+      "syllabe": "tte",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:37.464407"
+    },
+    {
+      "id": 670,
+      "mot_extrait_id": 269,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:37.464407"
+    },
+    {
+      "id": 673,
+      "mot_extrait_id": 271,
+      "syllabe": "phi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:37.649391"
+    },
+    {
+      "id": 674,
+      "mot_extrait_id": 271,
+      "syllabe": "lo",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:37.649391"
+    },
+    {
+      "id": 675,
+      "mot_extrait_id": 271,
+      "syllabe": "so",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:37.649391"
+    },
+    {
+      "id": 676,
+      "mot_extrait_id": 271,
+      "syllabe": "phie",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:37.649391"
+    },
+    {
+      "id": 679,
+      "mot_extrait_id": 273,
+      "syllabe": "re",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:37.858539"
+    },
+    {
+      "id": 680,
+      "mot_extrait_id": 273,
+      "syllabe": "ga",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:37.858539"
+    },
+    {
+      "id": 681,
+      "mot_extrait_id": 273,
+      "syllabe": "rde",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:37.858539"
+    },
+    {
+      "id": 682,
+      "mot_extrait_id": 273,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:37.858539"
+    },
+    {
+      "id": 685,
+      "mot_extrait_id": 275,
+      "syllabe": "ave",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.0874"
+    },
+    {
+      "id": 615,
+      "mot_extrait_id": 248,
+      "syllabe": "sui",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.421921"
+    },
+    {
+      "id": 616,
+      "mot_extrait_id": 248,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.421921"
+    },
+    {
+      "id": 619,
+      "mot_extrait_id": 250,
+      "syllabe": "roya",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.597375"
+    },
+    {
+      "id": 620,
+      "mot_extrait_id": 250,
+      "syllabe": "n",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.597375"
+    },
+    {
+      "id": 623,
+      "mot_extrait_id": 252,
+      "syllabe": "me",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.772069"
+    },
+    {
+      "id": 624,
+      "mot_extrait_id": 252,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.772069"
+    },
+    {
+      "id": 627,
+      "mot_extrait_id": 254,
+      "syllabe": "enfa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.976815"
+    },
+    {
+      "id": 628,
+      "mot_extrait_id": 254,
+      "syllabe": "nts",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.976815"
+    },
+    {
+      "id": 632,
+      "mot_extrait_id": 256,
+      "syllabe": "fi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.14056"
+    },
+    {
+      "id": 633,
+      "mot_extrait_id": 256,
+      "syllabe": "lle",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.14056"
+    },
+    {
+      "id": 637,
+      "mot_extrait_id": 258,
+      "syllabe": "ado",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.306353"
+    },
+    {
+      "id": 638,
+      "mot_extrait_id": 258,
+      "syllabe": "rai",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.306353"
+    },
+    {
+      "id": 639,
+      "mot_extrait_id": 258,
+      "syllabe": "t",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.306353"
+    },
+    {
+      "id": 642,
+      "mot_extrait_id": 260,
+      "syllabe": "me",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.47635"
+    },
+    {
+      "id": 643,
+      "mot_extrait_id": 260,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.47635"
+    },
+    {
+      "id": 647,
+      "mot_extrait_id": 262,
+      "syllabe": "de",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.63859"
+    },
+    {
+      "id": 648,
+      "mot_extrait_id": 262,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.63859"
+    },
+    {
+      "id": 652,
+      "mot_extrait_id": 264,
+      "syllabe": "sa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.777824"
+    },
+    {
+      "id": 653,
+      "mot_extrait_id": 264,
+      "syllabe": "ble",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.777824"
+    },
+    {
+      "id": 658,
+      "mot_extrait_id": 266,
+      "syllabe": "bro",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.935389"
+    },
+    {
+      "id": 659,
+      "mot_extrait_id": 266,
+      "syllabe": "nze",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.935389"
+    },
+    {
+      "id": 660,
+      "mot_extrait_id": 266,
+      "syllabe": "tte",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.935389"
+    },
+    {
+      "id": 663,
+      "mot_extrait_id": 268,
+      "syllabe": "ce",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:50.091961"
+    },
+    {
+      "id": 664,
+      "mot_extrait_id": 268,
+      "syllabe": "rf-vo",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:50.091961"
+    },
+    {
+      "id": 1086,
+      "mot_extrait_id": 444,
+      "syllabe": "de",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:49.556716"
+    },
+    {
+      "id": 1087,
+      "mot_extrait_id": 444,
+      "syllabe": "ux",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:49.556716"
+    },
+    {
+      "id": 1092,
+      "mot_extrait_id": 447,
+      "syllabe": "bo",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:49.938144"
+    },
+    {
+      "id": 1093,
+      "mot_extrait_id": 447,
+      "syllabe": "is",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:49.938144"
+    },
+    {
+      "id": 1100,
+      "mot_extrait_id": 450,
+      "syllabe": "hu",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.260922"
+    },
+    {
+      "id": 1101,
+      "mot_extrait_id": 450,
+      "syllabe": "it",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.260922"
+    },
+    {
+      "id": 1106,
+      "mot_extrait_id": 453,
+      "syllabe": "do",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.565331"
+    },
+    {
+      "id": 1107,
+      "mot_extrait_id": 453,
+      "syllabe": "uze",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.565331"
+    },
+    {
+      "id": 671,
+      "mot_extrait_id": 270,
+      "syllabe": "pa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:37.564388"
+    },
+    {
+      "id": 672,
+      "mot_extrait_id": 270,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:37.564388"
+    },
+    {
+      "id": 677,
+      "mot_extrait_id": 272,
+      "syllabe": "mê",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:37.733202"
+    },
+    {
+      "id": 678,
+      "mot_extrait_id": 272,
+      "syllabe": "me",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:37.733202"
+    },
+    {
+      "id": 683,
+      "mot_extrait_id": 274,
+      "syllabe": "pa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:37.94958"
+    },
+    {
+      "id": 684,
+      "mot_extrait_id": 274,
+      "syllabe": "ssé",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:37.94958"
+    },
+    {
+      "id": 687,
+      "mot_extrait_id": 276,
+      "syllabe": "tri",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.177085"
+    },
+    {
+      "id": 688,
+      "mot_extrait_id": 276,
+      "syllabe": "ste",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.177085"
+    },
+    {
+      "id": 689,
+      "mot_extrait_id": 276,
+      "syllabe": "sse",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:38.177085"
+    },
+    {
+      "id": 693,
+      "mot_extrait_id": 278,
+      "syllabe": "co",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.379775"
+    },
+    {
+      "id": 694,
+      "mot_extrait_id": 278,
+      "syllabe": "ntrai",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.379775"
+    },
+    {
+      "id": 617,
+      "mot_extrait_id": 249,
+      "syllabe": "pa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.512542"
+    },
+    {
+      "id": 618,
+      "mot_extrait_id": 249,
+      "syllabe": "rtie",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.512542"
+    },
+    {
+      "id": 621,
+      "mot_extrait_id": 251,
+      "syllabe": "ave",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.681227"
+    },
+    {
+      "id": 622,
+      "mot_extrait_id": 251,
+      "syllabe": "c",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.681227"
+    },
+    {
+      "id": 625,
+      "mot_extrait_id": 253,
+      "syllabe": "troi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:48.88173"
+    },
+    {
+      "id": 626,
+      "mot_extrait_id": 253,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:48.88173"
+    },
+    {
+      "id": 629,
+      "mot_extrait_id": 255,
+      "syllabe": "pe",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.061577"
+    },
+    {
+      "id": 630,
+      "mot_extrait_id": 255,
+      "syllabe": "ti",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.061577"
+    },
+    {
+      "id": 631,
+      "mot_extrait_id": 255,
+      "syllabe": "te",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.061577"
+    },
+    {
+      "id": 634,
+      "mot_extrait_id": 257,
+      "syllabe": "re",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.225588"
+    },
+    {
+      "id": 635,
+      "mot_extrait_id": 257,
+      "syllabe": "ne",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.225588"
+    },
+    {
+      "id": 636,
+      "mot_extrait_id": 257,
+      "syllabe": "smé",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.225588"
+    },
+    {
+      "id": 640,
+      "mot_extrait_id": 259,
+      "syllabe": "joue",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.376183"
+    },
+    {
+      "id": 641,
+      "mot_extrait_id": 259,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.376183"
+    },
+    {
+      "id": 644,
+      "mot_extrait_id": 261,
+      "syllabe": "fai",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.565565"
+    },
+    {
+      "id": 645,
+      "mot_extrait_id": 261,
+      "syllabe": "sai",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.565565"
+    },
+    {
+      "id": 646,
+      "mot_extrait_id": 261,
+      "syllabe": "t",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.565565"
+    },
+    {
+      "id": 649,
+      "mot_extrait_id": 263,
+      "syllabe": "châ",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.705451"
+    },
+    {
+      "id": 650,
+      "mot_extrait_id": 263,
+      "syllabe": "teau",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.705451"
+    },
+    {
+      "id": 651,
+      "mot_extrait_id": 263,
+      "syllabe": "x",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.705451"
+    },
+    {
+      "id": 654,
+      "mot_extrait_id": 265,
+      "syllabe": "pro",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:49.860025"
+    },
+    {
+      "id": 655,
+      "mot_extrait_id": 265,
+      "syllabe": "fi",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:49.860025"
+    },
+    {
+      "id": 656,
+      "mot_extrait_id": 265,
+      "syllabe": "tai",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:49.860025"
+    },
+    {
+      "id": 657,
+      "mot_extrait_id": 265,
+      "syllabe": "t",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:47:49.860025"
+    },
+    {
+      "id": 661,
+      "mot_extrait_id": 267,
+      "syllabe": "pai",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:47:50.006182"
+    },
+    {
+      "id": 662,
+      "mot_extrait_id": 267,
+      "syllabe": "ge",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:47:50.006182"
+    },
+    {
+      "id": 695,
+      "mot_extrait_id": 278,
+      "syllabe": "re",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:38.379775"
+    },
+    {
+      "id": 698,
+      "mot_extrait_id": 280,
+      "syllabe": "pre",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.569167"
+    },
+    {
+      "id": 699,
+      "mot_extrait_id": 280,
+      "syllabe": "ndre",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.569167"
+    },
+    {
+      "id": 702,
+      "mot_extrait_id": 282,
+      "syllabe": "co",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.752032"
+    },
+    {
+      "id": 703,
+      "mot_extrait_id": 282,
+      "syllabe": "nsta",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.752032"
+    },
+    {
+      "id": 704,
+      "mot_extrait_id": 282,
+      "syllabe": "te",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:38.752032"
+    },
+    {
+      "id": 705,
+      "mot_extrait_id": 282,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:38.752032"
+    },
+    {
+      "id": 708,
+      "mot_extrait_id": 284,
+      "syllabe": "cho",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.949846"
+    },
+    {
+      "id": 709,
+      "mot_extrait_id": 284,
+      "syllabe": "se",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.949846"
+    },
+    {
+      "id": 710,
+      "mot_extrait_id": 284,
+      "syllabe": "s",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:38.949846"
+    },
+    {
+      "id": 713,
+      "mot_extrait_id": 286,
+      "syllabe": "ensui",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.116871"
+    },
+    {
+      "id": 714,
+      "mot_extrait_id": 286,
+      "syllabe": "te",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.116871"
+    },
+    {
+      "id": 718,
+      "mot_extrait_id": 288,
+      "syllabe": "si",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.275754"
+    },
+    {
+      "id": 719,
+      "mot_extrait_id": 288,
+      "syllabe": "tua",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.275754"
+    },
+    {
+      "id": 720,
+      "mot_extrait_id": 288,
+      "syllabe": "tio",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:39.275754"
+    },
+    {
+      "id": 721,
+      "mot_extrait_id": 288,
+      "syllabe": "n",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:39.275754"
+    },
+    {
+      "id": 726,
+      "mot_extrait_id": 290,
+      "syllabe": "sui",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.447968"
+    },
+    {
+      "id": 727,
+      "mot_extrait_id": 290,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.447968"
+    },
+    {
+      "id": 730,
+      "mot_extrait_id": 292,
+      "syllabe": "plu",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.618843"
+    },
+    {
+      "id": 731,
+      "mot_extrait_id": 292,
+      "syllabe": "tô",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.618843"
+    },
+    {
+      "id": 732,
+      "mot_extrait_id": 292,
+      "syllabe": "t",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:39.618843"
+    },
+    {
+      "id": 736,
+      "mot_extrait_id": 294,
+      "syllabe": "sai",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.816148"
+    },
+    {
+      "id": 737,
+      "mot_extrait_id": 294,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.816148"
+    },
+    {
+      "id": 740,
+      "mot_extrait_id": 296,
+      "syllabe": "rê",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.9988"
+    },
+    {
+      "id": 741,
+      "mot_extrait_id": 296,
+      "syllabe": "ve",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.9988"
+    },
+    {
+      "id": 742,
+      "mot_extrait_id": 296,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:39.9988"
+    },
+    {
+      "id": 745,
+      "mot_extrait_id": 298,
+      "syllabe": "pa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.192191"
+    },
+    {
+      "id": 686,
+      "mot_extrait_id": 275,
+      "syllabe": "c",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.0874"
+    },
+    {
+      "id": 690,
+      "mot_extrait_id": 277,
+      "syllabe": "dé",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.269669"
+    },
+    {
+      "id": 691,
+      "mot_extrait_id": 277,
+      "syllabe": "plaî",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.269669"
+    },
+    {
+      "id": 692,
+      "mot_extrait_id": 277,
+      "syllabe": "t",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:38.269669"
+    },
+    {
+      "id": 696,
+      "mot_extrait_id": 279,
+      "syllabe": "ai",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.485559"
+    },
+    {
+      "id": 697,
+      "mot_extrait_id": 279,
+      "syllabe": "me",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.485559"
+    },
+    {
+      "id": 700,
+      "mot_extrait_id": 281,
+      "syllabe": "te",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.659601"
+    },
+    {
+      "id": 701,
+      "mot_extrait_id": 281,
+      "syllabe": "mps",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.659601"
+    },
+    {
+      "id": 706,
+      "mot_extrait_id": 283,
+      "syllabe": "le",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:38.84191"
+    },
+    {
+      "id": 707,
+      "mot_extrait_id": 283,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:38.84191"
+    },
+    {
+      "id": 711,
+      "mot_extrait_id": 285,
+      "syllabe": "pou",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.029516"
+    },
+    {
+      "id": 712,
+      "mot_extrait_id": 285,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.029516"
+    },
+    {
+      "id": 715,
+      "mot_extrait_id": 287,
+      "syllabe": "cha",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.195571"
+    },
+    {
+      "id": 716,
+      "mot_extrait_id": 287,
+      "syllabe": "nge",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.195571"
+    },
+    {
+      "id": 717,
+      "mot_extrait_id": 287,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:39.195571"
+    },
+    {
+      "id": 722,
+      "mot_extrait_id": 289,
+      "syllabe": "amé",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.367863"
+    },
+    {
+      "id": 723,
+      "mot_extrait_id": 289,
+      "syllabe": "lio",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.367863"
+    },
+    {
+      "id": 724,
+      "mot_extrait_id": 289,
+      "syllabe": "re",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:39.367863"
+    },
+    {
+      "id": 725,
+      "mot_extrait_id": 289,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:39.367863"
+    },
+    {
+      "id": 728,
+      "mot_extrait_id": 291,
+      "syllabe": "que",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.538132"
+    },
+    {
+      "id": 729,
+      "mot_extrait_id": 291,
+      "syllabe": "lqu",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.538132"
+    },
+    {
+      "id": 733,
+      "mot_extrait_id": 293,
+      "syllabe": "rê",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.710054"
+    },
+    {
+      "id": 734,
+      "mot_extrait_id": 293,
+      "syllabe": "veu",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.710054"
+    },
+    {
+      "id": 735,
+      "mot_extrait_id": 293,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:39.710054"
+    },
+    {
+      "id": 738,
+      "mot_extrait_id": 295,
+      "syllabe": "bie",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:39.916601"
+    },
+    {
+      "id": 739,
+      "mot_extrait_id": 295,
+      "syllabe": "n",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:39.916601"
+    },
+    {
+      "id": 743,
+      "mot_extrait_id": 297,
+      "syllabe": "agi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.096554"
+    },
+    {
+      "id": 744,
+      "mot_extrait_id": 297,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.096554"
+    },
+    {
+      "id": 746,
+      "mot_extrait_id": 298,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.192191"
+    },
+    {
+      "id": 747,
+      "mot_extrait_id": 299,
+      "syllabe": "exe",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.283091"
+    },
+    {
+      "id": 748,
+      "mot_extrait_id": 299,
+      "syllabe": "mple",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.283091"
+    },
+    {
+      "id": 749,
+      "mot_extrait_id": 300,
+      "syllabe": "rê",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.368532"
+    },
+    {
+      "id": 750,
+      "mot_extrait_id": 300,
+      "syllabe": "ve",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.368532"
+    },
+    {
+      "id": 751,
+      "mot_extrait_id": 301,
+      "syllabe": "appre",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.453217"
+    },
+    {
+      "id": 752,
+      "mot_extrait_id": 301,
+      "syllabe": "ndre",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.453217"
+    },
+    {
+      "id": 753,
+      "mot_extrait_id": 302,
+      "syllabe": "gui",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.544693"
+    },
+    {
+      "id": 754,
+      "mot_extrait_id": 302,
+      "syllabe": "ta",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.544693"
+    },
+    {
+      "id": 755,
+      "mot_extrait_id": 302,
+      "syllabe": "re",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:40.544693"
+    },
+    {
+      "id": 756,
+      "mot_extrait_id": 303,
+      "syllabe": "voya",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.630093"
+    },
+    {
+      "id": 757,
+      "mot_extrait_id": 303,
+      "syllabe": "ge",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.630093"
+    },
+    {
+      "id": 758,
+      "mot_extrait_id": 303,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:40.630093"
+    },
+    {
+      "id": 759,
+      "mot_extrait_id": 304,
+      "syllabe": "voi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.71769"
+    },
+    {
+      "id": 760,
+      "mot_extrait_id": 304,
+      "syllabe": "lie",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.71769"
+    },
+    {
+      "id": 761,
+      "mot_extrait_id": 304,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:40.71769"
+    },
+    {
+      "id": 762,
+      "mot_extrait_id": 305,
+      "syllabe": "ou",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.802385"
+    },
+    {
+      "id": 763,
+      "mot_extrait_id": 305,
+      "syllabe": "vri",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.802385"
+    },
+    {
+      "id": 665,
+      "mot_extrait_id": 268,
+      "syllabe": "la",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:47:50.091961"
+    },
+    {
+      "id": 666,
+      "mot_extrait_id": 268,
+      "syllabe": "nt",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:47:50.091961"
+    },
+    {
+      "id": 764,
+      "mot_extrait_id": 305,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:40.802385"
+    },
+    {
+      "id": 765,
+      "mot_extrait_id": 306,
+      "syllabe": "ca",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.889619"
+    },
+    {
+      "id": 766,
+      "mot_extrait_id": 306,
+      "syllabe": "fé",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.889619"
+    },
+    {
+      "id": 767,
+      "mot_extrait_id": 307,
+      "syllabe": "da",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:40.980637"
+    },
+    {
+      "id": 768,
+      "mot_extrait_id": 307,
+      "syllabe": "ns",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:40.980637"
+    },
+    {
+      "id": 769,
+      "mot_extrait_id": 308,
+      "syllabe": "pe",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.07142"
+    },
+    {
+      "id": 770,
+      "mot_extrait_id": 308,
+      "syllabe": "ti",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.07142"
+    },
+    {
+      "id": 771,
+      "mot_extrait_id": 308,
+      "syllabe": "te",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:41.07142"
+    },
+    {
+      "id": 772,
+      "mot_extrait_id": 309,
+      "syllabe": "vi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.185856"
+    },
+    {
+      "id": 773,
+      "mot_extrait_id": 309,
+      "syllabe": "lle",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.185856"
+    },
+    {
+      "id": 774,
+      "mot_extrait_id": 310,
+      "syllabe": "bo",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.290072"
+    },
+    {
+      "id": 775,
+      "mot_extrait_id": 310,
+      "syllabe": "rd",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.290072"
+    },
+    {
+      "id": 776,
+      "mot_extrait_id": 311,
+      "syllabe": "pei",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.382317"
+    },
+    {
+      "id": 777,
+      "mot_extrait_id": 311,
+      "syllabe": "ndre",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.382317"
+    },
+    {
+      "id": 778,
+      "mot_extrait_id": 312,
+      "syllabe": "ta",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.47066"
+    },
+    {
+      "id": 779,
+      "mot_extrait_id": 312,
+      "syllabe": "bleau",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.47066"
+    },
+    {
+      "id": 780,
+      "mot_extrait_id": 313,
+      "syllabe": "de",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.564685"
+    },
+    {
+      "id": 781,
+      "mot_extrait_id": 313,
+      "syllabe": "ve",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.564685"
+    },
+    {
+      "id": 782,
+      "mot_extrait_id": 313,
+      "syllabe": "ni",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:41.564685"
+    },
+    {
+      "id": 783,
+      "mot_extrait_id": 313,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:41.564685"
+    },
+    {
+      "id": 784,
+      "mot_extrait_id": 314,
+      "syllabe": "cei",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.652692"
+    },
+    {
+      "id": 785,
+      "mot_extrait_id": 314,
+      "syllabe": "ntu",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.652692"
+    },
+    {
+      "id": 786,
+      "mot_extrait_id": 314,
+      "syllabe": "re",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:41.652692"
+    },
+    {
+      "id": 787,
+      "mot_extrait_id": 315,
+      "syllabe": "noi",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.736777"
+    },
+    {
+      "id": 788,
+      "mot_extrait_id": 315,
+      "syllabe": "re",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.736777"
+    },
+    {
+      "id": 789,
+      "mot_extrait_id": 316,
+      "syllabe": "ka",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.82656"
+    },
+    {
+      "id": 790,
+      "mot_extrait_id": 316,
+      "syllabe": "ra",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.82656"
+    },
+    {
+      "id": 791,
+      "mot_extrait_id": 316,
+      "syllabe": "té",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:41.82656"
+    },
+    {
+      "id": 792,
+      "mot_extrait_id": 317,
+      "syllabe": "écri",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:41.916043"
+    },
+    {
+      "id": 793,
+      "mot_extrait_id": 317,
+      "syllabe": "re",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:41.916043"
+    },
+    {
+      "id": 794,
+      "mot_extrait_id": 318,
+      "syllabe": "ro",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.028173"
+    },
+    {
+      "id": 795,
+      "mot_extrait_id": 318,
+      "syllabe": "ma",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.028173"
+    },
+    {
+      "id": 796,
+      "mot_extrait_id": 318,
+      "syllabe": "n",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:42.028173"
+    },
+    {
+      "id": 797,
+      "mot_extrait_id": 319,
+      "syllabe": "crée",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.118194"
+    },
+    {
+      "id": 798,
+      "mot_extrait_id": 319,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.118194"
+    },
+    {
+      "id": 799,
+      "mot_extrait_id": 320,
+      "syllabe": "pro",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.257937"
+    },
+    {
+      "id": 800,
+      "mot_extrait_id": 320,
+      "syllabe": "pre",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.257937"
+    },
+    {
+      "id": 801,
+      "mot_extrait_id": 321,
+      "syllabe": "entre",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.37529"
+    },
+    {
+      "id": 802,
+      "mot_extrait_id": 321,
+      "syllabe": "pri",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.37529"
+    },
+    {
+      "id": 803,
+      "mot_extrait_id": 321,
+      "syllabe": "se",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:42.37529"
+    },
+    {
+      "id": 804,
+      "mot_extrait_id": 322,
+      "syllabe": "fai",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.502409"
+    },
+    {
+      "id": 805,
+      "mot_extrait_id": 322,
+      "syllabe": "re",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.502409"
+    },
+    {
+      "id": 806,
+      "mot_extrait_id": 323,
+      "syllabe": "tou",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.641745"
+    },
+    {
+      "id": 807,
+      "mot_extrait_id": 323,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.641745"
+    },
+    {
+      "id": 808,
+      "mot_extrait_id": 324,
+      "syllabe": "mo",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.777704"
+    },
+    {
+      "id": 809,
+      "mot_extrait_id": 324,
+      "syllabe": "nde",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.777704"
+    },
+    {
+      "id": 810,
+      "mot_extrait_id": 325,
+      "syllabe": "li",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:42.887031"
+    },
+    {
+      "id": 811,
+      "mot_extrait_id": 325,
+      "syllabe": "ste",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:42.887031"
+    },
+    {
+      "id": 812,
+      "mot_extrait_id": 326,
+      "syllabe": "lo",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.032506"
+    },
+    {
+      "id": 813,
+      "mot_extrait_id": 326,
+      "syllabe": "ngue",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.032506"
+    },
+    {
+      "id": 814,
+      "mot_extrait_id": 327,
+      "syllabe": "mai",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.132934"
+    },
+    {
+      "id": 815,
+      "mot_extrait_id": 327,
+      "syllabe": "s",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.132934"
+    },
+    {
+      "id": 816,
+      "mot_extrait_id": 328,
+      "syllabe": "pe",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.273115"
+    },
+    {
+      "id": 817,
+      "mot_extrait_id": 328,
+      "syllabe": "nse",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.273115"
+    },
+    {
+      "id": 818,
+      "mot_extrait_id": 328,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:43.273115"
+    },
+    {
+      "id": 819,
+      "mot_extrait_id": 329,
+      "syllabe": "né",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.378698"
+    },
+    {
+      "id": 820,
+      "mot_extrait_id": 329,
+      "syllabe": "ce",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.378698"
+    },
+    {
+      "id": 821,
+      "mot_extrait_id": 329,
+      "syllabe": "ssai",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:43.378698"
+    },
+    {
+      "id": 822,
+      "mot_extrait_id": 329,
+      "syllabe": "re",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:43.378698"
+    },
+    {
+      "id": 823,
+      "mot_extrait_id": 330,
+      "syllabe": "espé",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.515801"
+    },
+    {
+      "id": 824,
+      "mot_extrait_id": 330,
+      "syllabe": "re",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.515801"
+    },
+    {
+      "id": 825,
+      "mot_extrait_id": 330,
+      "syllabe": "r",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:43.515801"
+    },
+    {
+      "id": 826,
+      "mot_extrait_id": 331,
+      "syllabe": "jou",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.633395"
+    },
+    {
+      "id": 827,
+      "mot_extrait_id": 331,
+      "syllabe": "r",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.633395"
+    },
+    {
+      "id": 828,
+      "mot_extrait_id": 332,
+      "syllabe": "co",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.813998"
+    },
+    {
+      "id": 829,
+      "mot_extrait_id": 332,
+      "syllabe": "mme",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.813998"
+    },
+    {
+      "id": 830,
+      "mot_extrait_id": 332,
+      "syllabe": "nce",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:43.813998"
+    },
+    {
+      "id": 831,
+      "mot_extrait_id": 332,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:43.813998"
+    },
+    {
+      "id": 832,
+      "mot_extrait_id": 333,
+      "syllabe": "réa",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:43.941073"
+    },
+    {
+      "id": 833,
+      "mot_extrait_id": 333,
+      "syllabe": "li",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:43.941073"
+    },
+    {
+      "id": 834,
+      "mot_extrait_id": 333,
+      "syllabe": "se",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T10:48:43.941073"
+    },
+    {
+      "id": 835,
+      "mot_extrait_id": 333,
+      "syllabe": "r",
+      "position_syllabe": 4,
+      "created_at": "2025-09-12T10:48:43.941073"
+    },
+    {
+      "id": 836,
+      "mot_extrait_id": 334,
+      "syllabe": "no",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T10:48:44.052665"
+    },
+    {
+      "id": 837,
+      "mot_extrait_id": 334,
+      "syllabe": "n",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T10:48:44.052665"
+    },
+    {
+      "id": 1088,
+      "mot_extrait_id": 445,
+      "syllabe": "tro",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:49.670355"
+    },
+    {
+      "id": 1089,
+      "mot_extrait_id": 445,
+      "syllabe": "is",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:49.670355"
+    },
+    {
+      "id": 1094,
+      "mot_extrait_id": 448,
+      "syllabe": "qu",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.049347"
+    },
+    {
+      "id": 1095,
+      "mot_extrait_id": 448,
+      "syllabe": "a",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.049347"
+    },
+    {
+      "id": 1096,
+      "mot_extrait_id": 448,
+      "syllabe": "tre",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T19:44:50.049347"
+    },
+    {
+      "id": 1102,
+      "mot_extrait_id": 451,
+      "syllabe": "ne",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.357487"
+    },
+    {
+      "id": 1103,
+      "mot_extrait_id": 451,
+      "syllabe": "uf",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.357487"
+    },
+    {
+      "id": 1108,
+      "mot_extrait_id": 454,
+      "syllabe": "to",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.672947"
+    },
+    {
+      "id": 1109,
+      "mot_extrait_id": 454,
+      "syllabe": "utes",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.672947"
+    },
+    {
+      "id": 1090,
+      "mot_extrait_id": 446,
+      "syllabe": "no",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:49.806104"
+    },
+    {
+      "id": 1091,
+      "mot_extrait_id": 446,
+      "syllabe": "us",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:49.806104"
+    },
+    {
+      "id": 1097,
+      "mot_extrait_id": 449,
+      "syllabe": "cu",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.163124"
+    },
+    {
+      "id": 1098,
+      "mot_extrait_id": 449,
+      "syllabe": "e",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.163124"
+    },
+    {
+      "id": 1099,
+      "mot_extrait_id": 449,
+      "syllabe": "illir",
+      "position_syllabe": 3,
+      "created_at": "2025-09-12T19:44:50.163124"
+    },
+    {
+      "id": 1104,
+      "mot_extrait_id": 452,
+      "syllabe": "pani",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.466667"
+    },
+    {
+      "id": 1105,
+      "mot_extrait_id": 452,
+      "syllabe": "er",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.466667"
+    },
+    {
+      "id": 1110,
+      "mot_extrait_id": 455,
+      "syllabe": "ro",
+      "position_syllabe": 1,
+      "created_at": "2025-09-12T19:44:50.786577"
+    },
+    {
+      "id": 1111,
+      "mot_extrait_id": 455,
+      "syllabe": "uges",
+      "position_syllabe": 2,
+      "created_at": "2025-09-12T19:44:50.786577"
+    }
+  ],
+  "count": 249,
+  "timestamp": "2025-10-05T01:17:24.690Z"
+}
