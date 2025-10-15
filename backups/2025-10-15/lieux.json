@@ -1,0 +1,77 @@
+{
+  "table": "lieux",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nom",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "couleur",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "initiale",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "archive",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "nom": "Centre Camille Pagé",
+      "couleur": "#f27fb8",
+      "initiale": "CCP",
+      "archive": false,
+      "created_at": "2025-08-13T21:01:31.579238"
+    },
+    {
+      "id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "nom": "Lencloître",
+      "couleur": "#58cea7",
+      "initiale": "LEN",
+      "archive": false,
+      "created_at": "2025-08-13T21:29:36.655849"
+    },
+    {
+      "id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "nom": "Maison Pour Tous",
+      "couleur": "#f47c7c",
+      "initiale": "MPT",
+      "archive": false,
+      "created_at": "2025-08-13T21:29:03.584445"
+    },
+    {
+      "id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "nom": "Pleumartin",
+      "couleur": "#f8bb54",
+      "initiale": "PLE",
+      "archive": false,
+      "created_at": "2025-08-13T21:29:21.474407"
+    }
+  ],
+  "count": 4,
+  "timestamp": "2025-10-15T01:13:48.713Z"
+}
