@@ -1,0 +1,101 @@
+{
+  "table": "corrections_mono_multi",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "classification_correcte",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "ancienne_classification",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "source",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "admin_correcteur",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "date_creation",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_modification",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nombre_applications",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "commentaire",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "mot": "avec",
+      "classification_correcte": "monosyllabe",
+      "ancienne_classification": null,
+      "source": "admin",
+      "admin_correcteur": null,
+      "date_creation": "2025-09-13T14:02:17.611347",
+      "date_modification": "2025-09-13T14:02:17.611347",
+      "nombre_applications": 0,
+      "commentaire": "Mot courant à ne pas segmenter",
+      "updated_at": "2025-09-13T14:23:03.42822"
+    },
+    {
+      "id": 2,
+      "mot": "très",
+      "classification_correcte": "monosyllabe",
+      "ancienne_classification": null,
+      "source": "admin",
+      "admin_correcteur": null,
+      "date_creation": "2025-09-13T14:02:17.611347",
+      "date_modification": "2025-09-13T14:02:17.611347",
+      "nombre_applications": 0,
+      "commentaire": "Monosyllabe standard",
+      "updated_at": "2025-09-13T14:23:03.42822"
+    }
+  ],
+  "count": 2,
+  "timestamp": "2025-10-17T01:12:36.531Z"
+}
