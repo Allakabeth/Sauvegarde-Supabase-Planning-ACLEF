@@ -1,0 +1,237 @@
+{
+  "table": "absences_apprenants",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "apprenant_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "type",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_debut",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_fin",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_specifique",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "creneau",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "lieu_id",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "motif",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "statut",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_by",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "apprenant_id": "e715ce29-50ab-4b5b-bcf8-2606050dda21",
+      "type": "absence_periode",
+      "date_debut": "2025-09-19",
+      "date_fin": "2025-09-22",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-09-19T08:33:12.885262+00:00",
+      "updated_at": "2025-09-19T08:33:12.885262+00:00"
+    },
+    {
+      "id": 2,
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "type": "absence_ponctuelle",
+      "date_debut": null,
+      "date_fin": null,
+      "date_specifique": "2025-10-06",
+      "creneau": "AM",
+      "lieu_id": null,
+      "motif": "RV médical",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-02T11:10:05.303703+00:00",
+      "updated_at": "2025-10-02T11:10:05.303703+00:00"
+    },
+    {
+      "id": 3,
+      "apprenant_id": "1f880f52-c195-4702-826d-a566c14cd72a",
+      "type": "absence_ponctuelle",
+      "date_debut": null,
+      "date_fin": null,
+      "date_specifique": "2026-10-09",
+      "creneau": "matin",
+      "lieu_id": null,
+      "motif": "rdv admin",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-07T11:45:40.254733+00:00",
+      "updated_at": "2025-10-07T11:45:40.254733+00:00"
+    },
+    {
+      "id": 4,
+      "apprenant_id": "337e9026-98c7-41bb-95c2-76de86087ee0",
+      "type": "absence_ponctuelle",
+      "date_debut": null,
+      "date_fin": null,
+      "date_specifique": "2025-10-09",
+      "creneau": "AM",
+      "lieu_id": null,
+      "motif": "Entorse",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-09T10:18:05.971957+00:00",
+      "updated_at": "2025-10-09T10:18:05.971957+00:00"
+    },
+    {
+      "id": 5,
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "type": "absence_periode",
+      "date_debut": "2025-10-20",
+      "date_fin": "2025-10-24",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "stage Enault",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-10T10:24:58.46778+00:00",
+      "updated_at": "2025-10-10T10:24:58.46778+00:00"
+    },
+    {
+      "id": 6,
+      "apprenant_id": "9011e237-c929-4751-9fc5-221d5173435c",
+      "type": "absence_periode",
+      "date_debut": "2025-10-28",
+      "date_fin": "2025-10-30",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "Vacances",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-15T06:36:21.401913+00:00",
+      "updated_at": "2025-10-15T06:36:21.401913+00:00"
+    },
+    {
+      "id": 7,
+      "apprenant_id": "f1f71ce1-8a2c-4ea8-b412-53387c55c475",
+      "type": "absence_periode",
+      "date_debut": "2025-11-17",
+      "date_fin": "2025-11-21",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "Stage",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-15T06:37:14.52913+00:00",
+      "updated_at": "2025-10-15T06:37:14.52913+00:00"
+    },
+    {
+      "id": 8,
+      "apprenant_id": "d98534fb-879f-4e9b-a6e7-8d8910507522",
+      "type": "absence_periode",
+      "date_debut": "2025-10-16",
+      "date_fin": "2025-10-16",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-15T06:38:07.216113+00:00",
+      "updated_at": "2025-10-15T06:38:07.216113+00:00"
+    },
+    {
+      "id": 9,
+      "apprenant_id": "8d72a5e9-e7e0-429f-8280-bdf02ee97f69",
+      "type": "absence_periode",
+      "date_debut": "2025-10-20",
+      "date_fin": "2025-10-20",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-15T06:42:40.115103+00:00",
+      "updated_at": "2025-10-15T06:42:40.115103+00:00"
+    },
+    {
+      "id": 10,
+      "apprenant_id": "9011e237-c929-4751-9fc5-221d5173435c",
+      "type": "absence_periode",
+      "date_debut": "2025-11-07",
+      "date_fin": "2025-11-07",
+      "date_specifique": null,
+      "creneau": null,
+      "lieu_id": null,
+      "motif": "Motif personnel",
+      "statut": "actif",
+      "created_by": null,
+      "created_at": "2025-10-16T14:48:50.369916+00:00",
+      "updated_at": "2025-10-16T14:48:50.369916+00:00"
+    }
+  ],
+  "count": 10,
+  "timestamp": "2025-10-19T01:20:47.428Z"
+}

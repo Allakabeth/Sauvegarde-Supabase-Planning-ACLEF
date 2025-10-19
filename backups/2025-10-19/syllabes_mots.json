@@ -1,0 +1,1537 @@
+{
+  "table": "syllabes_mots",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "texte_reference_id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot_complet",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot_normalise",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 71,
+      "texte_reference_id": 1,
+      "mot_complet": "Je",
+      "mot_normalise": "je",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 72,
+      "texte_reference_id": 1,
+      "mot_complet": "suis",
+      "mot_normalise": "suis",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 73,
+      "texte_reference_id": 1,
+      "mot_complet": "partie",
+      "mot_normalise": "partie",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 74,
+      "texte_reference_id": 1,
+      "mot_complet": "à",
+      "mot_normalise": "a",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 75,
+      "texte_reference_id": 1,
+      "mot_complet": "Royan",
+      "mot_normalise": "royan",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 76,
+      "texte_reference_id": 1,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 77,
+      "texte_reference_id": 1,
+      "mot_complet": "trois",
+      "mot_normalise": "trois",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 78,
+      "texte_reference_id": 1,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 79,
+      "texte_reference_id": 1,
+      "mot_complet": "ma",
+      "mot_normalise": "ma",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 375,
+      "texte_reference_id": 28,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-17T16:14:34.901757"
+    },
+    {
+      "id": 81,
+      "texte_reference_id": 1,
+      "mot_complet": "jouer",
+      "mot_normalise": "jouer",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 82,
+      "texte_reference_id": 1,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 83,
+      "texte_reference_id": 1,
+      "mot_complet": "mer",
+      "mot_normalise": "mer",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 84,
+      "texte_reference_id": 1,
+      "mot_complet": "Elle",
+      "mot_normalise": "elle",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 85,
+      "texte_reference_id": 1,
+      "mot_complet": "des",
+      "mot_normalise": "des",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 86,
+      "texte_reference_id": 1,
+      "mot_complet": "châteaux",
+      "mot_normalise": "chateaux",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 87,
+      "texte_reference_id": 1,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 376,
+      "texte_reference_id": 28,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-17T16:14:34.977956"
+    },
+    {
+      "id": 89,
+      "texte_reference_id": 1,
+      "mot_complet": "On",
+      "mot_normalise": "on",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 90,
+      "texte_reference_id": 1,
+      "mot_complet": "Paige",
+      "mot_normalise": "paige",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 91,
+      "texte_reference_id": 1,
+      "mot_complet": "du",
+      "mot_normalise": "du",
+      "created_at": "2025-09-13T08:25:44.752125"
+    },
+    {
+      "id": 92,
+      "texte_reference_id": 2,
+      "mot_complet": "nest",
+      "mot_normalise": "nest",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 93,
+      "texte_reference_id": 2,
+      "mot_complet": "pas",
+      "mot_normalise": "pas",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 94,
+      "texte_reference_id": 2,
+      "mot_complet": "ma",
+      "mot_normalise": "ma",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 95,
+      "texte_reference_id": 2,
+      "mot_complet": "Lidée",
+      "mot_normalise": "lidee",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 377,
+      "texte_reference_id": 28,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-17T16:14:35.065522"
+    },
+    {
+      "id": 97,
+      "texte_reference_id": 2,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 98,
+      "texte_reference_id": 2,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 99,
+      "texte_reference_id": 2,
+      "mot_complet": "passé",
+      "mot_normalise": "passe",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 100,
+      "texte_reference_id": 2,
+      "mot_complet": "me",
+      "mot_normalise": "me",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 101,
+      "texte_reference_id": 2,
+      "mot_complet": "déplaît",
+      "mot_normalise": "deplait",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 102,
+      "texte_reference_id": 2,
+      "mot_complet": "Au",
+      "mot_normalise": "au",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 103,
+      "texte_reference_id": 2,
+      "mot_complet": "jaime",
+      "mot_normalise": "jaime",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 104,
+      "texte_reference_id": 2,
+      "mot_complet": "prendre",
+      "mot_normalise": "prendre",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 105,
+      "texte_reference_id": 2,
+      "mot_complet": "temps",
+      "mot_normalise": "temps",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 106,
+      "texte_reference_id": 2,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 107,
+      "texte_reference_id": 2,
+      "mot_complet": "pour",
+      "mot_normalise": "pour",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 108,
+      "texte_reference_id": 2,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 109,
+      "texte_reference_id": 2,
+      "mot_complet": "vie",
+      "mot_normalise": "vie",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 110,
+      "texte_reference_id": 2,
+      "mot_complet": "Je",
+      "mot_normalise": "je",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 111,
+      "texte_reference_id": 2,
+      "mot_complet": "suis",
+      "mot_normalise": "suis",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 112,
+      "texte_reference_id": 2,
+      "mot_complet": "plutôt",
+      "mot_normalise": "plutot",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 113,
+      "texte_reference_id": 2,
+      "mot_complet": "rêveur",
+      "mot_normalise": "reveur",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 114,
+      "texte_reference_id": 2,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 115,
+      "texte_reference_id": 2,
+      "mot_complet": "sais",
+      "mot_normalise": "sais",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 116,
+      "texte_reference_id": 2,
+      "mot_complet": "bien",
+      "mot_normalise": "bien",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 117,
+      "texte_reference_id": 2,
+      "mot_complet": "que",
+      "mot_normalise": "que",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 118,
+      "texte_reference_id": 2,
+      "mot_complet": "rêver",
+      "mot_normalise": "rever",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 119,
+      "texte_reference_id": 2,
+      "mot_complet": "Par",
+      "mot_normalise": "par",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 378,
+      "texte_reference_id": 28,
+      "mot_complet": "sur",
+      "mot_normalise": "sur",
+      "created_at": "2025-10-17T16:14:35.138074"
+    },
+    {
+      "id": 121,
+      "texte_reference_id": 2,
+      "mot_complet": "en",
+      "mot_normalise": "en",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 122,
+      "texte_reference_id": 2,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 123,
+      "texte_reference_id": 2,
+      "mot_complet": "café",
+      "mot_normalise": "cafe",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 124,
+      "texte_reference_id": 2,
+      "mot_complet": "dans",
+      "mot_normalise": "dans",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 125,
+      "texte_reference_id": 2,
+      "mot_complet": "une",
+      "mot_normalise": "une",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 127,
+      "texte_reference_id": 2,
+      "mot_complet": "bord",
+      "mot_normalise": "bord",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 128,
+      "texte_reference_id": 2,
+      "mot_complet": "leau",
+      "mot_normalise": "leau",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 129,
+      "texte_reference_id": 2,
+      "mot_complet": "Peindre",
+      "mot_normalise": "peindre",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 130,
+      "texte_reference_id": 2,
+      "mot_complet": "noire",
+      "mot_normalise": "noire",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 131,
+      "texte_reference_id": 2,
+      "mot_complet": "écrire",
+      "mot_normalise": "ecrire",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 132,
+      "texte_reference_id": 2,
+      "mot_complet": "créer",
+      "mot_normalise": "creer",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 135,
+      "texte_reference_id": 2,
+      "mot_complet": "tour",
+      "mot_normalise": "tour",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 136,
+      "texte_reference_id": 2,
+      "mot_complet": "du",
+      "mot_normalise": "du",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 139,
+      "texte_reference_id": 2,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 140,
+      "texte_reference_id": 2,
+      "mot_complet": "longue",
+      "mot_normalise": "longue",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 141,
+      "texte_reference_id": 2,
+      "mot_complet": "cest",
+      "mot_normalise": "cest",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 142,
+      "texte_reference_id": 2,
+      "mot_complet": "vrai",
+      "mot_normalise": "vrai",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 143,
+      "texte_reference_id": 2,
+      "mot_complet": "Mais",
+      "mot_normalise": "mais",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 144,
+      "texte_reference_id": 2,
+      "mot_complet": "y",
+      "mot_normalise": "y",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 145,
+      "texte_reference_id": 2,
+      "mot_complet": "jour",
+      "mot_normalise": "jour",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 146,
+      "texte_reference_id": 2,
+      "mot_complet": "à",
+      "mot_normalise": "a",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 147,
+      "texte_reference_id": 2,
+      "mot_complet": "non",
+      "mot_normalise": "non",
+      "created_at": "2025-09-13T08:25:45.033128"
+    },
+    {
+      "id": 148,
+      "texte_reference_id": 10,
+      "mot_complet": "Un",
+      "mot_normalise": "un",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 149,
+      "texte_reference_id": 10,
+      "mot_complet": "deux",
+      "mot_normalise": "deux",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 150,
+      "texte_reference_id": 10,
+      "mot_complet": "trois",
+      "mot_normalise": "trois",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 151,
+      "texte_reference_id": 10,
+      "mot_complet": "Nous",
+      "mot_normalise": "nous",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 152,
+      "texte_reference_id": 10,
+      "mot_complet": "au",
+      "mot_normalise": "au",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 153,
+      "texte_reference_id": 10,
+      "mot_complet": "bois",
+      "mot_normalise": "bois",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 154,
+      "texte_reference_id": 10,
+      "mot_complet": "Quatre",
+      "mot_normalise": "quatre",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 155,
+      "texte_reference_id": 10,
+      "mot_complet": "cinq",
+      "mot_normalise": "cinq",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 156,
+      "texte_reference_id": 10,
+      "mot_complet": "six",
+      "mot_normalise": "six",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 157,
+      "texte_reference_id": 10,
+      "mot_complet": "des",
+      "mot_normalise": "des",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 158,
+      "texte_reference_id": 10,
+      "mot_complet": "Sept",
+      "mot_normalise": "sept",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 159,
+      "texte_reference_id": 10,
+      "mot_complet": "huit",
+      "mot_normalise": "huit",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 160,
+      "texte_reference_id": 10,
+      "mot_complet": "neuf",
+      "mot_normalise": "neuf",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 161,
+      "texte_reference_id": 10,
+      "mot_complet": "Dans",
+      "mot_normalise": "dans",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 162,
+      "texte_reference_id": 10,
+      "mot_complet": "mon",
+      "mot_normalise": "mon",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 163,
+      "texte_reference_id": 10,
+      "mot_complet": "Dix",
+      "mot_normalise": "dix",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 164,
+      "texte_reference_id": 10,
+      "mot_complet": "onze",
+      "mot_normalise": "onze",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 165,
+      "texte_reference_id": 10,
+      "mot_complet": "douze",
+      "mot_normalise": "douze",
+      "created_at": "2025-09-13T08:25:45.322379"
+    },
+    {
+      "id": 166,
+      "texte_reference_id": 10,
+      "mot_complet": "elles",
+      "mot_normalise": "elles",
+      "created_at": "2025-09-13T08:33:18.758351"
+    },
+    {
+      "id": 178,
+      "texte_reference_id": 13,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-07T20:52:43.75376"
+    },
+    {
+      "id": 179,
+      "texte_reference_id": 13,
+      "mot_complet": "du",
+      "mot_normalise": "du",
+      "created_at": "2025-10-07T20:52:43.878813"
+    },
+    {
+      "id": 180,
+      "texte_reference_id": 13,
+      "mot_complet": "au",
+      "mot_normalise": "au",
+      "created_at": "2025-10-07T20:52:44.005628"
+    },
+    {
+      "id": 181,
+      "texte_reference_id": 13,
+      "mot_complet": "des",
+      "mot_normalise": "des",
+      "created_at": "2025-10-07T20:52:44.122929"
+    },
+    {
+      "id": 182,
+      "texte_reference_id": 13,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-07T20:52:44.254307"
+    },
+    {
+      "id": 183,
+      "texte_reference_id": 13,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-07T20:52:44.372764"
+    },
+    {
+      "id": 184,
+      "texte_reference_id": 13,
+      "mot_complet": "sur",
+      "mot_normalise": "sur",
+      "created_at": "2025-10-07T20:52:44.500117"
+    },
+    {
+      "id": 185,
+      "texte_reference_id": 13,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-07T20:52:44.628559"
+    },
+    {
+      "id": 186,
+      "texte_reference_id": 13,
+      "mot_complet": "ne",
+      "mot_normalise": "ne",
+      "created_at": "2025-10-07T20:52:44.763658"
+    },
+    {
+      "id": 187,
+      "texte_reference_id": 13,
+      "mot_complet": "où",
+      "mot_normalise": "ou",
+      "created_at": "2025-10-07T20:52:44.886401"
+    },
+    {
+      "id": 188,
+      "texte_reference_id": 13,
+      "mot_complet": "ou",
+      "mot_normalise": "ou",
+      "created_at": "2025-10-07T20:52:45.005607"
+    },
+    {
+      "id": 193,
+      "texte_reference_id": 15,
+      "mot_complet": "pour",
+      "mot_normalise": "pour",
+      "created_at": "2025-10-09T09:58:32.568264"
+    },
+    {
+      "id": 194,
+      "texte_reference_id": 15,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-09T09:58:32.761183"
+    },
+    {
+      "id": 195,
+      "texte_reference_id": 15,
+      "mot_complet": "que",
+      "mot_normalise": "que",
+      "created_at": "2025-10-09T09:58:33.067247"
+    },
+    {
+      "id": 196,
+      "texte_reference_id": 15,
+      "mot_complet": "avec",
+      "mot_normalise": "avec",
+      "created_at": "2025-10-09T09:58:33.380132"
+    },
+    {
+      "id": 197,
+      "texte_reference_id": 15,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-09T09:58:33.683919"
+    },
+    {
+      "id": 198,
+      "texte_reference_id": 15,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-09T09:58:33.824651"
+    },
+    {
+      "id": 199,
+      "texte_reference_id": 15,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-09T09:58:34.142863"
+    },
+    {
+      "id": 200,
+      "texte_reference_id": 15,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-09T09:58:34.276687"
+    },
+    {
+      "id": 201,
+      "texte_reference_id": 15,
+      "mot_complet": "dans",
+      "mot_normalise": "dans",
+      "created_at": "2025-10-09T09:58:34.572212"
+    },
+    {
+      "id": 202,
+      "texte_reference_id": 15,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-09T09:58:34.705061"
+    },
+    {
+      "id": 203,
+      "texte_reference_id": 15,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-09T09:58:35.006791"
+    },
+    {
+      "id": 204,
+      "texte_reference_id": 15,
+      "mot_complet": "peu",
+      "mot_normalise": "peu",
+      "created_at": "2025-10-09T09:58:35.141462"
+    },
+    {
+      "id": 205,
+      "texte_reference_id": 15,
+      "mot_complet": "ça",
+      "mot_normalise": "ca",
+      "created_at": "2025-10-09T09:58:35.44382"
+    },
+    {
+      "id": 206,
+      "texte_reference_id": 15,
+      "mot_complet": "du",
+      "mot_normalise": "du",
+      "created_at": "2025-10-09T09:58:35.581508"
+    },
+    {
+      "id": 207,
+      "texte_reference_id": 15,
+      "mot_complet": "des",
+      "mot_normalise": "des",
+      "created_at": "2025-10-09T09:58:35.893366"
+    },
+    {
+      "id": 208,
+      "texte_reference_id": 16,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-13T08:01:17.874374"
+    },
+    {
+      "id": 209,
+      "texte_reference_id": 16,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-13T08:01:18.025063"
+    },
+    {
+      "id": 210,
+      "texte_reference_id": 16,
+      "mot_complet": "du",
+      "mot_normalise": "du",
+      "created_at": "2025-10-13T08:01:18.156023"
+    },
+    {
+      "id": 211,
+      "texte_reference_id": 16,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-13T08:01:18.286232"
+    },
+    {
+      "id": 212,
+      "texte_reference_id": 16,
+      "mot_complet": "des",
+      "mot_normalise": "des",
+      "created_at": "2025-10-13T08:01:18.417933"
+    },
+    {
+      "id": 213,
+      "texte_reference_id": 16,
+      "mot_complet": "avec",
+      "mot_normalise": "avec",
+      "created_at": "2025-10-13T08:01:18.712365"
+    },
+    {
+      "id": 214,
+      "texte_reference_id": 16,
+      "mot_complet": "une",
+      "mot_normalise": "une",
+      "created_at": "2025-10-13T08:01:18.846258"
+    },
+    {
+      "id": 215,
+      "texte_reference_id": 16,
+      "mot_complet": "ton",
+      "mot_normalise": "ton",
+      "created_at": "2025-10-13T08:01:18.970263"
+    },
+    {
+      "id": 231,
+      "texte_reference_id": 18,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-15T12:37:17.880207"
+    },
+    {
+      "id": 232,
+      "texte_reference_id": 18,
+      "mot_complet": "pour",
+      "mot_normalise": "pour",
+      "created_at": "2025-10-15T12:37:18.008945"
+    },
+    {
+      "id": 233,
+      "texte_reference_id": 18,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-15T12:37:18.12107"
+    },
+    {
+      "id": 234,
+      "texte_reference_id": 18,
+      "mot_complet": "mon",
+      "mot_normalise": "mon",
+      "created_at": "2025-10-15T12:37:18.231456"
+    },
+    {
+      "id": 235,
+      "texte_reference_id": 18,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-10-15T12:37:18.339271"
+    },
+    {
+      "id": 236,
+      "texte_reference_id": 19,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-16T08:35:17.293038"
+    },
+    {
+      "id": 237,
+      "texte_reference_id": 19,
+      "mot_complet": "bien",
+      "mot_normalise": "bien",
+      "created_at": "2025-10-16T08:35:17.619635"
+    },
+    {
+      "id": 238,
+      "texte_reference_id": 19,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-16T08:35:17.773518"
+    },
+    {
+      "id": 239,
+      "texte_reference_id": 19,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-16T08:35:18.06208"
+    },
+    {
+      "id": 240,
+      "texte_reference_id": 19,
+      "mot_complet": "avec",
+      "mot_normalise": "avec",
+      "created_at": "2025-10-16T08:35:18.190822"
+    },
+    {
+      "id": 241,
+      "texte_reference_id": 19,
+      "mot_complet": "une",
+      "mot_normalise": "une",
+      "created_at": "2025-10-16T08:35:18.320449"
+    },
+    {
+      "id": 242,
+      "texte_reference_id": 19,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-16T08:35:18.457498"
+    },
+    {
+      "id": 243,
+      "texte_reference_id": 19,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-16T08:35:18.579856"
+    },
+    {
+      "id": 244,
+      "texte_reference_id": 20,
+      "mot_complet": "son",
+      "mot_normalise": "son",
+      "created_at": "2025-10-16T09:13:36.658477"
+    },
+    {
+      "id": 245,
+      "texte_reference_id": 20,
+      "mot_complet": "me",
+      "mot_normalise": "me",
+      "created_at": "2025-10-16T09:13:37.01855"
+    },
+    {
+      "id": 246,
+      "texte_reference_id": 20,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-16T09:13:37.197152"
+    },
+    {
+      "id": 247,
+      "texte_reference_id": 20,
+      "mot_complet": "avec",
+      "mot_normalise": "avec",
+      "created_at": "2025-10-16T09:13:37.348007"
+    },
+    {
+      "id": 248,
+      "texte_reference_id": 20,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-16T09:13:37.500846"
+    },
+    {
+      "id": 250,
+      "texte_reference_id": 20,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-16T09:13:37.805078"
+    },
+    {
+      "id": 251,
+      "texte_reference_id": 20,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-16T09:13:37.951393"
+    },
+    {
+      "id": 252,
+      "texte_reference_id": 20,
+      "mot_complet": "peu",
+      "mot_normalise": "peu",
+      "created_at": "2025-10-16T09:13:38.103344"
+    },
+    {
+      "id": 379,
+      "texte_reference_id": 28,
+      "mot_complet": "pour",
+      "mot_normalise": "pour",
+      "created_at": "2025-10-17T16:14:35.218513"
+    },
+    {
+      "id": 380,
+      "texte_reference_id": 28,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-17T16:14:35.301549"
+    },
+    {
+      "id": 381,
+      "texte_reference_id": 28,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-17T16:14:35.376306"
+    },
+    {
+      "id": 382,
+      "texte_reference_id": 28,
+      "mot_complet": "dans",
+      "mot_normalise": "dans",
+      "created_at": "2025-10-17T16:14:35.465901"
+    },
+    {
+      "id": 383,
+      "texte_reference_id": 17,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-17T16:15:20.622047"
+    },
+    {
+      "id": 385,
+      "texte_reference_id": 17,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-17T16:15:20.825004"
+    },
+    {
+      "id": 387,
+      "texte_reference_id": 17,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-10-17T16:15:20.996994"
+    },
+    {
+      "id": 249,
+      "texte_reference_id": 20,
+      "mot_complet": "lui",
+      "mot_normalise": "lui",
+      "created_at": "2025-10-16T09:13:37.653973"
+    },
+    {
+      "id": 253,
+      "texte_reference_id": 21,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-10-16T09:38:17.263106"
+    },
+    {
+      "id": 254,
+      "texte_reference_id": 21,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-16T09:38:17.573054"
+    },
+    {
+      "id": 255,
+      "texte_reference_id": 21,
+      "mot_complet": "plus",
+      "mot_normalise": "plus",
+      "created_at": "2025-10-16T09:38:17.709123"
+    },
+    {
+      "id": 256,
+      "texte_reference_id": 21,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-16T09:38:17.828985"
+    },
+    {
+      "id": 257,
+      "texte_reference_id": 21,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-16T09:38:17.945458"
+    },
+    {
+      "id": 258,
+      "texte_reference_id": 21,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-16T09:38:18.061839"
+    },
+    {
+      "id": 259,
+      "texte_reference_id": 21,
+      "mot_complet": "au",
+      "mot_normalise": "au",
+      "created_at": "2025-10-16T09:38:18.178462"
+    },
+    {
+      "id": 260,
+      "texte_reference_id": 21,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-16T09:38:18.288035"
+    },
+    {
+      "id": 261,
+      "texte_reference_id": 21,
+      "mot_complet": "bien",
+      "mot_normalise": "bien",
+      "created_at": "2025-10-16T09:38:18.4022"
+    },
+    {
+      "id": 262,
+      "texte_reference_id": 21,
+      "mot_complet": "lui",
+      "mot_normalise": "lui",
+      "created_at": "2025-10-16T09:38:18.514816"
+    },
+    {
+      "id": 384,
+      "texte_reference_id": 17,
+      "mot_complet": "pour",
+      "mot_normalise": "pour",
+      "created_at": "2025-10-17T16:15:20.732768"
+    },
+    {
+      "id": 386,
+      "texte_reference_id": 17,
+      "mot_complet": "mon",
+      "mot_normalise": "mon",
+      "created_at": "2025-10-17T16:15:20.903766"
+    },
+    {
+      "id": 276,
+      "texte_reference_id": 22,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-10-16T09:50:37.941771"
+    },
+    {
+      "id": 277,
+      "texte_reference_id": 22,
+      "mot_complet": "bien",
+      "mot_normalise": "bien",
+      "created_at": "2025-10-16T09:50:38.210476"
+    },
+    {
+      "id": 278,
+      "texte_reference_id": 22,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-16T09:50:38.317944"
+    },
+    {
+      "id": 279,
+      "texte_reference_id": 22,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-16T09:50:38.59263"
+    },
+    {
+      "id": 280,
+      "texte_reference_id": 22,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-16T09:50:38.70521"
+    },
+    {
+      "id": 281,
+      "texte_reference_id": 22,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-16T09:50:38.978964"
+    },
+    {
+      "id": 282,
+      "texte_reference_id": 22,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-16T09:50:39.094927"
+    },
+    {
+      "id": 283,
+      "texte_reference_id": 22,
+      "mot_complet": "se",
+      "mot_normalise": "se",
+      "created_at": "2025-10-16T09:50:39.370563"
+    },
+    {
+      "id": 284,
+      "texte_reference_id": 23,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-16T09:51:21.246343"
+    },
+    {
+      "id": 285,
+      "texte_reference_id": 23,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-16T09:51:21.383941"
+    },
+    {
+      "id": 286,
+      "texte_reference_id": 23,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-16T09:51:21.503513"
+    },
+    {
+      "id": 287,
+      "texte_reference_id": 23,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-16T09:51:21.649386"
+    },
+    {
+      "id": 288,
+      "texte_reference_id": 23,
+      "mot_complet": "cm1",
+      "mot_normalise": "cm1",
+      "created_at": "2025-10-16T09:51:21.908268"
+    },
+    {
+      "id": 289,
+      "texte_reference_id": 24,
+      "mot_complet": "avec",
+      "mot_normalise": "avec",
+      "created_at": "2025-10-16T10:02:18.464156"
+    },
+    {
+      "id": 290,
+      "texte_reference_id": 24,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-10-16T10:02:18.625579"
+    },
+    {
+      "id": 291,
+      "texte_reference_id": 24,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-16T10:02:18.788972"
+    },
+    {
+      "id": 292,
+      "texte_reference_id": 24,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-16T10:02:18.907582"
+    },
+    {
+      "id": 293,
+      "texte_reference_id": 24,
+      "mot_complet": "des",
+      "mot_normalise": "des",
+      "created_at": "2025-10-16T10:02:19.020532"
+    },
+    {
+      "id": 294,
+      "texte_reference_id": 24,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-16T10:02:19.300711"
+    },
+    {
+      "id": 295,
+      "texte_reference_id": 24,
+      "mot_complet": "du",
+      "mot_normalise": "du",
+      "created_at": "2025-10-16T10:02:19.416756"
+    },
+    {
+      "id": 299,
+      "texte_reference_id": 14,
+      "mot_complet": "21",
+      "mot_normalise": "21",
+      "created_at": "2025-10-16T16:39:05.747278"
+    },
+    {
+      "id": 300,
+      "texte_reference_id": 14,
+      "mot_complet": "au",
+      "mot_normalise": "au",
+      "created_at": "2025-10-16T16:39:05.834632"
+    },
+    {
+      "id": 301,
+      "texte_reference_id": 14,
+      "mot_complet": "2020",
+      "mot_normalise": "2020",
+      "created_at": "2025-10-16T16:39:05.921623"
+    },
+    {
+      "id": 302,
+      "texte_reference_id": 14,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-16T16:39:05.995034"
+    },
+    {
+      "id": 327,
+      "texte_reference_id": 27,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-17T09:20:33.213788"
+    },
+    {
+      "id": 328,
+      "texte_reference_id": 27,
+      "mot_complet": "13",
+      "mot_normalise": "13",
+      "created_at": "2025-10-17T09:20:33.588985"
+    },
+    {
+      "id": 329,
+      "texte_reference_id": 27,
+      "mot_complet": "30",
+      "mot_normalise": "30",
+      "created_at": "2025-10-17T09:20:33.744664"
+    },
+    {
+      "id": 330,
+      "texte_reference_id": 27,
+      "mot_complet": "et",
+      "mot_normalise": "et",
+      "created_at": "2025-10-17T09:20:33.895845"
+    },
+    {
+      "id": 331,
+      "texte_reference_id": 27,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-17T09:20:34.044645"
+    },
+    {
+      "id": 332,
+      "texte_reference_id": 27,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-17T09:20:34.199299"
+    },
+    {
+      "id": 333,
+      "texte_reference_id": 27,
+      "mot_complet": "peu",
+      "mot_normalise": "peu",
+      "created_at": "2025-10-17T09:20:34.349879"
+    },
+    {
+      "id": 334,
+      "texte_reference_id": 27,
+      "mot_complet": "une",
+      "mot_normalise": "une",
+      "created_at": "2025-10-17T09:20:34.481293"
+    },
+    {
+      "id": 335,
+      "texte_reference_id": 27,
+      "mot_complet": "ou",
+      "mot_normalise": "ou",
+      "created_at": "2025-10-17T09:20:34.625684"
+    },
+    {
+      "id": 336,
+      "texte_reference_id": 27,
+      "mot_complet": "dans",
+      "mot_normalise": "dans",
+      "created_at": "2025-10-17T09:20:34.767766"
+    },
+    {
+      "id": 361,
+      "texte_reference_id": 26,
+      "mot_complet": "le",
+      "mot_normalise": "le",
+      "created_at": "2025-10-17T09:44:17.787075"
+    },
+    {
+      "id": 362,
+      "texte_reference_id": 26,
+      "mot_complet": "7",
+      "mot_normalise": "7",
+      "created_at": "2025-10-17T09:44:17.903792"
+    },
+    {
+      "id": 363,
+      "texte_reference_id": 26,
+      "mot_complet": "mes",
+      "mot_normalise": "mes",
+      "created_at": "2025-10-17T09:44:18.028032"
+    },
+    {
+      "id": 364,
+      "texte_reference_id": 26,
+      "mot_complet": "est",
+      "mot_normalise": "est",
+      "created_at": "2025-10-17T09:44:18.139093"
+    },
+    {
+      "id": 365,
+      "texte_reference_id": 26,
+      "mot_complet": "de",
+      "mot_normalise": "de",
+      "created_at": "2025-10-17T09:44:18.241942"
+    },
+    {
+      "id": 366,
+      "texte_reference_id": 26,
+      "mot_complet": "8",
+      "mot_normalise": "8",
+      "created_at": "2025-10-17T09:44:18.351107"
+    },
+    {
+      "id": 367,
+      "texte_reference_id": 26,
+      "mot_complet": "30",
+      "mot_normalise": "30",
+      "created_at": "2025-10-17T09:44:18.455965"
+    },
+    {
+      "id": 368,
+      "texte_reference_id": 26,
+      "mot_complet": "18",
+      "mot_normalise": "18",
+      "created_at": "2025-10-17T09:44:18.576622"
+    },
+    {
+      "id": 369,
+      "texte_reference_id": 26,
+      "mot_complet": "16",
+      "mot_normalise": "16",
+      "created_at": "2025-10-17T09:44:18.685163"
+    },
+    {
+      "id": 370,
+      "texte_reference_id": 26,
+      "mot_complet": "tout",
+      "mot_normalise": "tout",
+      "created_at": "2025-10-17T09:44:18.799149"
+    },
+    {
+      "id": 371,
+      "texte_reference_id": 26,
+      "mot_complet": "la",
+      "mot_normalise": "la",
+      "created_at": "2025-10-17T09:44:18.901655"
+    },
+    {
+      "id": 372,
+      "texte_reference_id": 26,
+      "mot_complet": "les",
+      "mot_normalise": "les",
+      "created_at": "2025-10-17T09:44:19.018688"
+    },
+    {
+      "id": 373,
+      "texte_reference_id": 26,
+      "mot_complet": "au",
+      "mot_normalise": "au",
+      "created_at": "2025-10-17T09:44:19.118484"
+    },
+    {
+      "id": 374,
+      "texte_reference_id": 26,
+      "mot_complet": "un",
+      "mot_normalise": "un",
+      "created_at": "2025-10-17T09:44:19.227715"
+    }
+  ],
+  "count": 214,
+  "timestamp": "2025-10-19T01:20:49.731Z"
+}
