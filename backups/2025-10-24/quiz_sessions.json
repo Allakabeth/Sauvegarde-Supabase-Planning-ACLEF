@@ -1,0 +1,533 @@
+{
+  "table": "quiz_sessions",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "quiz_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "user_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "score",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "total_questions",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "completed",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "session_data",
+      "data_type": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "887d4e9d-535b-4f54-b9d8-e5ab1a4abefd",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 0,
+      "total_questions": 1,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 0,
+        "completedAt": "2025-10-07T21:02:18.646Z"
+      },
+      "created_at": "2025-10-07T21:02:17.945364+00:00"
+    },
+    {
+      "id": "f0d860bd-08e0-47cc-ba84-da73e95f2c8e",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 1,
+      "total_questions": 1,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-07T21:41:21.601Z"
+      },
+      "created_at": "2025-10-07T21:41:21.684745+00:00"
+    },
+    {
+      "id": "81a783d7-172f-4829-923d-91142e0bf768",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 0,
+      "total_questions": 1,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 0,
+        "completedAt": "2025-10-07T21:41:27.792Z"
+      },
+      "created_at": "2025-10-07T21:41:27.852336+00:00"
+    },
+    {
+      "id": "25c4004d-3670-403e-a328-fde19010aa3c",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 0,
+      "total_questions": 1,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 0,
+        "completedAt": "2025-10-07T21:42:04.444Z"
+      },
+      "created_at": "2025-10-07T21:42:04.684429+00:00"
+    },
+    {
+      "id": "96d9d3f1-8ac8-4e1a-a1a3-b860f719bc5f",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 0,
+      "total_questions": 1,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 0,
+        "completedAt": "2025-10-07T21:50:48.344Z"
+      },
+      "created_at": "2025-10-07T21:50:48.454349+00:00"
+    },
+    {
+      "id": "dc0c4ac7-4362-460d-99b6-3c9d354dc1e4",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 8,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 67,
+        "completedAt": "2025-10-07T21:52:25.937Z"
+      },
+      "created_at": "2025-10-07T21:52:26.035003+00:00"
+    },
+    {
+      "id": "8003d27b-eec4-45ac-900f-a6f2152a36fb",
+      "quiz_id": "9d7e8d37-f77c-45a7-b1a6-091f29ee0ce2",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T07:18:35.562Z"
+      },
+      "created_at": "2025-10-08T07:18:35.633097+00:00"
+    },
+    {
+      "id": "4b2c9eda-3e8d-4ff1-bb09-b84445e5e904",
+      "quiz_id": "9d7e8d37-f77c-45a7-b1a6-091f29ee0ce2",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T07:23:52.492Z"
+      },
+      "created_at": "2025-10-08T07:23:52.556103+00:00"
+    },
+    {
+      "id": "c299c4d6-5759-473d-a490-2e977381abd5",
+      "quiz_id": "9d7e8d37-f77c-45a7-b1a6-091f29ee0ce2",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T07:30:03.877Z"
+      },
+      "created_at": "2025-10-08T07:30:03.968388+00:00"
+    },
+    {
+      "id": "7357e543-1c3b-4fea-9d3d-3adcd3ebd937",
+      "quiz_id": "9d7e8d37-f77c-45a7-b1a6-091f29ee0ce2",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T07:34:33.043Z"
+      },
+      "created_at": "2025-10-08T07:34:33.120444+00:00"
+    },
+    {
+      "id": "b073c6c2-2aa0-42c1-9818-1fa627987ded",
+      "quiz_id": "9d7e8d37-f77c-45a7-b1a6-091f29ee0ce2",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T07:37:54.025Z"
+      },
+      "created_at": "2025-10-08T07:37:54.086867+00:00"
+    },
+    {
+      "id": "3094ff22-c52a-4f10-9522-2fb9393a299d",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T07:53:45.634Z"
+      },
+      "created_at": "2025-10-08T07:53:45.727574+00:00"
+    },
+    {
+      "id": "6f2a8d93-210d-43e1-bdf9-ea94e589014e",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T08:00:36.165Z"
+      },
+      "created_at": "2025-10-08T08:00:36.38658+00:00"
+    },
+    {
+      "id": "56f43edc-d37d-409b-ad75-74a8a1827ba8",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T16:18:08.594Z"
+      },
+      "created_at": "2025-10-08T16:18:08.686804+00:00"
+    },
+    {
+      "id": "2edcfd1d-bc09-4e0f-9ec0-72153cfcf6b0",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 3,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 25,
+        "completedAt": "2025-10-08T16:21:19.847Z"
+      },
+      "created_at": "2025-10-08T16:21:19.939422+00:00"
+    },
+    {
+      "id": "1afcf9f0-3e01-47ec-814b-0649792ec480",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T16:24:51.472Z"
+      },
+      "created_at": "2025-10-08T16:24:51.49081+00:00"
+    },
+    {
+      "id": "8e626ea2-cfcf-4363-8421-b3cc2fea94f4",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-08T16:27:24.375Z"
+      },
+      "created_at": "2025-10-08T16:27:24.617071+00:00"
+    },
+    {
+      "id": "9e9b1b53-2c8e-49ed-a959-45fb3d9ffb11",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 0,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 0,
+        "completedAt": "2025-10-08T16:27:35.722Z"
+      },
+      "created_at": "2025-10-08T16:27:35.806702+00:00"
+    },
+    {
+      "id": "949579b9-6c43-446b-8079-24d6b5f69ab5",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 10,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 83,
+        "completedAt": "2025-10-08T16:29:04.671Z"
+      },
+      "created_at": "2025-10-08T16:29:04.681291+00:00"
+    },
+    {
+      "id": "f89b9e56-7d81-4c75-9464-6277c721001f",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 6,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 50,
+        "completedAt": "2025-10-08T16:30:25.127Z"
+      },
+      "created_at": "2025-10-08T16:30:25.198653+00:00"
+    },
+    {
+      "id": "11d74903-bff3-4e9d-8162-43e368ce7814",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 10,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 83,
+        "completedAt": "2025-10-08T16:35:00.760Z"
+      },
+      "created_at": "2025-10-08T16:35:01.031988+00:00"
+    },
+    {
+      "id": "cc537e2f-57b9-4555-b537-226a97969052",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 8,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 80,
+        "completedAt": "2025-10-09T09:20:23.345Z"
+      },
+      "created_at": "2025-10-09T09:20:23.518309+00:00"
+    },
+    {
+      "id": "a295ffda-be06-4231-b94e-dca27ff00160",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 5,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 50,
+        "completedAt": "2025-10-09T09:25:59.102Z"
+      },
+      "created_at": "2025-10-09T09:25:59.251667+00:00"
+    },
+    {
+      "id": "f3584b01-bfc8-40b3-9a04-5f52b5b273e7",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 1,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 8,
+        "completedAt": "2025-10-09T09:27:24.144Z"
+      },
+      "created_at": "2025-10-09T09:27:24.210577+00:00"
+    },
+    {
+      "id": "6776fbfd-385a-461b-97cc-42b821cfd38e",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 10,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-09T09:32:26.475Z"
+      },
+      "created_at": "2025-10-09T09:32:26.546562+00:00"
+    },
+    {
+      "id": "a84cbd0f-f78e-48e5-b8de-3ac1d945e8cf",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 9,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 90,
+        "completedAt": "2025-10-09T09:36:18.042Z"
+      },
+      "created_at": "2025-10-09T09:36:18.187174+00:00"
+    },
+    {
+      "id": "2f45e3fd-50e1-44d0-84b1-ce00bbe201aa",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "8dfc2d87-d626-4f88-9c00-86259ac09624",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-09T14:42:07.939Z"
+      },
+      "created_at": "2025-10-09T14:42:08.002896+00:00"
+    },
+    {
+      "id": "a6db2829-69b5-4459-956e-874d9cf657b9",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "8dfc2d87-d626-4f88-9c00-86259ac09624",
+      "score": 8,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 80,
+        "completedAt": "2025-10-09T14:44:55.617Z"
+      },
+      "created_at": "2025-10-09T14:44:55.688839+00:00"
+    },
+    {
+      "id": "952eb7ee-a4cd-4710-82ad-c311ccc5a8e3",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "8dfc2d87-d626-4f88-9c00-86259ac09624",
+      "score": 10,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-09T14:49:47.388Z"
+      },
+      "created_at": "2025-10-09T14:49:47.456293+00:00"
+    },
+    {
+      "id": "57bd0813-ee63-496d-9582-a338be293ded",
+      "quiz_id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "user_id": "8dfc2d87-d626-4f88-9c00-86259ac09624",
+      "score": 10,
+      "total_questions": 10,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-09T14:52:37.513Z"
+      },
+      "created_at": "2025-10-09T14:52:37.604423+00:00"
+    },
+    {
+      "id": "4a73e540-bdfa-4b94-b627-04d2ed239810",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "8dfc2d87-d626-4f88-9c00-86259ac09624",
+      "score": 12,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 100,
+        "completedAt": "2025-10-09T14:55:23.001Z"
+      },
+      "created_at": "2025-10-09T14:55:23.086018+00:00"
+    },
+    {
+      "id": "f1db611b-17f4-4774-aff6-eab7d737b11b",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 1,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 8,
+        "completedAt": "2025-10-15T09:56:36.126Z"
+      },
+      "created_at": "2025-10-15T09:56:36.228295+00:00"
+    },
+    {
+      "id": "3189d801-6858-4c31-93cc-44557f736012",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 2,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 17,
+        "completedAt": "2025-10-15T09:58:52.269Z"
+      },
+      "created_at": "2025-10-15T09:58:52.355422+00:00"
+    },
+    {
+      "id": "0275ca90-511f-4c07-9870-d28cfc5fcd6e",
+      "quiz_id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "user_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "score": 6,
+      "total_questions": 12,
+      "completed": true,
+      "session_data": {
+        "answers": [],
+        "percentage": 50,
+        "completedAt": "2025-10-22T09:50:43.220Z"
+      },
+      "created_at": "2025-10-22T09:50:43.793507+00:00"
+    }
+  ],
+  "count": 34,
+  "timestamp": "2025-10-24T01:10:40.909Z"
+}
