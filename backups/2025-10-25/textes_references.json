@@ -1,0 +1,417 @@
+{
+  "table": "textes_references",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "titre",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "apprenant_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nombre_groupes",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nombre_mots_total",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nombre_mots_multi_syllabes",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 20,
+      "titre": "numéro 2",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "created_at": "2025-10-16T09:13:35.898485",
+      "updated_at": "2025-10-23T07:36:08.908",
+      "nombre_groupes": 13,
+      "nombre_mots_total": 26,
+      "nombre_mots_multi_syllabes": 16
+    },
+    {
+      "id": 21,
+      "titre": "Mes enfants",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "created_at": "2025-10-16T09:38:16.828912",
+      "updated_at": "2025-10-23T08:05:53.456",
+      "nombre_groupes": 16,
+      "nombre_mots_total": 35,
+      "nombre_mots_multi_syllabes": 24
+    },
+    {
+      "id": 1,
+      "titre": "Texte 1 - A la mer",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-08T20:09:55.209839",
+      "updated_at": "2025-09-12T10:47:48.039",
+      "nombre_groupes": 10,
+      "nombre_mots_total": 21,
+      "nombre_mots_multi_syllabes": 21
+    },
+    {
+      "id": 2,
+      "titre": "Texte 2 - Regretter",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-09T20:24:16.220274",
+      "updated_at": "2025-09-12T10:48:37.042",
+      "nombre_groupes": 29,
+      "nombre_mots_total": 66,
+      "nombre_mots_multi_syllabes": 66
+    },
+    {
+      "id": 10,
+      "titre": "Texte 3 - Les cerises",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-09-12T11:19:32.357888",
+      "updated_at": "2025-09-12T19:44:48.433",
+      "nombre_groupes": 8,
+      "nombre_mots_total": 26,
+      "nombre_mots_multi_syllabes": 12
+    },
+    {
+      "id": 13,
+      "titre": "le sport",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "created_at": "2025-10-06T09:00:45.223905",
+      "updated_at": "2025-10-07T20:52:42.493",
+      "nombre_groupes": 16,
+      "nombre_mots_total": 43,
+      "nombre_mots_multi_syllabes": 32
+    },
+    {
+      "id": 15,
+      "titre": "Texte batiment",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "created_at": "2025-10-09T09:58:31.798743",
+      "updated_at": "2025-10-09T09:58:31.798743",
+      "nombre_groupes": 10,
+      "nombre_mots_total": 43,
+      "nombre_mots_multi_syllabes": 28
+    },
+    {
+      "id": 16,
+      "titre": "Les outils du peintre",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "created_at": "2025-10-13T08:01:17.479961",
+      "updated_at": "2025-10-13T08:01:17.479961",
+      "nombre_groupes": 14,
+      "nombre_mots_total": 32,
+      "nombre_mots_multi_syllabes": 24
+    },
+    {
+      "id": 22,
+      "titre": "Mes enfants 2",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "created_at": "2025-10-16T09:47:25.398952",
+      "updated_at": "2025-10-23T09:26:39.748",
+      "nombre_groupes": 16,
+      "nombre_mots_total": 29,
+      "nombre_mots_multi_syllabes": 22
+    },
+    {
+      "id": 18,
+      "titre": "Texte n°1 (majuscules)",
+      "apprenant_id": "db3fb1fc-87b5-440e-af56-6fd706563dba",
+      "created_at": "2025-10-15T08:53:38.789401",
+      "updated_at": "2025-10-15T12:37:16.55",
+      "nombre_groupes": 10,
+      "nombre_mots_total": 20,
+      "nombre_mots_multi_syllabes": 15
+    },
+    {
+      "id": 19,
+      "titre": "Texte n°1 Ma petite fille Renesmé",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "created_at": "2025-10-16T08:35:16.640408",
+      "updated_at": "2025-10-23T09:42:21.341",
+      "nombre_groupes": 11,
+      "nombre_mots_total": 27,
+      "nombre_mots_multi_syllabes": 18
+    },
+    {
+      "id": 23,
+      "titre": "texte référence N1",
+      "apprenant_id": "c5db1216-ce00-4d6b-8ed9-b5167afb5bc3",
+      "created_at": "2025-10-16T09:49:53.60391",
+      "updated_at": "2025-10-16T09:51:20.202",
+      "nombre_groupes": 15,
+      "nombre_mots_total": 32,
+      "nombre_mots_multi_syllabes": 27
+    },
+    {
+      "id": 14,
+      "titre": "Texte 1 - Je m'appelle Boubou Sylla",
+      "apprenant_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "created_at": "2025-10-08T09:31:17.943818",
+      "updated_at": "2025-10-16T16:39:04.652",
+      "nombre_groupes": 12,
+      "nombre_mots_total": 28,
+      "nombre_mots_multi_syllabes": 24
+    },
+    {
+      "id": 27,
+      "titre": "Texte 2 - le centre 2",
+      "apprenant_id": "6efa0b2e-215c-47ba-a378-5fbee62f281f",
+      "created_at": "2025-10-17T09:20:32.654884",
+      "updated_at": "2025-10-17T09:20:32.654884",
+      "nombre_groupes": 11,
+      "nombre_mots_total": 28,
+      "nombre_mots_multi_syllabes": 18
+    },
+    {
+      "id": 26,
+      "titre": "Texte 1 - Le centre 1",
+      "apprenant_id": "6efa0b2e-215c-47ba-a378-5fbee62f281f",
+      "created_at": "2025-10-17T07:48:38.935936",
+      "updated_at": "2025-10-17T09:44:16.984",
+      "nombre_groupes": 13,
+      "nombre_mots_total": 40,
+      "nombre_mots_multi_syllabes": 26
+    },
+    {
+      "id": 28,
+      "titre": "Texte n°2 - Le code de la route",
+      "apprenant_id": "db3fb1fc-87b5-440e-af56-6fd706563dba",
+      "created_at": "2025-10-17T09:33:44.113396",
+      "updated_at": "2025-10-17T16:14:33.63",
+      "nombre_groupes": 12,
+      "nombre_mots_total": 21,
+      "nombre_mots_multi_syllabes": 13
+    },
+    {
+      "id": 17,
+      "titre": "Texte n°1 - J'ai besoin d'écrire et lire",
+      "apprenant_id": "db3fb1fc-87b5-440e-af56-6fd706563dba",
+      "created_at": "2025-10-15T08:43:03.804373",
+      "updated_at": "2025-10-17T16:15:19.496",
+      "nombre_groupes": 10,
+      "nombre_mots_total": 20,
+      "nombre_mots_multi_syllabes": 15
+    },
+    {
+      "id": 29,
+      "titre": "Texte n°1 - Mes animaux",
+      "apprenant_id": "f1f71ce1-8a2c-4ea8-b412-53387c55c475",
+      "created_at": "2025-10-20T09:31:06.802365",
+      "updated_at": "2025-10-20T09:33:29.794",
+      "nombre_groupes": 16,
+      "nombre_mots_total": 41,
+      "nombre_mots_multi_syllabes": 31
+    },
+    {
+      "id": 30,
+      "titre": "Action Ozon",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T09:32:09.643366",
+      "updated_at": "2025-10-21T09:32:09.643366",
+      "nombre_groupes": 9,
+      "nombre_mots_total": 28,
+      "nombre_mots_multi_syllabes": 19
+    },
+    {
+      "id": 31,
+      "titre": "ACTION OZON 2",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T09:56:30.933266",
+      "updated_at": "2025-10-21T09:56:30.933266",
+      "nombre_groupes": 11,
+      "nombre_mots_total": 33,
+      "nombre_mots_multi_syllabes": 23
+    },
+    {
+      "id": 32,
+      "titre": "Mes enfants",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T10:03:14.698215",
+      "updated_at": "2025-10-21T10:03:14.698215",
+      "nombre_groupes": 19,
+      "nombre_mots_total": 37,
+      "nombre_mots_multi_syllabes": 26
+    },
+    {
+      "id": 33,
+      "titre": "Carte SNCF",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T10:07:15.141546",
+      "updated_at": "2025-10-21T10:07:15.141546",
+      "nombre_groupes": 14,
+      "nombre_mots_total": 36,
+      "nombre_mots_multi_syllabes": 24
+    },
+    {
+      "id": 34,
+      "titre": "Fêtes de famille 1",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T10:09:05.515617",
+      "updated_at": "2025-10-21T10:09:05.515617",
+      "nombre_groupes": 8,
+      "nombre_mots_total": 19,
+      "nombre_mots_multi_syllabes": 15
+    },
+    {
+      "id": 35,
+      "titre": "Fêtes de famille 2",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T10:10:33.985558",
+      "updated_at": "2025-10-21T10:10:33.985558",
+      "nombre_groupes": 8,
+      "nombre_mots_total": 18,
+      "nombre_mots_multi_syllabes": 11
+    },
+    {
+      "id": 36,
+      "titre": "Action Ozon 3",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T10:17:02.481119",
+      "updated_at": "2025-10-21T10:17:02.481119",
+      "nombre_groupes": 18,
+      "nombre_mots_total": 39,
+      "nombre_mots_multi_syllabes": 29
+    },
+    {
+      "id": 37,
+      "titre": "Action Ozon 4",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "created_at": "2025-10-21T10:19:41.613012",
+      "updated_at": "2025-10-21T10:19:41.613012",
+      "nombre_groupes": 12,
+      "nombre_mots_total": 31,
+      "nombre_mots_multi_syllabes": 22
+    },
+    {
+      "id": 38,
+      "titre": "Texte n°3",
+      "apprenant_id": "6efa0b2e-215c-47ba-a378-5fbee62f281f",
+      "created_at": "2025-10-22T07:35:57.881691",
+      "updated_at": "2025-10-22T07:35:57.881691",
+      "nombre_groupes": 9,
+      "nombre_mots_total": 27,
+      "nombre_mots_multi_syllabes": 19
+    },
+    {
+      "id": 47,
+      "titre": "T1 - Phrases au passé",
+      "apprenant_id": "c72fff12-087f-4671-880d-ec085e7004ec",
+      "created_at": "2025-10-23T13:00:11.284709",
+      "updated_at": "2025-10-23T14:27:30.304",
+      "nombre_groupes": 20,
+      "nombre_mots_total": 86,
+      "nombre_mots_multi_syllabes": 70
+    },
+    {
+      "id": 39,
+      "titre": "Texte 3 - Le ménage",
+      "apprenant_id": "db3fb1fc-87b5-440e-af56-6fd706563dba",
+      "created_at": "2025-10-22T09:50:52.171289",
+      "updated_at": "2025-10-22T09:53:28.222",
+      "nombre_groupes": 6,
+      "nombre_mots_total": 16,
+      "nombre_mots_multi_syllabes": 12
+    },
+    {
+      "id": 40,
+      "titre": "texte test",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-10-22T13:50:22.564161",
+      "updated_at": "2025-10-22T13:50:22.564161",
+      "nombre_groupes": 18,
+      "nombre_mots_total": 18,
+      "nombre_mots_multi_syllabes": 12
+    },
+    {
+      "id": 43,
+      "titre": "test 2",
+      "apprenant_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "created_at": "2025-10-22T18:49:16.893814",
+      "updated_at": "2025-10-22T18:49:16.893814",
+      "nombre_groupes": 8,
+      "nombre_mots_total": 8,
+      "nombre_mots_multi_syllabes": 8
+    },
+    {
+      "id": 44,
+      "titre": "text test 3",
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "created_at": "2025-10-22T19:28:27.272632",
+      "updated_at": "2025-10-22T19:28:27.272632",
+      "nombre_groupes": 4,
+      "nombre_mots_total": 13,
+      "nombre_mots_multi_syllabes": 9
+    },
+    {
+      "id": 24,
+      "titre": "Royan",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "created_at": "2025-10-16T10:02:18.033743",
+      "updated_at": "2025-10-23T06:31:19.18",
+      "nombre_groupes": 8,
+      "nombre_mots_total": 30,
+      "nombre_mots_multi_syllabes": 23
+    },
+    {
+      "id": 46,
+      "titre": "Le foot 3",
+      "apprenant_id": "bc46471f-d26b-4b5a-8bb5-71d0a6fef21f",
+      "created_at": "2025-10-23T09:55:09.047349",
+      "updated_at": "2025-10-24T12:22:50.191",
+      "nombre_groupes": 13,
+      "nombre_mots_total": 43,
+      "nombre_mots_multi_syllabes": 28
+    },
+    {
+      "id": 45,
+      "titre": "Le foot",
+      "apprenant_id": "bc46471f-d26b-4b5a-8bb5-71d0a6fef21f",
+      "created_at": "2025-10-23T09:20:48.916344",
+      "updated_at": "2025-10-24T12:23:36.685",
+      "nombre_groupes": 6,
+      "nombre_mots_total": 29,
+      "nombre_mots_multi_syllabes": 16
+    },
+    {
+      "id": 48,
+      "titre": "Le foot 2",
+      "apprenant_id": "bc46471f-d26b-4b5a-8bb5-71d0a6fef21f",
+      "created_at": "2025-10-24T12:25:23.041002",
+      "updated_at": "2025-10-24T12:25:23.041002",
+      "nombre_groupes": 7,
+      "nombre_mots_total": 25,
+      "nombre_mots_multi_syllabes": 18
+    }
+  ],
+  "count": 36,
+  "timestamp": "2025-10-25T01:11:57.175Z"
+}
