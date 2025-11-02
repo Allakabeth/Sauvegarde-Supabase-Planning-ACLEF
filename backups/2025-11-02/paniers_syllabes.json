@@ -1,0 +1,1174 @@
+{
+  "table": "paniers_syllabes",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "apprenant_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "texte_id",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "lettre_panier",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nom_panier",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "syllabes",
+      "data_type": "array",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 2871,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "A",
+      "nom_panier": "a",
+      "syllabes": [
+        {
+          "mot": "adorait",
+          "segmentation": [
+            "a",
+            "do",
+            "rait"
+          ],
+          "syllabeCiblee": "a",
+          "indexSyllabeCiblee": 0
+        },
+        {
+          "mot": "avec",
+          "segmentation": [
+            "a",
+            "vec"
+          ],
+          "syllabeCiblee": "a",
+          "indexSyllabeCiblee": 0
+        },
+        {
+          "mot": "adorait",
+          "segmentation": [
+            "a",
+            "do",
+            "rait"
+          ],
+          "syllabeCiblee": "a",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2872,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "A",
+      "nom_panier": "an",
+      "syllabes": [
+        {
+          "mot": "royan",
+          "segmentation": [
+            "roy",
+            "an"
+          ],
+          "syllabeCiblee": "an",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2873,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "B",
+      "nom_panier": "ble",
+      "syllabes": [
+        {
+          "mot": "sable",
+          "segmentation": [
+            "sa",
+            "ble"
+          ],
+          "syllabeCiblee": "ble",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2874,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "B",
+      "nom_panier": "bron",
+      "syllabes": [
+        {
+          "mot": "bronzette",
+          "segmentation": [
+            "bron",
+            "zette"
+          ],
+          "syllabeCiblee": "bron",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2875,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "C",
+      "nom_panier": "ce",
+      "syllabes": [
+        {
+          "mot": "cerises",
+          "segmentation": [
+            "ce",
+            "ri",
+            "ses"
+          ],
+          "syllabeCiblee": "ce",
+          "indexSyllabeCiblee": 0
+        },
+        {
+          "mot": "cerises",
+          "segmentation": [
+            "ce",
+            "ri",
+            "ses"
+          ],
+          "syllabeCiblee": "ce",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2876,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "C",
+      "nom_panier": "cerf",
+      "syllabes": [
+        {
+          "mot": "cerf-volant",
+          "segmentation": [
+            "cerf",
+            "-",
+            "vo",
+            "lant"
+          ],
+          "syllabeCiblee": "cerf",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2877,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "C",
+      "nom_panier": "cha",
+      "syllabes": [
+        {
+          "mot": "châteaux",
+          "segmentation": [
+            "châ",
+            "teaux"
+          ],
+          "syllabeCiblee": "châ",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2878,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "C",
+      "nom_panier": "cueill",
+      "syllabes": [
+        {
+          "mot": "cueillir",
+          "segmentation": [
+            "cueill",
+            "ir"
+          ],
+          "syllabeCiblee": "cueill",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2879,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "D",
+      "nom_panier": "do",
+      "syllabes": [
+        {
+          "mot": "adorait",
+          "segmentation": [
+            "a",
+            "do",
+            "rait"
+          ],
+          "syllabeCiblee": "do",
+          "indexSyllabeCiblee": 1
+        },
+        {
+          "mot": "adorait",
+          "segmentation": [
+            "a",
+            "do",
+            "rait"
+          ],
+          "syllabeCiblee": "do",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2880,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "D",
+      "nom_panier": "dou",
+      "syllabes": [
+        {
+          "mot": "douze",
+          "segmentation": [
+            "dou",
+            "ze"
+          ],
+          "syllabeCiblee": "dou",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2881,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "E",
+      "nom_panier": "el",
+      "syllabes": [
+        {
+          "mot": "elles",
+          "segmentation": [
+            "el",
+            "les"
+          ],
+          "syllabeCiblee": "el",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2882,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "E",
+      "nom_panier": "en",
+      "syllabes": [
+        {
+          "mot": "enfants",
+          "segmentation": [
+            "en",
+            "fants"
+          ],
+          "syllabeCiblee": "en",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2883,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "E",
+      "nom_panier": "er",
+      "syllabes": [
+        {
+          "mot": "panier",
+          "segmentation": [
+            "pa",
+            "ni",
+            "er"
+          ],
+          "syllabeCiblee": "er",
+          "indexSyllabeCiblee": 2
+        },
+        {
+          "mot": "jouer",
+          "segmentation": [
+            "jou",
+            "er"
+          ],
+          "syllabeCiblee": "er",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2884,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "F",
+      "nom_panier": "fant",
+      "syllabes": [
+        {
+          "mot": "enfants",
+          "segmentation": [
+            "en",
+            "fants"
+          ],
+          "syllabeCiblee": "fants",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2885,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "F",
+      "nom_panier": "fi",
+      "syllabes": [
+        {
+          "mot": "profitait",
+          "segmentation": [
+            "pro",
+            "fi",
+            "tait"
+          ],
+          "syllabeCiblee": "fi",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2886,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "G",
+      "nom_panier": "ge",
+      "syllabes": [
+        {
+          "mot": "paige",
+          "segmentation": [
+            "pai",
+            "ge"
+          ],
+          "syllabeCiblee": "ge",
+          "indexSyllabeCiblee": 1
+        },
+        {
+          "mot": "rouges",
+          "segmentation": [
+            "rou",
+            "ges"
+          ],
+          "syllabeCiblee": "ges",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2887,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "I",
+      "nom_panier": "i",
+      "syllabes": [
+        {
+          "mot": "irons",
+          "segmentation": [
+            "i",
+            "rons"
+          ],
+          "syllabeCiblee": "i",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2888,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "I",
+      "nom_panier": "ir",
+      "syllabes": [
+        {
+          "mot": "cueillir",
+          "segmentation": [
+            "cueill",
+            "ir"
+          ],
+          "syllabeCiblee": "ir",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2889,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "J",
+      "nom_panier": "jou",
+      "syllabes": [
+        {
+          "mot": "jouer",
+          "segmentation": [
+            "jou",
+            "er"
+          ],
+          "syllabeCiblee": "jou",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2890,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "L",
+      "nom_panier": "lant",
+      "syllabes": [
+        {
+          "mot": "cerf-volant",
+          "segmentation": [
+            "cerf",
+            "-",
+            "vo",
+            "lant"
+          ],
+          "syllabeCiblee": "lant",
+          "indexSyllabeCiblee": 3
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2891,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "M",
+      "nom_panier": "mé",
+      "syllabes": [
+        {
+          "mot": "renesmé",
+          "segmentation": [
+            "re",
+            "nes",
+            "mé"
+          ],
+          "syllabeCiblee": "mé",
+          "indexSyllabeCiblee": 2
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2892,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "N",
+      "nom_panier": "nes",
+      "syllabes": [
+        {
+          "mot": "renesmé",
+          "segmentation": [
+            "re",
+            "nes",
+            "mé"
+          ],
+          "syllabeCiblee": "nes",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2893,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "N",
+      "nom_panier": "ni",
+      "syllabes": [
+        {
+          "mot": "panier",
+          "segmentation": [
+            "pa",
+            "ni",
+            "er"
+          ],
+          "syllabeCiblee": "ni",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2894,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "O",
+      "nom_panier": "on",
+      "syllabes": [
+        {
+          "mot": "onze",
+          "segmentation": [
+            "on",
+            "ze"
+          ],
+          "syllabeCiblee": "on",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2895,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "P",
+      "nom_panier": "pa",
+      "syllabes": [
+        {
+          "mot": "panier",
+          "segmentation": [
+            "pa",
+            "ni",
+            "er"
+          ],
+          "syllabeCiblee": "pa",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2896,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "P",
+      "nom_panier": "pai",
+      "syllabes": [
+        {
+          "mot": "paige",
+          "segmentation": [
+            "pai",
+            "ge"
+          ],
+          "syllabeCiblee": "pai",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2897,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "P",
+      "nom_panier": "par",
+      "syllabes": [
+        {
+          "mot": "partie",
+          "segmentation": [
+            "par",
+            "tie"
+          ],
+          "syllabeCiblee": "par",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2898,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "P",
+      "nom_panier": "pe",
+      "syllabes": [
+        {
+          "mot": "petite",
+          "segmentation": [
+            "pe",
+            "ti",
+            "te"
+          ],
+          "syllabeCiblee": "pe",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2899,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "P",
+      "nom_panier": "pro",
+      "syllabes": [
+        {
+          "mot": "profitait",
+          "segmentation": [
+            "pro",
+            "fi",
+            "tait"
+          ],
+          "syllabeCiblee": "pro",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2900,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "Q",
+      "nom_panier": "qua",
+      "syllabes": [
+        {
+          "mot": "quatre",
+          "segmentation": [
+            "qua",
+            "tre"
+          ],
+          "syllabeCiblee": "qua",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2901,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "R",
+      "nom_panier": "rai",
+      "syllabes": [
+        {
+          "mot": "adorait",
+          "segmentation": [
+            "a",
+            "do",
+            "rait"
+          ],
+          "syllabeCiblee": "rait",
+          "indexSyllabeCiblee": 2
+        },
+        {
+          "mot": "adorait",
+          "segmentation": [
+            "a",
+            "do",
+            "rait"
+          ],
+          "syllabeCiblee": "rait",
+          "indexSyllabeCiblee": 2
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2902,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "R",
+      "nom_panier": "re",
+      "syllabes": [
+        {
+          "mot": "renesmé",
+          "segmentation": [
+            "re",
+            "nes",
+            "mé"
+          ],
+          "syllabeCiblee": "re",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2903,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "R",
+      "nom_panier": "ri",
+      "syllabes": [
+        {
+          "mot": "cerises",
+          "segmentation": [
+            "ce",
+            "ri",
+            "ses"
+          ],
+          "syllabeCiblee": "ri",
+          "indexSyllabeCiblee": 1
+        },
+        {
+          "mot": "cerises",
+          "segmentation": [
+            "ce",
+            "ri",
+            "ses"
+          ],
+          "syllabeCiblee": "ri",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2904,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "R",
+      "nom_panier": "rons",
+      "syllabes": [
+        {
+          "mot": "irons",
+          "segmentation": [
+            "i",
+            "rons"
+          ],
+          "syllabeCiblee": "rons",
+          "indexSyllabeCiblee": 1
+        },
+        {
+          "mot": "seront",
+          "segmentation": [
+            "se",
+            "ront"
+          ],
+          "syllabeCiblee": "ront",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2905,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "R",
+      "nom_panier": "rou",
+      "syllabes": [
+        {
+          "mot": "rouges",
+          "segmentation": [
+            "rou",
+            "ges"
+          ],
+          "syllabeCiblee": "rou",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2906,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "R",
+      "nom_panier": "roy",
+      "syllabes": [
+        {
+          "mot": "royan",
+          "segmentation": [
+            "roy",
+            "an"
+          ],
+          "syllabeCiblee": "roy",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2907,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "S",
+      "nom_panier": "sa",
+      "syllabes": [
+        {
+          "mot": "sable",
+          "segmentation": [
+            "sa",
+            "ble"
+          ],
+          "syllabeCiblee": "sa",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2908,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "S",
+      "nom_panier": "se",
+      "syllabes": [
+        {
+          "mot": "seront",
+          "segmentation": [
+            "se",
+            "ront"
+          ],
+          "syllabeCiblee": "se",
+          "indexSyllabeCiblee": 0
+        },
+        {
+          "mot": "cerises",
+          "segmentation": [
+            "ce",
+            "ri",
+            "ses"
+          ],
+          "syllabeCiblee": "ses",
+          "indexSyllabeCiblee": 2
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2909,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "tai",
+      "syllabes": [
+        {
+          "mot": "profitait",
+          "segmentation": [
+            "pro",
+            "fi",
+            "tait"
+          ],
+          "syllabeCiblee": "tait",
+          "indexSyllabeCiblee": 2
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2910,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "te",
+      "syllabes": [
+        {
+          "mot": "petite",
+          "segmentation": [
+            "pe",
+            "ti",
+            "te"
+          ],
+          "syllabeCiblee": "te",
+          "indexSyllabeCiblee": 2
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2911,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "teau",
+      "syllabes": [
+        {
+          "mot": "châteaux",
+          "segmentation": [
+            "châ",
+            "teaux"
+          ],
+          "syllabeCiblee": "teaux",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2912,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "ti",
+      "syllabes": [
+        {
+          "mot": "partie",
+          "segmentation": [
+            "par",
+            "tie"
+          ],
+          "syllabeCiblee": "tie",
+          "indexSyllabeCiblee": 1
+        },
+        {
+          "mot": "petite",
+          "segmentation": [
+            "pe",
+            "ti",
+            "te"
+          ],
+          "syllabeCiblee": "ti",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2913,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "tou",
+      "syllabes": [
+        {
+          "mot": "toutes",
+          "segmentation": [
+            "tou",
+            "tes"
+          ],
+          "syllabeCiblee": "tou",
+          "indexSyllabeCiblee": 0
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2914,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "tre",
+      "syllabes": [
+        {
+          "mot": "quatre",
+          "segmentation": [
+            "qua",
+            "tre"
+          ],
+          "syllabeCiblee": "tre",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2915,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "V",
+      "nom_panier": "vec",
+      "syllabes": [
+        {
+          "mot": "avec",
+          "segmentation": [
+            "a",
+            "vec"
+          ],
+          "syllabeCiblee": "vec",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2916,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "V",
+      "nom_panier": "vo",
+      "syllabes": [
+        {
+          "mot": "cerf-volant",
+          "segmentation": [
+            "cerf",
+            "-",
+            "vo",
+            "lant"
+          ],
+          "syllabeCiblee": "vo",
+          "indexSyllabeCiblee": 2
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2917,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "Z",
+      "nom_panier": "zette",
+      "syllabes": [
+        {
+          "mot": "bronzette",
+          "segmentation": [
+            "bron",
+            "zette"
+          ],
+          "syllabeCiblee": "zette",
+          "indexSyllabeCiblee": 1
+        }
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2918,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "§",
+      "nom_panier": "SONS_COMPLEXES",
+      "syllabes": [
+        "cerises",
+        "elles",
+        "toutes",
+        "faisait"
+      ],
+      "created_at": "2025-10-26T17:43:29.054237",
+      "updated_at": "2025-10-26T17:43:29.054237"
+    },
+    {
+      "id": 2919,
+      "apprenant_id": "ef45f2ec-77e5-4df6-b73b-221fa56deb50",
+      "texte_id": null,
+      "lettre_panier": "T",
+      "nom_panier": "MOTS_TRAITES",
+      "syllabes": [
+        "cueillir",
+        "douze",
+        "irons",
+        "onze",
+        "panier",
+        "quatre",
+        "seront",
+        "adorait",
+        "avec",
+        "bronzette",
+        "cerf-volant",
+        "châteaux",
+        "enfants",
+        "jouer",
+        "paige",
+        "partie",
+        "petite",
+        "profitait",
+        "renesmé",
+        "royan",
+        "sable",
+        "rouges",
+        "cerises"
+      ],
+      "created_at": "2025-10-26T17:43:29.114764",
+      "updated_at": "2025-10-26T17:43:29.114764"
+    }
+  ],
+  "count": 49,
+  "timestamp": "2025-11-02T01:20:07.897Z"
+}

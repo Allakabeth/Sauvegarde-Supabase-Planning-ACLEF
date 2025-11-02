@@ -1,0 +1,523 @@
+{
+  "table": "quiz",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "title",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "description",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "created_by",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "quiz_data",
+      "data_type": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "is_active",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "category_id",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "9d7e8d37-f77c-45a7-b1a6-091f29ee0ce2",
+      "title": "Boubou Sylla - mon identité",
+      "description": null,
+      "created_by": "390e1ae5-9998-4fc5-b43d-9f687694e187",
+      "quiz_data": {
+        "type": "matching",
+        "settings": {
+          "shuffle": false,
+          "allowRetry": true,
+          "showFeedback": true
+        },
+        "questions": [
+          {
+            "id": 1,
+            "text": "Associe les bons éléments ensemble",
+            "type": "matching",
+            "unit": "",
+            "items": [],
+            "answers": [],
+            "tolerance": 0,
+            "leftColumn": [
+              {
+                "id": "a",
+                "text": "Nom"
+              },
+              {
+                "id": "b",
+                "text": "Prénom"
+              },
+              {
+                "id": "c",
+                "text": "Age"
+              },
+              {
+                "id": "d",
+                "text": "Date de naissance"
+              },
+              {
+                "id": "f",
+                "text": "Adresse"
+              },
+              {
+                "id": "g",
+                "text": "Code postal"
+              },
+              {
+                "id": "h",
+                "text": "Ville"
+              },
+              {
+                "id": "i",
+                "text": "Adresse mail"
+              },
+              {
+                "id": "j",
+                "text": "Lieu de Naissance"
+              },
+              {
+                "id": "k",
+                "text": "Nationalité"
+              },
+              {
+                "id": "l",
+                "text": "Numéro de téléphone"
+              }
+            ],
+            "minCorrect": 1,
+            "explanation": "",
+            "rightColumn": [
+              {
+                "id": "1",
+                "text": "Sylla",
+                "matchWith": "a"
+              },
+              {
+                "id": "2",
+                "text": "Boubou",
+                "matchWith": "b"
+              },
+              {
+                "id": "3",
+                "text": "20 ans",
+                "matchWith": "c"
+              },
+              {
+                "id": "4",
+                "text": "09 Octobre 2004",
+                "matchWith": "d"
+              },
+              {
+                "id": "5",
+                "text": "09/10/2004",
+                "matchWith": "d"
+              },
+              {
+                "id": "6",
+                "text": "11 allée René Goscinny - Appt 8",
+                "matchWith": "f"
+              },
+              {
+                "id": "7",
+                "text": "86000",
+                "matchWith": "g"
+              },
+              {
+                "id": "8",
+                "text": "Poitiers",
+                "matchWith": "h"
+              },
+              {
+                "id": "9",
+                "text": "boubousylla1213@gmail.com",
+                "matchWith": "i"
+              },
+              {
+                "id": "10",
+                "text": "Mali",
+                "matchWith": "j"
+              },
+              {
+                "id": "11",
+                "text": "malien",
+                "matchWith": "k"
+              },
+              {
+                "id": "12",
+                "text": "06 05 83 91 45",
+                "matchWith": "l"
+              }
+            ],
+            "correctAnswer": "",
+            "customMessage": {
+              "error": "",
+              "success": ""
+            }
+          }
+        ]
+      },
+      "is_active": true,
+      "created_at": "2025-10-07T20:36:57.246436+00:00",
+      "category_id": null
+    },
+    {
+      "id": "10e62ac6-d20d-4ccd-b8a6-116a570b499b",
+      "title": "Les mois de l'année",
+      "description": null,
+      "created_by": "390e1ae5-9998-4fc5-b43d-9f687694e187",
+      "quiz_data": {
+        "type": "ordering",
+        "settings": {
+          "shuffle": false,
+          "allowRetry": true,
+          "showFeedback": true
+        },
+        "questions": [
+          {
+            "id": 1,
+            "text": "Mets les mois dans le bon ordre",
+            "type": "ordering",
+            "items": [
+              {
+                "id": 1,
+                "text": "Janvier",
+                "correctPosition": 1
+              },
+              {
+                "id": 2,
+                "text": "Février",
+                "correctPosition": 2
+              },
+              {
+                "id": 3,
+                "text": "Mars",
+                "correctPosition": 3
+              },
+              {
+                "id": 4,
+                "text": "Avril",
+                "correctPosition": 4
+              },
+              {
+                "id": 5,
+                "text": "Mai ",
+                "correctPosition": 5
+              },
+              {
+                "id": 6,
+                "text": "Juin",
+                "correctPosition": 6
+              },
+              {
+                "id": 7,
+                "text": "Juillet",
+                "correctPosition": 7
+              },
+              {
+                "id": 8,
+                "text": "Août",
+                "correctPosition": 8
+              },
+              {
+                "id": 9,
+                "text": "Septembre",
+                "correctPosition": 9
+              },
+              {
+                "id": 10,
+                "text": "Octobre",
+                "correctPosition": 10
+              },
+              {
+                "id": 11,
+                "text": "Novembre",
+                "correctPosition": 11
+              },
+              {
+                "id": 12,
+                "text": "Décembre",
+                "correctPosition": 12
+              }
+            ]
+          }
+        ]
+      },
+      "is_active": true,
+      "created_at": "2025-10-07T20:57:40.198262+00:00",
+      "category_id": null
+    },
+    {
+      "id": "0340703d-c241-4ab3-abe3-bd5c986c0f0e",
+      "title": "Les nombres de 1 à 10",
+      "description": null,
+      "created_by": "390e1ae5-9998-4fc5-b43d-9f687694e187",
+      "quiz_data": {
+        "type": "matching",
+        "settings": {
+          "shuffle": false,
+          "allowRetry": true,
+          "showFeedback": true
+        },
+        "questions": [
+          {
+            "id": 1,
+            "text": "",
+            "leftColumn": [
+              {
+                "id": "a",
+                "text": "1"
+              },
+              {
+                "id": "b",
+                "text": "2"
+              },
+              {
+                "id": "c",
+                "text": "3"
+              },
+              {
+                "id": "d",
+                "text": "4"
+              },
+              {
+                "id": "e",
+                "text": "5"
+              },
+              {
+                "id": "f",
+                "text": "6"
+              },
+              {
+                "id": "g",
+                "text": "7"
+              },
+              {
+                "id": "h",
+                "text": "8"
+              },
+              {
+                "id": "i",
+                "text": "9"
+              },
+              {
+                "id": "j",
+                "text": "10"
+              }
+            ],
+            "rightColumn": [
+              {
+                "id": "1",
+                "text": "UN",
+                "matchWith": "a"
+              },
+              {
+                "id": "2",
+                "text": "DEUX",
+                "matchWith": "b"
+              },
+              {
+                "id": "3",
+                "text": "TROIS",
+                "matchWith": "c"
+              },
+              {
+                "id": "4",
+                "text": "QUATRE",
+                "matchWith": "d"
+              },
+              {
+                "id": "5",
+                "text": "CINQ",
+                "matchWith": "e"
+              },
+              {
+                "id": "6",
+                "text": "SIX",
+                "matchWith": "f"
+              },
+              {
+                "id": "7",
+                "text": "SEPT",
+                "matchWith": "g"
+              },
+              {
+                "id": "8",
+                "text": "HUIT",
+                "matchWith": "h"
+              },
+              {
+                "id": "9",
+                "text": "NEUF",
+                "matchWith": "i"
+              },
+              {
+                "id": "10",
+                "text": "DIX",
+                "matchWith": "j"
+              }
+            ]
+          }
+        ]
+      },
+      "is_active": true,
+      "created_at": "2025-10-09T09:15:05.702933+00:00",
+      "category_id": null
+    },
+    {
+      "id": "e317a661-346c-4ff7-8340-637ac914a14f",
+      "title": "Mon identité - Alain Couchy",
+      "description": null,
+      "created_by": "390e1ae5-9998-4fc5-b43d-9f687694e187",
+      "quiz_data": {
+        "type": "matching",
+        "settings": {
+          "shuffle": false,
+          "allowRetry": true,
+          "showFeedback": true
+        },
+        "questions": [
+          {
+            "id": 1,
+            "text": "Associe les etiquettes avec la bonne information.",
+            "type": "matching",
+            "unit": "",
+            "items": [],
+            "answers": [],
+            "tolerance": 0,
+            "leftColumn": [
+              {
+                "id": "a",
+                "text": "Nom"
+              },
+              {
+                "id": "b",
+                "text": "Prénom"
+              },
+              {
+                "id": "c",
+                "text": "Date de naissance"
+              },
+              {
+                "id": "d",
+                "text": "Age"
+              },
+              {
+                "id": "e",
+                "text": "Adresse"
+              },
+              {
+                "id": "f",
+                "text": "Code postal"
+              },
+              {
+                "id": "g",
+                "text": "Ville"
+              },
+              {
+                "id": "h",
+                "text": "Téléphone"
+              },
+              {
+                "id": "i",
+                "text": "Nom de ma soeur"
+              }
+            ],
+            "minCorrect": 1,
+            "explanation": "",
+            "rightColumn": [
+              {
+                "id": "1",
+                "text": "Couchy",
+                "matchWith": "a"
+              },
+              {
+                "id": "2",
+                "text": "Alain",
+                "matchWith": "b"
+              },
+              {
+                "id": "3",
+                "text": "26 juillet 1970",
+                "matchWith": "c"
+              },
+              {
+                "id": "4",
+                "text": "55 ans",
+                "matchWith": "d"
+              },
+              {
+                "id": "5",
+                "text": "22 rue du lavoir",
+                "matchWith": "e"
+              },
+              {
+                "id": "6",
+                "text": "86100",
+                "matchWith": "f"
+              },
+              {
+                "id": "7",
+                "text": "Antran",
+                "matchWith": "g"
+              },
+              {
+                "id": "8",
+                "text": "07 89 32 76 09",
+                "matchWith": "h"
+              },
+              {
+                "id": "9",
+                "text": "Pamela",
+                "matchWith": "i"
+              }
+            ],
+            "correctAnswer": "",
+            "customMessage": {
+              "error": "",
+              "success": ""
+            }
+          }
+        ]
+      },
+      "is_active": true,
+      "created_at": "2025-10-27T08:37:40.901979+00:00",
+      "category_id": null
+    }
+  ],
+  "count": 4,
+  "timestamp": "2025-11-02T01:20:04.008Z"
+}
