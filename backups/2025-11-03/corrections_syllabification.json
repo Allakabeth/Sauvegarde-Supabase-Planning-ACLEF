@@ -1,0 +1,1277 @@
+{
+  "table": "corrections_syllabification",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "segmentation_correcte",
+      "data_type": "array",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "type_correction",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "statut",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "source",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "admin_correcteur",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "signalement_origine_id",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "date_creation",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_modification",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "nombre_applications",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "commentaire",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 2,
+      "mot": "enfants",
+      "segmentation_correcte": [
+        "en",
+        "fants"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": null,
+      "signalement_origine_id": null,
+      "date_creation": "2025-09-13T14:02:17.611347",
+      "date_modification": "2025-09-13T14:02:17.611347",
+      "nombre_applications": 0,
+      "commentaire": "Segmentation pédagogique standard",
+      "updated_at": "2025-09-13T14:22:49.280582"
+    },
+    {
+      "id": 49,
+      "mot": "comme",
+      "segmentation_correcte": [
+        "com",
+        "me"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 11,
+      "date_creation": "2025-09-13T16:26:47.883188",
+      "date_modification": "2025-09-13T16:26:59.421527",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T16:26:59.421527"
+    },
+    {
+      "id": 52,
+      "mot": "rêve",
+      "segmentation_correcte": [
+        "rê",
+        "ve"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 23,
+      "date_creation": "2025-09-13T18:04:06.770225",
+      "date_modification": "2025-09-13T18:04:06.804",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T18:04:06.804"
+    },
+    {
+      "id": 53,
+      "mot": "renesmé",
+      "segmentation_correcte": [
+        "re",
+        "nes",
+        "mé"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 22,
+      "date_creation": "2025-09-13T18:04:14.693952",
+      "date_modification": "2025-09-13T18:04:14.641",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T18:04:14.641"
+    },
+    {
+      "id": 54,
+      "mot": "cerf-volant",
+      "segmentation_correcte": [
+        "cerf",
+        "-",
+        "vo",
+        "lant"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 21,
+      "date_creation": "2025-09-13T18:04:23.984222",
+      "date_modification": "2025-09-13T18:04:23.99",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T18:04:23.99"
+    },
+    {
+      "id": 55,
+      "mot": "aime",
+      "segmentation_correcte": [
+        "ai",
+        "me"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 20,
+      "date_creation": "2025-09-13T18:04:27.692041",
+      "date_modification": "2025-09-13T18:04:27.753",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T18:04:27.753"
+    },
+    {
+      "id": 56,
+      "mot": "même",
+      "segmentation_correcte": [
+        "mê",
+        "me"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 19,
+      "date_creation": "2025-09-13T18:04:30.792914",
+      "date_modification": "2025-09-13T18:04:30.851",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T18:04:30.851"
+    },
+    {
+      "id": 57,
+      "mot": "voilier",
+      "segmentation_correcte": [
+        "voi",
+        "li",
+        "er"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 45,
+      "date_creation": "2025-09-13T21:00:19.387146",
+      "date_modification": "2025-09-13T21:00:19.456",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:00:19.456"
+    },
+    {
+      "id": 58,
+      "mot": "voyager",
+      "segmentation_correcte": [
+        "voy",
+        "a",
+        "ger"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 44,
+      "date_creation": "2025-09-13T21:00:41.606715",
+      "date_modification": "2025-09-13T21:00:41.701",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:00:41.701"
+    },
+    {
+      "id": 59,
+      "mot": "tristesse",
+      "segmentation_correcte": [
+        "tris",
+        "tes",
+        "se"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 42,
+      "date_creation": "2025-09-13T21:01:19.902685",
+      "date_modification": "2025-09-13T21:01:19.989",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:19.989"
+    },
+    {
+      "id": 60,
+      "mot": "écrire",
+      "segmentation_correcte": [
+        "é",
+        "cri",
+        "re"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 43,
+      "date_creation": "2025-09-13T21:01:25.664194",
+      "date_modification": "2025-09-13T21:01:25.773",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:25.773"
+    },
+    {
+      "id": 61,
+      "mot": "situation",
+      "segmentation_correcte": [
+        "si",
+        "tu",
+        "a",
+        "tion"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 41,
+      "date_creation": "2025-09-13T21:01:30.565026",
+      "date_modification": "2025-09-13T21:01:30.717",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:30.717"
+    },
+    {
+      "id": 62,
+      "mot": "tableau",
+      "segmentation_correcte": [
+        "ta",
+        "bleau"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 40,
+      "date_creation": "2025-09-13T21:01:34.541334",
+      "date_modification": "2025-09-13T21:01:34.696",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:34.696"
+    },
+    {
+      "id": 63,
+      "mot": "réaliser",
+      "segmentation_correcte": [
+        "ré",
+        "a",
+        "li",
+        "ser"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 39,
+      "date_creation": "2025-09-13T21:01:44.964201",
+      "date_modification": "2025-09-13T21:01:45.076",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:45.076"
+    },
+    {
+      "id": 64,
+      "mot": "regretter",
+      "segmentation_correcte": [
+        "re",
+        "gret",
+        "ter"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 38,
+      "date_creation": "2025-09-13T21:01:52.785929",
+      "date_modification": "2025-09-13T21:01:52.876",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:52.876"
+    },
+    {
+      "id": 3,
+      "mot": "avec",
+      "segmentation_correcte": [
+        "a",
+        "vec"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 5,
+      "date_creation": "2025-09-13T14:05:52.864974",
+      "date_modification": "2025-09-13T14:34:31.426639",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:34:31.426639"
+    },
+    {
+      "id": 4,
+      "mot": "bronzette",
+      "segmentation_correcte": [
+        "bron",
+        "zette"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 4,
+      "date_creation": "2025-09-13T14:06:14.398209",
+      "date_modification": "2025-09-13T14:34:40.453763",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:34:40.453763"
+    },
+    {
+      "id": 5,
+      "mot": "royan",
+      "segmentation_correcte": [
+        "roy",
+        "an"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 3,
+      "date_creation": "2025-09-13T14:06:22.193199",
+      "date_modification": "2025-09-13T14:34:53.131999",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:34:53.131999"
+    },
+    {
+      "id": 6,
+      "mot": "partie",
+      "segmentation_correcte": [
+        "par",
+        "tie"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 2,
+      "date_creation": "2025-09-13T14:06:31.132894",
+      "date_modification": "2025-09-13T14:35:00.964083",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:35:00.964083"
+    },
+    {
+      "id": 1,
+      "mot": "châteaux",
+      "segmentation_correcte": [
+        "châ",
+        "teaux"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 1,
+      "date_creation": "2025-09-13T14:02:17.611347",
+      "date_modification": "2025-09-13T14:35:06.827399",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:35:06.827399"
+    },
+    {
+      "id": 40,
+      "mot": "quatre",
+      "segmentation_correcte": [
+        "qua",
+        "tre"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 10,
+      "date_creation": "2025-09-13T14:44:50.233701",
+      "date_modification": "2025-09-13T14:44:50.953",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:44:50.953"
+    },
+    {
+      "id": 44,
+      "mot": "onze",
+      "segmentation_correcte": [
+        "on",
+        "ze"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 6,
+      "date_creation": "2025-09-13T14:46:42.611274",
+      "date_modification": "2025-09-13T14:46:43.497",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T14:46:43.497"
+    },
+    {
+      "id": 45,
+      "mot": "conquit",
+      "segmentation_correcte": [
+        "con",
+        "quit"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 17,
+      "date_creation": "2025-09-13T16:26:17.582356",
+      "date_modification": "2025-09-13T16:26:17.515",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T16:26:17.515"
+    },
+    {
+      "id": 46,
+      "mot": "celui",
+      "segmentation_correcte": [
+        "ce",
+        "lui"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 16,
+      "date_creation": "2025-09-13T16:26:22.541651",
+      "date_modification": "2025-09-13T16:26:22.546",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T16:26:22.546"
+    },
+    {
+      "id": 47,
+      "mot": "voyage",
+      "segmentation_correcte": [
+        "voy",
+        "a",
+        "ge"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 15,
+      "date_creation": "2025-09-13T16:26:39.829766",
+      "date_modification": "2025-09-13T16:26:39.781",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T16:26:39.781"
+    },
+    {
+      "id": 48,
+      "mot": "ulysse",
+      "segmentation_correcte": [
+        "u",
+        "ly",
+        "sse"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 14,
+      "date_creation": "2025-09-13T16:26:44.189247",
+      "date_modification": "2025-09-13T16:26:44.197",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T16:26:44.197"
+    },
+    {
+      "id": 43,
+      "mot": "cueillir",
+      "segmentation_correcte": [
+        "cueill",
+        "ir"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 7,
+      "date_creation": "2025-09-13T14:46:28.523646",
+      "date_modification": "2025-09-14T09:25:18.431474",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-14T09:25:18.431474"
+    },
+    {
+      "id": 65,
+      "mot": "philosophie",
+      "segmentation_correcte": [
+        "phi",
+        "lo",
+        "so",
+        "phie"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 37,
+      "date_creation": "2025-09-13T21:01:57.941827",
+      "date_modification": "2025-09-13T21:01:58.103",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:01:58.104"
+    },
+    {
+      "id": 66,
+      "mot": "longue",
+      "segmentation_correcte": [
+        "lon",
+        "gue"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 36,
+      "date_creation": "2025-09-13T21:02:02.097772",
+      "date_modification": "2025-09-13T21:02:02.235",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:02.235"
+    },
+    {
+      "id": 67,
+      "mot": "créer",
+      "segmentation_correcte": [
+        "cré",
+        "er"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 35,
+      "date_creation": "2025-09-13T21:02:05.838469",
+      "date_modification": "2025-09-13T21:02:06.003",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:06.003"
+    },
+    {
+      "id": 68,
+      "mot": "ensuite",
+      "segmentation_correcte": [
+        "en",
+        "sui",
+        "te"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 33,
+      "date_creation": "2025-09-13T21:02:17.436407",
+      "date_modification": "2025-09-13T21:02:17.605",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:17.605"
+    },
+    {
+      "id": 69,
+      "mot": "nécessaire",
+      "segmentation_correcte": [
+        "né",
+        "ces",
+        "sai",
+        "re"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 32,
+      "date_creation": "2025-09-13T21:02:25.631202",
+      "date_modification": "2025-09-13T21:02:25.739",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:25.739"
+    },
+    {
+      "id": 70,
+      "mot": "café",
+      "segmentation_correcte": [
+        "ca",
+        "fé"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 31,
+      "date_creation": "2025-09-13T21:02:29.50406",
+      "date_modification": "2025-09-13T21:02:29.675",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:29.675"
+    },
+    {
+      "id": 71,
+      "mot": "agir",
+      "segmentation_correcte": [
+        "a",
+        "gir"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 30,
+      "date_creation": "2025-09-13T21:02:32.477994",
+      "date_modification": "2025-09-13T21:02:32.642",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:32.642"
+    },
+    {
+      "id": 72,
+      "mot": "idée",
+      "segmentation_correcte": [
+        "i",
+        "dée"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 29,
+      "date_creation": "2025-09-13T21:02:35.264435",
+      "date_modification": "2025-09-13T21:02:35.428",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:35.428"
+    },
+    {
+      "id": 41,
+      "mot": "elles",
+      "segmentation_correcte": [
+        "el",
+        "les"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 48,
+      "date_creation": "2025-09-13T14:46:13.19112",
+      "date_modification": "2025-09-14T20:39:14.905075",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-14T20:39:14.905075"
+    },
+    {
+      "id": 42,
+      "mot": "panier",
+      "segmentation_correcte": [
+        "pa",
+        "ni",
+        "er"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 49,
+      "date_creation": "2025-09-13T14:46:23.15986",
+      "date_modification": "2025-09-14T20:39:11.083604",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-14T20:39:11.083604"
+    },
+    {
+      "id": 73,
+      "mot": "exemple",
+      "segmentation_correcte": [
+        "ex",
+        "em",
+        "ple"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 28,
+      "date_creation": "2025-09-13T21:02:39.730986",
+      "date_modification": "2025-09-13T21:02:39.903",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:39.903"
+    },
+    {
+      "id": 75,
+      "mot": "guitare",
+      "segmentation_correcte": [
+        "gui",
+        "ta",
+        "re"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 26,
+      "date_creation": "2025-09-13T21:02:48.402634",
+      "date_modification": "2025-09-13T21:02:48.573",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:48.573"
+    },
+    {
+      "id": 76,
+      "mot": "améliorer",
+      "segmentation_correcte": [
+        "a",
+        "mé",
+        "li",
+        "o",
+        "rer"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 25,
+      "date_creation": "2025-09-13T21:02:52.427632",
+      "date_modification": "2025-09-13T21:02:52.599",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:02:52.599"
+    },
+    {
+      "id": 74,
+      "mot": "apprendre",
+      "segmentation_correcte": [
+        "a",
+        "ppren",
+        "dre"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 27,
+      "date_creation": "2025-09-13T21:02:44.731372",
+      "date_modification": "2025-09-13T21:13:39.81517",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-09-13T21:13:39.81517"
+    },
+    {
+      "id": 83,
+      "mot": "équipe",
+      "segmentation_correcte": [
+        "é",
+        "qui",
+        "pe"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 58,
+      "date_creation": "2025-10-13T14:55:01.898477",
+      "date_modification": "2025-10-13T14:55:02.856",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:02.856"
+    },
+    {
+      "id": 84,
+      "mot": "écoutes",
+      "segmentation_correcte": [
+        "é",
+        "cou",
+        "tes"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 57,
+      "date_creation": "2025-10-13T14:55:16.23962",
+      "date_modification": "2025-10-13T14:55:17.217",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:17.217"
+    },
+    {
+      "id": 85,
+      "mot": "rouleau",
+      "segmentation_correcte": [
+        "rou",
+        "leau"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 56,
+      "date_creation": "2025-10-13T14:55:20.783866",
+      "date_modification": "2025-10-13T14:55:21.835",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:21.835"
+    },
+    {
+      "id": 86,
+      "mot": "pinceaux",
+      "segmentation_correcte": [
+        "pin",
+        "ceaux"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 55,
+      "date_creation": "2025-10-13T14:55:25.303574",
+      "date_modification": "2025-10-13T14:55:26.34",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:26.34"
+    },
+    {
+      "id": 87,
+      "mot": "respectes",
+      "segmentation_correcte": [
+        "res",
+        "pec",
+        "tes"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 54,
+      "date_creation": "2025-10-13T14:55:30.47083",
+      "date_modification": "2025-10-13T14:55:31.525",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:31.525"
+    },
+    {
+      "id": 88,
+      "mot": "collègue",
+      "segmentation_correcte": [
+        "co",
+        "llè",
+        "gue"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 53,
+      "date_creation": "2025-10-13T14:55:33.571991",
+      "date_modification": "2025-10-13T14:55:34.626",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:34.626"
+    },
+    {
+      "id": 89,
+      "mot": "casque",
+      "segmentation_correcte": [
+        "cas",
+        "que"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 52,
+      "date_creation": "2025-10-13T14:55:37.836956",
+      "date_modification": "2025-10-13T14:55:38.89",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:38.89"
+    },
+    {
+      "id": 90,
+      "mot": "liste",
+      "segmentation_correcte": [
+        "lis",
+        "te"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 51,
+      "date_creation": "2025-10-13T14:55:41.723228",
+      "date_modification": "2025-10-13T14:55:42.763",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-13T14:55:42.763"
+    },
+    {
+      "id": 91,
+      "mot": "messages",
+      "segmentation_correcte": [
+        "mes",
+        "sa",
+        "ges"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Magaie",
+      "signalement_origine_id": 62,
+      "date_creation": "2025-10-15T11:24:58.732522",
+      "date_modification": "2025-10-15T11:24:58.44",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-15T11:24:58.44"
+    },
+    {
+      "id": 92,
+      "mot": "papiers",
+      "segmentation_correcte": [
+        "pa",
+        "piers"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Magaie",
+      "signalement_origine_id": 61,
+      "date_creation": "2025-10-15T11:25:08.168142",
+      "date_modification": "2025-10-15T11:25:08.095",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-15T11:25:08.095"
+    },
+    {
+      "id": 93,
+      "mot": "adresse",
+      "segmentation_correcte": [
+        "a",
+        "dres",
+        "se"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Magaie",
+      "signalement_origine_id": 60,
+      "date_creation": "2025-10-15T11:25:35.059533",
+      "date_modification": "2025-10-15T11:25:34.981",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-15T11:25:34.981"
+    },
+    {
+      "id": 94,
+      "mot": "kady",
+      "segmentation_correcte": [
+        "ka",
+        "dy"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Magaie",
+      "signalement_origine_id": 59,
+      "date_creation": "2025-10-15T11:25:40.716925",
+      "date_modification": "2025-10-15T11:25:40.654",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-15T11:25:40.654"
+    },
+    {
+      "id": 95,
+      "mot": "père",
+      "segmentation_correcte": [
+        "pè",
+        "re"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Boubou",
+      "signalement_origine_id": 64,
+      "date_creation": "2025-10-22T20:10:07.709977",
+      "date_modification": "2025-10-22T20:10:07.394",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-22T20:10:07.394"
+    },
+    {
+      "id": 96,
+      "mot": "mère",
+      "segmentation_correcte": [
+        "mè",
+        "re"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Boubou",
+      "signalement_origine_id": 63,
+      "date_creation": "2025-10-22T20:10:13.609837",
+      "date_modification": "2025-10-22T20:10:13.475",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-22T20:10:13.475"
+    },
+    {
+      "id": 97,
+      "mot": "éléphant",
+      "segmentation_correcte": [
+        "é",
+        "lé",
+        "phant"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 69,
+      "date_creation": "2025-10-26T17:57:27.517817",
+      "date_modification": "2025-10-26T17:57:28.565",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-26T17:57:28.565"
+    },
+    {
+      "id": 98,
+      "mot": "koala",
+      "segmentation_correcte": [
+        "ko",
+        "a",
+        "la"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 67,
+      "date_creation": "2025-10-26T17:57:34.298309",
+      "date_modification": "2025-10-26T17:57:35.354",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-26T17:57:35.354"
+    },
+    {
+      "id": 99,
+      "mot": "opéra",
+      "segmentation_correcte": [
+        "o",
+        "pé",
+        "ra"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 68,
+      "date_creation": "2025-10-26T17:57:39.149594",
+      "date_modification": "2025-10-26T17:57:40.292",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-26T17:57:40.292"
+    },
+    {
+      "id": 100,
+      "mot": "béta",
+      "segmentation_correcte": [
+        "bé",
+        "ta"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Nina02",
+      "signalement_origine_id": 65,
+      "date_creation": "2025-10-26T17:57:43.730498",
+      "date_modification": "2025-10-26T17:57:44.874",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-26T17:57:44.874"
+    },
+    {
+      "id": 101,
+      "mot": "famille",
+      "segmentation_correcte": [
+        "fa",
+        "mi",
+        "lle"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alain",
+      "signalement_origine_id": 66,
+      "date_creation": "2025-10-27T11:25:48.260843",
+      "date_modification": "2025-10-27T11:25:47.991",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-27T11:25:47.991"
+    },
+    {
+      "id": 102,
+      "mot": "truelle",
+      "segmentation_correcte": [
+        "tru",
+        "el",
+        "le"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 74,
+      "date_creation": "2025-10-28T10:33:13.214905",
+      "date_modification": "2025-10-28T10:33:13.097",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-28T10:33:13.097"
+    },
+    {
+      "id": 103,
+      "mot": "maçon",
+      "segmentation_correcte": [
+        "ma",
+        "çon"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 73,
+      "date_creation": "2025-10-28T10:33:21.935495",
+      "date_modification": "2025-10-28T10:33:21.848",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-28T10:33:21.848"
+    },
+    {
+      "id": 104,
+      "mot": "arriver",
+      "segmentation_correcte": [
+        "ar",
+        "ri",
+        "ver"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 71,
+      "date_creation": "2025-10-28T10:33:40.064043",
+      "date_modification": "2025-10-28T10:33:46.716406",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-28T10:33:46.716406"
+    },
+    {
+      "id": 106,
+      "mot": "briques",
+      "segmentation_correcte": [
+        "bri",
+        "ques"
+      ],
+      "type_correction": "syllabification",
+      "statut": "actif",
+      "source": "admin",
+      "admin_correcteur": "Alseny",
+      "signalement_origine_id": 70,
+      "date_creation": "2025-10-28T10:33:56.621983",
+      "date_modification": "2025-10-28T10:33:56.381",
+      "nombre_applications": 0,
+      "commentaire": "Correction appliquée: segmentation utilisateur validée",
+      "updated_at": "2025-10-28T10:33:56.381"
+    }
+  ],
+  "count": 64,
+  "timestamp": "2025-11-03T01:18:59.150Z"
+}
