@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-11-05T01:17:33.506Z",
+  "date": "2025-11-05",
+  "totalTables": 28,
+  "totalRecords": 8350,
+  "tables": [
+    {
+      "name": "lieux",
+      "records": 4
+    },
+    {
+      "name": "quiz_categories",
+      "records": 9
+    },
+    {
+      "name": "users",
+      "records": 90
+    },
+    {
+      "name": "textes_references",
+      "records": 40
+    },
+    {
+      "name": "absences_formateurs",
+      "records": 150
+    },
+    {
+      "name": "admin_sessions",
+      "records": 736
+    },
+    {
+      "name": "messages",
+      "records": 324
+    },
+    {
+      "name": "planning_hebdomadaire",
+      "records": 247
+    },
+    {
+      "name": "planning_formateurs_hebdo",
+      "records": 368
+    },
+    {
+      "name": "planning_type_formateurs",
+      "records": 270
+    },
+    {
+      "name": "planning_apprenants",
+      "records": 105
+    },
+    {
+      "name": "absences_apprenants",
+      "records": 30
+    },
+    {
+      "name": "presence_formateurs",
+      "records": 109
+    },
+    {
+      "name": "suspensions_parcours",
+      "records": 3
+    },
+    {
+      "name": "quiz",
+      "records": 4
+    },
+    {
+      "name": "quiz_sessions",
+      "records": 36
+    },
+    {
+      "name": "imagiers",
+      "records": 10
+    },
+    {
+      "name": "imagier_elements",
+      "records": 181
+    },
+    {
+      "name": "groupes_sens",
+      "records": 506
+    },
+    {
+      "name": "mots_extraits",
+      "records": 937
+    },
+    {
+      "name": "syllabes",
+      "records": 3106
+    },
+    {
+      "name": "syllabes_mots",
+      "records": 414
+    },
+    {
+      "name": "mots_classifies",
+      "records": 417
+    },
+    {
+      "name": "corrections_demandees",
+      "records": 27
+    },
+    {
+      "name": "paniers_syllabes",
+      "records": 49
+    },
+    {
+      "name": "signalements_syllabification",
+      "records": 77
+    },
+    {
+      "name": "corrections_syllabification",
+      "records": 64
+    },
+    {
+      "name": "corrections_mono_multi",
+      "records": 37
+    }
+  ],
+  "files": {
+    "complete": "complete-backup.json",
+    "individual": [
+      "lieux.json",
+      "quiz_categories.json",
+      "users.json",
+      "textes_references.json",
+      "absences_formateurs.json",
+      "admin_sessions.json",
+      "messages.json",
+      "planning_hebdomadaire.json",
+      "planning_formateurs_hebdo.json",
+      "planning_type_formateurs.json",
+      "planning_apprenants.json",
+      "absences_apprenants.json",
+      "presence_formateurs.json",
+      "suspensions_parcours.json",
+      "quiz.json",
+      "quiz_sessions.json",
+      "imagiers.json",
+      "imagier_elements.json",
+      "groupes_sens.json",
+      "mots_extraits.json",
+      "syllabes.json",
+      "syllabes_mots.json",
+      "mots_classifies.json",
+      "corrections_demandees.json",
+      "paniers_syllabes.json",
+      "signalements_syllabification.json",
+      "corrections_syllabification.json",
+      "corrections_mono_multi.json"
+    ]
+  }
+}
