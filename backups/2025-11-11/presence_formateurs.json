@@ -1,0 +1,1407 @@
+{
+  "table": "presence_formateurs",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "formateur_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "periode",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "lieu",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "present",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 68,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-30T07:48:45.369945+00:00",
+      "updated_at": "2025-10-30T07:48:48.958354+00:00"
+    },
+    {
+      "id": 69,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-30",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-30T07:48:45.459611+00:00",
+      "updated_at": "2025-10-30T07:48:49.095936+00:00"
+    },
+    {
+      "id": 70,
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-30T08:06:41.523805+00:00",
+      "updated_at": "2025-10-30T08:06:41.523805+00:00"
+    },
+    {
+      "id": 71,
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-30",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-30T08:06:41.762679+00:00",
+      "updated_at": "2025-10-30T08:06:41.762679+00:00"
+    },
+    {
+      "id": 72,
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-30T14:48:51.936803+00:00",
+      "updated_at": "2025-10-30T14:49:00.918209+00:00"
+    },
+    {
+      "id": 73,
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-30",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-30T14:48:52.019553+00:00",
+      "updated_at": "2025-10-30T14:49:01.132662+00:00"
+    },
+    {
+      "id": 1,
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-19",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-09-19T07:29:13.700665+00:00",
+      "updated_at": "2025-09-19T07:31:51.090238+00:00"
+    },
+    {
+      "id": 2,
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-18",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-09-19T07:45:20.061845+00:00",
+      "updated_at": "2025-09-19T07:45:20.061845+00:00"
+    },
+    {
+      "id": 3,
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-10-15",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-15T07:12:39.325182+00:00",
+      "updated_at": "2025-10-15T07:12:39.325182+00:00"
+    },
+    {
+      "id": 4,
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-10-15",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-15T07:12:39.478156+00:00",
+      "updated_at": "2025-10-15T07:12:39.478156+00:00"
+    },
+    {
+      "id": 5,
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-16",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-16T07:14:34.420557+00:00",
+      "updated_at": "2025-10-16T07:14:34.420557+00:00"
+    },
+    {
+      "id": 6,
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-16",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-16T07:14:34.503055+00:00",
+      "updated_at": "2025-10-16T07:14:34.503055+00:00"
+    },
+    {
+      "id": 7,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-16",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-16T07:28:44.574141+00:00",
+      "updated_at": "2025-10-16T07:28:44.574141+00:00"
+    },
+    {
+      "id": 8,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-16",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-16T07:28:44.776416+00:00",
+      "updated_at": "2025-10-16T07:28:44.776416+00:00"
+    },
+    {
+      "id": 9,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-13",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-16T07:29:10.125984+00:00",
+      "updated_at": "2025-10-16T07:29:10.125984+00:00"
+    },
+    {
+      "id": 10,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-16",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-16T08:57:58.715842+00:00",
+      "updated_at": "2025-10-16T08:57:58.715842+00:00"
+    },
+    {
+      "id": 11,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-16",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-16T08:57:58.829424+00:00",
+      "updated_at": "2025-10-16T08:57:58.829424+00:00"
+    },
+    {
+      "id": 12,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-16",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-16T12:53:42.339928+00:00",
+      "updated_at": "2025-10-16T12:53:42.339928+00:00"
+    },
+    {
+      "id": 13,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-16",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-16T12:53:42.431343+00:00",
+      "updated_at": "2025-10-16T12:53:42.431343+00:00"
+    },
+    {
+      "id": 14,
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-17",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-17T08:46:05.456453+00:00",
+      "updated_at": "2025-10-17T08:46:05.456453+00:00"
+    },
+    {
+      "id": 15,
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-17",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-17T08:46:05.569496+00:00",
+      "updated_at": "2025-10-17T08:46:05.569496+00:00"
+    },
+    {
+      "id": 16,
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-15",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-17T08:46:33.819772+00:00",
+      "updated_at": "2025-10-17T08:46:33.819772+00:00"
+    },
+    {
+      "id": 17,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-17",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-17T15:49:57.655291+00:00",
+      "updated_at": "2025-10-17T15:49:57.655291+00:00"
+    },
+    {
+      "id": 18,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-17",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-17T15:49:57.76744+00:00",
+      "updated_at": "2025-10-17T15:49:57.76744+00:00"
+    },
+    {
+      "id": 19,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-19",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-19T16:40:42.67513+00:00",
+      "updated_at": "2025-10-19T16:40:42.67513+00:00"
+    },
+    {
+      "id": 20,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-19",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-19T16:40:42.740529+00:00",
+      "updated_at": "2025-10-19T16:40:42.740529+00:00"
+    },
+    {
+      "id": 21,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-20",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-20T07:24:39.216894+00:00",
+      "updated_at": "2025-10-20T07:24:39.216894+00:00"
+    },
+    {
+      "id": 22,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-20",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-20T07:24:39.331506+00:00",
+      "updated_at": "2025-10-20T07:24:39.331506+00:00"
+    },
+    {
+      "id": 23,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-20",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-20T12:01:36.115996+00:00",
+      "updated_at": "2025-10-20T12:01:36.115996+00:00"
+    },
+    {
+      "id": 24,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-20",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-20T12:01:36.252128+00:00",
+      "updated_at": "2025-10-20T12:01:36.252128+00:00"
+    },
+    {
+      "id": 25,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-20",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-20T12:04:08.960443+00:00",
+      "updated_at": "2025-10-20T12:04:08.960443+00:00"
+    },
+    {
+      "id": 26,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-20",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-20T12:04:09.093391+00:00",
+      "updated_at": "2025-10-20T12:04:09.093391+00:00"
+    },
+    {
+      "id": 27,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-21",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-21T08:42:48.449591+00:00",
+      "updated_at": "2025-10-21T08:42:48.449591+00:00"
+    },
+    {
+      "id": 28,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-21",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-21T08:42:48.629182+00:00",
+      "updated_at": "2025-10-21T08:42:48.629182+00:00"
+    },
+    {
+      "id": 29,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-21",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-21T08:44:19.356676+00:00",
+      "updated_at": "2025-10-21T08:44:19.356676+00:00"
+    },
+    {
+      "id": 30,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-21",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-21T08:44:19.437159+00:00",
+      "updated_at": "2025-10-21T08:44:19.437159+00:00"
+    },
+    {
+      "id": 31,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-21T08:46:01.393687+00:00",
+      "updated_at": "2025-10-21T08:46:01.393687+00:00"
+    },
+    {
+      "id": 32,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-31",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-21T08:46:02.559839+00:00",
+      "updated_at": "2025-10-21T08:46:02.559839+00:00"
+    },
+    {
+      "id": 33,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-21",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-21T09:44:13.567587+00:00",
+      "updated_at": "2025-10-21T09:52:09.430183+00:00"
+    },
+    {
+      "id": 34,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-21",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-21T09:44:13.671182+00:00",
+      "updated_at": "2025-10-21T09:52:09.613744+00:00"
+    },
+    {
+      "id": 36,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-21",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-21T16:43:09.34315+00:00",
+      "updated_at": "2025-10-21T16:43:09.34315+00:00"
+    },
+    {
+      "id": 37,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-21",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-21T16:43:09.521208+00:00",
+      "updated_at": "2025-10-21T16:43:09.521208+00:00"
+    },
+    {
+      "id": 38,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-23",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-23T06:47:44.983008+00:00",
+      "updated_at": "2025-10-23T06:47:44.983008+00:00"
+    },
+    {
+      "id": 39,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-23",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-23T06:47:45.083313+00:00",
+      "updated_at": "2025-10-23T06:47:45.083313+00:00"
+    },
+    {
+      "id": 40,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-23",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-23T07:02:16.709214+00:00",
+      "updated_at": "2025-10-23T07:02:16.709214+00:00"
+    },
+    {
+      "id": 41,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-23",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-23T07:02:16.903254+00:00",
+      "updated_at": "2025-10-23T07:02:16.903254+00:00"
+    },
+    {
+      "id": 42,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-23",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-23T07:03:35.79374+00:00",
+      "updated_at": "2025-10-23T07:03:51.798872+00:00"
+    },
+    {
+      "id": 43,
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-23",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-23T07:03:35.853254+00:00",
+      "updated_at": "2025-10-23T07:03:51.981813+00:00"
+    },
+    {
+      "id": 44,
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-24",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-24T07:05:24.623075+00:00",
+      "updated_at": "2025-10-24T07:05:37.668304+00:00"
+    },
+    {
+      "id": 45,
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-24",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-24T07:05:24.742869+00:00",
+      "updated_at": "2025-10-24T07:05:37.86829+00:00"
+    },
+    {
+      "id": 46,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-24",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-24T08:35:02.702975+00:00",
+      "updated_at": "2025-10-24T08:35:02.702975+00:00"
+    },
+    {
+      "id": 47,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-24",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-24T08:35:02.831824+00:00",
+      "updated_at": "2025-10-24T08:35:02.831824+00:00"
+    },
+    {
+      "id": 48,
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-24",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-24T14:20:37.181419+00:00",
+      "updated_at": "2025-10-24T14:20:37.181419+00:00"
+    },
+    {
+      "id": 49,
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-24",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-24T14:20:37.276743+00:00",
+      "updated_at": "2025-10-24T14:20:37.276743+00:00"
+    },
+    {
+      "id": 50,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-26",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-26T18:52:34.955782+00:00",
+      "updated_at": "2025-10-26T18:52:34.955782+00:00"
+    },
+    {
+      "id": 51,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-26",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-26T18:52:35.041771+00:00",
+      "updated_at": "2025-10-26T18:52:35.041771+00:00"
+    },
+    {
+      "id": 52,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-27",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-27T09:50:04.354426+00:00",
+      "updated_at": "2025-10-27T09:50:04.354426+00:00"
+    },
+    {
+      "id": 53,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-27",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-27T09:50:04.443212+00:00",
+      "updated_at": "2025-10-27T09:50:04.443212+00:00"
+    },
+    {
+      "id": 54,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-27",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-27T14:49:18.802466+00:00",
+      "updated_at": "2025-10-27T14:49:18.802466+00:00"
+    },
+    {
+      "id": 55,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-27",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-27T14:49:18.93322+00:00",
+      "updated_at": "2025-10-27T14:49:18.93322+00:00"
+    },
+    {
+      "id": 74,
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-30T15:03:33.32446+00:00",
+      "updated_at": "2025-10-30T15:03:33.32446+00:00"
+    },
+    {
+      "id": 75,
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-30",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-30T15:03:33.434135+00:00",
+      "updated_at": "2025-10-30T15:03:33.434135+00:00"
+    },
+    {
+      "id": 56,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-28",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-28T07:47:07.994528+00:00",
+      "updated_at": "2025-10-28T07:47:18.04928+00:00"
+    },
+    {
+      "id": 57,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-28",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-28T07:47:08.122119+00:00",
+      "updated_at": "2025-10-28T07:47:18.238487+00:00"
+    },
+    {
+      "id": 58,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-28",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-28T09:36:35.975734+00:00",
+      "updated_at": "2025-10-28T09:36:35.975734+00:00"
+    },
+    {
+      "id": 59,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-28",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-28T09:36:36.083183+00:00",
+      "updated_at": "2025-10-28T09:36:36.083183+00:00"
+    },
+    {
+      "id": 60,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-28",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-28T15:18:05.622303+00:00",
+      "updated_at": "2025-10-28T15:18:05.622303+00:00"
+    },
+    {
+      "id": 61,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-28",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-28T15:18:05.785632+00:00",
+      "updated_at": "2025-10-28T15:18:05.785632+00:00"
+    },
+    {
+      "id": 62,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-29",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-29T06:51:47.937624+00:00",
+      "updated_at": "2025-10-29T06:51:47.937624+00:00"
+    },
+    {
+      "id": 63,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-29",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-29T06:51:48.062171+00:00",
+      "updated_at": "2025-10-29T06:51:48.062171+00:00"
+    },
+    {
+      "id": 64,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-29",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-29T08:07:37.465165+00:00",
+      "updated_at": "2025-10-29T08:07:37.465165+00:00"
+    },
+    {
+      "id": 65,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-29",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-29T08:07:37.619165+00:00",
+      "updated_at": "2025-10-29T08:07:37.619165+00:00"
+    },
+    {
+      "id": 66,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-30T06:39:22.52013+00:00",
+      "updated_at": "2025-10-30T06:39:22.52013+00:00"
+    },
+    {
+      "id": 67,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-30",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-30T06:39:22.663504+00:00",
+      "updated_at": "2025-10-30T06:39:22.663504+00:00"
+    },
+    {
+      "id": 76,
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-10-30",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-30T22:28:14.153684+00:00",
+      "updated_at": "2025-10-30T22:28:50.717891+00:00"
+    },
+    {
+      "id": 77,
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-10-30",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-30T22:28:14.232527+00:00",
+      "updated_at": "2025-10-30T22:28:50.773769+00:00"
+    },
+    {
+      "id": 78,
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-31",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-31T07:51:39.483805+00:00",
+      "updated_at": "2025-10-31T07:51:39.483805+00:00"
+    },
+    {
+      "id": 79,
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-31",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-31T07:51:39.597948+00:00",
+      "updated_at": "2025-10-31T07:51:39.597948+00:00"
+    },
+    {
+      "id": 80,
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-31",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-31T16:43:53.366756+00:00",
+      "updated_at": "2025-10-31T16:43:53.366756+00:00"
+    },
+    {
+      "id": 81,
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-31",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-10-31T16:43:53.456086+00:00",
+      "updated_at": "2025-10-31T16:43:53.456086+00:00"
+    },
+    {
+      "id": 85,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T12:59:39.799136+00:00",
+      "updated_at": "2025-11-03T12:59:42.225146+00:00"
+    },
+    {
+      "id": 86,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T12:59:39.91854+00:00",
+      "updated_at": "2025-11-03T12:59:42.399838+00:00"
+    },
+    {
+      "id": 83,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T08:25:30.788873+00:00",
+      "updated_at": "2025-11-03T08:25:30.788873+00:00"
+    },
+    {
+      "id": 84,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T08:25:30.870255+00:00",
+      "updated_at": "2025-11-03T08:25:30.870255+00:00"
+    },
+    {
+      "id": 87,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T13:06:08.672219+00:00",
+      "updated_at": "2025-11-03T13:06:16.015911+00:00"
+    },
+    {
+      "id": 88,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T13:06:08.779985+00:00",
+      "updated_at": "2025-11-03T13:06:16.169592+00:00"
+    },
+    {
+      "id": 89,
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T13:07:57.618999+00:00",
+      "updated_at": "2025-11-03T13:07:57.618999+00:00"
+    },
+    {
+      "id": 90,
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T13:07:57.698501+00:00",
+      "updated_at": "2025-11-03T13:07:57.698501+00:00"
+    },
+    {
+      "id": 93,
+      "formateur_id": "3a168890-cbff-47c7-84ca-950933ab900f",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T13:37:44.252558+00:00",
+      "updated_at": "2025-11-03T13:37:44.252558+00:00"
+    },
+    {
+      "id": 94,
+      "formateur_id": "3a168890-cbff-47c7-84ca-950933ab900f",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T13:37:44.320965+00:00",
+      "updated_at": "2025-11-03T13:37:44.320965+00:00"
+    },
+    {
+      "id": 95,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T13:39:46.769801+00:00",
+      "updated_at": "2025-11-03T13:39:46.769801+00:00"
+    },
+    {
+      "id": 96,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T13:39:46.89993+00:00",
+      "updated_at": "2025-11-03T13:39:46.89993+00:00"
+    },
+    {
+      "id": 35,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-09",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-10-21T09:47:54.201619+00:00",
+      "updated_at": "2025-11-03T14:28:07.738846+00:00"
+    },
+    {
+      "id": 97,
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T16:00:14.923947+00:00",
+      "updated_at": "2025-11-03T16:00:14.923947+00:00"
+    },
+    {
+      "id": 92,
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T13:23:25.737164+00:00",
+      "updated_at": "2025-11-03T21:26:31.342211+00:00"
+    },
+    {
+      "id": 98,
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-11-03",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-03T16:00:15.05492+00:00",
+      "updated_at": "2025-11-03T16:00:15.05492+00:00"
+    },
+    {
+      "id": 91,
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-03",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-03T13:23:25.572278+00:00",
+      "updated_at": "2025-11-03T21:26:31.190662+00:00"
+    },
+    {
+      "id": 99,
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-04",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-04T07:44:12.449296+00:00",
+      "updated_at": "2025-11-04T07:44:12.449296+00:00"
+    },
+    {
+      "id": 100,
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-04",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-04T07:44:12.597716+00:00",
+      "updated_at": "2025-11-04T07:44:12.597716+00:00"
+    },
+    {
+      "id": 101,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-04",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-04T07:44:28.643212+00:00",
+      "updated_at": "2025-11-04T07:44:30.51137+00:00"
+    },
+    {
+      "id": 102,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-04",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-04T07:44:28.751779+00:00",
+      "updated_at": "2025-11-04T07:44:30.715905+00:00"
+    },
+    {
+      "id": 103,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-04",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-04T07:54:12.826031+00:00",
+      "updated_at": "2025-11-04T07:54:12.826031+00:00"
+    },
+    {
+      "id": 104,
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-04",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-04T07:54:12.916619+00:00",
+      "updated_at": "2025-11-04T07:54:12.916619+00:00"
+    },
+    {
+      "id": 105,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-04",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-04T09:35:15.384088+00:00",
+      "updated_at": "2025-11-04T09:35:15.384088+00:00"
+    },
+    {
+      "id": 106,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-04",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-04T09:35:15.569711+00:00",
+      "updated_at": "2025-11-04T09:35:15.569711+00:00"
+    },
+    {
+      "id": 107,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-04",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-04T09:58:02.155477+00:00",
+      "updated_at": "2025-11-04T09:58:02.155477+00:00"
+    },
+    {
+      "id": 108,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-04",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-04T09:58:02.305203+00:00",
+      "updated_at": "2025-11-04T09:58:02.305203+00:00"
+    },
+    {
+      "id": 109,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-04",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-04T11:28:35.517013+00:00",
+      "updated_at": "2025-11-04T11:28:35.517013+00:00"
+    },
+    {
+      "id": 110,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-04",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-04T11:28:35.678382+00:00",
+      "updated_at": "2025-11-04T11:28:35.678382+00:00"
+    },
+    {
+      "id": 111,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-05",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-05T08:00:36.443576+00:00",
+      "updated_at": "2025-11-05T08:00:36.443576+00:00"
+    },
+    {
+      "id": 112,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-05",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-05T08:00:36.601315+00:00",
+      "updated_at": "2025-11-05T08:00:36.601315+00:00"
+    },
+    {
+      "id": 113,
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-05",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-05T08:01:07.919517+00:00",
+      "updated_at": "2025-11-05T08:01:07.919517+00:00"
+    },
+    {
+      "id": 114,
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-05",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-05T08:01:07.96702+00:00",
+      "updated_at": "2025-11-05T08:01:07.96702+00:00"
+    },
+    {
+      "id": 115,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T06:51:58.281794+00:00",
+      "updated_at": "2025-11-06T06:51:58.281794+00:00"
+    },
+    {
+      "id": 116,
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T06:51:58.372128+00:00",
+      "updated_at": "2025-11-06T06:51:58.372128+00:00"
+    },
+    {
+      "id": 117,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T07:49:02.846462+00:00",
+      "updated_at": "2025-11-06T07:49:02.846462+00:00"
+    },
+    {
+      "id": 118,
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T07:49:02.928074+00:00",
+      "updated_at": "2025-11-06T07:49:02.928074+00:00"
+    },
+    {
+      "id": 119,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T07:58:48.111282+00:00",
+      "updated_at": "2025-11-06T07:58:48.111282+00:00"
+    },
+    {
+      "id": 120,
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T07:58:48.276562+00:00",
+      "updated_at": "2025-11-06T07:58:48.276562+00:00"
+    },
+    {
+      "id": 121,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T08:01:48.226216+00:00",
+      "updated_at": "2025-11-06T08:01:48.226216+00:00"
+    },
+    {
+      "id": 122,
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T08:01:48.400681+00:00",
+      "updated_at": "2025-11-06T08:01:48.400681+00:00"
+    },
+    {
+      "id": 123,
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T08:03:08.723738+00:00",
+      "updated_at": "2025-11-06T08:03:08.723738+00:00"
+    },
+    {
+      "id": 124,
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T08:03:08.782392+00:00",
+      "updated_at": "2025-11-06T08:03:08.782392+00:00"
+    },
+    {
+      "id": 127,
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T12:11:37.159993+00:00",
+      "updated_at": "2025-11-06T12:59:01.843318+00:00"
+    },
+    {
+      "id": 128,
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T12:11:37.291774+00:00",
+      "updated_at": "2025-11-06T12:59:01.918932+00:00"
+    },
+    {
+      "id": 129,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T13:03:28.947469+00:00",
+      "updated_at": "2025-11-06T13:03:28.947469+00:00"
+    },
+    {
+      "id": 130,
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T13:03:29.454146+00:00",
+      "updated_at": "2025-11-06T13:03:29.454146+00:00"
+    },
+    {
+      "id": 131,
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T14:53:53.637162+00:00",
+      "updated_at": "2025-11-06T14:53:53.637162+00:00"
+    },
+    {
+      "id": 132,
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-06T14:53:53.738525+00:00",
+      "updated_at": "2025-11-06T14:53:53.738525+00:00"
+    },
+    {
+      "id": 125,
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-06",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T09:16:32.426224+00:00",
+      "updated_at": "2025-11-06T16:46:38.516201+00:00"
+    },
+    {
+      "id": 126,
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-06",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-06T09:16:32.522573+00:00",
+      "updated_at": "2025-11-06T16:46:38.692464+00:00"
+    },
+    {
+      "id": 133,
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-11-07",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-07T08:42:00.422545+00:00",
+      "updated_at": "2025-11-07T08:42:00.422545+00:00"
+    },
+    {
+      "id": 134,
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-11-07",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-07T08:42:00.607512+00:00",
+      "updated_at": "2025-11-07T08:42:00.607512+00:00"
+    },
+    {
+      "id": 135,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-07",
+      "periode": "matin",
+      "lieu": "CCP",
+      "present": true,
+      "created_at": "2025-11-07T09:43:38.683825+00:00",
+      "updated_at": "2025-11-07T09:43:38.683825+00:00"
+    },
+    {
+      "id": 136,
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-07",
+      "periode": "apres_midi",
+      "lieu": "CCP",
+      "present": false,
+      "created_at": "2025-11-07T09:43:38.762706+00:00",
+      "updated_at": "2025-11-07T09:43:38.762706+00:00"
+    }
+  ],
+  "count": 135,
+  "timestamp": "2025-11-11T01:17:26.819Z"
+}
