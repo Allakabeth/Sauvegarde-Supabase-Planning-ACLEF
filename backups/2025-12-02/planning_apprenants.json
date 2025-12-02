@@ -1,0 +1,978 @@
+{
+  "table": "planning_apprenants",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "apprenant_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "jour",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "creneau",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "lieu_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "actif",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "9ef9f761-b62e-4e67-8581-4f44e6f6711c",
+      "apprenant_id": "6c8d1198-6814-4ff5-9f59-5711e1de7684",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-07T11:56:31.121212+00:00"
+    },
+    {
+      "id": "8c5e7642-b402-4c5b-90cb-a256a6460428",
+      "apprenant_id": "89bd1275-981a-4f26-b4eb-113ce3cc1ce4",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-14T06:22:44.939537+00:00"
+    },
+    {
+      "id": "22fe1502-8049-4b45-ac12-7afdad04bd60",
+      "apprenant_id": "d3e9434d-8be7-4c2c-bb41-bd2e228ad203",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T06:35:47.794702+00:00"
+    },
+    {
+      "id": "64cde836-06c8-43d9-8cee-ff00b5d24b31",
+      "apprenant_id": "d3e9434d-8be7-4c2c-bb41-bd2e228ad203",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T06:35:47.794702+00:00"
+    },
+    {
+      "id": "5e69a8d5-fc7b-466d-9334-6b679299a775",
+      "apprenant_id": "94271f8e-6136-422c-8ed3-21ef3f571a66",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T06:38:48.121285+00:00"
+    },
+    {
+      "id": "1e7bcb3e-0455-4f56-ab34-8b4580280d01",
+      "apprenant_id": "94271f8e-6136-422c-8ed3-21ef3f571a66",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T06:38:48.121285+00:00"
+    },
+    {
+      "id": "039eab44-48fb-4dd4-9555-20102e9821da",
+      "apprenant_id": "c72fff12-087f-4671-880d-ec085e7004ec",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:24:31.319431+00:00"
+    },
+    {
+      "id": "f5875588-13c6-4fa9-b0c5-94f38ca8937d",
+      "apprenant_id": "c72fff12-087f-4671-880d-ec085e7004ec",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:24:31.319431+00:00"
+    },
+    {
+      "id": "f24b3e6f-2fc2-4ce5-a2d9-b0211c2edae1",
+      "apprenant_id": "d3bc7935-d8ef-4e56-ac06-a859e15c83c9",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:25:23.858467+00:00"
+    },
+    {
+      "id": "13b77802-c279-40a6-8de4-bf37c3b86f9a",
+      "apprenant_id": "d3bc7935-d8ef-4e56-ac06-a859e15c83c9",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:25:23.858467+00:00"
+    },
+    {
+      "id": "3066c2d4-dca8-412f-9d6f-ca19548425c3",
+      "apprenant_id": "e19caa68-9147-4227-9613-02b935268a5a",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-11-03T13:35:05.479014+00:00"
+    },
+    {
+      "id": "c09c2df6-dcee-4495-bd92-9f20a5ed005f",
+      "apprenant_id": "b96eb911-f312-442b-ad0d-a27fcbebbede",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-11-05T14:09:52.366051+00:00"
+    },
+    {
+      "id": "00036842-a5d3-457e-aded-681fbeb224f5",
+      "apprenant_id": "8d72a5e9-e7e0-429f-8280-bdf02ee97f69",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:25:58.028196+00:00"
+    },
+    {
+      "id": "3ee27aa8-ea04-4f9c-89e1-2bd2445ad3ce",
+      "apprenant_id": "8d72a5e9-e7e0-429f-8280-bdf02ee97f69",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:25:58.028196+00:00"
+    },
+    {
+      "id": "d1e3698e-662c-43c8-89d1-803e90c2b0e1",
+      "apprenant_id": "28eafaee-183c-4879-8211-9e2be1559d1f",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:26:20.247578+00:00"
+    },
+    {
+      "id": "f01d4596-9ff3-4274-8d50-6f6f37c15dde",
+      "apprenant_id": "28eafaee-183c-4879-8211-9e2be1559d1f",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:26:20.247578+00:00"
+    },
+    {
+      "id": "0fa17050-8d11-463d-ae27-862a3771307e",
+      "apprenant_id": "76b9b579-10ac-40ca-ba41-46a595199fdb",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:26:38.869236+00:00"
+    },
+    {
+      "id": "89436960-52a0-4837-831c-3f7bce74065e",
+      "apprenant_id": "76b9b579-10ac-40ca-ba41-46a595199fdb",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:26:38.869236+00:00"
+    },
+    {
+      "id": "a77b6f98-c2ea-468f-9a1a-ede71b46b374",
+      "apprenant_id": "420ed1cc-def4-48e9-b68b-bf1dfa65185b",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:27:41.768108+00:00"
+    },
+    {
+      "id": "cc705b1a-6d00-4aa2-82b6-046190b5c1b7",
+      "apprenant_id": "420ed1cc-def4-48e9-b68b-bf1dfa65185b",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:27:41.768108+00:00"
+    },
+    {
+      "id": "395e290e-4f87-4455-83a5-ded12bc84b4b",
+      "apprenant_id": "5c419cb7-8d82-422d-8e40-34bb49847f5f",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:28:18.419775+00:00"
+    },
+    {
+      "id": "fa4448d6-7eca-4c93-b46d-332ad5417862",
+      "apprenant_id": "5c419cb7-8d82-422d-8e40-34bb49847f5f",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:28:18.419775+00:00"
+    },
+    {
+      "id": "77af218a-8172-41f6-abbb-29634fc9d8dd",
+      "apprenant_id": "5c419cb7-8d82-422d-8e40-34bb49847f5f",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:28:18.419775+00:00"
+    },
+    {
+      "id": "ba88b0b0-b711-4e55-bc69-76fa224812f0",
+      "apprenant_id": "3d564d06-b687-4aa7-8f49-fa85dfee7f01",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:28:39.877163+00:00"
+    },
+    {
+      "id": "91f96278-2eea-4c7c-87d8-b02a20d83395",
+      "apprenant_id": "3d564d06-b687-4aa7-8f49-fa85dfee7f01",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:28:39.877163+00:00"
+    },
+    {
+      "id": "a2d0c53e-c1ef-445e-bec9-ee2ffaeb5d7b",
+      "apprenant_id": "35d5cc60-a5d8-4f82-a544-c4e54e252658",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:26.861001+00:00"
+    },
+    {
+      "id": "aa822b34-deb9-405f-891a-3900056994e5",
+      "apprenant_id": "35d5cc60-a5d8-4f82-a544-c4e54e252658",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:26.861001+00:00"
+    },
+    {
+      "id": "fe82018f-48a3-4ea8-af76-be0116b2d0ab",
+      "apprenant_id": "35d5cc60-a5d8-4f82-a544-c4e54e252658",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:26.861001+00:00"
+    },
+    {
+      "id": "7cb86a20-e670-4453-8177-f3702da01787",
+      "apprenant_id": "cd5f6559-7c0d-43e1-ae1d-5800a39f2f86",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-08-27T14:30:09.108416+00:00"
+    },
+    {
+      "id": "4a1594bd-816e-422d-8bf5-193a035b6c23",
+      "apprenant_id": "cd5f6559-7c0d-43e1-ae1d-5800a39f2f86",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-08-27T14:30:09.108416+00:00"
+    },
+    {
+      "id": "e5d44635-e7c4-43a2-b74b-87d617a7165a",
+      "apprenant_id": "35d5cc60-a5d8-4f82-a544-c4e54e252658",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:26.861001+00:00"
+    },
+    {
+      "id": "897a9452-aa64-4a57-ab50-73523a36ff10",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-11-28T10:21:13.964483+00:00"
+    },
+    {
+      "id": "3f3c3b67-443d-46ab-9cfa-93ec9465f1e3",
+      "apprenant_id": "75614d27-55b5-456e-abf3-3c8562775e14",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-11-28T10:21:13.964483+00:00"
+    },
+    {
+      "id": "a0f0ea39-0971-4b4c-a9e0-d48b80aa6a25",
+      "apprenant_id": "b541dc9b-4b89-4e3a-a50d-fab200c2b62c",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:31:15.316244+00:00"
+    },
+    {
+      "id": "7efd6dc8-ceb7-4260-b330-2e4f5f4ca3a9",
+      "apprenant_id": "7df73583-f1cc-46b2-ac1f-f4dc92fcb66b",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:31:32.166441+00:00"
+    },
+    {
+      "id": "31800392-f4a6-4d6c-9f45-af5bfce573f0",
+      "apprenant_id": "6587a710-3edd-4d4f-b727-e9e9999656ac",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:33:17.126909+00:00"
+    },
+    {
+      "id": "a88c30c7-6e96-4036-a428-4b7f01b45358",
+      "apprenant_id": "f1a7ea8a-d44f-48ca-9cde-cc367ed4c062",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:33:43.307852+00:00"
+    },
+    {
+      "id": "32e57fae-bfef-4214-a409-74e4ab54fc6c",
+      "apprenant_id": "7c33509a-0276-43e0-a33a-07fe4f9ca451",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:33:53.918243+00:00"
+    },
+    {
+      "id": "2f15c198-bfe7-4700-aaf5-9ad753acdaad",
+      "apprenant_id": "0998ec8f-35b2-4125-b8e3-279396b55557",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:34:17.381126+00:00"
+    },
+    {
+      "id": "deee7b8d-d8f2-48ed-a8db-f95593e88095",
+      "apprenant_id": "0998ec8f-35b2-4125-b8e3-279396b55557",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-08-27T14:34:17.381126+00:00"
+    },
+    {
+      "id": "ff6096bd-c5d9-4e34-b42a-0b4a638a2efe",
+      "apprenant_id": "965259f0-4179-4e6d-92d9-78a04bdf7782",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-08-27T14:34:35.007602+00:00"
+    },
+    {
+      "id": "1b6c1af9-3fd2-4a1f-8277-dcc2ebbac717",
+      "apprenant_id": "965259f0-4179-4e6d-92d9-78a04bdf7782",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-08-27T14:34:35.007602+00:00"
+    },
+    {
+      "id": "9486064f-912b-48fd-b163-3e2e94b332d3",
+      "apprenant_id": "1f880f52-c195-4702-826d-a566c14cd72a",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:35:02.143827+00:00"
+    },
+    {
+      "id": "d277e0f1-f5b8-4637-96f4-e7277449b1c0",
+      "apprenant_id": "1f880f52-c195-4702-826d-a566c14cd72a",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:35:02.143827+00:00"
+    },
+    {
+      "id": "6339d22b-b3f6-452a-a798-e40dfdadd0c4",
+      "apprenant_id": "d98534fb-879f-4e9b-a6e7-8d8910507522",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:35:47.142622+00:00"
+    },
+    {
+      "id": "30a829b4-0181-4be2-a240-494ba01a82be",
+      "apprenant_id": "d98534fb-879f-4e9b-a6e7-8d8910507522",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:35:47.142622+00:00"
+    },
+    {
+      "id": "c406fe97-b5b8-4dc9-85c1-62665b6ed1f0",
+      "apprenant_id": "fad2482e-42cf-444e-88e4-dcaff2f7b9fe",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:35:55.903677+00:00"
+    },
+    {
+      "id": "1950495c-48c3-43ef-a645-bcc7271234e1",
+      "apprenant_id": "fad2482e-42cf-444e-88e4-dcaff2f7b9fe",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-27T14:35:55.903677+00:00"
+    },
+    {
+      "id": "34e7794a-4d1d-423a-b78c-2477dbe38351",
+      "apprenant_id": "e715ce29-50ab-4b5b-bcf8-2606050dda21",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-08-27T14:53:46.534868+00:00"
+    },
+    {
+      "id": "e4247239-cc27-430f-a85f-69f4c22fd973",
+      "apprenant_id": "e715ce29-50ab-4b5b-bcf8-2606050dda21",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-08-27T14:53:46.534868+00:00"
+    },
+    {
+      "id": "488aaebf-7ed7-4c0e-9028-f1a07dd988a7",
+      "apprenant_id": "88cc5b84-0609-41e7-b06a-53444348b109",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-29T18:28:16.622332+00:00"
+    },
+    {
+      "id": "4b9c33b8-e5cd-41eb-9b5b-03921dc4ab2b",
+      "apprenant_id": "88cc5b84-0609-41e7-b06a-53444348b109",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-29T18:28:16.622332+00:00"
+    },
+    {
+      "id": "39be9531-d4b3-4581-b182-8f01310243bb",
+      "apprenant_id": "095a98ea-8316-4f1a-bc9b-d7cfdba87781",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-31T16:57:11.334119+00:00"
+    },
+    {
+      "id": "cb9162bf-8cdd-45f3-badf-d5731f45fbde",
+      "apprenant_id": "095a98ea-8316-4f1a-bc9b-d7cfdba87781",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-08-31T16:57:11.334119+00:00"
+    },
+    {
+      "id": "18265de9-80f3-4a59-9d94-84ba574f1687",
+      "apprenant_id": "306c3fd3-5f38-4b92-883c-4b66f0e83e62",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-09-05T12:27:11.402767+00:00"
+    },
+    {
+      "id": "e7c0d365-9bca-4f5a-8fa7-df2fa1644100",
+      "apprenant_id": "306c3fd3-5f38-4b92-883c-4b66f0e83e62",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-09-05T12:27:11.402767+00:00"
+    },
+    {
+      "id": "5ada9020-af3d-452a-a06b-85d6db683f41",
+      "apprenant_id": "306c3fd3-5f38-4b92-883c-4b66f0e83e62",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-09-05T12:27:11.402767+00:00"
+    },
+    {
+      "id": "6c62ae84-bf28-4aa9-9f8f-38fa49cfcd43",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-05T14:52:02.84365+00:00"
+    },
+    {
+      "id": "8dec5903-3a4b-4531-a14c-1494a2888820",
+      "apprenant_id": "9d96a7e0-0bdf-439b-a06a-19452e44815b",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-05T14:52:02.84365+00:00"
+    },
+    {
+      "id": "6702317c-dba8-4941-b9d2-547e3699d6b1",
+      "apprenant_id": "22f12a79-0b06-4136-96d9-31b4b3db9268",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T06:23:43.141583+00:00"
+    },
+    {
+      "id": "57afc00b-b12c-4407-b56c-143bbccdbe90",
+      "apprenant_id": "22f12a79-0b06-4136-96d9-31b4b3db9268",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T06:23:43.141583+00:00"
+    },
+    {
+      "id": "3093cce8-85f1-4064-8844-73d4f7f31a0c",
+      "apprenant_id": "c5db1216-ce00-4d6b-8ed9-b5167afb5bc3",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-08T13:52:31.854905+00:00"
+    },
+    {
+      "id": "234f3df2-9e90-429a-8754-47a613db5afe",
+      "apprenant_id": "c5db1216-ce00-4d6b-8ed9-b5167afb5bc3",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-08T13:52:31.854905+00:00"
+    },
+    {
+      "id": "509bde26-59fe-4d06-887b-b16462a51ab4",
+      "apprenant_id": "c1dd09a2-269e-4726-b907-f464847c769f",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T12:47:08.384492+00:00"
+    },
+    {
+      "id": "0bfa5acb-a59b-4770-b118-1ba8354763fc",
+      "apprenant_id": "c1dd09a2-269e-4726-b907-f464847c769f",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T12:47:08.384492+00:00"
+    },
+    {
+      "id": "7c0119f7-5391-440b-bde8-14489b842a6e",
+      "apprenant_id": "59ac8208-a10a-45c4-bef6-eb642e48c31f",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T12:47:25.514824+00:00"
+    },
+    {
+      "id": "d27991f4-69de-4496-84bf-e983b1d73a67",
+      "apprenant_id": "59ac8208-a10a-45c4-bef6-eb642e48c31f",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T12:47:25.514824+00:00"
+    },
+    {
+      "id": "590117d6-1310-46a0-b324-7cf2b8ab0fa9",
+      "apprenant_id": "578f52f7-d863-4270-b131-2c8286bb3fcd",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-11T12:47:56.528035+00:00"
+    },
+    {
+      "id": "d941f13c-9af2-4ef6-80d6-d18fb9b1fd21",
+      "apprenant_id": "9011e237-c929-4751-9fc5-221d5173435c",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T12:48:08.634482+00:00"
+    },
+    {
+      "id": "8bcabc76-9a9b-4e04-8064-7e120c9d00a1",
+      "apprenant_id": "9011e237-c929-4751-9fc5-221d5173435c",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-09-11T12:48:08.634482+00:00"
+    },
+    {
+      "id": "36670eca-d3f2-4d59-92a4-6126b9b072af",
+      "apprenant_id": "337e9026-98c7-41bb-95c2-76de86087ee0",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-16T14:53:17.713215+00:00"
+    },
+    {
+      "id": "5146a90f-8ece-4cbd-889c-02187ba7e69b",
+      "apprenant_id": "a6736f0f-05fa-4cf7-82c6-fb0287a3c903",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-16T14:59:59.420167+00:00"
+    },
+    {
+      "id": "13af6fc7-80ac-4102-b760-db943bd4077e",
+      "apprenant_id": "a6736f0f-05fa-4cf7-82c6-fb0287a3c903",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-16T14:59:59.420167+00:00"
+    },
+    {
+      "id": "64dd59c8-2d41-4ae9-a9b4-3ab9da1316ba",
+      "apprenant_id": "69e9dc7b-2a96-49c1-a948-bc151e8c86ad",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-16T15:07:21.011895+00:00"
+    },
+    {
+      "id": "385f294c-cc3e-49cd-bd48-9c32a71b717b",
+      "apprenant_id": "69e9dc7b-2a96-49c1-a948-bc151e8c86ad",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-16T15:07:21.011895+00:00"
+    },
+    {
+      "id": "8171e22b-8cab-4a73-955b-864a1f51629f",
+      "apprenant_id": "8dfc2d87-d626-4f88-9c00-86259ac09624",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-16T15:08:42.636204+00:00"
+    },
+    {
+      "id": "b1740dc3-9c25-4cd8-b401-0dfffe9e7877",
+      "apprenant_id": "f1f71ce1-8a2c-4ea8-b412-53387c55c475",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-10T10:23:45.106476+00:00"
+    },
+    {
+      "id": "7a108131-7294-46cb-a021-ad42b497d00d",
+      "apprenant_id": "6efa0b2e-215c-47ba-a378-5fbee62f281f",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-19T11:32:34.943+00:00"
+    },
+    {
+      "id": "d92b128a-ee33-4e16-955f-d18cab034744",
+      "apprenant_id": "6efa0b2e-215c-47ba-a378-5fbee62f281f",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-19T11:32:34.943+00:00"
+    },
+    {
+      "id": "15a15d8a-76d2-455f-bb70-5e6491462eaf",
+      "apprenant_id": "f28781fa-1436-4142-aa7b-68799bcefba7",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-23T13:17:26.800778+00:00"
+    },
+    {
+      "id": "0688301c-0c64-45b3-9efe-0ffde4087b49",
+      "apprenant_id": "a2876bb8-9414-4bf8-8fe4-42b2968bbc6f",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-25T06:47:41.933199+00:00"
+    },
+    {
+      "id": "6b5976a5-914c-42e5-8d8b-22527cb773aa",
+      "apprenant_id": "a2876bb8-9414-4bf8-8fe4-42b2968bbc6f",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-09-25T06:47:41.933199+00:00"
+    },
+    {
+      "id": "fb68c39c-319c-470c-9865-8972c3480d2a",
+      "apprenant_id": "395df62a-4ea3-41c2-92d5-4ce43462ea63",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-09-26T11:53:30.885596+00:00"
+    },
+    {
+      "id": "ca9d6a71-ea13-48eb-a88a-c6add77115e7",
+      "apprenant_id": "395df62a-4ea3-41c2-92d5-4ce43462ea63",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-09-26T11:53:30.885596+00:00"
+    },
+    {
+      "id": "606f2797-84ac-49c0-bc73-3323c66b48e3",
+      "apprenant_id": "395df62a-4ea3-41c2-92d5-4ce43462ea63",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "5dba0f78-d442-4089-a5e3-8270c2e55a10",
+      "actif": true,
+      "created_at": "2025-09-26T11:53:30.885596+00:00"
+    },
+    {
+      "id": "b8d39d80-6a90-431f-b87f-257ef662a92b",
+      "apprenant_id": "94cf31fc-d5b6-4d5f-a74a-503791ed8e30",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-23T15:20:56.903782+00:00"
+    },
+    {
+      "id": "f9df005d-c90a-4055-ac6a-effce2e4b0d4",
+      "apprenant_id": "94cf31fc-d5b6-4d5f-a74a-503791ed8e30",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-23T15:20:56.903782+00:00"
+    },
+    {
+      "id": "e99265ca-01c7-4c54-8ccc-20ce1dbefe48",
+      "apprenant_id": "db3fb1fc-87b5-440e-af56-6fd706563dba",
+      "jour": "mercredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-02T06:57:57.622406+00:00"
+    },
+    {
+      "id": "5e4ab6ab-501b-4b10-b8b6-646a430dc231",
+      "apprenant_id": "db3fb1fc-87b5-440e-af56-6fd706563dba",
+      "jour": "vendredi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-02T06:57:57.622406+00:00"
+    },
+    {
+      "id": "11a8e351-2160-4bc2-980e-7d7a279281a1",
+      "apprenant_id": "bc46471f-d26b-4b5a-8bb5-71d0a6fef21f",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-03T08:19:59.472213+00:00"
+    },
+    {
+      "id": "daaacfc3-cf08-41d5-8939-1ea4413c37ac",
+      "apprenant_id": "053d940f-a7da-497d-ac62-564deb580440",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-03T08:20:04.909978+00:00"
+    },
+    {
+      "id": "13decb5c-b4cc-4245-866e-5555c2881207",
+      "apprenant_id": "477a131c-42f8-455b-84bb-384c078bb3f0",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-03T08:20:18.870648+00:00"
+    },
+    {
+      "id": "6661c93e-d32e-4939-ae2c-6e15e872b7b1",
+      "apprenant_id": "d29e15bc-e63b-4dfe-8d69-01e8fb1bf53f",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-10-03T08:23:20.681152+00:00"
+    },
+    {
+      "id": "c60d1539-ae57-4b79-9b4c-e81ee5cd025d",
+      "apprenant_id": "5c6c2c3f-c69d-4293-a058-b2dfeaf7837f",
+      "jour": "lundi",
+      "creneau": "AM",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-31T07:50:54.704377+00:00"
+    },
+    {
+      "id": "cf7b86c4-06d1-475a-823d-38557345082c",
+      "apprenant_id": "bd01db67-e833-4047-a360-27a27ab648e5",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-31T12:32:39.772625+00:00"
+    },
+    {
+      "id": "328d9a1f-2ea0-4c25-b768-09bd36fbf648",
+      "apprenant_id": "d2d37a6c-9827-4848-be7d-95aa455892fe",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "1db22e28-0454-4658-9fdb-25547f9f829f",
+      "actif": true,
+      "created_at": "2025-10-31T12:32:45.2582+00:00"
+    },
+    {
+      "id": "e8df942c-94a1-408e-ac58-e64045fde291",
+      "apprenant_id": "74b1b826-1c65-4963-a923-b2462cf59140",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-11-04T15:12:20.24877+00:00"
+    },
+    {
+      "id": "9ced480d-a0e9-4a84-8358-951dfdf90f98",
+      "apprenant_id": "74b1b826-1c65-4963-a923-b2462cf59140",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "baaffef6-edd4-4345-aa0e-fa09270fb836",
+      "actif": true,
+      "created_at": "2025-11-04T15:12:20.24877+00:00"
+    },
+    {
+      "id": "e52eeb41-1f46-4b20-a93c-ec4790e873b4",
+      "apprenant_id": "f5d1930b-2d29-4c0c-8bdd-e1546e46e7c1",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-19T20:10:24.618998+00:00"
+    },
+    {
+      "id": "35dbf6f6-a525-4b8a-bda0-bf53fe20083a",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "jour": "lundi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:33.553866+00:00"
+    },
+    {
+      "id": "83f5475e-1884-44c3-9804-c939a1c33c76",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "jour": "jeudi",
+      "creneau": "AM",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:33.553866+00:00"
+    },
+    {
+      "id": "a98d4265-1e93-4cc4-ae6d-f43c9661b281",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "jour": "jeudi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:33.553866+00:00"
+    },
+    {
+      "id": "b51f6c81-3e54-4644-bc62-f8e5c96b5b6d",
+      "apprenant_id": "2a581992-792b-4f38-a1b3-e19c6e44e3c1",
+      "jour": "mardi",
+      "creneau": "matin",
+      "lieu_id": "c992095a-7be0-4afe-8386-c400df22f737",
+      "actif": true,
+      "created_at": "2025-11-21T11:34:33.553866+00:00"
+    }
+  ],
+  "count": 103,
+  "timestamp": "2025-12-02T01:18:18.633Z"
+}
