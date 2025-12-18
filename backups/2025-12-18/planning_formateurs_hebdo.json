@@ -1,0 +1,4967 @@
+{
+  "table": "planning_formateurs_hebdo",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "formateur_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "creneau",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "lieu_nom",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "lieu_initiales",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "statut",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "34c75228-a7d7-4f5d-9ccd-a6c563e470f6",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-15T08:30:34.305747"
+    },
+    {
+      "id": "17c626a3-cbce-40de-95f8-d37c57f6ec0b",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-12",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-08-15T08:30:34.305747"
+    },
+    {
+      "id": "1c552237-8fde-406f-b156-49ef2b388a7d",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-15T19:39:02.344695"
+    },
+    {
+      "id": "575ba2c9-8081-4ec5-9778-26611fe03554",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-06",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "3699d7e8-a460-4742-975d-fba5a151aa58",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T00:41:50.703691"
+    },
+    {
+      "id": "fb47061b-66eb-4312-b7df-5f3c3a9ab86c",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T00:44:35.421791"
+    },
+    {
+      "id": "51b68ec0-eb60-4d4a-8329-1aafe31a90ff",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T00:56:45.130794"
+    },
+    {
+      "id": "9ee06e30-d4c7-47c3-9bfd-035630a52aa1",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T07:04:10.366756"
+    },
+    {
+      "id": "563e4d83-9ed6-4730-8eff-a50ea1c35e4e",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T07:04:36.761347"
+    },
+    {
+      "id": "b7d2602c-a3ad-41ae-a417-2a3f603d9a35",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T07:06:37.870483"
+    },
+    {
+      "id": "bb0907e1-6c73-4418-8911-0e56b1b4d440",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T07:09:43.850475"
+    },
+    {
+      "id": "69fe7aee-be4a-46c1-b2ec-90167044f055",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-12",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-08-16T07:09:43.850475"
+    },
+    {
+      "id": "8d9991f6-0fb8-4e30-918b-b44a3304c59b",
+      "formateur_id": "6d689ded-9235-4490-8022-eac7dcc95512",
+      "date": "2025-08-11",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-08-16T08:00:21.515453"
+    },
+    {
+      "id": "dc39cb91-8d0f-4f64-8182-69de93a0a583",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T08:00:21.515453"
+    },
+    {
+      "id": "3794bb07-fbd9-4bae-b7e8-14c0d50283d1",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-12",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-08-16T08:00:21.515453"
+    },
+    {
+      "id": "cde47334-1aed-4bbe-adc5-5b08c8e21a3d",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-16T17:23:57.930956"
+    },
+    {
+      "id": "1d402e1c-9745-48b1-9a22-2f1ece36a730",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-21T18:54:04.207224"
+    },
+    {
+      "id": "f1956182-750b-4a67-b0e0-3015b6f3d408",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-08-21T18:54:12.714522"
+    },
+    {
+      "id": "6954c68e-2fdb-4b97-b74a-a963de610b2b",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-06",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "978dc46f-ac63-40b0-9c5c-a3fce707aada",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-10-06",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "36cbbf98-8de2-4997-853f-d6e14b3114da",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "ee34ede7-a3cc-466d-bd23-f438ce4bfddf",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "8ec7b23f-66af-4007-aede-225589d09cb5",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "7184f3a2-4b71-4b4f-82b3-57c324ff146c",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "0088279d-7e11-42c2-9c88-1975025d9221",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "e6339184-52be-4e6f-9c49-bb53f7c2418e",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "0a2e7e50-d18d-42e2-9405-79da679332f2",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-10-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "ebc26b01-1fa6-4e5b-bd59-299f7052ff58",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-07",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "e8552b82-6f6c-4144-b223-961b60ec8147",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-08",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "d4e18340-4057-473c-b213-dec0a7c1efd9",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-08",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "1d34007c-a7fb-494d-8e44-6b9bd4861a8a",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "c5db0986-695e-4ebe-8191-a7a8a53f57e4",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "7aa12412-fe28-4178-a6ac-cb9bcf80dc91",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "d52cd4fd-bf85-4fd5-b84f-b7baf9a0ba9d",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "bb36ba79-ed4e-468c-8dea-916aabec82dc",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "4b154e53-a40a-4d5f-83d3-fb300fecc646",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "4d011304-4d7d-4bb4-8347-eaf40b1c7f04",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "81cada77-0e9e-4b52-b506-f9a9f54c77cc",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "7e6bf135-8b2e-4601-a240-21d03d321484",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "11a8d0ac-8b21-4f8d-8460-58b5c2ca858f",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "d33fd1fa-d302-466d-8260-66cb6af8e71a",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "3eb6bafb-30db-4abf-8fea-f61431bb433b",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "2fec0047-309c-4ab7-b7d2-ccadeb278cad",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-09",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "f9ce7695-8851-484a-ac63-7ace499f0639",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "e2747b9e-0327-4037-a50a-be593bee95e1",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-10-09",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "2c277609-bea7-4c93-88d0-6e6364875ec7",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "8d809366-6682-4ad3-b6a4-779c070f398e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "b6cfbb22-035c-465e-a9cb-d25f5cff2729",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "ce44fefd-15da-47f4-ad67-fb5f93fc2d33",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-10",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-09T06:14:45.163185"
+    },
+    {
+      "id": "d3678436-6d6f-403b-969d-dd24ec4d0e65",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-13",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "753cf163-ac29-49f4-9f5f-295ae743371c",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-12-01",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "8d151764-818a-4b34-85cd-386ad7075c83",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-10-13",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "987bb7f4-bf56-4464-8bd0-d4647ded050c",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-13",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "b963dc8b-42f0-4509-8123-5f15fb9c2b77",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-13",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "d755c2e4-e310-4ac1-bde3-f67c0efbb965",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-13",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "f02fc363-afe2-4933-adc4-8ee9028f69f4",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-01",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "f9dfd6ba-f496-4ac1-b74d-ba4dc038e1aa",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "f52499ad-69f0-42e1-abe4-ffeaef4d304c",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "039ecbe5-1530-4cce-a9bf-6ec5e0d58c1c",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "527c2692-9b9a-4a05-9bc5-c84bbbf78140",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "d20e2130-f3fa-4510-909c-c3e8f495be11",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "b38deb9b-15b4-4e6b-8848-71782b4dcf27",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-10-15",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "cc3fb199-610b-419c-98d0-0875c39fc620",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-12-01",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "c35ce0c6-c5fd-4c64-93c7-6925c7e77d1f",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-15",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "a91198a3-8556-4e2f-9edb-373a553f50fa",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "d434ebd4-9ddc-4239-a358-3b06d962e0a0",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "6c75f558-9d36-4016-bf75-fb3e05c43d46",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "c8c404c7-e0e8-40c9-ba87-9abbe8744bee",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "e5e541ab-5305-497d-adf5-956ccc29e52c",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "377e8981-e2b2-4dcc-bbab-ef4397ac67fc",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "90310551-3a0b-4a7d-b3a2-43f282de38b8",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-16",
+      "creneau": "AM",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "ac165e1a-5580-4d12-996d-6b2542828442",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-29",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "0010a095-ac3e-41f3-916f-b3e63e49ca14",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-09-29",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "e27604be-4b9f-48db-8515-c2fb9581de71",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-09-29",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "878dd41a-de4f-40a2-97b7-90264f6eeefa",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-29",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "edbe0998-60c7-493e-8454-2937e2a1cb4c",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-29",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "7284c19c-71f1-4d89-9f5d-d4e9c4ffdc90",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-29",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "48b7514a-f474-431a-9d66-c1c3e87541c9",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "253bc04a-549e-4c11-b9f5-cb759dd9f7a4",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "6609fcde-c5db-493e-b272-6077ec6678de",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "d0959eef-8b6d-4c55-a815-2481e1439245",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-22",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "384d9631-04e5-4e0a-a28d-bedd3a9a20d6",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-22",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "9b43a522-fd24-4938-9abb-76ede0611bc1",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "f4b67be8-cdde-49f3-a09d-a3535a9b70fe",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "80c3e42a-64e0-4484-9150-a70d32104e66",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "9422f859-5765-49cb-9f12-cd8de22ba9ee",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "9b6dee7a-7571-4413-b169-0ad3988c75ec",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "5c3e7040-63f5-437f-8221-40c51852418b",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "10daadf5-0af0-4e97-b164-8850d9f3dea0",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "f83cbef0-9808-409b-a587-cd72bc608a6e",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-09-22",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "68646b49-e7da-41c3-a321-029767209548",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "69fa81d5-ae52-41ba-b36b-1151e3162158",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "6af901e1-b34d-461a-802c-0d8b08bafe08",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "6ef41c80-4adc-411b-ab3c-2b0ca4a2046f",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "11b89901-0ef3-4849-a150-22834d2bd4d5",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-09-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "9e037407-97f2-4ff0-b224-db0784a20cb3",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-24",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "89bd044d-43a4-4837-a934-4439e750b7e6",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-24",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "6896fa42-ecea-4718-b6a2-65141f66eee0",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-24",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "f51e099b-986b-4606-8511-9879f7708858",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "1a256b55-be67-4292-bf3b-1a931d15b907",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "71b1d0e6-03d6-4dc5-a0e0-241808e63a13",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "9dafa9ec-97f2-40bc-8925-2b4f62f5a5fd",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-09-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "90696b2b-ff66-4eb9-be4b-72491acfdae7",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "7b1892a7-4476-4198-9118-969b30675f0c",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "2d6360d5-570b-49cc-b13c-47128d38aced",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "2e89bdea-f9ec-49d1-8cf1-7e4c943ba310",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "b11f01d3-e3ea-4599-8016-403d7c96b630",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "0212a87e-caa8-45b1-9f03-008abf5bedbf",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "6bd916aa-6eef-476a-94b2-dfce6a1c321d",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "bc16b9cb-0a9b-41ae-96cf-bb6a96be538a",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-09-25",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "4b10fa4c-3bae-4c0a-9483-59a31079ef53",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "1b4825a5-59c4-40f2-ba0d-5f30fcc0b059",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-09-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "181ca4bf-46d2-4301-9457-1769929f3be0",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "741bd84c-19b4-4a6b-a000-5d9180e47a07",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-26",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-25T06:47:22.033169"
+    },
+    {
+      "id": "12864379-6851-4341-b6da-417f3d552314",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-30",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "c44de1c5-4aa7-4cfe-b7e3-83f6f715a6f2",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-10-01",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "d8f9156a-e91d-4dad-a4a8-1b955585eae2",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-01",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "3473d380-9289-4481-b895-987357123053",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-01",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "a64401fa-023f-46c0-be01-88edc5f254c2",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-01",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "2b92375a-a27d-42ba-ae35-9f9b172424e6",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "63394241-26c7-4511-86c9-e50f72bd05e6",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "124de3d0-701a-4f0b-814c-f6c5c7b17e44",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "f147a633-59de-4079-9723-70bdaba2442e",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "53a7589d-cc5b-4813-ba1a-c1fadffb54b2",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "ce8d1e04-7713-4610-acc8-a1ac0279c381",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-10-02",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "f2c6db5a-18c5-4ea9-bf4c-e1240cb656e0",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-02",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "32aaa688-a167-413d-9998-e5273d483ca9",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-02",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "a48f7e66-ff5f-454d-855e-262e119dcd16",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-02",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "0b710664-23a0-4850-a262-3baadbdb0744",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-02",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "933ca086-b345-4e8c-9bad-131ce2a11c6c",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-03",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "e140ee68-1ce4-40db-878f-411fbc9f0f4a",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-03",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "33f1f283-0057-4cf6-ba20-d8bb20927719",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-03",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "269f69d0-e53c-4f01-911b-56282fb58e43",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-03",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "0e51d0f5-755e-4bcc-8e0c-897c2c2b5434",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-03",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-02T10:19:56.972285"
+    },
+    {
+      "id": "681d175b-3341-478a-9505-911685deb62f",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "deb3d474-7a0d-4fb2-a9bb-967048c24afb",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "9870ba3e-777d-4aef-8e66-ecf280c70a24",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "df1d25c0-cfb0-4900-b87c-a77e3c072bd3",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "7c58e1ea-6a54-44fa-81f7-2bfa09082c81",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-15T11:47:50.616007"
+    },
+    {
+      "id": "f7bdb297-b269-4a65-9f4d-e9207bf6e458",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-01",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "80538e16-89ac-464e-b13b-63058c62270c",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-12-01",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "4d9772ce-638b-4d22-b599-1199eadd42c1",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-12-01",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "0408cc55-851d-42d4-897a-264fe02dc26e",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-15",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "3fd4f0e5-96a2-4b32-a399-3bc958536a9a",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-15",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "803c0698-95f4-4285-86d6-57a108fb4f0c",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-01",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "1d7c600b-bd85-4f46-9555-7f843f79ab04",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-01",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "a8b2715f-edda-4e10-89f6-153212319c0b",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-09-01",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "c8496fd6-1748-46cc-82a7-cc023041ab77",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-01",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "f879de38-a2d7-48a5-931b-716c48677e35",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-01",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "c0e6b451-569f-4bc5-beee-9fee9dd6f5c2",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-01",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "6ead3484-d9c5-46d7-a146-e93e5b4a3e4f",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "cb9c4c6a-d87f-4785-b6a5-741c73e1fef0",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "f8ab82e7-a236-4bf8-9c07-75301a5b4476",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "d0606a63-2147-428d-973d-02cb65ca2c7d",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-09-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "4a5a9d06-fbb3-4ed1-8621-5cc934014175",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-03",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "6f7da734-e213-4515-a7a6-3ebe4e639507",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "b34fd18e-ad99-4c1e-9430-f745490d0c78",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "f4cb4284-8eaf-4f01-983e-cd8cd0cff894",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-09-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "23d79754-a7b8-43b0-9321-c447614b41ee",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "348f785a-e235-4265-8fa8-b9e67ba65771",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-09-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "5cab6fb6-9647-4015-8b69-aca50f502097",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "f66834b5-b665-48f6-a1fb-0fdf79c74434",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-09-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "27b68bdc-0d24-460b-b528-858c1c81913b",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "516385cf-22de-4d69-8034-07bc110ffe4a",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-09-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "98d0313c-ef45-43e6-8351-ec385c44fa6f",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-04",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "eab43362-fcab-4a50-81a2-ff24c34cd0ba",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-04",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "8de05655-214d-40cc-a0ca-610f79420016",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "a87dbd0e-db0c-482c-9bf6-8a93e5237b5e",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-09-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "1b8b7dc0-d702-49a5-86a4-a8ce342b1e57",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-09-05",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "3c88a5c7-06c7-4b3d-b085-d62da1548e03",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-05",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-01T15:43:15.60086"
+    },
+    {
+      "id": "f24bfe38-6dfd-4ce9-a92d-dd9171ea65b6",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-09-15",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "9bccd108-6df8-4907-990e-1c89eab9af21",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "a7f2b79f-7896-4ba0-b992-9d957c287b63",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-09-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "2f90af4d-bb0c-4003-b5ae-266e67039428",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-09-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "88c9cd2a-ee91-45e7-9d6f-91f4fafce8ff",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "88b0efc9-c525-4970-8f09-f9f955c9e49c",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-09-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "4f4da680-ef76-4395-a0e6-76ca19fb8bd5",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "e6d14620-fb9b-481d-8b95-50dcbe9453a2",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-16",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "9a4d3719-4e8b-44fa-abd1-b49bd4d1953e",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "13b04984-90ef-454c-821c-30e72cafe4d6",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-17",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "6af31dde-115c-4dd9-9900-59341771840e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-17",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "f698e339-ad56-4beb-8951-b4ba58ddd5c9",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-09-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "379d1440-0a90-47e9-a027-d617e51fdbf8",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "9b0d555d-7570-4c75-977a-631185fd0949",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "32a7511c-8c88-4326-80cd-ea849e7e9464",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "023c7469-6e83-4b2a-af40-02be0072589a",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-09-18",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "611f5491-c850-46ea-bfef-5719250c8706",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-18",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "dbb1a9ac-6865-43d6-885d-04944b58a482",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-09-18",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "c419cd6c-a2f7-436d-89b6-6f86cec568c5",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-18",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "13e592f6-3ea6-4fd5-8a2a-9bd36bf6ba42",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-18",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "33a59ba0-ebce-46d3-8955-a8f0a63cf76e",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "0e7afcac-5b51-464b-a20e-9ba050f0e5b8",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-09-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "d19fd27d-d944-49d9-9070-9156f660bebe",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-09-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "aeb20c98-de11-4e20-8093-fcf3b641a6c9",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-19",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-19T11:26:43.828235"
+    },
+    {
+      "id": "21332d73-65a4-4029-ad8d-1bb523ee7823",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-20",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "5b604607-6723-44a3-8f31-a8d1dad5090f",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-10-20",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "df78d50c-7bf1-4aa9-a750-4df115fd20b6",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-20",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "e4730c5f-a6b2-4743-8401-e6fde1e546b2",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "0ca957c3-743d-4518-b704-c367786d4d2a",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "c01adec0-fd64-45ab-908b-db7e1c9a9d0f",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "f528c7bf-f2cc-4ad2-8bf7-7283c82ab0f1",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "6f9121c9-2dc9-4286-b3d8-d9be6a56a0a8",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "8b14dcd4-f434-4118-86fe-815a39e8b8c5",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "b4be90bd-e86b-45e5-bc4e-1005aa88ec68",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-22",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "6a60fc9f-b5e3-414e-8959-6ad4eb2df479",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-22",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "1f53bf13-d094-48a5-b2e2-cba2659bff72",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-22",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "01a30e08-42ad-4c9a-b198-25d28ee4bb0a",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "9a0bced2-58ab-4680-9d33-2b74de1de27e",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "ede8343f-4bb2-4c64-8c38-19781d0b1df7",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "a0ed9c8f-f1ea-4532-b4f6-3d8aca3efd20",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-10-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "c5887996-cabc-40be-8197-c5aeeb9a01b6",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-23",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "4fc11191-fe58-4a3c-a831-75567181aef3",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-23",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "edb21486-521f-4d97-9628-74ae7feeb0af",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-12-01",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "81249b5c-66df-4d06-a346-52840d504211",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "a3641b63-5e60-4514-bf2d-13889808499a",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "b0048dc1-8d33-4030-a280-b5b831754cf0",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "05829371-eb3e-4f42-a295-0c323acc7b9a",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "f5449278-33ff-40fb-a275-f7745948b6ae",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "87c5997f-7b11-4e20-b846-131f51b44552",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "41bf708d-0b6a-4c82-8722-e6b723c12a10",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-12-02",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "b695a158-b3be-4547-8dab-79c8282497c7",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-12-03",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "42a5813f-38c5-42dc-a8bd-4438f54fd449",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-12-03",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "6da8345e-7d60-4289-ad09-5b89031f7f75",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-03",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "5153301f-63a1-4614-ba0d-5b3e9d45c313",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-12-03",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "630a6319-1a9e-440f-aa34-a1a768f7f919",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-04",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "2f4f887a-f612-4abe-ac39-2c7f2755a39b",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "5ff7cdfb-e319-4f64-8f25-394f90586e6b",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "f197462c-0069-44ea-97c6-b73e9cccf884",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "a1dc23d9-2004-4131-9352-0581de849c18",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-11-06",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "2722b054-4e5c-40c2-8dc0-8f52a77c2e70",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-12-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "5ad32df4-3bae-4c6a-bbf0-ea26c3dfca4e",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-06",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "3a41dd26-a966-46a2-a7d6-b7eb4346c06a",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-06",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "8b792eba-f0b8-4d70-b9ec-ef8e8926e166",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-06",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "cd35e1f2-b359-478f-a2c7-f1b68249fc83",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "60d77544-faad-41af-8956-b6f7b6be840f",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "d593b96d-d0b8-455d-b839-2585e20c6b64",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "4d3beef5-adee-446a-8996-fe752f89060f",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-23",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "3039c90d-336a-4d53-b4aa-450fde59cdd0",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-23",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "d6480615-086b-4a1f-8bc5-e14479dde5f0",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-24",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "4a221b85-a860-4c89-8081-3a568bdd79e6",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-24",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "8e6300dd-3030-4fc4-9475-74423644fc5d",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-24",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "6b68b4cc-13bf-4705-909e-b3626adff747",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "ba52bb00-7de7-417a-8501-ed85bfe93a31",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-06",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "60d68902-ecc9-4cc4-a048-cefd78663863",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "a6a30a18-abf7-4111-86c9-6931b08c752e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "31a8b44f-756f-4957-ad11-6209fa6c3efb",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-11-06",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "52164dc4-48a5-4702-9a63-2abac907c89b",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-12-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "280c282b-7859-47bf-9fb8-1b67410e0b70",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-12-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "026d288f-031f-4c20-80e4-f8a0685c50be",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-12-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "269423ae-157e-4fbc-aff8-e024367503a4",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-12-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "5df532c7-98c0-45d8-b94f-bc6460423574",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "611908b2-2ddf-4167-8be7-1f3089a3ebc9",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "6ca9f610-4a0b-4f25-82c7-0edc973e99a7",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "fc25ee82-c490-48cf-8ef5-f0d38e499ae1",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "96c4c33d-3cf0-4886-a8d3-fd6442fb4ce4",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-27",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "5e046473-a0d9-4493-9636-99b1d994e279",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-27",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "96197595-abaa-4bcf-bc96-5ef8f3c2c5aa",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-27",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "c4d3ae4a-2afd-4b3c-a192-9c3aec0e34ac",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-27",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "66d803ee-27c7-4b58-b61e-fa62ac68ff45",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-27",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "4758a4c6-a446-4d65-acfa-91ab9a9eeedd",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "80b346d4-12bc-4038-aee5-35ae9059cf14",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-10-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "c10908b6-85fe-43c0-a7c2-6582f969217a",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-10-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "78759efa-e845-4005-ab5c-75eec92850e8",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-10-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "b5fdf5d4-8fe4-4ecd-bf4d-6d5d6dff9054",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-28",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "b8971e75-5123-4a71-9377-410628e66b15",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-29",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "5c1e4352-14c1-4de9-93c2-40edbfac35fb",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-24",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-10-23T15:21:28.996479"
+    },
+    {
+      "id": "3105bf60-7cc5-4699-9205-722b2a510aff",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-29",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "49abacd7-32ba-4d20-a266-ae0106beb3ce",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-29",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "fada1071-ad82-4ce5-97a7-5a6e819d616a",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-10-29",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "5d0468c7-7dd2-4df3-8a4c-77300ceae0bd",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-10-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "65c1d5ee-c3e4-4c33-9b59-bde44b8fe2cc",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-10-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "ad35cd20-9054-4e3c-a369-1e0c3a04b6fd",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-10-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "d0676fd3-27b7-458c-adf5-f6c3f0f21276",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-10-30",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "d52c5839-c160-4c8c-9e81-380fca65368f",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-10-30",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "2765701d-3456-4a5d-93fe-72023f99a4ad",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-30",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "59ecd4e9-0904-4d32-b28b-a66343b6cbbd",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-10-30",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "50e02f5c-9aba-4268-8307-0118a7c383e0",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-10-30",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "f6418a1d-ff24-4642-a4a4-3ce2a72d1ddd",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-30",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "e2a5e2e6-5953-4aa4-86da-d48e4ed1c066",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-10-30",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "ac60e9b4-640b-4eb2-a4a5-59a9291ca670",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-30",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "f9a3e2b6-d7d4-4b44-bfea-ca7a247a68ed",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-10-31",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "14711f09-7e34-4b35-b67f-cca95cbb981b",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-10-31",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "9ed9e341-8f62-4c3b-9336-c1c877398640",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-10-31",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-01T11:23:38.59049"
+    },
+    {
+      "id": "38f313f7-f97e-4ac0-a3b3-16278248f74e",
+      "formateur_id": "6d689ded-9235-4490-8022-eac7dcc95512",
+      "date": "2025-08-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "30e354c7-304f-4da1-993b-cb1f45929217",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-08-25",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "beca6b04-10e6-44fb-be2b-97c20f5ddf22",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-08-25",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "9a6b78e3-80ac-4a46-a556-6906c9b4c07e",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-11-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "7c8ccaa6-483a-4a95-9802-e560e56cec27",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-08-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "38260a5a-3984-4e8d-ac3a-9899da0ca933",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-08-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "313d5cd4-4659-4582-91cf-4daab77304bd",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-08-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "9a30c16d-b81d-4b8f-b464-159661a5314c",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-08-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "9a4a4358-398c-4269-99cf-642339807be4",
+      "formateur_id": "a38c77b1-9d1f-41c3-8c8e-b26bce93d898",
+      "date": "2025-08-26",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "a197cabd-d776-47a7-ba0a-9533e370872f",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-08-27",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "c98e841e-0d4a-4e05-b535-df17da6cafcc",
+      "formateur_id": "3a3bd552-141c-4136-8a83-81caf23750a8",
+      "date": "2025-08-29",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-08-29T05:22:28.544259"
+    },
+    {
+      "id": "ec1f0c45-024e-44b1-a7c5-cc70a339243f",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "cbfeaf5b-ee64-4b8d-ade9-be3e29d81bb0",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-12",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "8b01a7c2-b7ce-4cb2-b2af-97d8131280a3",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-13",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "fd6a7b5b-09e2-41fb-8a93-961845d0ca64",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-11-13",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "8ae7bf01-bf96-4d65-bf53-c40d0a1dafb2",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-13",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "1763ba83-8c58-42a3-a2ed-baed16466a31",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-13",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "6c550219-df4f-4eaf-8701-f180f39adc1f",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-13",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "0d06e790-91eb-46be-8a2d-2ddfbe8cd5a4",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-11-13",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "e3e05516-db62-4f9a-9d28-d1181fa1bdfc",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-13",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "a4271a80-9029-4b19-9a00-d7c54206d3a1",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-11-13",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "a6936e1f-9c76-4574-8e5d-01dacbc0e80e",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-13",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "7197ec9e-abc5-42b9-94bc-f36620504c3e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-13",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "18a9b202-120e-483c-85c2-cbd0070addef",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-11-13",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "f45b91fe-ceae-4699-9520-c672d0f8b4f5",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-13",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "8b9727dc-60f6-4215-a170-9c60bbee5161",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "d3caf31c-a32b-4bd7-9d80-6107f51b2923",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "9eb478bc-3baf-4b2e-91cb-f72af6a105be",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-14",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-13T13:55:37.966539"
+    },
+    {
+      "id": "da63b596-ea0e-4aff-8b29-6df45c96e60b",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-12-04",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "d3d1a77a-e50a-40b6-95ca-7ec4730e8102",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-12-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "c849f3b9-a7bc-44a2-af16-97e5eec4f70e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "0b55707b-4603-4b36-a4f5-91958a0a8f69",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-12-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "59ee9a27-6859-4b26-aac0-1a932c18f4ef",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "203650d9-dc61-4dc9-9c0a-825eea88c248",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-11-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "749facbd-6356-4fe0-93c4-928486d709bd",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "9cb7551b-1e41-4e60-9031-934ec8b2c89d",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-07",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "6a66ff80-3e0d-4a6a-ac51-f1551692755d",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-12-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-03T13:06:40.693044"
+    },
+    {
+      "id": "6b249be8-9fab-43a7-bb38-5da404d59dd2",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-08",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "265b8702-accd-4265-8b2e-e5264c9bb7dc",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-09-08",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "1b327040-44a3-4714-acd2-1d9a5fa5e853",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-09-08",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "4a08ae43-0dc8-4900-a884-0a566cc8cdba",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "ce772f48-9ccf-4f7a-ad0c-05a2333053c9",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "dd39db03-6b84-450a-b01a-0a0639ebc8a7",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-09-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "fdca32e2-c670-4b83-9b77-8b9b6c5aca3e",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "aa68d820-b060-486a-9433-bfc22a737aaf",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "992f66cb-cf38-4736-8da1-41c3a765f45c",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-09-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "3123b003-3c5e-4b7f-8db1-2f01e1dd1065",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-09-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "eab66ed3-36c5-4b57-a494-b8c78272fc39",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "7c24e1a1-a912-449c-beea-c96749b9c349",
+      "formateur_id": "18424720-8ab1-4bf7-9d91-c050ef1a26bf",
+      "date": "2025-09-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "386c9f5d-8c02-4fbd-a42c-cf01b05398bc",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-09-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "9af1ad77-ba32-4431-a20a-e24214b56fb0",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-10",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "8d8e03ce-3076-47f2-9fb8-ef5bf56fcf56",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-09-10",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "10dfe7a8-6d3b-42fe-bfcf-0dc4cb9db81d",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-09-11",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "65b1c7c5-a6f5-4148-8ceb-16b58fd755ea",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-11",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "522383c2-c8b4-4a74-9b53-9da2ed1ad320",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-09-11",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "6d73bb4d-53c5-4b46-b793-529c7d5d1157",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-09-11",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "d8f6856e-ee73-4a10-b27d-88085ddceedf",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-09-11",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "eec82ba1-9b1b-4554-981a-2805bac583a4",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-09-11",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "bc0e2f85-b68d-4853-b56a-c3aa4bdbe3ff",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-09-11",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "a4c28a12-7376-41b1-83c0-baffe48cc934",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-09-11",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "d31241ec-84b9-42c3-be55-8ca269db1fc0",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-09-11",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "0f566085-f0c7-4f43-8543-7596547c90ee",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-09-11",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "9db363ca-0e25-41e5-a1d7-f24314b06600",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-09-11",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "60cb2e29-b670-4b79-9adc-1ec32c4e3b4a",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-09-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "96a1ce7c-8c8d-411a-8567-d5f546555b8a",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-09-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "1fdde059-2265-451a-8d66-92819dd25198",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-09-12",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "fa3f373f-7022-446f-b654-716ada459b67",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-09-12",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-09-11T06:19:35.131063"
+    },
+    {
+      "id": "35558d13-b3b4-45c7-a40e-7cdb7441838e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "b35339e9-1bd4-497e-a268-5a139af654bb",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-12-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "d3a4644f-e8ad-4a3e-bb34-6f03804c3352",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-12-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "7c4f7554-3b2d-4aa2-94bc-789d1c9db4c3",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-11",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "05ca2453-c7ba-4190-8666-521e61a9fc2e",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-12-11",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "69c76cf4-e618-4a3b-b356-22c745d162f6",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-12-11",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "e5e34ed5-5804-41fb-81ad-a8daf3bfb9b2",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-12-11",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "5bc873e4-292c-4765-a794-08303808cde0",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-12-11",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "d60a2eec-a877-48e7-9353-65d659c9b338",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-12-11",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "56e6811c-b140-4d63-b980-f0097fcfde09",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-12-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "c7bec954-5d60-4bb3-9636-2fa3407b9fcc",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "5d1241d7-5a43-4cdb-b782-e6de0ea003a8",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-12-12",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "51d823d1-e248-4ad6-998a-2d77bb5d9f9b",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-12-15",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "bd5d3088-1a74-4e8a-a36f-c9bc96a5f45e",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-15",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "ab80c74d-52e7-4632-80bc-433473bfae35",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-12-15",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "4f1674ef-39e7-474a-a3d6-cf8fdbfdcc83",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-15",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "97d76674-25c9-4f53-8b74-a8ca69723239",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-12-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "cf3fc4ff-2f13-4602-84b8-3d788ad4259e",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-12-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "1efbde79-c2a5-4e49-9bc8-077e90cacfaa",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-12-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "2335fb8c-339f-4b5d-a46c-42d9fd3b3594",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-12-15",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "2ef567cd-6820-4f0f-bec7-da39604b07a1",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-16",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "0bc88f28-87df-4142-8c43-e9e0b6693761",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-12-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "a5af2934-0aea-43e1-b435-8d292920b33d",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-12-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "dd05e86f-aee1-4c00-b15c-64ef2e18ca32",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "4074168a-8598-47b6-9cd6-11e31d95ed6d",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-12-17",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "eea4fa05-8eba-4f7a-acf0-6569f2a15e63",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "eee5d50b-e2ae-45ec-b1b5-cc26256a8373",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-18",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "33d03a5a-eb16-42ba-9d62-ccaa72aca409",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-12-18",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "fe558872-f3f4-4a8f-8bb2-cf73eb70b889",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-12-18",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "588bfdb2-2785-409e-b8a4-9d07e079c69b",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "778dc9cd-b148-462f-9025-3a860b23be08",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "8c011167-1f80-4ef3-a8ca-b13c83179ba7",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "51c25c4e-c8bf-465c-90d1-f56f49ac433a",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "e3f9c293-deb2-4a23-aec1-4299cc88b1cf",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "78676708-964c-4244-a916-54c58e2a193d",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-12-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "092c105d-45ad-4827-b533-f26e1e111dc6",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-12-18",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "2af864a9-bd96-4c1d-8f97-0355134ece19",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-12-18",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "67da6fde-7425-4415-ab45-d72fb687adfe",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-12-18",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "c26c51f7-28fc-46d3-aa32-f7542e0fa132",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-12-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "ccf21b29-b582-4796-9be8-15b4534bb5df",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-12-15T11:17:24.028774"
+    },
+    {
+      "id": "631278e6-46fc-49ab-aa2e-989ea89fb06b",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-24",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "9b4a0111-efb1-4f54-8196-6af596ff331d",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-24",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "b3f5a792-f13c-4ade-b458-c47f5c42dd37",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-24",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "337e2adc-cdc0-4f59-9d9a-c3b9bb16e2a4",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-24",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "2b9349c5-69fa-4685-b702-f824d50ff0e9",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-11-24",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "d7c011f4-59a8-47f8-af7a-97fc609a5b57",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-24",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "8ac21582-9617-4c84-a246-70590e4f5408",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-24",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "a983a9a3-d86e-4cf2-ad7b-d5e9fb1dbd5b",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-24",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "bcc71b08-56cf-4119-8046-925fb099fa23",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "3ea99f9c-0253-4f13-94c8-e4186222119e",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "8eb52058-2cd1-4da8-8559-a60c521ca04f",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "248f6aea-0c3d-4c82-8662-4227d38ebd16",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "3f1d8b1d-3c03-41ac-9094-344ec4cf7eef",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-25",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "2a8affff-1828-4180-8937-2d52e7564a00",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "320bd92d-a99c-4c81-a327-db6b171b891b",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "092543e7-32f3-433f-bf9b-d9bf3f1be527",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-11-26",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "e1910bf2-43a9-4b78-9c23-0afc69990d6d",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-26",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "d6a19677-d201-49a3-946e-0d46bfc5f723",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-27",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "4cc9cf6a-90c6-40aa-9501-cf392392c2e4",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-27",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "29a226c6-051b-4c90-ae06-502ba38d77dd",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-11-27",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "e15607e7-9fb2-4650-9845-e3375f487838",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-27",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "a19d40c8-1f80-40c6-883d-9ac7e6121bd4",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-27",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "3e481aaf-b34f-4e31-a841-5e64ad737fcb",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-27",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "9d9ae47c-8cef-4e46-9ec3-3c51bef49204",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-27",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "8604db0b-9742-49d3-8db2-68053cd0a7b6",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-27",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "6b4b4b03-431d-48e9-8a79-216d6109c2c5",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "41ef6757-a0b6-4552-b665-653d03030a59",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "be26f6dc-2092-49b6-a7ed-c8f04122f63d",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-28",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-25T16:20:21.728022"
+    },
+    {
+      "id": "a7642baf-1cec-4abd-85ed-27257bc43e9b",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-03",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "09694923-f98e-495b-b90f-4b36e7414f29",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-03",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "2cdfdb07-66b3-4471-a23a-4ed0becd1bac",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-03",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "145ee623-780e-4355-ab9e-e1c81b10bc27",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-03",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "6710cbd1-47fe-407c-b316-7c8a5fef9561",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-11-03",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "1f02cf5c-071a-4538-86ca-6af32dbb6cac",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-03",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "0c182895-d8c9-4c35-9d2f-8fce99d63b14",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-03",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "d2b8b5ca-e122-41ff-ac66-7c061138608f",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-03",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "f2125e66-9201-4df8-8876-107dce3d0db0",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "4e0c1f11-2591-44c6-b78f-177b6c253990",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-17",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "fcb8d106-3bed-4c25-b228-06f328207034",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-17",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "e0d2f2b2-1978-45de-85c3-cfb14144866c",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-17",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "272be7a3-d009-4b05-9fb5-b17e7005cb93",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-17",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "73baa12c-30b6-44b8-a0b6-df75762a7838",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-11-17",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "1f191447-4023-4611-9083-428ac4a46b72",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-17",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "cabc9ed9-cdfe-4e4f-98e8-6003f0a2a026",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-17",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "57d9959d-bea0-4762-8194-ed49e475fc3c",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "93eb427b-743a-4ced-b1d9-1dfa4ed1373f",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "be109cc6-47bf-4388-b0c7-329147138b30",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "03d37273-416b-4e25-aa7a-e338f5da4339",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-18",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "7bd6be3b-e259-4a82-96a0-427f2f2db97f",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-18",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "8860b62e-78c8-4b41-8314-2f57cf3c351f",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "92f4d57d-93fe-42fc-bdc1-1869024f5b0a",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "a5700578-92d8-435d-8cfc-614363075a01",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "8a2758a1-8c99-44bb-91d6-ca4092b900e1",
+      "formateur_id": "5af852cd-5abf-4b47-aefd-c4a8a14a9543",
+      "date": "2025-11-19",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "f7b699eb-bbd2-4f0a-a8fc-a569d7a37970",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-19",
+      "creneau": "matin",
+      "lieu_nom": "Lencloître",
+      "lieu_initiales": "LEN",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "7193cd99-903a-4adb-97e0-509ab47265c5",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "e23c7a48-c2d8-4f64-bf85-13c9e036e255",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "dcdf7eca-f1b7-4786-a21e-f21f5464d1bd",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "c029e457-f46b-49a2-97a9-e427939f0d80",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "81936b89-b3a4-4793-9e07-399550780802",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "321b7315-68ec-491c-a5dc-ca9b371bf9df",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "4d4518ce-e1b7-40fb-a4fd-180efbc2c229",
+      "formateur_id": "a9001975-1577-4204-a9ff-335e11fca995",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "1eb22471-5eed-4085-8330-8de108c63f7f",
+      "formateur_id": "6c1523b8-86f8-4568-a941-40a3d1c7eb33",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "d4b0b935-b8d6-4497-a02f-344b9861b44e",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "cb613d4c-9f94-4b06-b041-26489dc98393",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "e1bf6842-30c4-498e-9a3f-c925b0d42006",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "0bf1f0dc-97c3-4152-84a7-edb99a990735",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "ff6f13fa-f375-4186-96fc-b170037b7831",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "017d2422-6a08-413a-af31-d7333d1f306c",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "1e9975b9-a0f6-4c1b-a3c4-e5689299b12f",
+      "formateur_id": "55c6a2ab-a7a6-4259-932b-ca6ce6d44193",
+      "date": "2025-11-20",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "b610ba8b-5004-4ae0-92f8-74a4ff9efaab",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "5b86e663-7a56-4eb0-80bf-9c64d2696700",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "318ec4a2-083d-43ab-9385-bfed1e0a9605",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "235353d0-0940-46be-9860-ef0470f49252",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "f450cf07-d8bb-4112-ba25-b544137707c9",
+      "formateur_id": "1e20c5e0-9e11-4157-b40c-4cbc151a1130",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "abbcb97d-76ad-4c86-a0c2-b6422ea99975",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-11-20",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "55c3481a-4a77-4f5c-9daa-23c0d90a3839",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "007d5919-1f71-4201-bad8-58bf1408eb6d",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "d9c88046-ce1e-4169-889e-259483d7e4c2",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "ec7855e6-4379-4e7c-8d6b-41c8d840d145",
+      "formateur_id": "66f3ff1a-6bd0-457b-9fa9-f2459baf2a8d",
+      "date": "2025-11-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "172f65da-ac15-4daf-a5d8-893af9ad658c",
+      "formateur_id": "1fc9051d-5881-4ac4-bc7a-0834f17fd0f2",
+      "date": "2025-11-21",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "brouillon",
+      "created_at": "2025-11-20T16:31:53.18188"
+    },
+    {
+      "id": "3fa66c98-e47f-40d8-a592-d575adf3bab1",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-11-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "0662fbcd-f277-4c32-a95d-f0218f1d6b9d",
+      "formateur_id": "4659ff02-5453-4c69-8d4b-ff20c47e2cd6",
+      "date": "2025-11-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "bb77ba92-9886-4002-8e9f-d12e4f109fe9",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-11-04",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "32ff565c-938f-4ccb-9e42-70a19cdea28c",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-11-04",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "b1b5a2cc-fadf-4ad7-9160-a9acf3963c5d",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-11-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "824030eb-1fc5-42dc-a681-a8000da5d7da",
+      "formateur_id": "a6712b67-90d1-40dc-90b8-ecd75e0e40c9",
+      "date": "2025-11-05",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "b4d82bfe-8dfa-4a94-9972-a45ff4fd0953",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-11-06",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-11-06T12:50:07.454352"
+    },
+    {
+      "id": "8a20690a-9456-4a29-beb1-2ab35de15abd",
+      "formateur_id": "c2024ec0-b6f8-47dc-89d2-e9c8929cbd5c",
+      "date": "2025-12-08",
+      "creneau": "matin",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "7457329e-c68e-4dab-acc4-8e505319b5e6",
+      "formateur_id": "d317bd32-7733-4b28-b3b2-5db2e0b8cc41",
+      "date": "2025-12-08",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "66eafc29-8953-40a7-abbd-19d1d6cf7081",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-08",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "4c435647-0252-4cad-a01f-5754ceba136d",
+      "formateur_id": "b9ab1342-234b-43c6-827f-838abc2397c5",
+      "date": "2025-12-08",
+      "creneau": "AM",
+      "lieu_nom": "Maison Pour Tous",
+      "lieu_initiales": "MPT",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "a28481ea-da85-40f6-afb6-d2b097aa3173",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-08",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "11e30457-e6c4-4b4c-aa54-768e87b42ec4",
+      "formateur_id": "9ee61341-0043-4cf6-a5c3-5c34eeaa1074",
+      "date": "2025-12-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "88160220-a121-492d-bc1b-103ee6f8871c",
+      "formateur_id": "96b7a3a7-dbfe-4013-b125-ed8811423625",
+      "date": "2025-12-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "302c6ab8-2342-482a-9ed4-d01f43870b15",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-12-08",
+      "creneau": "AM",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "175912ac-17f6-4f9d-908e-e5a009931185",
+      "formateur_id": "21b7359e-19bd-4d88-886a-ca21c8e5c03b",
+      "date": "2025-12-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "1a5cd81d-432a-4524-96a2-117d26994581",
+      "formateur_id": "8e9c4eb3-5613-47f6-b637-99be66a0db09",
+      "date": "2025-12-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "fe82a9f8-e611-487f-b0fe-e400c2bd8234",
+      "formateur_id": "2dcc1fe5-4a72-4a03-9833-1f8783b87c49",
+      "date": "2025-12-09",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "19a2a898-ee4e-4c42-a10e-d663e517768c",
+      "formateur_id": "ddf1837e-9d37-4483-a56f-63eee78c43d4",
+      "date": "2025-12-09",
+      "creneau": "matin",
+      "lieu_nom": "Pleumartin",
+      "lieu_initiales": "PLE",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "208159e4-6bfd-4b72-8dce-662f6eb8e562",
+      "formateur_id": "8f6c93f7-fd16-4a25-a386-b3b927450cf2",
+      "date": "2025-12-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    },
+    {
+      "id": "5c81227b-9759-4c16-b693-1e3b5b6249d0",
+      "formateur_id": "28dd51fc-8207-416b-a8e6-b6073c9a0d7a",
+      "date": "2025-12-10",
+      "creneau": "matin",
+      "lieu_nom": "Centre Camille Pagé",
+      "lieu_initiales": "CCP",
+      "statut": "attribue",
+      "created_at": "2025-12-10T07:53:56.469758"
+    }
+  ],
+  "count": 491,
+  "timestamp": "2025-12-18T01:17:52.496Z"
+}
