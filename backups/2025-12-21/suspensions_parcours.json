@@ -1,0 +1,118 @@
+{
+  "table": "suspensions_parcours",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "apprenant_id",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_suspension",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "motif_suspension",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_reprise_prevue",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_reprise_reelle",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "cree_par",
+      "data_type": "object",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": "2b9b2764-986b-47b2-a2fd-ac17b953afa6",
+      "apprenant_id": "94271f8e-6136-422c-8ed3-21ef3f571a66",
+      "date_suspension": "2025-09-08",
+      "motif_suspension": "Ne souhaite plus suivre la formation",
+      "date_reprise_prevue": "2026-04-07",
+      "date_reprise_reelle": null,
+      "cree_par": null,
+      "created_at": "2025-09-24T11:22:03.418344+00:00",
+      "updated_at": "2025-09-24T11:22:03.418344+00:00"
+    },
+    {
+      "id": "2e77a01e-c102-4dde-8f95-ac1d1faeef47",
+      "apprenant_id": "59ac8208-a10a-45c4-bef6-eb642e48c31f",
+      "date_suspension": "2025-09-01",
+      "motif_suspension": "absence",
+      "date_reprise_prevue": "2025-10-24",
+      "date_reprise_reelle": null,
+      "cree_par": null,
+      "created_at": "2025-10-02T11:32:17.011147+00:00",
+      "updated_at": "2025-10-02T11:32:17.011147+00:00"
+    },
+    {
+      "id": "af69d85f-87c2-497f-97bd-f171c335611a",
+      "apprenant_id": "c5db1216-ce00-4d6b-8ed9-b5167afb5bc3",
+      "date_suspension": "2025-08-04",
+      "motif_suspension": "/",
+      "date_reprise_prevue": "2025-10-31",
+      "date_reprise_reelle": "2025-10-07",
+      "cree_par": null,
+      "created_at": "2025-10-02T11:31:10.420593+00:00",
+      "updated_at": "2025-10-02T11:31:10.420593+00:00"
+    },
+    {
+      "id": "655f7e7b-b1f3-421a-bc86-4bada4d91423",
+      "apprenant_id": "5c419cb7-8d82-422d-8e40-34bb49847f5f",
+      "date_suspension": "2025-11-25",
+      "motif_suspension": "Emploi",
+      "date_reprise_prevue": "2026-01-23",
+      "date_reprise_reelle": null,
+      "cree_par": null,
+      "created_at": "2025-11-25T15:49:01.395848+00:00",
+      "updated_at": "2025-11-25T15:49:01.395848+00:00"
+    },
+    {
+      "id": "256ca47b-1535-4ac9-9002-c42393d9a4c3",
+      "apprenant_id": "a2876bb8-9414-4bf8-8fe4-42b2968bbc6f",
+      "date_suspension": "2025-12-11",
+      "motif_suspension": "bcp de démarches en ce moment",
+      "date_reprise_prevue": "2026-03-11",
+      "date_reprise_reelle": null,
+      "cree_par": null,
+      "created_at": "2025-12-19T11:29:33.332142+00:00",
+      "updated_at": "2025-12-19T11:29:33.332142+00:00"
+    }
+  ],
+  "count": 5,
+  "timestamp": "2025-12-21T01:26:17.662Z"
+}
