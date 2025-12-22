@@ -1,0 +1,4821 @@
+{
+  "table": "groupes_sens",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "texte_reference_id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "ordre_groupe",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "contenu",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "type_groupe",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 841,
+      "texte_reference_id": 22,
+      "ordre_groupe": 1,
+      "contenu": "Jimmina ,",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 842,
+      "texte_reference_id": 22,
+      "ordre_groupe": 2,
+      "contenu": "Elle s'occupe bien",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 843,
+      "texte_reference_id": 22,
+      "ordre_groupe": 3,
+      "contenu": "De sa fille Renesmé.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 844,
+      "texte_reference_id": 22,
+      "ordre_groupe": 4,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 845,
+      "texte_reference_id": 22,
+      "ordre_groupe": 5,
+      "contenu": "Elle a vingt ans,",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 846,
+      "texte_reference_id": 22,
+      "ordre_groupe": 6,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 1544,
+      "texte_reference_id": 17,
+      "ordre_groupe": 1,
+      "contenu": "J'ai besoin",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1545,
+      "texte_reference_id": 17,
+      "ordre_groupe": 2,
+      "contenu": "d'écrire et lire",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1546,
+      "texte_reference_id": 17,
+      "ordre_groupe": 3,
+      "contenu": "pour remplir les papiers",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1547,
+      "texte_reference_id": 17,
+      "ordre_groupe": 4,
+      "contenu": "pour lire les messages.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1548,
+      "texte_reference_id": 17,
+      "ordre_groupe": 5,
+      "contenu": "Mon adresse.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1549,
+      "texte_reference_id": 17,
+      "ordre_groupe": 6,
+      "contenu": "Je veux  remplir mon nom.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 197,
+      "texte_reference_id": 10,
+      "ordre_groupe": 1,
+      "contenu": "Un, deux, trois,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 198,
+      "texte_reference_id": 10,
+      "ordre_groupe": 2,
+      "contenu": "Nous irons au bois.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 199,
+      "texte_reference_id": 10,
+      "ordre_groupe": 3,
+      "contenu": "Quatre, cinq, six,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 200,
+      "texte_reference_id": 10,
+      "ordre_groupe": 4,
+      "contenu": "Cueillir des cerises.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 201,
+      "texte_reference_id": 10,
+      "ordre_groupe": 5,
+      "contenu": "Sept, huit, neuf,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 202,
+      "texte_reference_id": 10,
+      "ordre_groupe": 6,
+      "contenu": "Dans mon panier neuf.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 203,
+      "texte_reference_id": 10,
+      "ordre_groupe": 7,
+      "contenu": "Dix, onze, douze,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 204,
+      "texte_reference_id": 10,
+      "ordre_groupe": 8,
+      "contenu": "Elles seront toutes rouges !",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T19:44:48.520858"
+    },
+    {
+      "id": 1114,
+      "texte_reference_id": 52,
+      "ordre_groupe": 1,
+      "contenu": "Je fais le ménage.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1115,
+      "texte_reference_id": 52,
+      "ordre_groupe": 2,
+      "contenu": "Je lave les meubles:",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1116,
+      "texte_reference_id": 52,
+      "ordre_groupe": 3,
+      "contenu": "Les chaises",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1117,
+      "texte_reference_id": 52,
+      "ordre_groupe": 4,
+      "contenu": "La table",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1118,
+      "texte_reference_id": 52,
+      "ordre_groupe": 5,
+      "contenu": "Avec une éponge",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1119,
+      "texte_reference_id": 52,
+      "ordre_groupe": 6,
+      "contenu": "Le bureau",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1120,
+      "texte_reference_id": 52,
+      "ordre_groupe": 7,
+      "contenu": "À sec",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1121,
+      "texte_reference_id": 52,
+      "ordre_groupe": 8,
+      "contenu": "Je passe la serpillère",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1122,
+      "texte_reference_id": 52,
+      "ordre_groupe": 9,
+      "contenu": "Sur le sol",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 1123,
+      "texte_reference_id": 52,
+      "ordre_groupe": 10,
+      "contenu": "Avec Mr. Propre.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:39:43.564245"
+    },
+    {
+      "id": 127,
+      "texte_reference_id": 1,
+      "ordre_groupe": 1,
+      "contenu": "Je suis partie à Royan",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 128,
+      "texte_reference_id": 1,
+      "ordre_groupe": 2,
+      "contenu": "avec mes trois enfants",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 129,
+      "texte_reference_id": 1,
+      "ordre_groupe": 3,
+      "contenu": "et ma petite fille Renesmé.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 130,
+      "texte_reference_id": 1,
+      "ordre_groupe": 4,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 131,
+      "texte_reference_id": 1,
+      "ordre_groupe": 5,
+      "contenu": "Renesmé adorait jouer à la mer.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 132,
+      "texte_reference_id": 1,
+      "ordre_groupe": 6,
+      "contenu": "Elle faisait des châteaux de sable.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 133,
+      "texte_reference_id": 1,
+      "ordre_groupe": 7,
+      "contenu": "On profitait de la mer,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 134,
+      "texte_reference_id": 1,
+      "ordre_groupe": 8,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 135,
+      "texte_reference_id": 1,
+      "ordre_groupe": 9,
+      "contenu": "la bronzette.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 136,
+      "texte_reference_id": 1,
+      "ordre_groupe": 10,
+      "contenu": "Paige faisait du cerf-volant.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:47:48.330124"
+    },
+    {
+      "id": 137,
+      "texte_reference_id": 2,
+      "ordre_groupe": 1,
+      "contenu": "Regretter n'est pas ma philosophie.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 138,
+      "texte_reference_id": 2,
+      "ordre_groupe": 2,
+      "contenu": "L'idée même de regarder le passé",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 139,
+      "texte_reference_id": 2,
+      "ordre_groupe": 3,
+      "contenu": "avec tristesse",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 140,
+      "texte_reference_id": 2,
+      "ordre_groupe": 4,
+      "contenu": "me déplaît.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 141,
+      "texte_reference_id": 2,
+      "ordre_groupe": 5,
+      "contenu": "Au contraire,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 142,
+      "texte_reference_id": 2,
+      "ordre_groupe": 6,
+      "contenu": "j'aime prendre le temps",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 143,
+      "texte_reference_id": 2,
+      "ordre_groupe": 7,
+      "contenu": "de constater les choses",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 144,
+      "texte_reference_id": 2,
+      "ordre_groupe": 8,
+      "contenu": "pour ensuite",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 1392,
+      "texte_reference_id": 37,
+      "ordre_groupe": 1,
+      "contenu": "Je suis en formation",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1393,
+      "texte_reference_id": 37,
+      "ordre_groupe": 2,
+      "contenu": "à l'ACLEF",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1394,
+      "texte_reference_id": 37,
+      "ordre_groupe": 3,
+      "contenu": "pour avancer",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1395,
+      "texte_reference_id": 37,
+      "ordre_groupe": 4,
+      "contenu": "dans la lecture et l'écriture",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1396,
+      "texte_reference_id": 37,
+      "ordre_groupe": 5,
+      "contenu": "du français.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1397,
+      "texte_reference_id": 37,
+      "ordre_groupe": 6,
+      "contenu": "J'ai commencé aussi",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1550,
+      "texte_reference_id": 17,
+      "ordre_groupe": 7,
+      "contenu": "Et pour mes enfants :",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1551,
+      "texte_reference_id": 17,
+      "ordre_groupe": 8,
+      "contenu": "Mamadou",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1552,
+      "texte_reference_id": 17,
+      "ordre_groupe": 9,
+      "contenu": "Bambo",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 617,
+      "texte_reference_id": 38,
+      "ordre_groupe": 1,
+      "contenu": "Des fois,",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 847,
+      "texte_reference_id": 22,
+      "ordre_groupe": 7,
+      "contenu": "Elle va les avoir le dix mai.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 848,
+      "texte_reference_id": 22,
+      "ordre_groupe": 8,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 849,
+      "texte_reference_id": 22,
+      "ordre_groupe": 9,
+      "contenu": "Paige",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 850,
+      "texte_reference_id": 22,
+      "ordre_groupe": 10,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 851,
+      "texte_reference_id": 22,
+      "ordre_groupe": 11,
+      "contenu": "Alors elle",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 145,
+      "texte_reference_id": 2,
+      "ordre_groupe": 9,
+      "contenu": "changer la situation,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 146,
+      "texte_reference_id": 2,
+      "ordre_groupe": 10,
+      "contenu": "améliorer ma vie.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 147,
+      "texte_reference_id": 2,
+      "ordre_groupe": 11,
+      "contenu": "Je suis quelqu'un de plutôt rêveur,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 148,
+      "texte_reference_id": 2,
+      "ordre_groupe": 12,
+      "contenu": "et je sais bien que rêver n'est pas agir.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 149,
+      "texte_reference_id": 2,
+      "ordre_groupe": 13,
+      "contenu": "Par exemple,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 150,
+      "texte_reference_id": 2,
+      "ordre_groupe": 14,
+      "contenu": "je rêve d'apprendre la guitare,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 151,
+      "texte_reference_id": 2,
+      "ordre_groupe": 15,
+      "contenu": "voyager en voilier,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 152,
+      "texte_reference_id": 2,
+      "ordre_groupe": 16,
+      "contenu": "ouvrir un café",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 153,
+      "texte_reference_id": 2,
+      "ordre_groupe": 17,
+      "contenu": "dans une petite ville",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 154,
+      "texte_reference_id": 2,
+      "ordre_groupe": 18,
+      "contenu": "au bord de l'eau.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 155,
+      "texte_reference_id": 2,
+      "ordre_groupe": 19,
+      "contenu": "Peindre un tableau,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 852,
+      "texte_reference_id": 22,
+      "ordre_groupe": 12,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 853,
+      "texte_reference_id": 22,
+      "ordre_groupe": 13,
+      "contenu": "C'est plutôt les maquillages,",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 854,
+      "texte_reference_id": 22,
+      "ordre_groupe": 14,
+      "contenu": "La coiffure",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 855,
+      "texte_reference_id": 22,
+      "ordre_groupe": 15,
+      "contenu": "Elle est coquette",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 856,
+      "texte_reference_id": 22,
+      "ordre_groupe": 16,
+      "contenu": "Elle aime se faire belle",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:26:40.285923"
+    },
+    {
+      "id": 915,
+      "texte_reference_id": 46,
+      "ordre_groupe": 1,
+      "contenu": "Les grands joueurs c'est toute une histoire.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 916,
+      "texte_reference_id": 46,
+      "ordre_groupe": 2,
+      "contenu": "Ils ont démarré de rien,",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 1398,
+      "texte_reference_id": 37,
+      "ordre_groupe": 7,
+      "contenu": "à travailler",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 156,
+      "texte_reference_id": 2,
+      "ordre_groupe": 20,
+      "contenu": "devenir ceinture noire de karaté,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 157,
+      "texte_reference_id": 2,
+      "ordre_groupe": 21,
+      "contenu": "écrire un roman,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 158,
+      "texte_reference_id": 2,
+      "ordre_groupe": 22,
+      "contenu": "créer ma propre entreprise,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 1399,
+      "texte_reference_id": 37,
+      "ordre_groupe": 8,
+      "contenu": "le code de la route.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1182,
+      "texte_reference_id": 53,
+      "ordre_groupe": 1,
+      "contenu": "Préparer un mur avant de peindre",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1183,
+      "texte_reference_id": 53,
+      "ordre_groupe": 2,
+      "contenu": "Avant de peindre un mur,",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1184,
+      "texte_reference_id": 53,
+      "ordre_groupe": 3,
+      "contenu": "Il faut bien le préparer.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 917,
+      "texte_reference_id": 46,
+      "ordre_groupe": 3,
+      "contenu": "Pour arriver à tout.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 918,
+      "texte_reference_id": 46,
+      "ordre_groupe": 4,
+      "contenu": "On a créé un club à nous",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 919,
+      "texte_reference_id": 46,
+      "ordre_groupe": 5,
+      "contenu": "\"les ULTRAS\"",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 920,
+      "texte_reference_id": 46,
+      "ordre_groupe": 6,
+      "contenu": "Avec tous mes potes.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 921,
+      "texte_reference_id": 46,
+      "ordre_groupe": 7,
+      "contenu": "On a un groupe Snapchat.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 1185,
+      "texte_reference_id": 53,
+      "ordre_groupe": 4,
+      "contenu": "Protéger la pièce.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1186,
+      "texte_reference_id": 53,
+      "ordre_groupe": 5,
+      "contenu": "On met une bâche par terre.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 159,
+      "texte_reference_id": 2,
+      "ordre_groupe": 23,
+      "contenu": "faire le tour du monde...",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 160,
+      "texte_reference_id": 2,
+      "ordre_groupe": 24,
+      "contenu": "La liste est longue,",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 161,
+      "texte_reference_id": 2,
+      "ordre_groupe": 25,
+      "contenu": "c'est vrai.",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 162,
+      "texte_reference_id": 2,
+      "ordre_groupe": 26,
+      "contenu": "Mais y penser est nécessaire",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 163,
+      "texte_reference_id": 2,
+      "ordre_groupe": 27,
+      "contenu": "pour espérer",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 164,
+      "texte_reference_id": 2,
+      "ordre_groupe": 28,
+      "contenu": "un jour",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 165,
+      "texte_reference_id": 2,
+      "ordre_groupe": 29,
+      "contenu": "commencer à les réaliser, non ?",
+      "type_groupe": "text",
+      "created_at": "2025-09-12T10:48:37.366861"
+    },
+    {
+      "id": 1553,
+      "texte_reference_id": 17,
+      "ordre_groupe": 10,
+      "contenu": "Kady.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:20:16.642026"
+    },
+    {
+      "id": 1602,
+      "texte_reference_id": 54,
+      "ordre_groupe": 1,
+      "contenu": "La cuisine.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1603,
+      "texte_reference_id": 54,
+      "ordre_groupe": 2,
+      "contenu": "J'aime bien la cuisine.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1604,
+      "texte_reference_id": 54,
+      "ordre_groupe": 3,
+      "contenu": "Je prépare du riz.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1605,
+      "texte_reference_id": 54,
+      "ordre_groupe": 4,
+      "contenu": "Je vais manger",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1606,
+      "texte_reference_id": 54,
+      "ordre_groupe": 5,
+      "contenu": "avec mes enfants.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1607,
+      "texte_reference_id": 54,
+      "ordre_groupe": 6,
+      "contenu": "Je nettoie la cuisine.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1608,
+      "texte_reference_id": 54,
+      "ordre_groupe": 7,
+      "contenu": "Avec ma fille Madieneba",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1609,
+      "texte_reference_id": 54,
+      "ordre_groupe": 8,
+      "contenu": "on prépare un gâteau au chocolat .",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1610,
+      "texte_reference_id": 54,
+      "ordre_groupe": 9,
+      "contenu": "On fait aussi  des crêpes",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 1611,
+      "texte_reference_id": 54,
+      "ordre_groupe": 10,
+      "contenu": "pour tout le monde.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:54.168438"
+    },
+    {
+      "id": 857,
+      "texte_reference_id": 19,
+      "ordre_groupe": 1,
+      "contenu": "Ma petite fille Renesmé.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 858,
+      "texte_reference_id": 19,
+      "ordre_groupe": 2,
+      "contenu": "Elle est adorable.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 859,
+      "texte_reference_id": 19,
+      "ordre_groupe": 3,
+      "contenu": "Elle aime bien jouer.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 860,
+      "texte_reference_id": 19,
+      "ordre_groupe": 4,
+      "contenu": "Elle fait de la cuisine avec :",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 861,
+      "texte_reference_id": 19,
+      "ordre_groupe": 5,
+      "contenu": "- une poêle",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 862,
+      "texte_reference_id": 19,
+      "ordre_groupe": 6,
+      "contenu": "- une petite marmite",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 863,
+      "texte_reference_id": 19,
+      "ordre_groupe": 7,
+      "contenu": "- une casserole",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 864,
+      "texte_reference_id": 19,
+      "ordre_groupe": 8,
+      "contenu": "Elle met le couvert avec :",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 865,
+      "texte_reference_id": 19,
+      "ordre_groupe": 9,
+      "contenu": "- les assiettes",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 866,
+      "texte_reference_id": 19,
+      "ordre_groupe": 10,
+      "contenu": "- les cuillères",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 867,
+      "texte_reference_id": 19,
+      "ordre_groupe": 11,
+      "contenu": "- les fourchettes",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T09:42:21.981373"
+    },
+    {
+      "id": 922,
+      "texte_reference_id": 46,
+      "ordre_groupe": 8,
+      "contenu": "On applique toutes les règles :",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 1187,
+      "texte_reference_id": 53,
+      "ordre_groupe": 6,
+      "contenu": "On couvre les meubles",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 415,
+      "texte_reference_id": 27,
+      "ordre_groupe": 1,
+      "contenu": "Le mercredi",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 416,
+      "texte_reference_id": 27,
+      "ordre_groupe": 2,
+      "contenu": "Jusqu' à 13 heures 30.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 417,
+      "texte_reference_id": 27,
+      "ordre_groupe": 3,
+      "contenu": "Après,",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 418,
+      "texte_reference_id": 27,
+      "ordre_groupe": 4,
+      "contenu": "Et on prépare le   manger.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 419,
+      "texte_reference_id": 27,
+      "ordre_groupe": 5,
+      "contenu": "Je  les  fais",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 420,
+      "texte_reference_id": 27,
+      "ordre_groupe": 6,
+      "contenu": "Dormir  un peu.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 421,
+      "texte_reference_id": 27,
+      "ordre_groupe": 7,
+      "contenu": "S'il  fait  beau,",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 302,
+      "texte_reference_id": 18,
+      "ordre_groupe": 1,
+      "contenu": "J'AI BESOIN",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 303,
+      "texte_reference_id": 18,
+      "ordre_groupe": 2,
+      "contenu": "D’ÉCRIRE ET LIRE",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 304,
+      "texte_reference_id": 18,
+      "ordre_groupe": 3,
+      "contenu": "POUR REMPLIR LES PAPIERS,",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 305,
+      "texte_reference_id": 18,
+      "ordre_groupe": 4,
+      "contenu": "POUR LIRE LES MESSAGES,",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 306,
+      "texte_reference_id": 18,
+      "ordre_groupe": 5,
+      "contenu": "MON ADRESSE.",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 307,
+      "texte_reference_id": 18,
+      "ordre_groupe": 6,
+      "contenu": "JE VEUX REMPLIR MON NOM",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 308,
+      "texte_reference_id": 18,
+      "ordre_groupe": 7,
+      "contenu": "ET POUR MES ENFANTS :",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 309,
+      "texte_reference_id": 18,
+      "ordre_groupe": 8,
+      "contenu": "MAMADOU",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 310,
+      "texte_reference_id": 18,
+      "ordre_groupe": 9,
+      "contenu": "BAMBO",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 311,
+      "texte_reference_id": 18,
+      "ordre_groupe": 10,
+      "contenu": "KADY.",
+      "type_groupe": "text",
+      "created_at": "2025-10-15T12:37:17.746776"
+    },
+    {
+      "id": 1188,
+      "texte_reference_id": 53,
+      "ordre_groupe": 7,
+      "contenu": "Avec du plastique.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1189,
+      "texte_reference_id": 53,
+      "ordre_groupe": 8,
+      "contenu": "On colle du ruban adhésif",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1190,
+      "texte_reference_id": 53,
+      "ordre_groupe": 9,
+      "contenu": "Autour des portes,",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1191,
+      "texte_reference_id": 53,
+      "ordre_groupe": 10,
+      "contenu": "Des fenêtres et des prises.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 422,
+      "texte_reference_id": 27,
+      "ordre_groupe": 8,
+      "contenu": "On  sort  dehors.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 423,
+      "texte_reference_id": 27,
+      "ordre_groupe": 9,
+      "contenu": "On fait",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 424,
+      "texte_reference_id": 27,
+      "ordre_groupe": 10,
+      "contenu": "Une   heure  ou  deux   heures",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 425,
+      "texte_reference_id": 27,
+      "ordre_groupe": 11,
+      "contenu": "Dans  le  parc.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:20:33.026437"
+    },
+    {
+      "id": 1192,
+      "texte_reference_id": 53,
+      "ordre_groupe": 11,
+      "contenu": "Nettoyer le mur.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1193,
+      "texte_reference_id": 53,
+      "ordre_groupe": 12,
+      "contenu": "On enlève la poussière",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1194,
+      "texte_reference_id": 53,
+      "ordre_groupe": 13,
+      "contenu": "Avec un chiffon.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1195,
+      "texte_reference_id": 53,
+      "ordre_groupe": 14,
+      "contenu": "On lave le mur s'il est sale.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1196,
+      "texte_reference_id": 53,
+      "ordre_groupe": 15,
+      "contenu": "On attend que le mur soit bien sec.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1197,
+      "texte_reference_id": 53,
+      "ordre_groupe": 16,
+      "contenu": "Réparer le mur.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1198,
+      "texte_reference_id": 53,
+      "ordre_groupe": 17,
+      "contenu": "On bouche les trous et les fissures",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1199,
+      "texte_reference_id": 53,
+      "ordre_groupe": 18,
+      "contenu": "Avec de l'enduit",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1237,
+      "texte_reference_id": 40,
+      "ordre_groupe": 1,
+      "contenu": "Achat",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1554,
+      "texte_reference_id": 14,
+      "ordre_groupe": 1,
+      "contenu": "Je m'appelle Boubou Sylla.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1555,
+      "texte_reference_id": 14,
+      "ordre_groupe": 2,
+      "contenu": "J'ai 21 ans.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1556,
+      "texte_reference_id": 14,
+      "ordre_groupe": 3,
+      "contenu": "Je suis malien.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1557,
+      "texte_reference_id": 14,
+      "ordre_groupe": 4,
+      "contenu": "Je suis né à Bamako.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1558,
+      "texte_reference_id": 14,
+      "ordre_groupe": 5,
+      "contenu": "Au Mali.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1559,
+      "texte_reference_id": 14,
+      "ordre_groupe": 6,
+      "contenu": "Je suis en France",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1560,
+      "texte_reference_id": 14,
+      "ordre_groupe": 7,
+      "contenu": "depuis 2020.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1561,
+      "texte_reference_id": 14,
+      "ordre_groupe": 8,
+      "contenu": "J'habite à Poitiers.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1562,
+      "texte_reference_id": 14,
+      "ordre_groupe": 9,
+      "contenu": "Je travaille à Insersud.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1563,
+      "texte_reference_id": 14,
+      "ordre_groupe": 10,
+      "contenu": "Avant je travaillais",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 451,
+      "texte_reference_id": 26,
+      "ordre_groupe": 1,
+      "contenu": "Le mois prochain,",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 452,
+      "texte_reference_id": 26,
+      "ordre_groupe": 2,
+      "contenu": "Le 7 juillet,",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 453,
+      "texte_reference_id": 26,
+      "ordre_groupe": 3,
+      "contenu": "Mes enfants vont commencer",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 454,
+      "texte_reference_id": 26,
+      "ordre_groupe": 4,
+      "contenu": "Le centre:",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 455,
+      "texte_reference_id": 26,
+      "ordre_groupe": 5,
+      "contenu": "C'est de 8 heures 30 à 18 heures 30:",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 456,
+      "texte_reference_id": 26,
+      "ordre_groupe": 6,
+      "contenu": "Je travaille à Action Ozon",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 457,
+      "texte_reference_id": 26,
+      "ordre_groupe": 7,
+      "contenu": "De 8 heures 30 à 16 heures 30:",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 458,
+      "texte_reference_id": 26,
+      "ordre_groupe": 8,
+      "contenu": "Je peux pas",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 459,
+      "texte_reference_id": 26,
+      "ordre_groupe": 9,
+      "contenu": "Laisser  mes enfants",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 460,
+      "texte_reference_id": 26,
+      "ordre_groupe": 10,
+      "contenu": "Tout seul à la  maison.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 461,
+      "texte_reference_id": 26,
+      "ordre_groupe": 11,
+      "contenu": "Je les mets au centre.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 462,
+      "texte_reference_id": 26,
+      "ordre_groupe": 12,
+      "contenu": "Sauf s'il y a un jour férié,",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 463,
+      "texte_reference_id": 26,
+      "ordre_groupe": 13,
+      "contenu": "Je les ramène pas.",
+      "type_groupe": "text",
+      "created_at": "2025-10-17T09:44:17.657571"
+    },
+    {
+      "id": 1564,
+      "texte_reference_id": 14,
+      "ordre_groupe": 11,
+      "contenu": "à O'NET.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 1565,
+      "texte_reference_id": 14,
+      "ordre_groupe": 12,
+      "contenu": "Je suis agent de propreté.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:22:34.681761"
+    },
+    {
+      "id": 502,
+      "texte_reference_id": 29,
+      "ordre_groupe": 1,
+      "contenu": "Moi j'ai une chatte",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 503,
+      "texte_reference_id": 29,
+      "ordre_groupe": 2,
+      "contenu": "Qui s'appelle Mimine.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 504,
+      "texte_reference_id": 29,
+      "ordre_groupe": 3,
+      "contenu": "Elle est blanche",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 505,
+      "texte_reference_id": 29,
+      "ordre_groupe": 4,
+      "contenu": "Et gris-tigrée.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 506,
+      "texte_reference_id": 29,
+      "ordre_groupe": 5,
+      "contenu": "Mon animal préféré",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 507,
+      "texte_reference_id": 29,
+      "ordre_groupe": 6,
+      "contenu": "C'est le chien chihuahua.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 508,
+      "texte_reference_id": 29,
+      "ordre_groupe": 7,
+      "contenu": "J'ai aussi un poisson",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 509,
+      "texte_reference_id": 29,
+      "ordre_groupe": 8,
+      "contenu": "Qui s'appelle Némo.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 510,
+      "texte_reference_id": 29,
+      "ordre_groupe": 9,
+      "contenu": "Il est orange, blanc et noir.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 511,
+      "texte_reference_id": 29,
+      "ordre_groupe": 10,
+      "contenu": "J'ai un cheval",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 512,
+      "texte_reference_id": 29,
+      "ordre_groupe": 11,
+      "contenu": "Qui s'appelle Cookie.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 513,
+      "texte_reference_id": 29,
+      "ordre_groupe": 12,
+      "contenu": "Il est marron.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 514,
+      "texte_reference_id": 29,
+      "ordre_groupe": 13,
+      "contenu": "Il m'a été offert",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 515,
+      "texte_reference_id": 29,
+      "ordre_groupe": 14,
+      "contenu": "Par une amie de mon père.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 516,
+      "texte_reference_id": 29,
+      "ordre_groupe": 15,
+      "contenu": "Je fais du cheval",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 517,
+      "texte_reference_id": 29,
+      "ordre_groupe": 16,
+      "contenu": "Le mercredi soir.",
+      "type_groupe": "text",
+      "created_at": "2025-10-20T09:33:31.435888"
+    },
+    {
+      "id": 1400,
+      "texte_reference_id": 37,
+      "ordre_groupe": 9,
+      "contenu": "Je dois travailler",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1401,
+      "texte_reference_id": 37,
+      "ordre_groupe": 10,
+      "contenu": "pour les besoins de mes enfants ,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1402,
+      "texte_reference_id": 37,
+      "ordre_groupe": 11,
+      "contenu": "et payer",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1403,
+      "texte_reference_id": 37,
+      "ordre_groupe": 12,
+      "contenu": "toutes les factures.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:03:46.92242"
+    },
+    {
+      "id": 1430,
+      "texte_reference_id": 34,
+      "ordre_groupe": 1,
+      "contenu": "Les Diakankés",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1431,
+      "texte_reference_id": 34,
+      "ordre_groupe": 2,
+      "contenu": "on fait",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1432,
+      "texte_reference_id": 34,
+      "ordre_groupe": 3,
+      "contenu": "des fêtes de famille.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1433,
+      "texte_reference_id": 34,
+      "ordre_groupe": 4,
+      "contenu": "Souvent des mariages",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1434,
+      "texte_reference_id": 34,
+      "ordre_groupe": 5,
+      "contenu": "partout en France.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1435,
+      "texte_reference_id": 34,
+      "ordre_groupe": 6,
+      "contenu": "On porte des boubous",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1436,
+      "texte_reference_id": 34,
+      "ordre_groupe": 7,
+      "contenu": "en bazin , wax",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1437,
+      "texte_reference_id": 34,
+      "ordre_groupe": 8,
+      "contenu": "ou voile.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:06:26.711883"
+    },
+    {
+      "id": 1471,
+      "texte_reference_id": 31,
+      "ordre_groupe": 1,
+      "contenu": "J'aimerais avoir",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1472,
+      "texte_reference_id": 31,
+      "ordre_groupe": 2,
+      "contenu": "une première expérience de travail",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1473,
+      "texte_reference_id": 31,
+      "ordre_groupe": 3,
+      "contenu": "qui peut s'adapter",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1474,
+      "texte_reference_id": 31,
+      "ordre_groupe": 4,
+      "contenu": "aux horaires de mes enfants",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1475,
+      "texte_reference_id": 31,
+      "ordre_groupe": 5,
+      "contenu": "pour l'école.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1476,
+      "texte_reference_id": 31,
+      "ordre_groupe": 6,
+      "contenu": "Je suis prête aussi",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1477,
+      "texte_reference_id": 31,
+      "ordre_groupe": 7,
+      "contenu": "pour découvrir d'autres métiers.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1478,
+      "texte_reference_id": 31,
+      "ordre_groupe": 8,
+      "contenu": "Je connais un peu",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1479,
+      "texte_reference_id": 31,
+      "ordre_groupe": 9,
+      "contenu": "la cuisine et la vente.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1480,
+      "texte_reference_id": 31,
+      "ordre_groupe": 10,
+      "contenu": "J'habite",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1481,
+      "texte_reference_id": 31,
+      "ordre_groupe": 11,
+      "contenu": "le quartier d'Ozon.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:09:57.639603"
+    },
+    {
+      "id": 1511,
+      "texte_reference_id": 62,
+      "ordre_groupe": 1,
+      "contenu": "Les  animaux",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1512,
+      "texte_reference_id": 62,
+      "ordre_groupe": 2,
+      "contenu": "Le  serpent  mange  une  souris.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1513,
+      "texte_reference_id": 62,
+      "ordre_groupe": 3,
+      "contenu": "La  souris  a  envie  de  sortir  de  la  bouche  du serpent.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1514,
+      "texte_reference_id": 62,
+      "ordre_groupe": 4,
+      "contenu": "Le  serpent  rampe  sur  la  terre.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1515,
+      "texte_reference_id": 62,
+      "ordre_groupe": 5,
+      "contenu": "Une  tortue  mange  de  la  salade.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1516,
+      "texte_reference_id": 62,
+      "ordre_groupe": 6,
+      "contenu": "Le  panda  mange  le  bambou.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1517,
+      "texte_reference_id": 62,
+      "ordre_groupe": 7,
+      "contenu": "Le  renard  marche  dans  la  forêt.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1518,
+      "texte_reference_id": 62,
+      "ordre_groupe": 8,
+      "contenu": "Il  cherche  sa  proie.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1519,
+      "texte_reference_id": 62,
+      "ordre_groupe": 9,
+      "contenu": "La  renarde  fait  un  câlin  à  ses  petits.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1520,
+      "texte_reference_id": 62,
+      "ordre_groupe": 10,
+      "contenu": "L’ours  boit  de  la  bière.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1521,
+      "texte_reference_id": 62,
+      "ordre_groupe": 11,
+      "contenu": "L’ours  a  kidnappé  trois  renardeaux.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1522,
+      "texte_reference_id": 62,
+      "ordre_groupe": 12,
+      "contenu": "Des  oursons  attrapent  des  poissons  dans  la rivière.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1523,
+      "texte_reference_id": 62,
+      "ordre_groupe": 13,
+      "contenu": "Le  chat  part  dans  l’espace.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1524,
+      "texte_reference_id": 62,
+      "ordre_groupe": 14,
+      "contenu": "Il  va  chercher  un  morceau  de lune.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 1525,
+      "texte_reference_id": 62,
+      "ordre_groupe": 15,
+      "contenu": "Le  chat  blanc  saute  dans  la  boue.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:47:58.37522"
+    },
+    {
+      "id": 923,
+      "texte_reference_id": 46,
+      "ordre_groupe": 9,
+      "contenu": "- 90 minutes de match",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 924,
+      "texte_reference_id": 46,
+      "ordre_groupe": 10,
+      "contenu": "- un arbitre",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 925,
+      "texte_reference_id": 46,
+      "ordre_groupe": 11,
+      "contenu": "- des arbitres de touche",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 926,
+      "texte_reference_id": 46,
+      "ordre_groupe": 12,
+      "contenu": "- avec des vrais drapeaux",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 927,
+      "texte_reference_id": 46,
+      "ordre_groupe": 13,
+      "contenu": "- 22 joueurs.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:22:51.055765"
+    },
+    {
+      "id": 928,
+      "texte_reference_id": 45,
+      "ordre_groupe": 1,
+      "contenu": "Ce que j'aime c'est marquer des buts",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:23:37.556885"
+    },
+    {
+      "id": 929,
+      "texte_reference_id": 45,
+      "ordre_groupe": 2,
+      "contenu": "Et faire la célébration.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:23:37.556885"
+    },
+    {
+      "id": 930,
+      "texte_reference_id": 45,
+      "ordre_groupe": 3,
+      "contenu": "C'est moi qui crée les célébrations",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:23:37.556885"
+    },
+    {
+      "id": 931,
+      "texte_reference_id": 45,
+      "ordre_groupe": 4,
+      "contenu": "Au moment où je marque.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:23:37.556885"
+    },
+    {
+      "id": 932,
+      "texte_reference_id": 45,
+      "ordre_groupe": 5,
+      "contenu": "Elles me viennent dans la tête",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:23:37.556885"
+    },
+    {
+      "id": 933,
+      "texte_reference_id": 45,
+      "ordre_groupe": 6,
+      "contenu": "Et le corps la fait.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:23:37.556885"
+    },
+    {
+      "id": 947,
+      "texte_reference_id": 50,
+      "ordre_groupe": 1,
+      "contenu": "Je m'appelle David.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 948,
+      "texte_reference_id": 50,
+      "ordre_groupe": 2,
+      "contenu": "J'ai 29 ans.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 949,
+      "texte_reference_id": 50,
+      "ordre_groupe": 3,
+      "contenu": "J'habite à Cenon.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 950,
+      "texte_reference_id": 50,
+      "ordre_groupe": 4,
+      "contenu": "J'ai un fils.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 951,
+      "texte_reference_id": 50,
+      "ordre_groupe": 5,
+      "contenu": "Il s'appelle David,",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 952,
+      "texte_reference_id": 50,
+      "ordre_groupe": 6,
+      "contenu": "Comme moi.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 953,
+      "texte_reference_id": 50,
+      "ordre_groupe": 7,
+      "contenu": "Il a trois ans.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 954,
+      "texte_reference_id": 50,
+      "ordre_groupe": 8,
+      "contenu": "J'aime la pétanque,",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 955,
+      "texte_reference_id": 50,
+      "ordre_groupe": 9,
+      "contenu": "La pêche et la chasse.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T13:35:53.544664"
+    },
+    {
+      "id": 1200,
+      "texte_reference_id": 53,
+      "ordre_groupe": 19,
+      "contenu": "On laisse sécher.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1201,
+      "texte_reference_id": 53,
+      "ordre_groupe": 20,
+      "contenu": "Puis on ponce (on frotte)",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1202,
+      "texte_reference_id": 53,
+      "ordre_groupe": 21,
+      "contenu": "Avec du papier de verre",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1203,
+      "texte_reference_id": 53,
+      "ordre_groupe": 22,
+      "contenu": "Pour que le mur soit lisse.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1204,
+      "texte_reference_id": 53,
+      "ordre_groupe": 23,
+      "contenu": "Appliquer la sous-couche.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1205,
+      "texte_reference_id": 53,
+      "ordre_groupe": 24,
+      "contenu": "On met une première couche",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1206,
+      "texte_reference_id": 53,
+      "ordre_groupe": 25,
+      "contenu": "De peinture blanche,",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1207,
+      "texte_reference_id": 53,
+      "ordre_groupe": 26,
+      "contenu": "Appelée sous-couche.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1208,
+      "texte_reference_id": 53,
+      "ordre_groupe": 27,
+      "contenu": "Elle aide la peinture à bien tenir.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1038,
+      "texte_reference_id": 13,
+      "ordre_groupe": 1,
+      "contenu": "J'aime le sport.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1039,
+      "texte_reference_id": 13,
+      "ordre_groupe": 2,
+      "contenu": "L'année dernière,",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1040,
+      "texte_reference_id": 13,
+      "ordre_groupe": 3,
+      "contenu": "Je faisais du foot",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1041,
+      "texte_reference_id": 13,
+      "ordre_groupe": 4,
+      "contenu": "Au club des portugais.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1042,
+      "texte_reference_id": 13,
+      "ordre_groupe": 5,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1043,
+      "texte_reference_id": 13,
+      "ordre_groupe": 6,
+      "contenu": "J'aimerais aller à la salle de gym.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1044,
+      "texte_reference_id": 13,
+      "ordre_groupe": 7,
+      "contenu": "Il y a beaucoup d'activités :",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1045,
+      "texte_reference_id": 13,
+      "ordre_groupe": 8,
+      "contenu": "On court sur les tapis.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1046,
+      "texte_reference_id": 13,
+      "ordre_groupe": 9,
+      "contenu": "On soulève des poids.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1047,
+      "texte_reference_id": 13,
+      "ordre_groupe": 10,
+      "contenu": "On fait des abdos.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1048,
+      "texte_reference_id": 13,
+      "ordre_groupe": 11,
+      "contenu": "On fait des pompes.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1049,
+      "texte_reference_id": 13,
+      "ordre_groupe": 12,
+      "contenu": "Je ne suis pas inscrit",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1050,
+      "texte_reference_id": 13,
+      "ordre_groupe": 13,
+      "contenu": "À la salle de gym.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1051,
+      "texte_reference_id": 13,
+      "ordre_groupe": 14,
+      "contenu": "Je réfléchis",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1052,
+      "texte_reference_id": 13,
+      "ordre_groupe": 15,
+      "contenu": "Où je dois aller :",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1053,
+      "texte_reference_id": 13,
+      "ordre_groupe": 16,
+      "contenu": "Au foot ou à la gym ?",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:08:09.891463"
+    },
+    {
+      "id": 1094,
+      "texte_reference_id": 15,
+      "ordre_groupe": 5,
+      "contenu": "Le mélange le ciment dans l’auge",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1095,
+      "texte_reference_id": 15,
+      "ordre_groupe": 6,
+      "contenu": "Avant de poser les parpaings.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1096,
+      "texte_reference_id": 15,
+      "ordre_groupe": 7,
+      "contenu": "Le maçon fait le mur.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1097,
+      "texte_reference_id": 15,
+      "ordre_groupe": 8,
+      "contenu": "On mélange le ciment avec le sable, l'eau",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1098,
+      "texte_reference_id": 15,
+      "ordre_groupe": 9,
+      "contenu": "Et un peu de cailloux. Ça fait du béton",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1099,
+      "texte_reference_id": 15,
+      "ordre_groupe": 10,
+      "contenu": "On fait le mur avec des briques , du béton.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1100,
+      "texte_reference_id": 16,
+      "ordre_groupe": 1,
+      "contenu": "Les outils de travail du peintre :",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1101,
+      "texte_reference_id": 16,
+      "ordre_groupe": 2,
+      "contenu": "Il faut :",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1102,
+      "texte_reference_id": 16,
+      "ordre_groupe": 3,
+      "contenu": "Un rouleau",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1103,
+      "texte_reference_id": 16,
+      "ordre_groupe": 4,
+      "contenu": "Des pinceaux",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1104,
+      "texte_reference_id": 16,
+      "ordre_groupe": 5,
+      "contenu": "Des brosses",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1105,
+      "texte_reference_id": 16,
+      "ordre_groupe": 6,
+      "contenu": "Un seau",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1106,
+      "texte_reference_id": 16,
+      "ordre_groupe": 7,
+      "contenu": "Tu dois mettre un casque",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1107,
+      "texte_reference_id": 16,
+      "ordre_groupe": 8,
+      "contenu": "Avec des chaussures de sécurité",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1108,
+      "texte_reference_id": 16,
+      "ordre_groupe": 9,
+      "contenu": "Des gants",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1109,
+      "texte_reference_id": 16,
+      "ordre_groupe": 10,
+      "contenu": "Une combinaison de travail.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1110,
+      "texte_reference_id": 16,
+      "ordre_groupe": 11,
+      "contenu": "Tu écoutes ton collègue",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1111,
+      "texte_reference_id": 16,
+      "ordre_groupe": 12,
+      "contenu": "Ton patron",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1112,
+      "texte_reference_id": 16,
+      "ordre_groupe": 13,
+      "contenu": "Ton chef d'équipe",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1113,
+      "texte_reference_id": 16,
+      "ordre_groupe": 14,
+      "contenu": "Tu respectes les horaires.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:57.205653"
+    },
+    {
+      "id": 1209,
+      "texte_reference_id": 53,
+      "ordre_groupe": 28,
+      "contenu": "On laisse sécher.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1210,
+      "texte_reference_id": 53,
+      "ordre_groupe": 29,
+      "contenu": "Peindre le mur.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1211,
+      "texte_reference_id": 53,
+      "ordre_groupe": 30,
+      "contenu": "On mélange la peinture.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1212,
+      "texte_reference_id": 53,
+      "ordre_groupe": 31,
+      "contenu": "On peint d'abord les bords",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1213,
+      "texte_reference_id": 53,
+      "ordre_groupe": 32,
+      "contenu": "Avec un pinceau.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1214,
+      "texte_reference_id": 53,
+      "ordre_groupe": 33,
+      "contenu": "Puis  on peint le reste du mur",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1215,
+      "texte_reference_id": 53,
+      "ordre_groupe": 34,
+      "contenu": "Avec un rouleau..",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1216,
+      "texte_reference_id": 53,
+      "ordre_groupe": 35,
+      "contenu": "On laisse sécher",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1217,
+      "texte_reference_id": 53,
+      "ordre_groupe": 36,
+      "contenu": "Et on peut mettre une deuxième couche.",
+      "type_groupe": "text",
+      "created_at": "2025-11-13T09:51:29.203115"
+    },
+    {
+      "id": 1238,
+      "texte_reference_id": 40,
+      "ordre_groupe": 2,
+      "contenu": "Béta",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1239,
+      "texte_reference_id": 40,
+      "ordre_groupe": 3,
+      "contenu": "Ce",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1240,
+      "texte_reference_id": 40,
+      "ordre_groupe": 4,
+      "contenu": "Dans",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1241,
+      "texte_reference_id": 40,
+      "ordre_groupe": 5,
+      "contenu": "Éléphant",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1242,
+      "texte_reference_id": 40,
+      "ordre_groupe": 6,
+      "contenu": "Famille",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1243,
+      "texte_reference_id": 40,
+      "ordre_groupe": 7,
+      "contenu": "Genou",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1244,
+      "texte_reference_id": 40,
+      "ordre_groupe": 8,
+      "contenu": "Hibou",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1245,
+      "texte_reference_id": 40,
+      "ordre_groupe": 9,
+      "contenu": "Koala",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1246,
+      "texte_reference_id": 40,
+      "ordre_groupe": 10,
+      "contenu": "Les",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1247,
+      "texte_reference_id": 40,
+      "ordre_groupe": 11,
+      "contenu": "Mon",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1248,
+      "texte_reference_id": 40,
+      "ordre_groupe": 12,
+      "contenu": "Nom",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1249,
+      "texte_reference_id": 40,
+      "ordre_groupe": 13,
+      "contenu": "Opéra",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1250,
+      "texte_reference_id": 40,
+      "ordre_groupe": 14,
+      "contenu": "Par",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1251,
+      "texte_reference_id": 40,
+      "ordre_groupe": 15,
+      "contenu": "Quatre",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1252,
+      "texte_reference_id": 40,
+      "ordre_groupe": 16,
+      "contenu": "Rue",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1253,
+      "texte_reference_id": 40,
+      "ordre_groupe": 17,
+      "contenu": "Sur",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1254,
+      "texte_reference_id": 40,
+      "ordre_groupe": 18,
+      "contenu": "Table",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:13.468851"
+    },
+    {
+      "id": 1404,
+      "texte_reference_id": 36,
+      "ordre_groupe": 1,
+      "contenu": "J'ai commencé Action Ozon",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1405,
+      "texte_reference_id": 36,
+      "ordre_groupe": 2,
+      "contenu": "le mercredi 3 septembre.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1406,
+      "texte_reference_id": 36,
+      "ordre_groupe": 3,
+      "contenu": "On est arrivé",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1407,
+      "texte_reference_id": 36,
+      "ordre_groupe": 4,
+      "contenu": "à 8h45.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1408,
+      "texte_reference_id": 36,
+      "ordre_groupe": 5,
+      "contenu": "On a travaillé",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1409,
+      "texte_reference_id": 36,
+      "ordre_groupe": 6,
+      "contenu": "en petits groupes ,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1410,
+      "texte_reference_id": 36,
+      "ordre_groupe": 7,
+      "contenu": "des femmes",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1411,
+      "texte_reference_id": 36,
+      "ordre_groupe": 8,
+      "contenu": "et des hommes.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1412,
+      "texte_reference_id": 36,
+      "ordre_groupe": 9,
+      "contenu": "On est parti",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1413,
+      "texte_reference_id": 36,
+      "ordre_groupe": 10,
+      "contenu": "en voiture",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1414,
+      "texte_reference_id": 36,
+      "ordre_groupe": 11,
+      "contenu": "sur un terrain.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1415,
+      "texte_reference_id": 36,
+      "ordre_groupe": 12,
+      "contenu": "Des gens font des barbecues.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1416,
+      "texte_reference_id": 36,
+      "ordre_groupe": 13,
+      "contenu": "On ramasse les gobelets,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1417,
+      "texte_reference_id": 36,
+      "ordre_groupe": 14,
+      "contenu": "Les mouchoirs.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1418,
+      "texte_reference_id": 36,
+      "ordre_groupe": 15,
+      "contenu": "On met",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 618,
+      "texte_reference_id": 38,
+      "ordre_groupe": 2,
+      "contenu": "Ils  font  des sorties.",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 619,
+      "texte_reference_id": 38,
+      "ordre_groupe": 3,
+      "contenu": "Je mets  les goûters",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 620,
+      "texte_reference_id": 38,
+      "ordre_groupe": 4,
+      "contenu": "Dans  leurs sacs.",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 621,
+      "texte_reference_id": 38,
+      "ordre_groupe": 5,
+      "contenu": "Souvent,",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 622,
+      "texte_reference_id": 38,
+      "ordre_groupe": 6,
+      "contenu": "Ils vont à  la piscine",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 623,
+      "texte_reference_id": 38,
+      "ordre_groupe": 7,
+      "contenu": "Quand  il fait chaud.",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 624,
+      "texte_reference_id": 38,
+      "ordre_groupe": 8,
+      "contenu": "Je mets le maillot de bain",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 625,
+      "texte_reference_id": 38,
+      "ordre_groupe": 9,
+      "contenu": "Et la  serviette.",
+      "type_groupe": "text",
+      "created_at": "2025-10-22T07:35:58.024248"
+    },
+    {
+      "id": 1419,
+      "texte_reference_id": 36,
+      "ordre_groupe": 16,
+      "contenu": "dans les sacs.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1420,
+      "texte_reference_id": 36,
+      "ordre_groupe": 17,
+      "contenu": "On change",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1421,
+      "texte_reference_id": 36,
+      "ordre_groupe": 18,
+      "contenu": "les poubelles.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:04:56.351237"
+    },
+    {
+      "id": 1438,
+      "texte_reference_id": 33,
+      "ordre_groupe": 1,
+      "contenu": "On peut prendre",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1439,
+      "texte_reference_id": 33,
+      "ordre_groupe": 2,
+      "contenu": "le train , le bus SNCF",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1440,
+      "texte_reference_id": 33,
+      "ordre_groupe": 3,
+      "contenu": "dans toute la France.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1441,
+      "texte_reference_id": 33,
+      "ordre_groupe": 4,
+      "contenu": "On a 30%",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1442,
+      "texte_reference_id": 33,
+      "ordre_groupe": 5,
+      "contenu": "de réduction.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1443,
+      "texte_reference_id": 33,
+      "ordre_groupe": 6,
+      "contenu": "Par exemple :",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1444,
+      "texte_reference_id": 33,
+      "ordre_groupe": 7,
+      "contenu": "si le billet coûte 100$",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1445,
+      "texte_reference_id": 33,
+      "ordre_groupe": 8,
+      "contenu": "je vais payer 70$.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1446,
+      "texte_reference_id": 33,
+      "ordre_groupe": 9,
+      "contenu": "Je peux l'utiliser",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1447,
+      "texte_reference_id": 33,
+      "ordre_groupe": 10,
+      "contenu": "pour les fêtes de famille",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1448,
+      "texte_reference_id": 33,
+      "ordre_groupe": 11,
+      "contenu": "à Laval",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1449,
+      "texte_reference_id": 33,
+      "ordre_groupe": 12,
+      "contenu": "à Nantes",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1450,
+      "texte_reference_id": 33,
+      "ordre_groupe": 13,
+      "contenu": "à Tours",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1451,
+      "texte_reference_id": 33,
+      "ordre_groupe": 14,
+      "contenu": "à Poitiers",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:07:24.686009"
+    },
+    {
+      "id": 1482,
+      "texte_reference_id": 30,
+      "ordre_groupe": 1,
+      "contenu": "J'ai connu Action Ozon",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 934,
+      "texte_reference_id": 48,
+      "ordre_groupe": 1,
+      "contenu": "C'est du sport.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 935,
+      "texte_reference_id": 48,
+      "ordre_groupe": 2,
+      "contenu": "C'est dur.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 936,
+      "texte_reference_id": 48,
+      "ordre_groupe": 3,
+      "contenu": "On va toujours se faire mal",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 937,
+      "texte_reference_id": 48,
+      "ordre_groupe": 4,
+      "contenu": "Mais on continue à jouer.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 938,
+      "texte_reference_id": 48,
+      "ordre_groupe": 5,
+      "contenu": "On a l'espoir de réussir.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 939,
+      "texte_reference_id": 48,
+      "ordre_groupe": 6,
+      "contenu": "Plutôt se faire mal que perdre !",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 940,
+      "texte_reference_id": 48,
+      "ordre_groupe": 7,
+      "contenu": "Ma place c'est butteur, attaquant.",
+      "type_groupe": "text",
+      "created_at": "2025-10-24T12:25:23.627518"
+    },
+    {
+      "id": 1483,
+      "texte_reference_id": 30,
+      "ordre_groupe": 2,
+      "contenu": "par des personnes",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1484,
+      "texte_reference_id": 30,
+      "ordre_groupe": 3,
+      "contenu": "de mon entourage.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1485,
+      "texte_reference_id": 30,
+      "ordre_groupe": 4,
+      "contenu": "Elles m'ont expliqué",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1486,
+      "texte_reference_id": 30,
+      "ordre_groupe": 5,
+      "contenu": "que c'est un travail",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1487,
+      "texte_reference_id": 30,
+      "ordre_groupe": 6,
+      "contenu": "pour l'entretien des bâtiments,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1488,
+      "texte_reference_id": 30,
+      "ordre_groupe": 7,
+      "contenu": "Le nettoyage des poubelles.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1489,
+      "texte_reference_id": 30,
+      "ordre_groupe": 8,
+      "contenu": "Je n'ai jamais travaillé",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1490,
+      "texte_reference_id": 30,
+      "ordre_groupe": 9,
+      "contenu": "en France.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:10:33.04527"
+    },
+    {
+      "id": 1526,
+      "texte_reference_id": 39,
+      "ordre_groupe": 1,
+      "contenu": "Je travaille à Action Ozon.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:18:49.768466"
+    },
+    {
+      "id": 1527,
+      "texte_reference_id": 39,
+      "ordre_groupe": 2,
+      "contenu": "C'est tous les jours.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:18:49.768466"
+    },
+    {
+      "id": 1528,
+      "texte_reference_id": 39,
+      "ordre_groupe": 3,
+      "contenu": "On fait:",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:18:49.768466"
+    },
+    {
+      "id": 1529,
+      "texte_reference_id": 39,
+      "ordre_groupe": 4,
+      "contenu": "Nettoyage des escaliers",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:18:49.768466"
+    },
+    {
+      "id": 1530,
+      "texte_reference_id": 39,
+      "ordre_groupe": 5,
+      "contenu": "Bâtiments",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:18:49.768466"
+    },
+    {
+      "id": 684,
+      "texte_reference_id": 24,
+      "ordre_groupe": 1,
+      "contenu": "Je suis partie à Royan",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 685,
+      "texte_reference_id": 24,
+      "ordre_groupe": 2,
+      "contenu": "avec mes trois enfants",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 686,
+      "texte_reference_id": 24,
+      "ordre_groupe": 3,
+      "contenu": "Et ma petite fille Renesmé.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 687,
+      "texte_reference_id": 24,
+      "ordre_groupe": 4,
+      "contenu": "Renesmé adorait jouer à la mer.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 688,
+      "texte_reference_id": 24,
+      "ordre_groupe": 5,
+      "contenu": "Elle faisait des châteaux de sable.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 689,
+      "texte_reference_id": 24,
+      "ordre_groupe": 6,
+      "contenu": "On profitait de la mer,",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 690,
+      "texte_reference_id": 24,
+      "ordre_groupe": 7,
+      "contenu": "La bronzette.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 691,
+      "texte_reference_id": 24,
+      "ordre_groupe": 8,
+      "contenu": "Paige faisait du cerf-volant.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T06:31:20.27684"
+    },
+    {
+      "id": 1531,
+      "texte_reference_id": 39,
+      "ordre_groupe": 6,
+      "contenu": "Encombrants",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:18:49.768466"
+    },
+    {
+      "id": 730,
+      "texte_reference_id": 20,
+      "ordre_groupe": 1,
+      "contenu": "J'aime beaucoup",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 731,
+      "texte_reference_id": 20,
+      "ordre_groupe": 2,
+      "contenu": "Son sourire,",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 732,
+      "texte_reference_id": 20,
+      "ordre_groupe": 3,
+      "contenu": "Comment elle me tend",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 733,
+      "texte_reference_id": 20,
+      "ordre_groupe": 4,
+      "contenu": "Les bras.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 734,
+      "texte_reference_id": 20,
+      "ordre_groupe": 5,
+      "contenu": "Elle joue beaucoup",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 735,
+      "texte_reference_id": 20,
+      "ordre_groupe": 6,
+      "contenu": "Avec ma fille Paige",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 736,
+      "texte_reference_id": 20,
+      "ordre_groupe": 7,
+      "contenu": "De 10 ans.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 737,
+      "texte_reference_id": 20,
+      "ordre_groupe": 8,
+      "contenu": "Elle lui apprend",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 738,
+      "texte_reference_id": 20,
+      "ordre_groupe": 9,
+      "contenu": "Les coloriages",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 739,
+      "texte_reference_id": 20,
+      "ordre_groupe": 10,
+      "contenu": "Renesmé",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 740,
+      "texte_reference_id": 20,
+      "ordre_groupe": 11,
+      "contenu": "C' est un peu",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 741,
+      "texte_reference_id": 20,
+      "ordre_groupe": 12,
+      "contenu": "Les grabouillages",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 742,
+      "texte_reference_id": 20,
+      "ordre_groupe": 13,
+      "contenu": "",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T07:36:09.556422"
+    },
+    {
+      "id": 743,
+      "texte_reference_id": 21,
+      "ordre_groupe": 1,
+      "contenu": "Mes enfants",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 744,
+      "texte_reference_id": 21,
+      "ordre_groupe": 2,
+      "contenu": "Le plus vieux",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 745,
+      "texte_reference_id": 21,
+      "ordre_groupe": 3,
+      "contenu": "C'est Jimmyson",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 746,
+      "texte_reference_id": 21,
+      "ordre_groupe": 4,
+      "contenu": "Après",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 747,
+      "texte_reference_id": 21,
+      "ordre_groupe": 5,
+      "contenu": "Il y a ma fille Jimmina",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 748,
+      "texte_reference_id": 21,
+      "ordre_groupe": 6,
+      "contenu": "Et après",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 749,
+      "texte_reference_id": 21,
+      "ordre_groupe": 7,
+      "contenu": "Il y a Paige",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 750,
+      "texte_reference_id": 21,
+      "ordre_groupe": 8,
+      "contenu": "Jimmyson",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 751,
+      "texte_reference_id": 21,
+      "ordre_groupe": 9,
+      "contenu": "Il a 21 ans",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 752,
+      "texte_reference_id": 21,
+      "ordre_groupe": 10,
+      "contenu": "Il va avoir 22",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 753,
+      "texte_reference_id": 21,
+      "ordre_groupe": 11,
+      "contenu": "Au mois de juillet",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 754,
+      "texte_reference_id": 21,
+      "ordre_groupe": 12,
+      "contenu": "Il  s'occupe bien",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 755,
+      "texte_reference_id": 21,
+      "ordre_groupe": 13,
+      "contenu": "De sa petite soeur",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 756,
+      "texte_reference_id": 21,
+      "ordre_groupe": 14,
+      "contenu": "C'est lui",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 757,
+      "texte_reference_id": 21,
+      "ordre_groupe": 15,
+      "contenu": "Qui va chercher Paige",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 758,
+      "texte_reference_id": 21,
+      "ordre_groupe": 16,
+      "contenu": "À l'école",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T08:05:54.651385"
+    },
+    {
+      "id": 895,
+      "texte_reference_id": 47,
+      "ordre_groupe": 1,
+      "contenu": "Ma sœur a regardé un film.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 1144,
+      "texte_reference_id": 55,
+      "ordre_groupe": 1,
+      "contenu": "J'ai commencé l'ACLEF",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1145,
+      "texte_reference_id": 55,
+      "ordre_groupe": 2,
+      "contenu": "Au mois de juin.",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1146,
+      "texte_reference_id": 55,
+      "ordre_groupe": 3,
+      "contenu": "C'est tous les jeudis matins",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1147,
+      "texte_reference_id": 55,
+      "ordre_groupe": 4,
+      "contenu": "De 9h à midi.",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1148,
+      "texte_reference_id": 55,
+      "ordre_groupe": 5,
+      "contenu": "Je viens à vélo.",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1149,
+      "texte_reference_id": 55,
+      "ordre_groupe": 6,
+      "contenu": "Je travaille",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 896,
+      "texte_reference_id": 47,
+      "ordre_groupe": 2,
+      "contenu": "Mon père a cuisiné hier soir.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 897,
+      "texte_reference_id": 47,
+      "ordre_groupe": 3,
+      "contenu": "Le facteur a distribué le courrier.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 898,
+      "texte_reference_id": 47,
+      "ordre_groupe": 4,
+      "contenu": "Nous avons joué aux cartes.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 899,
+      "texte_reference_id": 47,
+      "ordre_groupe": 5,
+      "contenu": "Le chef a préparé un bon repas.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 900,
+      "texte_reference_id": 47,
+      "ordre_groupe": 6,
+      "contenu": "Ma cousine a très bien dansé.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 901,
+      "texte_reference_id": 47,
+      "ordre_groupe": 7,
+      "contenu": "Le jardinier a coupé l'herbe.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 902,
+      "texte_reference_id": 47,
+      "ordre_groupe": 8,
+      "contenu": "La directrice a parlé avec les parents.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 903,
+      "texte_reference_id": 47,
+      "ordre_groupe": 9,
+      "contenu": "Mon ami a joué au foot dans le parc.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 904,
+      "texte_reference_id": 47,
+      "ordre_groupe": 10,
+      "contenu": "Marie a préparé le café.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 905,
+      "texte_reference_id": 47,
+      "ordre_groupe": 11,
+      "contenu": "Le professeur a expliqué la leçon.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 906,
+      "texte_reference_id": 47,
+      "ordre_groupe": 12,
+      "contenu": "Julie a écouté de la musique.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 907,
+      "texte_reference_id": 47,
+      "ordre_groupe": 13,
+      "contenu": "Mon voisin a arrosé les fleurs.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 908,
+      "texte_reference_id": 47,
+      "ordre_groupe": 14,
+      "contenu": "Le médecin a soigné les malades.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 909,
+      "texte_reference_id": 47,
+      "ordre_groupe": 15,
+      "contenu": "Hier,au marché,j'ai acheté des légumes.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 910,
+      "texte_reference_id": 47,
+      "ordre_groupe": 16,
+      "contenu": "J'ai signé la feuille de présence.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 911,
+      "texte_reference_id": 47,
+      "ordre_groupe": 17,
+      "contenu": "Je n'ai pas signé dans la bonne case !",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 1150,
+      "texte_reference_id": 55,
+      "ordre_groupe": 7,
+      "contenu": "Sur le code de la route",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1151,
+      "texte_reference_id": 55,
+      "ordre_groupe": 8,
+      "contenu": "Et sur les mois de l'année.",
+      "type_groupe": "text",
+      "created_at": "2025-11-06T15:18:16.725403"
+    },
+    {
+      "id": 1178,
+      "texte_reference_id": 44,
+      "ordre_groupe": 1,
+      "contenu": "Le père de ma maire",
+      "type_groupe": "text",
+      "created_at": "2025-11-10T13:56:39.393462"
+    },
+    {
+      "id": 1179,
+      "texte_reference_id": 44,
+      "ordre_groupe": 2,
+      "contenu": "Est mon pair",
+      "type_groupe": "text",
+      "created_at": "2025-11-10T13:56:39.393462"
+    },
+    {
+      "id": 1180,
+      "texte_reference_id": 44,
+      "ordre_groupe": 3,
+      "contenu": "Ma mère à seize paires",
+      "type_groupe": "text",
+      "created_at": "2025-11-10T13:56:39.393462"
+    },
+    {
+      "id": 1181,
+      "texte_reference_id": 44,
+      "ordre_groupe": 4,
+      "contenu": "Treize",
+      "type_groupe": "text",
+      "created_at": "2025-11-10T13:56:39.393462"
+    },
+    {
+      "id": 912,
+      "texte_reference_id": 47,
+      "ordre_groupe": 18,
+      "contenu": "Ce matin,mon fils a regardé le foot à la télé.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 913,
+      "texte_reference_id": 47,
+      "ordre_groupe": 19,
+      "contenu": "Dimanche dernier,mes petites filles et moi nous avons joué au parc.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 914,
+      "texte_reference_id": 47,
+      "ordre_groupe": 20,
+      "contenu": "Vendredi dernier,mon mari et moi ,on a prié à la mosquée.",
+      "type_groupe": "text",
+      "created_at": "2025-10-23T14:27:31.548106"
+    },
+    {
+      "id": 941,
+      "texte_reference_id": 49,
+      "ordre_groupe": 1,
+      "contenu": "Je veux travailler",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T09:39:20.014209"
+    },
+    {
+      "id": 942,
+      "texte_reference_id": 49,
+      "ordre_groupe": 2,
+      "contenu": "Dans les espaces verts",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T09:39:20.014209"
+    },
+    {
+      "id": 943,
+      "texte_reference_id": 49,
+      "ordre_groupe": 3,
+      "contenu": "Tondre la pelouse",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T09:39:20.014209"
+    },
+    {
+      "id": 944,
+      "texte_reference_id": 49,
+      "ordre_groupe": 4,
+      "contenu": "Dans la cuisine,",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T09:39:20.014209"
+    },
+    {
+      "id": 945,
+      "texte_reference_id": 49,
+      "ordre_groupe": 5,
+      "contenu": "Faire la plonge.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T09:39:20.014209"
+    },
+    {
+      "id": 946,
+      "texte_reference_id": 49,
+      "ordre_groupe": 6,
+      "contenu": "Peintre en bâtiment.",
+      "type_groupe": "text",
+      "created_at": "2025-10-27T09:39:20.014209"
+    },
+    {
+      "id": 969,
+      "texte_reference_id": 51,
+      "ordre_groupe": 1,
+      "contenu": "Jeudi 23 octobre",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 970,
+      "texte_reference_id": 51,
+      "ordre_groupe": 2,
+      "contenu": "On était en formation",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 971,
+      "texte_reference_id": 51,
+      "ordre_groupe": 3,
+      "contenu": "Toute la journée :",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 972,
+      "texte_reference_id": 51,
+      "ordre_groupe": 4,
+      "contenu": "À Action Ozon",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 973,
+      "texte_reference_id": 51,
+      "ordre_groupe": 5,
+      "contenu": "Le matin",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 974,
+      "texte_reference_id": 51,
+      "ordre_groupe": 6,
+      "contenu": "Et l'après-midi",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 975,
+      "texte_reference_id": 51,
+      "ordre_groupe": 7,
+      "contenu": "Au Centre Social.",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 976,
+      "texte_reference_id": 51,
+      "ordre_groupe": 8,
+      "contenu": "La formation",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 977,
+      "texte_reference_id": 51,
+      "ordre_groupe": 9,
+      "contenu": "C'est tous les jeudis",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 978,
+      "texte_reference_id": 51,
+      "ordre_groupe": 10,
+      "contenu": "Depuis le 9 octobre",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 979,
+      "texte_reference_id": 51,
+      "ordre_groupe": 11,
+      "contenu": "Jusqu'au 11 décembre,",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 980,
+      "texte_reference_id": 51,
+      "ordre_groupe": 12,
+      "contenu": "10 jours.",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 981,
+      "texte_reference_id": 51,
+      "ordre_groupe": 13,
+      "contenu": "L'examen c'est le 12 décembre.",
+      "type_groupe": "text",
+      "created_at": "2025-10-29T10:25:33.300655"
+    },
+    {
+      "id": 1235,
+      "texte_reference_id": 58,
+      "ordre_groupe": 1,
+      "contenu": "Je teste un truc",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T15:07:33.455941"
+    },
+    {
+      "id": 1236,
+      "texte_reference_id": 58,
+      "ordre_groupe": 2,
+      "contenu": "Pour voir si ça marche",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T15:07:33.455941"
+    },
+    {
+      "id": 1257,
+      "texte_reference_id": 57,
+      "ordre_groupe": 1,
+      "contenu": "Alice va au marché",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:59.789325"
+    },
+    {
+      "id": 1258,
+      "texte_reference_id": 57,
+      "ordre_groupe": 2,
+      "contenu": "Pour acheter du paté",
+      "type_groupe": "text",
+      "created_at": "2025-11-14T18:33:59.789325"
+    },
+    {
+      "id": 1259,
+      "texte_reference_id": 56,
+      "ordre_groupe": 1,
+      "contenu": "En Guadeloupe ,",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1260,
+      "texte_reference_id": 56,
+      "ordre_groupe": 2,
+      "contenu": "Il y a beaucoup  de fruits:",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1261,
+      "texte_reference_id": 56,
+      "ordre_groupe": 3,
+      "contenu": "-des ananas",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1262,
+      "texte_reference_id": 56,
+      "ordre_groupe": 4,
+      "contenu": "-des bananes",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1263,
+      "texte_reference_id": 56,
+      "ordre_groupe": 5,
+      "contenu": "-des pommes",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1264,
+      "texte_reference_id": 56,
+      "ordre_groupe": 6,
+      "contenu": "-des mangues",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1265,
+      "texte_reference_id": 56,
+      "ordre_groupe": 7,
+      "contenu": "-des avocats",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1266,
+      "texte_reference_id": 56,
+      "ordre_groupe": 8,
+      "contenu": "-des pastèques",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1267,
+      "texte_reference_id": 56,
+      "ordre_groupe": 9,
+      "contenu": "-des melons",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1268,
+      "texte_reference_id": 56,
+      "ordre_groupe": 10,
+      "contenu": "-des grenades",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1269,
+      "texte_reference_id": 56,
+      "ordre_groupe": 11,
+      "contenu": "-des pamplemousses",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1270,
+      "texte_reference_id": 56,
+      "ordre_groupe": 12,
+      "contenu": "\"Chadek\" sans la peau",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1271,
+      "texte_reference_id": 56,
+      "ordre_groupe": 13,
+      "contenu": "-des mandarines",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1272,
+      "texte_reference_id": 56,
+      "ordre_groupe": 14,
+      "contenu": "-des oranges",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1273,
+      "texte_reference_id": 56,
+      "ordre_groupe": 15,
+      "contenu": "-des citrons pour faire un jus",
+      "type_groupe": "text",
+      "created_at": "2025-11-20T12:41:54.164006"
+    },
+    {
+      "id": 1090,
+      "texte_reference_id": 15,
+      "ordre_groupe": 1,
+      "contenu": "Pour arriver à la couleur que je veux faire",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1091,
+      "texte_reference_id": 15,
+      "ordre_groupe": 2,
+      "contenu": "Je mélange plusieurs peintures avec de l'eau.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1092,
+      "texte_reference_id": 15,
+      "ordre_groupe": 3,
+      "contenu": "Je prends le béton avec la truelle.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1093,
+      "texte_reference_id": 15,
+      "ordre_groupe": 4,
+      "contenu": "Le rouleau c'est pour peindre les murs.",
+      "type_groupe": "text",
+      "created_at": "2025-11-03T10:09:30.794041"
+    },
+    {
+      "id": 1290,
+      "texte_reference_id": 59,
+      "ordre_groupe": 1,
+      "contenu": "Je m’appelle Alain Couchy",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1291,
+      "texte_reference_id": 59,
+      "ordre_groupe": 2,
+      "contenu": "J’habite à Antran",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1292,
+      "texte_reference_id": 59,
+      "ordre_groupe": 3,
+      "contenu": "22 rue du lavoir.",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1293,
+      "texte_reference_id": 59,
+      "ordre_groupe": 4,
+      "contenu": "Ma date de naissance :",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1294,
+      "texte_reference_id": 59,
+      "ordre_groupe": 5,
+      "contenu": "26 juillet 1970",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1295,
+      "texte_reference_id": 59,
+      "ordre_groupe": 6,
+      "contenu": "26/07/1970.",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1296,
+      "texte_reference_id": 59,
+      "ordre_groupe": 7,
+      "contenu": "Je suis né à Pointe à Pitre",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1297,
+      "texte_reference_id": 59,
+      "ordre_groupe": 8,
+      "contenu": "En Guadeloupe.",
+      "type_groupe": "text",
+      "created_at": "2025-11-24T08:13:14.278028"
+    },
+    {
+      "id": 1590,
+      "texte_reference_id": 23,
+      "ordre_groupe": 1,
+      "contenu": "Mamadou",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1591,
+      "texte_reference_id": 23,
+      "ordre_groupe": 2,
+      "contenu": "il a treize ans.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1592,
+      "texte_reference_id": 23,
+      "ordre_groupe": 3,
+      "contenu": "Il est né le 25 novembre 2012.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1593,
+      "texte_reference_id": 23,
+      "ordre_groupe": 4,
+      "contenu": "Il est en 4eme.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1594,
+      "texte_reference_id": 23,
+      "ordre_groupe": 5,
+      "contenu": "Madieneba",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1595,
+      "texte_reference_id": 23,
+      "ordre_groupe": 6,
+      "contenu": "Elle a douze ans.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1596,
+      "texte_reference_id": 23,
+      "ordre_groupe": 7,
+      "contenu": "Elle est née le 31 janvier 2014.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1597,
+      "texte_reference_id": 23,
+      "ordre_groupe": 8,
+      "contenu": "Elle est en 6eme.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1598,
+      "texte_reference_id": 23,
+      "ordre_groupe": 9,
+      "contenu": "Mballou.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1599,
+      "texte_reference_id": 23,
+      "ordre_groupe": 10,
+      "contenu": "Elle a neuf ans.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1600,
+      "texte_reference_id": 23,
+      "ordre_groupe": 11,
+      "contenu": "Elle est née le 4 décembre 2016.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1601,
+      "texte_reference_id": 23,
+      "ordre_groupe": 12,
+      "contenu": "Elle est en CM1.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:37:09.949715"
+    },
+    {
+      "id": 1378,
+      "texte_reference_id": 60,
+      "ordre_groupe": 1,
+      "contenu": "J'ai commencé",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1379,
+      "texte_reference_id": 60,
+      "ordre_groupe": 2,
+      "contenu": "Le 17 novembre",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1380,
+      "texte_reference_id": 60,
+      "ordre_groupe": 3,
+      "contenu": "J'ai fini",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1381,
+      "texte_reference_id": 60,
+      "ordre_groupe": 4,
+      "contenu": "Le 21 novembre.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1382,
+      "texte_reference_id": 60,
+      "ordre_groupe": 5,
+      "contenu": "J'ai fait de la peinture.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1383,
+      "texte_reference_id": 60,
+      "ordre_groupe": 6,
+      "contenu": "On mélange la poudre avec de l'eau.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1384,
+      "texte_reference_id": 60,
+      "ordre_groupe": 7,
+      "contenu": "Ça fait du mastic.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1385,
+      "texte_reference_id": 60,
+      "ordre_groupe": 8,
+      "contenu": "C'est pour boucher les trous.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1386,
+      "texte_reference_id": 60,
+      "ordre_groupe": 9,
+      "contenu": "J'ai rebouché les trous.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1387,
+      "texte_reference_id": 60,
+      "ordre_groupe": 10,
+      "contenu": "J'ai mis du mastic",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1388,
+      "texte_reference_id": 60,
+      "ordre_groupe": 11,
+      "contenu": "Entre le mur et les plinthes.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1389,
+      "texte_reference_id": 60,
+      "ordre_groupe": 12,
+      "contenu": "J'ai utilisé un couteau de peintre",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1390,
+      "texte_reference_id": 60,
+      "ordre_groupe": 13,
+      "contenu": "Pour mettre le mastic",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1391,
+      "texte_reference_id": 60,
+      "ordre_groupe": 14,
+      "contenu": "Sur le trou.",
+      "type_groupe": "text",
+      "created_at": "2025-12-01T10:04:59.332938"
+    },
+    {
+      "id": 1422,
+      "texte_reference_id": 35,
+      "ordre_groupe": 1,
+      "contenu": "On mange ensemble",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1423,
+      "texte_reference_id": 35,
+      "ordre_groupe": 2,
+      "contenu": "on danse.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1424,
+      "texte_reference_id": 35,
+      "ordre_groupe": 3,
+      "contenu": "on peut être",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1425,
+      "texte_reference_id": 35,
+      "ordre_groupe": 4,
+      "contenu": "20 ou 30 personnes.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1426,
+      "texte_reference_id": 35,
+      "ordre_groupe": 5,
+      "contenu": "Chacun va donner",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1427,
+      "texte_reference_id": 35,
+      "ordre_groupe": 6,
+      "contenu": "un peu :",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1428,
+      "texte_reference_id": 35,
+      "ordre_groupe": 7,
+      "contenu": "de l'argent ,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1429,
+      "texte_reference_id": 35,
+      "ordre_groupe": 8,
+      "contenu": "ou des pagnes.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:05:40.011691"
+    },
+    {
+      "id": 1452,
+      "texte_reference_id": 32,
+      "ordre_groupe": 1,
+      "contenu": "Mamadou Lamine ,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1453,
+      "texte_reference_id": 32,
+      "ordre_groupe": 2,
+      "contenu": "il a 5 ans ,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1454,
+      "texte_reference_id": 32,
+      "ordre_groupe": 3,
+      "contenu": "bientôt 6 ans ,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1455,
+      "texte_reference_id": 32,
+      "ordre_groupe": 4,
+      "contenu": "au mois de juin.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1456,
+      "texte_reference_id": 32,
+      "ordre_groupe": 5,
+      "contenu": "Il est né à Châtellerault",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1457,
+      "texte_reference_id": 32,
+      "ordre_groupe": 6,
+      "contenu": "le 18/06/2019.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1458,
+      "texte_reference_id": 32,
+      "ordre_groupe": 7,
+      "contenu": "Il est en grande section.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1459,
+      "texte_reference_id": 32,
+      "ordre_groupe": 8,
+      "contenu": "Fanta,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1460,
+      "texte_reference_id": 32,
+      "ordre_groupe": 9,
+      "contenu": "elle est en moyenne section.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1461,
+      "texte_reference_id": 32,
+      "ordre_groupe": 10,
+      "contenu": "Elle est née à La Rochelle,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1462,
+      "texte_reference_id": 32,
+      "ordre_groupe": 11,
+      "contenu": "Le 23/12/2020",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1463,
+      "texte_reference_id": 32,
+      "ordre_groupe": 12,
+      "contenu": "au mois de décembre.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1464,
+      "texte_reference_id": 32,
+      "ordre_groupe": 13,
+      "contenu": "Le troisième,",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1465,
+      "texte_reference_id": 32,
+      "ordre_groupe": 14,
+      "contenu": "Soriba.",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1466,
+      "texte_reference_id": 32,
+      "ordre_groupe": 15,
+      "contenu": "Il est né à Châtellerault",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1467,
+      "texte_reference_id": 32,
+      "ordre_groupe": 16,
+      "contenu": "le 26/07/2023",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1468,
+      "texte_reference_id": 32,
+      "ordre_groupe": 17,
+      "contenu": "(le 26 juillet).",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1469,
+      "texte_reference_id": 32,
+      "ordre_groupe": 18,
+      "contenu": "Il est à la crèche",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1470,
+      "texte_reference_id": 32,
+      "ordre_groupe": 19,
+      "contenu": "\"A petit pas\".",
+      "type_groupe": "text",
+      "created_at": "2025-12-03T11:08:31.082808"
+    },
+    {
+      "id": 1491,
+      "texte_reference_id": 61,
+      "ordre_groupe": 1,
+      "contenu": "Le chat dort sur le canapé.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1492,
+      "texte_reference_id": 61,
+      "ordre_groupe": 2,
+      "contenu": "Le chien court dans le jardin.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1493,
+      "texte_reference_id": 61,
+      "ordre_groupe": 3,
+      "contenu": "Le cheval marche dans le champ.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1494,
+      "texte_reference_id": 61,
+      "ordre_groupe": 4,
+      "contenu": "La vache mange de l’herbe.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1495,
+      "texte_reference_id": 61,
+      "ordre_groupe": 5,
+      "contenu": "Le mouton est dans le pré.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1496,
+      "texte_reference_id": 61,
+      "ordre_groupe": 6,
+      "contenu": "Le cochon marche dans la boue.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1497,
+      "texte_reference_id": 61,
+      "ordre_groupe": 7,
+      "contenu": "La poule gratte le sol.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1498,
+      "texte_reference_id": 61,
+      "ordre_groupe": 8,
+      "contenu": "Le canard nage sur l’étang.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1499,
+      "texte_reference_id": 61,
+      "ordre_groupe": 9,
+      "contenu": "L’oiseau vole dans le ciel.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1500,
+      "texte_reference_id": 61,
+      "ordre_groupe": 10,
+      "contenu": "Le poisson tourne dans l’eau.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1501,
+      "texte_reference_id": 61,
+      "ordre_groupe": 11,
+      "contenu": "Le chat regarde par la fenêtre.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1502,
+      "texte_reference_id": 61,
+      "ordre_groupe": 12,
+      "contenu": "Le chien aboie fort.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1503,
+      "texte_reference_id": 61,
+      "ordre_groupe": 13,
+      "contenu": "Le chaton joue avec une balle.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1504,
+      "texte_reference_id": 61,
+      "ordre_groupe": 14,
+      "contenu": "Le cheval boit à la rivière.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1505,
+      "texte_reference_id": 61,
+      "ordre_groupe": 15,
+      "contenu": "La chèvre grimpe sur la pierre.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1506,
+      "texte_reference_id": 61,
+      "ordre_groupe": 16,
+      "contenu": "Le lapin mange une carotte.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1507,
+      "texte_reference_id": 61,
+      "ordre_groupe": 17,
+      "contenu": "Le chat se cache sous la chaise.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1508,
+      "texte_reference_id": 61,
+      "ordre_groupe": 18,
+      "contenu": "Le chien suit sa maîtresse.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1509,
+      "texte_reference_id": 61,
+      "ordre_groupe": 19,
+      "contenu": "L’âne porte des sacs lourds.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1510,
+      "texte_reference_id": 61,
+      "ordre_groupe": 20,
+      "contenu": "Le coq chante ce matin.",
+      "type_groupe": "text",
+      "created_at": "2025-12-10T12:46:33.044243"
+    },
+    {
+      "id": 1532,
+      "texte_reference_id": 28,
+      "ordre_groupe": 1,
+      "contenu": "Je veux apprendre",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1533,
+      "texte_reference_id": 28,
+      "ordre_groupe": 2,
+      "contenu": "le code de la route.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1534,
+      "texte_reference_id": 28,
+      "ordre_groupe": 3,
+      "contenu": "J'ai besoin",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1535,
+      "texte_reference_id": 28,
+      "ordre_groupe": 4,
+      "contenu": "de conduire",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1536,
+      "texte_reference_id": 28,
+      "ordre_groupe": 5,
+      "contenu": "sur la route.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1537,
+      "texte_reference_id": 28,
+      "ordre_groupe": 6,
+      "contenu": "J'ai besoin",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1538,
+      "texte_reference_id": 28,
+      "ordre_groupe": 7,
+      "contenu": "pour travailler.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1539,
+      "texte_reference_id": 28,
+      "ordre_groupe": 8,
+      "contenu": "La voiture",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1540,
+      "texte_reference_id": 28,
+      "ordre_groupe": 9,
+      "contenu": "c'est",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1541,
+      "texte_reference_id": 28,
+      "ordre_groupe": 10,
+      "contenu": "pour les enfants.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1542,
+      "texte_reference_id": 28,
+      "ordre_groupe": 11,
+      "contenu": "Pour aller",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    },
+    {
+      "id": 1543,
+      "texte_reference_id": 28,
+      "ordre_groupe": 12,
+      "contenu": "dans les magasins.",
+      "type_groupe": "text",
+      "created_at": "2025-12-17T14:19:28.767967"
+    }
+  ],
+  "count": 597,
+  "timestamp": "2025-12-22T01:24:38.698Z"
+}
