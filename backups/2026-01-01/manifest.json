@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-01-01T01:40:09.394Z",
+  "date": "2026-01-01",
+  "totalTables": 0,
+  "totalRecords": 0,
+  "tables": [],
+  "files": {
+    "complete": "complete-backup.json",
+    "individual": []
+  }
+}
