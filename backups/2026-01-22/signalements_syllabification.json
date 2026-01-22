@@ -1,0 +1,1779 @@
+{
+  "table": "signalements_syllabification",
+  "structure": [
+    {
+      "column_name": "id",
+      "data_type": "number",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "mot",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "segmentation_utilisateur",
+      "data_type": "array",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "segmentation_systeme",
+      "data_type": "array",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "utilisateur",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_signalement",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "traite",
+      "data_type": "boolean",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "commentaire_admin",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "updated_at",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "column_name": "date_modification",
+      "data_type": "string",
+      "is_nullable": "NO",
+      "column_default": null
+    }
+  ],
+  "data": [
+    {
+      "id": 5,
+      "mot": "avec",
+      "segmentation_utilisateur": [
+        "a",
+        "vec"
+      ],
+      "segmentation_systeme": [
+        "avec"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:04:55.114",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - vec",
+      "created_at": "2025-09-13T14:04:54.13674",
+      "updated_at": "2025-09-13T14:34:31.498177",
+      "date_modification": "2025-09-13T14:34:31.498177"
+    },
+    {
+      "id": 4,
+      "mot": "bronzette",
+      "segmentation_utilisateur": [
+        "bron",
+        "zet",
+        "te"
+      ],
+      "segmentation_systeme": [
+        "bron",
+        "zette"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:04:52.488",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: bron - zette",
+      "created_at": "2025-09-13T14:04:51.51531",
+      "updated_at": "2025-09-13T14:34:40.580936",
+      "date_modification": "2025-09-13T14:34:40.580936"
+    },
+    {
+      "id": 3,
+      "mot": "royan",
+      "segmentation_utilisateur": [
+        "roy",
+        "an"
+      ],
+      "segmentation_systeme": [
+        "royan"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:04:49.418",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: roy - an",
+      "created_at": "2025-09-13T14:04:48.447761",
+      "updated_at": "2025-09-13T14:34:53.24669",
+      "date_modification": "2025-09-13T14:34:53.24669"
+    },
+    {
+      "id": 2,
+      "mot": "partie",
+      "segmentation_utilisateur": [
+        "par",
+        "tie"
+      ],
+      "segmentation_systeme": [
+        "par",
+        "ti"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:04:46.637",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: par - tie",
+      "created_at": "2025-09-13T14:04:45.659248",
+      "updated_at": "2025-09-13T14:35:01.032434",
+      "date_modification": "2025-09-13T14:35:01.032434"
+    },
+    {
+      "id": 1,
+      "mot": "châteaux",
+      "segmentation_utilisateur": [
+        "châ",
+        "teaux"
+      ],
+      "segmentation_systeme": [
+        "châ",
+        "te",
+        "aux"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:04:44.047",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: châ - teaux",
+      "created_at": "2025-09-13T14:04:43.166755",
+      "updated_at": "2025-09-13T14:35:06.903208",
+      "date_modification": "2025-09-13T14:35:06.903208"
+    },
+    {
+      "id": 10,
+      "mot": "quatre",
+      "segmentation_utilisateur": [
+        "qua",
+        "tre"
+      ],
+      "segmentation_systeme": [
+        "qu",
+        "tre"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:38:26.927",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: qua - tre",
+      "created_at": "2025-09-13T14:38:25.90595",
+      "updated_at": "2025-09-13T14:44:50.430287",
+      "date_modification": "2025-09-13T14:44:50.430287"
+    },
+    {
+      "id": 9,
+      "mot": "elles",
+      "segmentation_utilisateur": [
+        "el",
+        "les"
+      ],
+      "segmentation_systeme": [
+        "e",
+        "lles"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:38:24.107",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: el - les",
+      "created_at": "2025-09-13T14:38:23.080384",
+      "updated_at": "2025-09-13T14:46:13.311141",
+      "date_modification": "2025-09-13T14:46:13.311141"
+    },
+    {
+      "id": 8,
+      "mot": "panier",
+      "segmentation_utilisateur": [
+        "pa",
+        "nier"
+      ],
+      "segmentation_systeme": [
+        "pa",
+        "ni",
+        "er"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:38:21.25",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pa - nier",
+      "created_at": "2025-09-13T14:38:20.232197",
+      "updated_at": "2025-09-13T14:46:23.310914",
+      "date_modification": "2025-09-13T14:46:23.310914"
+    },
+    {
+      "id": 6,
+      "mot": "onze",
+      "segmentation_utilisateur": [
+        "on",
+        "ze"
+      ],
+      "segmentation_systeme": [
+        "onze"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:38:15.338",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: on - ze",
+      "created_at": "2025-09-13T14:38:14.388528",
+      "updated_at": "2025-09-13T14:46:42.730746",
+      "date_modification": "2025-09-13T14:46:42.730746"
+    },
+    {
+      "id": 17,
+      "mot": "conquit",
+      "segmentation_utilisateur": [
+        "con",
+        "quit"
+      ],
+      "segmentation_systeme": [
+        "con",
+        "qu",
+        "it"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:25:17.093",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: con - quit",
+      "created_at": "2025-09-13T16:25:17.104563",
+      "updated_at": "2025-09-13T16:26:17.666108",
+      "date_modification": "2025-09-13T16:26:17.666108"
+    },
+    {
+      "id": 16,
+      "mot": "celui",
+      "segmentation_utilisateur": [
+        "ce",
+        "lui"
+      ],
+      "segmentation_systeme": [
+        "ce",
+        "lu"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:25:15.174",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ce - lui",
+      "created_at": "2025-09-13T16:25:15.170001",
+      "updated_at": "2025-09-13T16:26:22.600654",
+      "date_modification": "2025-09-13T16:26:22.600654"
+    },
+    {
+      "id": 15,
+      "mot": "voyage",
+      "segmentation_utilisateur": [
+        "voy",
+        "a",
+        "ge"
+      ],
+      "segmentation_systeme": [
+        "voya",
+        "ge"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:25:13.632",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: voy - a - ge",
+      "created_at": "2025-09-13T16:25:13.648144",
+      "updated_at": "2025-09-13T16:26:39.87714",
+      "date_modification": "2025-09-13T16:26:39.87714"
+    },
+    {
+      "id": 14,
+      "mot": "ulysse",
+      "segmentation_utilisateur": [
+        "u",
+        "ly",
+        "sse"
+      ],
+      "segmentation_systeme": [
+        "ly",
+        "sse"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:25:11.478",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: u - ly - sse",
+      "created_at": "2025-09-13T16:25:11.541596",
+      "updated_at": "2025-09-13T16:26:44.240218",
+      "date_modification": "2025-09-13T16:26:44.240218"
+    },
+    {
+      "id": 13,
+      "mot": "comme",
+      "segmentation_utilisateur": [
+        "com",
+        "me"
+      ],
+      "segmentation_systeme": [
+        "co",
+        "mme"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:25:03.03",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: com - me",
+      "created_at": "2025-09-13T16:25:03.084567",
+      "updated_at": "2025-09-13T16:26:47.928242",
+      "date_modification": "2025-09-13T16:26:47.928242"
+    },
+    {
+      "id": 12,
+      "mot": "comme",
+      "segmentation_utilisateur": [
+        "com",
+        "me"
+      ],
+      "segmentation_systeme": [
+        "co",
+        "mme"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:21:44.007",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: com - me",
+      "created_at": "2025-09-13T16:21:44.303699",
+      "updated_at": "2025-09-13T16:26:55.299663",
+      "date_modification": "2025-09-13T16:26:55.299663"
+    },
+    {
+      "id": 11,
+      "mot": "comme",
+      "segmentation_utilisateur": [
+        "com",
+        "me"
+      ],
+      "segmentation_systeme": [
+        "co",
+        "mme"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:20:44.964",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: com - me",
+      "created_at": "2025-09-13T16:20:45.11284",
+      "updated_at": "2025-09-13T16:26:59.474499",
+      "date_modification": "2025-09-13T16:26:59.474499"
+    },
+    {
+      "id": 18,
+      "mot": "voyage",
+      "segmentation_utilisateur": [
+        "voy",
+        "age"
+      ],
+      "segmentation_systeme": [
+        "voy",
+        "a",
+        "ge"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T16:28:21.134",
+      "traite": true,
+      "commentaire_admin": "Les deux segmentations sont acceptées comme valides:\n- Utilisateur: voy - age\n- Système: voy - a - ge\nDécision: Les deux versions sont correctes pour l'apprentissage.",
+      "created_at": "2025-09-13T16:28:21.210921",
+      "updated_at": "2025-09-13T16:28:56.08267",
+      "date_modification": "2025-09-13T16:28:56.08267"
+    },
+    {
+      "id": 23,
+      "mot": "rêve",
+      "segmentation_utilisateur": [
+        "rê",
+        "ve"
+      ],
+      "segmentation_systeme": [
+        "rêve"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T18:03:19.574",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: rê - ve",
+      "created_at": "2025-09-13T18:03:19.602791",
+      "updated_at": "2025-09-13T18:04:06.898647",
+      "date_modification": "2025-09-13T18:04:06.898647"
+    },
+    {
+      "id": 22,
+      "mot": "renesmé",
+      "segmentation_utilisateur": [
+        "re",
+        "nes",
+        "mé"
+      ],
+      "segmentation_systeme": [
+        "re",
+        "ne",
+        "smé"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T18:03:14.488",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: re - nes - mé",
+      "created_at": "2025-09-13T18:03:14.535498",
+      "updated_at": "2025-09-13T18:04:14.765891",
+      "date_modification": "2025-09-13T18:04:14.765891"
+    },
+    {
+      "id": 21,
+      "mot": "cerf-volant",
+      "segmentation_utilisateur": [
+        "cerf",
+        "-",
+        "vo",
+        "lant"
+      ],
+      "segmentation_systeme": [
+        "cer",
+        "f-vo",
+        "lant"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T18:03:11.346",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cerf - - - vo - lant",
+      "created_at": "2025-09-13T18:03:11.460109",
+      "updated_at": "2025-09-13T18:04:24.033106",
+      "date_modification": "2025-09-13T18:04:24.033106"
+    },
+    {
+      "id": 20,
+      "mot": "aime",
+      "segmentation_utilisateur": [
+        "ai",
+        "me"
+      ],
+      "segmentation_systeme": [
+        "aime"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T18:03:04.619",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ai - me",
+      "created_at": "2025-09-13T18:03:04.767881",
+      "updated_at": "2025-09-13T18:04:27.740117",
+      "date_modification": "2025-09-13T18:04:27.740117"
+    },
+    {
+      "id": 19,
+      "mot": "même",
+      "segmentation_utilisateur": [
+        "mê",
+        "me"
+      ],
+      "segmentation_systeme": [
+        "même"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T18:02:55.677",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: mê - me",
+      "created_at": "2025-09-13T18:02:55.725336",
+      "updated_at": "2025-09-13T18:04:30.844095",
+      "date_modification": "2025-09-13T18:04:30.844095"
+    },
+    {
+      "id": 36,
+      "mot": "longue",
+      "segmentation_utilisateur": [
+        "lon",
+        "gue"
+      ],
+      "segmentation_systeme": [
+        "lon",
+        "gu"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:26.994",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: lon - gue",
+      "created_at": "2025-09-13T20:59:26.835819",
+      "updated_at": "2025-09-13T21:02:02.148705",
+      "date_modification": "2025-09-13T21:02:02.148705"
+    },
+    {
+      "id": 35,
+      "mot": "créer",
+      "segmentation_utilisateur": [
+        "cré",
+        "er"
+      ],
+      "segmentation_systeme": [
+        "créer"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:24.207",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cré - er",
+      "created_at": "2025-09-13T20:59:24.043996",
+      "updated_at": "2025-09-13T21:02:05.889369",
+      "date_modification": "2025-09-13T21:02:05.889369"
+    },
+    {
+      "id": 34,
+      "mot": "liste",
+      "segmentation_utilisateur": [
+        "lis",
+        "te"
+      ],
+      "segmentation_systeme": [
+        "li",
+        "ste"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:20.591",
+      "traite": true,
+      "commentaire_admin": "Les deux segmentations sont acceptées comme valides:\n- Utilisateur: lis - te\n- Système: li - ste\nDécision: Les deux versions sont correctes pour l'apprentissage.",
+      "created_at": "2025-09-13T20:59:20.49308",
+      "updated_at": "2025-09-13T21:02:14.445571",
+      "date_modification": "2025-09-13T21:02:14.445571"
+    },
+    {
+      "id": 33,
+      "mot": "ensuite",
+      "segmentation_utilisateur": [
+        "en",
+        "sui",
+        "te"
+      ],
+      "segmentation_systeme": [
+        "en",
+        "su",
+        "te"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:15.977",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: en - sui - te",
+      "created_at": "2025-09-13T20:59:15.815161",
+      "updated_at": "2025-09-13T21:02:17.484198",
+      "date_modification": "2025-09-13T21:02:17.484198"
+    },
+    {
+      "id": 32,
+      "mot": "nécessaire",
+      "segmentation_utilisateur": [
+        "né",
+        "ces",
+        "sai",
+        "re"
+      ],
+      "segmentation_systeme": [
+        "né",
+        "ce",
+        "ssai",
+        "re"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:12.337",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: né - ces - sai - re",
+      "created_at": "2025-09-13T20:59:12.241333",
+      "updated_at": "2025-09-13T21:02:25.67661",
+      "date_modification": "2025-09-13T21:02:25.67661"
+    },
+    {
+      "id": 31,
+      "mot": "café",
+      "segmentation_utilisateur": [
+        "ca",
+        "fé"
+      ],
+      "segmentation_systeme": [
+        "café"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:04.529",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ca - fé",
+      "created_at": "2025-09-13T20:59:04.364623",
+      "updated_at": "2025-09-13T21:02:29.549908",
+      "date_modification": "2025-09-13T21:02:29.549908"
+    },
+    {
+      "id": 30,
+      "mot": "agir",
+      "segmentation_utilisateur": [
+        "a",
+        "gir"
+      ],
+      "segmentation_systeme": [
+        "agir"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:01.523",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - gir",
+      "created_at": "2025-09-13T20:59:01.362098",
+      "updated_at": "2025-09-13T21:02:32.525995",
+      "date_modification": "2025-09-13T21:02:32.525995"
+    },
+    {
+      "id": 29,
+      "mot": "idée",
+      "segmentation_utilisateur": [
+        "i",
+        "dée"
+      ],
+      "segmentation_systeme": [
+        "idée"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:58:58.351",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: i - dée",
+      "created_at": "2025-09-13T20:58:58.197142",
+      "updated_at": "2025-09-13T21:02:35.305753",
+      "date_modification": "2025-09-13T21:02:35.305753"
+    },
+    {
+      "id": 28,
+      "mot": "exemple",
+      "segmentation_utilisateur": [
+        "ex",
+        "em",
+        "ple"
+      ],
+      "segmentation_systeme": [
+        "xem",
+        "ple"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:58:54.598",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ex - em - ple",
+      "created_at": "2025-09-13T20:58:54.507585",
+      "updated_at": "2025-09-13T21:02:39.775888",
+      "date_modification": "2025-09-13T21:02:39.775888"
+    },
+    {
+      "id": 26,
+      "mot": "guitare",
+      "segmentation_utilisateur": [
+        "gui",
+        "ta",
+        "re"
+      ],
+      "segmentation_systeme": [
+        "gu",
+        "ta",
+        "re"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:58:45.978",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: gui - ta - re",
+      "created_at": "2025-09-13T20:58:45.93044",
+      "updated_at": "2025-09-13T21:02:48.45133",
+      "date_modification": "2025-09-13T21:02:48.45133"
+    },
+    {
+      "id": 25,
+      "mot": "améliorer",
+      "segmentation_utilisateur": [
+        "a",
+        "mé",
+        "li",
+        "o",
+        "rer"
+      ],
+      "segmentation_systeme": [
+        "mé",
+        "li",
+        "rer"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:58:40.309",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - mé - li - o - rer",
+      "created_at": "2025-09-13T20:58:40.238849",
+      "updated_at": "2025-09-13T21:02:52.473309",
+      "date_modification": "2025-09-13T21:02:52.473309"
+    },
+    {
+      "id": 24,
+      "mot": "constater",
+      "segmentation_utilisateur": [
+        "cons",
+        "ta",
+        "ter"
+      ],
+      "segmentation_systeme": [
+        "con",
+        "sta",
+        "ter"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:58:33.956",
+      "traite": true,
+      "commentaire_admin": "Les deux segmentations sont acceptées comme valides:\n- Utilisateur: cons - ta - ter\n- Système: con - sta - ter\nDécision: Les deux versions sont correctes pour l'apprentissage.",
+      "created_at": "2025-09-13T20:58:34.277872",
+      "updated_at": "2025-09-13T21:03:00.803011",
+      "date_modification": "2025-09-13T21:03:00.803011"
+    },
+    {
+      "id": 27,
+      "mot": "apprendre",
+      "segmentation_utilisateur": [
+        "ap",
+        "pren",
+        "dre"
+      ],
+      "segmentation_systeme": [
+        "ppren",
+        "dre"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:58:50.06",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - ppren - dre",
+      "created_at": "2025-09-13T20:58:49.906866",
+      "updated_at": "2025-09-13T21:13:39.90286",
+      "date_modification": "2025-09-13T21:13:39.90286"
+    },
+    {
+      "id": 7,
+      "mot": "cueillir",
+      "segmentation_utilisateur": [
+        "cueil",
+        "lir"
+      ],
+      "segmentation_systeme": [
+        "cu",
+        "ei",
+        "llir"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T14:38:18.484",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cueill - ir",
+      "created_at": "2025-09-13T14:38:17.471297",
+      "updated_at": "2025-09-14T09:25:18.573961",
+      "date_modification": "2025-09-14T09:25:18.573961"
+    },
+    {
+      "id": 64,
+      "mot": "père",
+      "segmentation_utilisateur": [
+        "pè",
+        "re"
+      ],
+      "segmentation_systeme": [
+        "père"
+      ],
+      "utilisateur": "Boubou",
+      "date_signalement": "2025-10-22T20:09:32.069",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pè - re",
+      "created_at": "2025-10-22T20:09:32.326945",
+      "updated_at": "2025-10-22T20:10:08.004705",
+      "date_modification": "2025-10-22T20:10:08.004705"
+    },
+    {
+      "id": 43,
+      "mot": "écrire",
+      "segmentation_utilisateur": [
+        "é",
+        "cri",
+        "re"
+      ],
+      "segmentation_systeme": [
+        "cri",
+        "re"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:46.067",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: é - cri - re",
+      "created_at": "2025-09-13T20:59:45.906947",
+      "updated_at": "2025-09-13T21:01:25.748031",
+      "date_modification": "2025-09-13T21:01:25.748031"
+    },
+    {
+      "id": 40,
+      "mot": "tableau",
+      "segmentation_utilisateur": [
+        "ta",
+        "bleau"
+      ],
+      "segmentation_systeme": [
+        "ta",
+        "ble",
+        "au"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:36.951",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ta - bleau",
+      "created_at": "2025-09-13T20:59:36.791172",
+      "updated_at": "2025-09-13T21:01:34.594493",
+      "date_modification": "2025-09-13T21:01:34.594493"
+    },
+    {
+      "id": 37,
+      "mot": "philosophie",
+      "segmentation_utilisateur": [
+        "phi",
+        "lo",
+        "so",
+        "phie"
+      ],
+      "segmentation_systeme": [
+        "phi",
+        "lo",
+        "so",
+        "phi"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:29.484",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: phi - lo - so - phie",
+      "created_at": "2025-09-13T20:59:29.328097",
+      "updated_at": "2025-09-13T21:01:58.016002",
+      "date_modification": "2025-09-13T21:01:58.016002"
+    },
+    {
+      "id": 67,
+      "mot": "koala",
+      "segmentation_utilisateur": [
+        "ko",
+        "a",
+        "la"
+      ],
+      "segmentation_systeme": [
+        "koa",
+        "la"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-10-26T17:56:23.733",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ko - a - la",
+      "created_at": "2025-10-26T17:56:23.828278",
+      "updated_at": "2025-10-26T17:57:34.349531",
+      "date_modification": "2025-10-26T17:57:34.349531"
+    },
+    {
+      "id": 66,
+      "mot": "famille",
+      "segmentation_utilisateur": [
+        "fa",
+        "mi",
+        "lle"
+      ],
+      "segmentation_systeme": [
+        "fa",
+        "mille"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-10-26T17:56:14.986",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: fa - mi - lle",
+      "created_at": "2025-10-26T17:56:15.272936",
+      "updated_at": "2025-10-27T11:25:48.414199",
+      "date_modification": "2025-10-27T11:25:48.414199"
+    },
+    {
+      "id": 72,
+      "mot": "arriver",
+      "segmentation_utilisateur": [
+        "ar",
+        "ri",
+        "ver"
+      ],
+      "segmentation_systeme": [
+        "rri",
+        "ver"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-28T10:31:32.14",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - rri - ver",
+      "created_at": "2025-10-28T10:31:32.404104",
+      "updated_at": "2025-10-28T10:33:40.190026",
+      "date_modification": "2025-10-28T10:33:40.190026"
+    },
+    {
+      "id": 78,
+      "mot": "cuillères",
+      "segmentation_utilisateur": [
+        "cui",
+        "llè",
+        "res"
+      ],
+      "segmentation_systeme": [
+        "cu",
+        "llè",
+        "res"
+      ],
+      "utilisateur": "Rosita",
+      "date_signalement": "2025-11-06T08:53:05.143",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cui - llè - res",
+      "created_at": "2025-11-06T08:53:05.273456",
+      "updated_at": "2025-11-06T08:56:29.059502",
+      "date_modification": "2025-11-06T08:56:29.059502"
+    },
+    {
+      "id": 75,
+      "mot": "arriver",
+      "segmentation_utilisateur": [
+        "a",
+        "rri",
+        "ver"
+      ],
+      "segmentation_systeme": [
+        "ar",
+        "ri",
+        "ver"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-30T10:52:56.432",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - rri - ver",
+      "created_at": "2025-10-30T10:52:56.927423",
+      "updated_at": "2025-11-06T08:57:04.479079",
+      "date_modification": "2025-11-06T08:57:04.479079"
+    },
+    {
+      "id": 86,
+      "mot": "comme",
+      "segmentation_utilisateur": [
+        "co",
+        "mme"
+      ],
+      "segmentation_systeme": [
+        "com",
+        "me"
+      ],
+      "utilisateur": "David02",
+      "date_signalement": "2025-11-17T15:23:42.278",
+      "traite": true,
+      "commentaire_admin": "Les deux segmentations sont acceptées comme valides:\n- Utilisateur: co - mme\n- Système: com - me\nDécision: Les deux versions sont correctes pour l'apprentissage.",
+      "created_at": "2025-11-17T15:23:42.569353",
+      "updated_at": "2025-11-17T15:25:16.689226",
+      "date_modification": "2025-11-17T15:25:16.689226"
+    },
+    {
+      "id": 83,
+      "mot": "appelle",
+      "segmentation_utilisateur": [
+        "appel",
+        "le"
+      ],
+      "segmentation_systeme": [
+        "ppe",
+        "lle"
+      ],
+      "utilisateur": "David02",
+      "date_signalement": "2025-11-17T15:23:05.97",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - ppel - le",
+      "created_at": "2025-11-17T15:23:06.368639",
+      "updated_at": "2025-11-17T15:26:24.259377",
+      "date_modification": "2025-11-17T15:26:24.259377"
+    },
+    {
+      "id": 63,
+      "mot": "mère",
+      "segmentation_utilisateur": [
+        "mè",
+        "re"
+      ],
+      "segmentation_systeme": [
+        "mère"
+      ],
+      "utilisateur": "Boubou",
+      "date_signalement": "2025-10-22T20:09:28.803",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: mè - re",
+      "created_at": "2025-10-22T20:09:29.081828",
+      "updated_at": "2025-10-22T20:10:13.724243",
+      "date_modification": "2025-10-22T20:10:13.724243"
+    },
+    {
+      "id": 68,
+      "mot": "opéra",
+      "segmentation_utilisateur": [
+        "o",
+        "pé",
+        "ra"
+      ],
+      "segmentation_systeme": [
+        "pé",
+        "ra"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-10-26T17:56:30.439",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: o - pé - ra",
+      "created_at": "2025-10-26T17:56:30.540111",
+      "updated_at": "2025-10-26T17:57:39.781279",
+      "date_modification": "2025-10-26T17:57:39.781279"
+    },
+    {
+      "id": 44,
+      "mot": "voyager",
+      "segmentation_utilisateur": [
+        "voy",
+        "a",
+        "ger"
+      ],
+      "segmentation_systeme": [
+        "voya",
+        "ger"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:48.896",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: voy - a - ger",
+      "created_at": "2025-09-13T20:59:48.735185",
+      "updated_at": "2025-09-13T21:00:41.662332",
+      "date_modification": "2025-09-13T21:00:41.662332"
+    },
+    {
+      "id": 41,
+      "mot": "situation",
+      "segmentation_utilisateur": [
+        "si",
+        "tu",
+        "a",
+        "tion"
+      ],
+      "segmentation_systeme": [
+        "si",
+        "tu",
+        "ti",
+        "on"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:40.522",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: si - tu - a - tion",
+      "created_at": "2025-09-13T20:59:40.364588",
+      "updated_at": "2025-09-13T21:01:30.615273",
+      "date_modification": "2025-09-13T21:01:30.615273"
+    },
+    {
+      "id": 38,
+      "mot": "regretter",
+      "segmentation_utilisateur": [
+        "re",
+        "gret",
+        "ter"
+      ],
+      "segmentation_systeme": [
+        "re",
+        "gre",
+        "tter"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:31.695",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: re - gret - ter",
+      "created_at": "2025-09-13T20:59:31.535332",
+      "updated_at": "2025-09-13T21:01:52.8476",
+      "date_modification": "2025-09-13T21:01:52.8476"
+    },
+    {
+      "id": 73,
+      "mot": "maçon",
+      "segmentation_utilisateur": [
+        "ma",
+        "çon"
+      ],
+      "segmentation_systeme": [
+        "maçon"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-28T10:31:41.392",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ma - çon",
+      "created_at": "2025-10-28T10:31:41.670743",
+      "updated_at": "2025-10-28T10:33:22.054098",
+      "date_modification": "2025-10-28T10:33:22.054098"
+    },
+    {
+      "id": 70,
+      "mot": "briques",
+      "segmentation_utilisateur": [
+        "bri",
+        "ques"
+      ],
+      "segmentation_systeme": [
+        "bri",
+        "qu",
+        "es"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-28T10:31:04.878",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: bri - ques",
+      "created_at": "2025-10-28T10:31:05.214584",
+      "updated_at": "2025-10-28T10:33:56.745017",
+      "date_modification": "2025-10-28T10:33:56.745017"
+    },
+    {
+      "id": 81,
+      "mot": "adorable",
+      "segmentation_utilisateur": [
+        "a",
+        "do",
+        "ra",
+        "ble"
+      ],
+      "segmentation_systeme": [
+        "do",
+        "ra",
+        "ble"
+      ],
+      "utilisateur": "Rosita",
+      "date_signalement": "2025-11-06T08:54:06.058",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - do - ra - ble",
+      "created_at": "2025-11-06T08:54:06.153798",
+      "updated_at": "2025-11-06T08:55:39.091107",
+      "date_modification": "2025-11-06T08:55:39.091107"
+    },
+    {
+      "id": 80,
+      "mot": "cuisine",
+      "segmentation_utilisateur": [
+        "cui",
+        "si",
+        "ne"
+      ],
+      "segmentation_systeme": [
+        "cu",
+        "si",
+        "ne"
+      ],
+      "utilisateur": "Rosita",
+      "date_signalement": "2025-11-06T08:53:56.918",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cui - si - ne",
+      "created_at": "2025-11-06T08:53:57.014558",
+      "updated_at": "2025-11-06T08:55:44.052411",
+      "date_modification": "2025-11-06T08:55:44.052411"
+    },
+    {
+      "id": 79,
+      "mot": "assiettes",
+      "segmentation_utilisateur": [
+        "a",
+        "ssie",
+        "ttes"
+      ],
+      "segmentation_systeme": [
+        "ssi",
+        "ttes"
+      ],
+      "utilisateur": "Rosita",
+      "date_signalement": "2025-11-06T08:53:48.997",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - ssi - ettes",
+      "created_at": "2025-11-06T08:53:49.34932",
+      "updated_at": "2025-11-06T08:56:19.432979",
+      "date_modification": "2025-11-06T08:56:19.432979"
+    },
+    {
+      "id": 76,
+      "mot": "cailloux",
+      "segmentation_utilisateur": [
+        "ca",
+        "ill",
+        "oux"
+      ],
+      "segmentation_systeme": [
+        "cai",
+        "lloux"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-30T10:53:24.609",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cai - lloux",
+      "created_at": "2025-10-30T10:53:24.908372",
+      "updated_at": "2025-11-06T08:56:56.457375",
+      "date_modification": "2025-11-06T08:56:56.457375"
+    },
+    {
+      "id": 84,
+      "mot": "pétanque",
+      "segmentation_utilisateur": [
+        "pé",
+        "tan",
+        "que"
+      ],
+      "segmentation_systeme": [
+        "pé",
+        "tan",
+        "qu"
+      ],
+      "utilisateur": "David02",
+      "date_signalement": "2025-11-17T15:23:19.688",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pé - tan - que",
+      "created_at": "2025-11-17T15:23:19.985598",
+      "updated_at": "2025-11-17T15:25:55.583845",
+      "date_modification": "2025-11-17T15:25:55.583845"
+    },
+    {
+      "id": 69,
+      "mot": "éléphant",
+      "segmentation_utilisateur": [
+        "é",
+        "lé",
+        "phant"
+      ],
+      "segmentation_systeme": [
+        "lé",
+        "phant"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-10-26T17:56:33.899",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: é - lé - phant",
+      "created_at": "2025-10-26T17:56:33.974368",
+      "updated_at": "2025-10-26T17:57:27.615793",
+      "date_modification": "2025-10-26T17:57:27.615793"
+    },
+    {
+      "id": 45,
+      "mot": "voilier",
+      "segmentation_utilisateur": [
+        "voi",
+        "lier"
+      ],
+      "segmentation_systeme": [
+        "voi",
+        "li",
+        "er"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:53.161",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: voi - li - er",
+      "created_at": "2025-09-13T20:59:53.052126",
+      "updated_at": "2025-09-13T21:00:19.458464",
+      "date_modification": "2025-09-13T21:00:19.458464"
+    },
+    {
+      "id": 42,
+      "mot": "tristesse",
+      "segmentation_utilisateur": [
+        "tris",
+        "tes",
+        "se"
+      ],
+      "segmentation_systeme": [
+        "tri",
+        "ste",
+        "sse"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:43.588",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: tris - tes - se",
+      "created_at": "2025-09-13T20:59:43.425367",
+      "updated_at": "2025-09-13T21:01:19.969678",
+      "date_modification": "2025-09-13T21:01:19.969678"
+    },
+    {
+      "id": 39,
+      "mot": "réaliser",
+      "segmentation_utilisateur": [
+        "ré",
+        "a",
+        "li",
+        "ser"
+      ],
+      "segmentation_systeme": [
+        "réa",
+        "li",
+        "ser"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-09-13T20:59:34.046",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ré - a - li - ser",
+      "created_at": "2025-09-13T20:59:33.884053",
+      "updated_at": "2025-09-13T21:01:45.07802",
+      "date_modification": "2025-09-13T21:01:45.07802"
+    },
+    {
+      "id": 65,
+      "mot": "béta",
+      "segmentation_utilisateur": [
+        "bé",
+        "ta"
+      ],
+      "segmentation_systeme": [
+        "béta"
+      ],
+      "utilisateur": "Nina02",
+      "date_signalement": "2025-10-26T17:56:01.954",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: bé - ta",
+      "created_at": "2025-10-26T17:56:02.210254",
+      "updated_at": "2025-10-26T17:57:43.776236",
+      "date_modification": "2025-10-26T17:57:43.776236"
+    },
+    {
+      "id": 47,
+      "mot": "panier",
+      "segmentation_utilisateur": [
+        "pa",
+        "nier"
+      ],
+      "segmentation_systeme": [
+        "pa",
+        "nier"
+      ],
+      "utilisateur": "Nina (ef45f2ec-77e5-4df6-b73b-221fa56deb50)",
+      "date_signalement": "2025-09-14T20:29:42.994",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pa - ni - er",
+      "created_at": "2025-09-14T20:29:41.959659",
+      "updated_at": "2025-09-14T20:30:16.819659",
+      "date_modification": "2025-09-14T20:30:16.819659"
+    },
+    {
+      "id": 46,
+      "mot": "elles",
+      "segmentation_utilisateur": [
+        "el",
+        "les"
+      ],
+      "segmentation_systeme": [
+        "el",
+        "les"
+      ],
+      "utilisateur": "Nina (ef45f2ec-77e5-4df6-b73b-221fa56deb50)",
+      "date_signalement": "2025-09-14T20:29:42.717",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: el - les",
+      "created_at": "2025-09-14T20:29:41.682115",
+      "updated_at": "2025-09-14T20:35:42.902791",
+      "date_modification": "2025-09-14T20:35:42.902791"
+    },
+    {
+      "id": 74,
+      "mot": "truelle",
+      "segmentation_utilisateur": [
+        "tru",
+        "e",
+        "lle"
+      ],
+      "segmentation_systeme": [
+        "tru",
+        "lle"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-28T10:32:18.739",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: tru - el - le",
+      "created_at": "2025-10-28T10:32:19.038475",
+      "updated_at": "2025-10-28T10:33:13.403861",
+      "date_modification": "2025-10-28T10:33:13.403861"
+    },
+    {
+      "id": 49,
+      "mot": "panier",
+      "segmentation_utilisateur": [
+        "pa",
+        "ni",
+        "er"
+      ],
+      "segmentation_systeme": [
+        "pa",
+        "ni",
+        "er"
+      ],
+      "utilisateur": "Nina (ef45f2ec-77e5-4df6-b73b-221fa56deb50)",
+      "date_signalement": "2025-09-14T20:38:58.595",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pa - ni - er",
+      "created_at": "2025-09-14T20:38:57.557933",
+      "updated_at": "2025-09-14T20:39:11.139143",
+      "date_modification": "2025-09-14T20:39:11.139143"
+    },
+    {
+      "id": 48,
+      "mot": "elles",
+      "segmentation_utilisateur": [
+        "el",
+        "les"
+      ],
+      "segmentation_systeme": [
+        "el",
+        "les"
+      ],
+      "utilisateur": "Nina (ef45f2ec-77e5-4df6-b73b-221fa56deb50)",
+      "date_signalement": "2025-09-14T20:38:58.324",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: el - les",
+      "created_at": "2025-09-14T20:38:57.299706",
+      "updated_at": "2025-09-14T20:39:14.959271",
+      "date_modification": "2025-09-14T20:39:14.959271"
+    },
+    {
+      "id": 71,
+      "mot": "arriver",
+      "segmentation_utilisateur": [
+        "ar",
+        "ri",
+        "ver"
+      ],
+      "segmentation_systeme": [
+        "rri",
+        "ver"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-28T10:31:23.936",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ar - ri - ver",
+      "created_at": "2025-10-28T10:31:24.220233",
+      "updated_at": "2025-10-28T10:33:46.836191",
+      "date_modification": "2025-10-28T10:33:46.836191"
+    },
+    {
+      "id": 77,
+      "mot": "cailloux",
+      "segmentation_utilisateur": [
+        "ca",
+        "ill",
+        "oux"
+      ],
+      "segmentation_systeme": [
+        "cai",
+        "lloux"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-30T10:53:58.003",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cai - lloux",
+      "created_at": "2025-10-30T10:53:58.292029",
+      "updated_at": "2025-11-06T08:56:51.099426",
+      "date_modification": "2025-11-06T08:56:51.099426"
+    },
+    {
+      "id": 85,
+      "mot": "vingt-neuf",
+      "segmentation_utilisateur": [
+        "vingt",
+        "-",
+        "neuf"
+      ],
+      "segmentation_systeme": [
+        "vin",
+        "gt-neuf"
+      ],
+      "utilisateur": "David02",
+      "date_signalement": "2025-11-17T15:23:31.25",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: vingt - - - neuf",
+      "created_at": "2025-11-17T15:23:31.583847",
+      "updated_at": "2025-11-17T15:25:48.39346",
+      "date_modification": "2025-11-17T15:25:48.39346"
+    },
+    {
+      "id": 82,
+      "mot": "cuillères",
+      "segmentation_utilisateur": [
+        "cui",
+        "llères"
+      ],
+      "segmentation_systeme": [
+        "cui",
+        "llè",
+        "res"
+      ],
+      "utilisateur": "Rosita",
+      "date_signalement": "2025-11-13T09:00:19.946",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cui - llères",
+      "created_at": "2025-11-13T09:00:20.281357",
+      "updated_at": "2025-11-17T15:26:42.395823",
+      "date_modification": "2025-11-17T15:26:42.395823"
+    },
+    {
+      "id": 58,
+      "mot": "équipe",
+      "segmentation_utilisateur": [
+        "é",
+        "qui",
+        "pe"
+      ],
+      "segmentation_systeme": [
+        "qu",
+        "pe"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:35.816",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: é - qui - pe",
+      "created_at": "2025-10-13T14:42:34.774635",
+      "updated_at": "2025-10-13T14:55:01.98458",
+      "date_modification": "2025-10-13T14:55:01.98458"
+    },
+    {
+      "id": 57,
+      "mot": "écoutes",
+      "segmentation_utilisateur": [
+        "é",
+        "cou",
+        "tes"
+      ],
+      "segmentation_systeme": [
+        "cou",
+        "tes"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:32.355",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: é - cou - tes",
+      "created_at": "2025-10-13T14:42:31.329172",
+      "updated_at": "2025-10-13T14:55:16.288256",
+      "date_modification": "2025-10-13T14:55:16.288256"
+    },
+    {
+      "id": 56,
+      "mot": "rouleau",
+      "segmentation_utilisateur": [
+        "rou",
+        "leau"
+      ],
+      "segmentation_systeme": [
+        "rou",
+        "le",
+        "au"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:29.693",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: rou - leau",
+      "created_at": "2025-10-13T14:42:28.662784",
+      "updated_at": "2025-10-13T14:55:20.834145",
+      "date_modification": "2025-10-13T14:55:20.834145"
+    },
+    {
+      "id": 55,
+      "mot": "pinceaux",
+      "segmentation_utilisateur": [
+        "pin",
+        "ceaux"
+      ],
+      "segmentation_systeme": [
+        "pin",
+        "ce",
+        "aux"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:27.069",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pin - ceaux",
+      "created_at": "2025-10-13T14:42:26.032334",
+      "updated_at": "2025-10-13T14:55:25.355314",
+      "date_modification": "2025-10-13T14:55:25.355314"
+    },
+    {
+      "id": 54,
+      "mot": "respectes",
+      "segmentation_utilisateur": [
+        "res",
+        "pec",
+        "tes"
+      ],
+      "segmentation_systeme": [
+        "re",
+        "spec",
+        "tes"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:24.348",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: res - pec - tes",
+      "created_at": "2025-10-13T14:42:23.344035",
+      "updated_at": "2025-10-13T14:55:30.516027",
+      "date_modification": "2025-10-13T14:55:30.516027"
+    },
+    {
+      "id": 53,
+      "mot": "collègue",
+      "segmentation_utilisateur": [
+        "co",
+        "llè",
+        "gue"
+      ],
+      "segmentation_systeme": [
+        "co",
+        "llè",
+        "gu"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:21.69",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: co - llè - gue",
+      "created_at": "2025-10-13T14:42:20.68252",
+      "updated_at": "2025-10-13T14:55:33.618349",
+      "date_modification": "2025-10-13T14:55:33.618349"
+    },
+    {
+      "id": 52,
+      "mot": "casque",
+      "segmentation_utilisateur": [
+        "cas",
+        "que"
+      ],
+      "segmentation_systeme": [
+        "cas",
+        "qu"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:18.617",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: cas - que",
+      "created_at": "2025-10-13T14:42:17.665461",
+      "updated_at": "2025-10-13T14:55:37.886646",
+      "date_modification": "2025-10-13T14:55:37.886646"
+    },
+    {
+      "id": 51,
+      "mot": "liste",
+      "segmentation_utilisateur": [
+        "lis",
+        "te"
+      ],
+      "segmentation_systeme": [
+        "li",
+        "ste"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T14:42:15.424",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: lis - te",
+      "created_at": "2025-10-13T14:42:14.797532",
+      "updated_at": "2025-10-13T14:55:41.813388",
+      "date_modification": "2025-10-13T14:55:41.813388"
+    },
+    {
+      "id": 50,
+      "mot": "liste",
+      "segmentation_utilisateur": [
+        "lis",
+        "te"
+      ],
+      "segmentation_systeme": [
+        "li",
+        "ste"
+      ],
+      "utilisateur": "Alseny",
+      "date_signalement": "2025-10-13T08:30:38.586",
+      "traite": true,
+      "commentaire_admin": "Les deux segmentations sont acceptées comme valides:\n- Utilisateur: lis - te\n- Système: li - ste\nDécision: Les deux versions sont correctes pour l'apprentissage.",
+      "created_at": "2025-10-13T08:30:38.960689",
+      "updated_at": "2025-10-13T14:56:04.838505",
+      "date_modification": "2025-10-13T14:56:04.838505"
+    },
+    {
+      "id": 62,
+      "mot": "messages",
+      "segmentation_utilisateur": [
+        "mes",
+        "sages"
+      ],
+      "segmentation_systeme": [
+        "me",
+        "ssa",
+        "ges"
+      ],
+      "utilisateur": "Magaie",
+      "date_signalement": "2025-10-15T09:03:37.608",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: mes - sa - ges",
+      "created_at": "2025-10-15T09:03:37.707762",
+      "updated_at": "2025-10-15T11:24:58.87606",
+      "date_modification": "2025-10-15T11:24:58.87606"
+    },
+    {
+      "id": 61,
+      "mot": "papiers",
+      "segmentation_utilisateur": [
+        "pa",
+        "piers"
+      ],
+      "segmentation_systeme": [
+        "pa",
+        "pi",
+        "ers"
+      ],
+      "utilisateur": "Magaie",
+      "date_signalement": "2025-10-15T09:03:28.717",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: pa - piers",
+      "created_at": "2025-10-15T09:03:28.845802",
+      "updated_at": "2025-10-15T11:25:08.27857",
+      "date_modification": "2025-10-15T11:25:08.27857"
+    },
+    {
+      "id": 60,
+      "mot": "adresse",
+      "segmentation_utilisateur": [
+        "a",
+        "dres",
+        "se"
+      ],
+      "segmentation_systeme": [
+        "dre",
+        "sse"
+      ],
+      "utilisateur": "Magaie",
+      "date_signalement": "2025-10-15T09:03:23.854",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: a - dres - se",
+      "created_at": "2025-10-15T09:03:24.104279",
+      "updated_at": "2025-10-15T11:25:35.169531",
+      "date_modification": "2025-10-15T11:25:35.169531"
+    },
+    {
+      "id": 59,
+      "mot": "kady",
+      "segmentation_utilisateur": [
+        "ka",
+        "dy"
+      ],
+      "segmentation_systeme": [
+        "kady"
+      ],
+      "utilisateur": "Magaie",
+      "date_signalement": "2025-10-15T09:03:18.208",
+      "traite": true,
+      "commentaire_admin": "Correction appliquée: ka - dy",
+      "created_at": "2025-10-15T09:03:18.541036",
+      "updated_at": "2025-10-15T11:25:40.832856",
+      "date_modification": "2025-10-15T11:25:40.832856"
+    }
+  ],
+  "count": 86,
+  "timestamp": "2026-01-22T01:26:20.373Z"
+}
